@@ -1,4 +1,4 @@
-﻿namespace WinFormsAppCaKoi
+﻿namespace WinFormsAppCK
 {
     partial class FLogin
     {
@@ -28,136 +28,102 @@
         /// </summary>
         private void InitializeComponent()
         {
-            panelLogin = new Panel();
-            btnExit = new Button();
-            btnLogin = new Button();
-            panelPassWordLogin = new Panel();
-            txbPassWord = new TextBox();
-            textBox3 = new TextBox();
-            panelUserNameLogin = new Panel();
-            txbUserName = new TextBox();
-            textBox1 = new TextBox();
-            panelLogin.SuspendLayout();
-            panelPassWordLogin.SuspendLayout();
-            panelUserNameLogin.SuspendLayout();
+            panel1 = new Panel();
+            btThoat = new Button();
+            btDangky = new Button();
+            btDangnhap = new Button();
+            btTrangchu = new Button();
+            label1 = new Label();
+            panel1.SuspendLayout();
             SuspendLayout();
             // 
-            // panelLogin
+            // panel1
             // 
-            panelLogin.Controls.Add(btnExit);
-            panelLogin.Controls.Add(btnLogin);
-            panelLogin.Controls.Add(panelPassWordLogin);
-            panelLogin.Controls.Add(panelUserNameLogin);
-            panelLogin.Location = new Point(12, 12);
-            panelLogin.Name = "panelLogin";
-            panelLogin.Size = new Size(776, 426);
-            panelLogin.TabIndex = 0;
+            panel1.Controls.Add(btThoat);
+            panel1.Controls.Add(btDangky);
+            panel1.Controls.Add(btDangnhap);
+            panel1.Controls.Add(btTrangchu);
+            panel1.Controls.Add(label1);
+            panel1.Location = new Point(9, 5);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(779, 433);
+            panel1.TabIndex = 0;
             // 
-            // btnExit
+            // btThoat
             // 
-            btnExit.Location = new Point(615, 245);
-            btnExit.Name = "btnExit";
-            btnExit.Size = new Size(142, 46);
-            btnExit.TabIndex = 3;
-            btnExit.Text = "Thoát";
-            btnExit.UseVisualStyleBackColor = true;
-            btnExit.Click += btnExit_Click;
+            btThoat.BackColor = SystemColors.ControlDark;
+            btThoat.Location = new Point(682, 401);
+            btThoat.Name = "btThoat";
+            btThoat.Size = new Size(94, 29);
+            btThoat.TabIndex = 4;
+            btThoat.Text = "Thoát";
+            btThoat.UseVisualStyleBackColor = false;
+            btThoat.Click += btThoat_Click;
             // 
-            // btnLogin
+            // btDangky
             // 
-            btnLogin.Location = new Point(297, 245);
-            btnLogin.Name = "btnLogin";
-            btnLogin.Size = new Size(142, 46);
-            btnLogin.TabIndex = 2;
-            btnLogin.Text = "Đăng nhập";
-            btnLogin.UseVisualStyleBackColor = true;
-            btnLogin.Click += btnLogin_Click;
+            btDangky.BackColor = SystemColors.ControlDark;
+            btDangky.Location = new Point(501, 250);
+            btDangky.Name = "btDangky";
+            btDangky.Size = new Size(94, 29);
+            btDangky.TabIndex = 3;
+            btDangky.Text = "Đăng ký";
+            btDangky.UseVisualStyleBackColor = false;
             // 
-            // panelPassWordLogin
+            // btDangnhap
             // 
-            panelPassWordLogin.Controls.Add(txbPassWord);
-            panelPassWordLogin.Controls.Add(textBox3);
-            panelPassWordLogin.Location = new Point(0, 143);
-            panelPassWordLogin.Name = "panelPassWordLogin";
-            panelPassWordLogin.Size = new Size(770, 96);
-            panelPassWordLogin.TabIndex = 1;
+            btDangnhap.BackColor = SystemColors.ControlDark;
+            btDangnhap.Location = new Point(325, 250);
+            btDangnhap.Name = "btDangnhap";
+            btDangnhap.Size = new Size(94, 29);
+            btDangnhap.TabIndex = 2;
+            btDangnhap.Text = "Đăng nhập";
+            btDangnhap.UseVisualStyleBackColor = false;
             // 
-            // txbPassWord
+            // btTrangchu
             // 
-            txbPassWord.Location = new Point(286, 34);
-            txbPassWord.Name = "txbPassWord";
-            txbPassWord.Size = new Size(481, 31);
-            txbPassWord.TabIndex = 1;
-            txbPassWord.UseSystemPasswordChar = true;
+            btTrangchu.BackColor = SystemColors.ControlDark;
+            btTrangchu.Location = new Point(155, 250);
+            btTrangchu.Name = "btTrangchu";
+            btTrangchu.Size = new Size(94, 29);
+            btTrangchu.TabIndex = 1;
+            btTrangchu.Text = "Trang chủ";
+            btTrangchu.UseVisualStyleBackColor = false;
+            btTrangchu.Click += btTrangchu_Click;
             // 
-            // textBox3
+            // label1
             // 
-            textBox3.BackColor = SystemColors.MenuBar;
-            textBox3.Font = new Font("Arial", 16F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            textBox3.ForeColor = SystemColors.WindowText;
-            textBox3.Location = new Point(13, 24);
-            textBox3.Name = "textBox3";
-            textBox3.ReadOnly = true;
-            textBox3.Size = new Size(258, 44);
-            textBox3.TabIndex = 0;
-            textBox3.Text = "Mật khẩu:";
-            textBox3.TextChanged += textBox3_TextChanged;
-            // 
-            // panelUserNameLogin
-            // 
-            panelUserNameLogin.Controls.Add(txbUserName);
-            panelUserNameLogin.Controls.Add(textBox1);
-            panelUserNameLogin.Location = new Point(3, 17);
-            panelUserNameLogin.Name = "panelUserNameLogin";
-            panelUserNameLogin.Size = new Size(770, 102);
-            panelUserNameLogin.TabIndex = 0;
-            // 
-            // txbUserName
-            // 
-            txbUserName.Location = new Point(283, 38);
-            txbUserName.Name = "txbUserName";
-            txbUserName.Size = new Size(481, 31);
-            txbUserName.TabIndex = 1;
-            // 
-            // textBox1
-            // 
-            textBox1.BackColor = SystemColors.MenuBar;
-            textBox1.Font = new Font("Arial", 16F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            textBox1.ForeColor = SystemColors.WindowText;
-            textBox1.Location = new Point(10, 28);
-            textBox1.Name = "textBox1";
-            textBox1.ReadOnly = true;
-            textBox1.Size = new Size(258, 44);
-            textBox1.TabIndex = 0;
-            textBox1.Text = "Tên đăng nhập:";
-            textBox1.TextChanged += textBox1_TextChanged;
+            label1.AutoSize = true;
+            label1.Font = new Font("Showcard Gothic", 22.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.ForeColor = SystemColors.Highlight;
+            label1.Location = new Point(214, 170);
+            label1.Name = "label1";
+            label1.Size = new Size(325, 46);
+            label1.TabIndex = 0;
+            label1.Text = "Cuộc Thi Cá Koi";
             // 
             // FLogin
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Controls.Add(panelLogin);
+            Controls.Add(panel1);
             Name = "FLogin";
-            Text = "Đăng nhập";
-            panelLogin.ResumeLayout(false);
-            panelPassWordLogin.ResumeLayout(false);
-            panelPassWordLogin.PerformLayout();
-            panelUserNameLogin.ResumeLayout(false);
-            panelUserNameLogin.PerformLayout();
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "FLogin";
+            FormClosing += FLogin_FormClosing;
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
             ResumeLayout(false);
         }
 
         #endregion
 
-        private Panel panelLogin;
-        private Panel panelUserNameLogin;
-        private TextBox textBox1;
-        private Panel panelPassWordLogin;
-        private TextBox txbPassWord;
-        private TextBox textBox3;
-        private TextBox txbUserName;
-        private Button btnLogin;
-        private Button btnExit;
+        private Panel panel1;
+        private Button btThoat;
+        private Button btDangky;
+        private Button btDangnhap;
+        private Button btTrangchu;
+        private Label label1;
     }
 }
