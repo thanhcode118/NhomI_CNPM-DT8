@@ -1,21 +1,41 @@
+// lớp giám khảo 
 public class Judge
 {
+    // ID của giám khảo
     public int Id { get; set; }
+
+    // Tên của giám khảo
     public string Name { get; set; }
 }
 
+//lớp cá koi
 public class Koi
 {
+    // ID của cá Koi
     public int Id { get; set; }
+
+    // Tên của cá Koi
     public string Name { get; set; }
+
+    // Giống loài của cá Koi
     public string Breed { get; set; }
 }
 
+//lớp chấm điểm 
 public class Score
 {
+    // ID của cá Koi
     public int KoiId { get; set; }
+
+    // ID của giám khảo
     public int JudgeId { get; set; }
+
+    // Điểm chấm về dáng của cá Koi
     public int BodyScore { get; set; }
+
+    // Điểm chấm về màu sắc của cá Koi
     public int ColorScore { get; set; }
+
+    // Điểm chấm về hoa văn của cá Koi
     public int PatternScore { get; set; }
 }
