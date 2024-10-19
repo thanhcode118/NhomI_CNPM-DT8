@@ -1,0 +1,221 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\C\u00F4ng Ngh\u1EC7 Ph\u1EA7n M\u1EC1m\\KOI Competition\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{90C81FD2-49D1-433B-BCE9-70397B228724}|KOI Competition\\KOI Competition.csproj|f:\\c\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\koi competition\\koi competition\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{90C81FD2-49D1-433B-BCE9-70397B228724}|KOI Competition\\KOI Competition.csproj|solutionrelative:koi competition\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90C81FD2-49D1-433B-BCE9-70397B228724}|KOI Competition\\KOI Competition.csproj|f:\\c\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\koi competition\\koi competition\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{90C81FD2-49D1-433B-BCE9-70397B228724}|KOI Competition\\KOI Competition.csproj|solutionrelative:koi competition\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90C81FD2-49D1-433B-BCE9-70397B228724}|KOI Competition\\KOI Competition.csproj|f:\\c\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\koi competition\\koi competition\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90C81FD2-49D1-433B-BCE9-70397B228724}|KOI Competition\\KOI Competition.csproj|solutionrelative:koi competition\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90C81FD2-49D1-433B-BCE9-70397B228724}|KOI Competition\\KOI Competition.csproj|f:\\c\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\koi competition\\koi competition\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90C81FD2-49D1-433B-BCE9-70397B228724}|KOI Competition\\KOI Competition.csproj|solutionrelative:koi competition\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90C81FD2-49D1-433B-BCE9-70397B228724}|KOI Competition\\KOI Competition.csproj|f:\\c\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\koi competition\\koi competition\\views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{90C81FD2-49D1-433B-BCE9-70397B228724}|KOI Competition\\KOI Competition.csproj|solutionrelative:koi competition\\views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90C81FD2-49D1-433B-BCE9-70397B228724}|KOI Competition\\KOI Competition.csproj|f:\\c\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\koi competition\\koi competition\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90C81FD2-49D1-433B-BCE9-70397B228724}|KOI Competition\\KOI Competition.csproj|solutionrelative:koi competition\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90C81FD2-49D1-433B-BCE9-70397B228724}|KOI Competition\\KOI Competition.csproj|f:\\c\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\koi competition\\koi competition\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90C81FD2-49D1-433B-BCE9-70397B228724}|KOI Competition\\KOI Competition.csproj|solutionrelative:koi competition\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90C81FD2-49D1-433B-BCE9-70397B228724}|KOI Competition\\KOI Competition.csproj|f:\\c\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\koi competition\\koi competition\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{90C81FD2-49D1-433B-BCE9-70397B228724}|KOI Competition\\KOI Competition.csproj|solutionrelative:koi competition\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90C81FD2-49D1-433B-BCE9-70397B228724}|KOI Competition\\KOI Competition.csproj|f:\\c\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\koi competition\\koi competition\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90C81FD2-49D1-433B-BCE9-70397B228724}|KOI Competition\\KOI Competition.csproj|solutionrelative:koi competition\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90C81FD2-49D1-433B-BCE9-70397B228724}|KOI Competition\\KOI Competition.csproj|f:\\c\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\koi competition\\koi competition\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{90C81FD2-49D1-433B-BCE9-70397B228724}|KOI Competition\\KOI Competition.csproj|solutionrelative:koi competition\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90C81FD2-49D1-433B-BCE9-70397B228724}|KOI Competition\\KOI Competition.csproj|f:\\c\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\koi competition\\koi competition\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{90C81FD2-49D1-433B-BCE9-70397B228724}|KOI Competition\\KOI Competition.csproj|solutionrelative:koi competition\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90C81FD2-49D1-433B-BCE9-70397B228724}|KOI Competition\\KOI Competition.csproj|f:\\c\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\koi competition\\koi competition\\migrations\\20241014154229_initusertable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90C81FD2-49D1-433B-BCE9-70397B228724}|KOI Competition\\KOI Competition.csproj|solutionrelative:koi competition\\migrations\\20241014154229_initusertable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\C\u00F4ng Ngh\u1EC7 Ph\u1EA7n M\u1EC1m\\KOI Competition\\KOI Competition\\Program.cs",
+              "RelativeDocumentMoniker": "KOI Competition\\Program.cs",
+              "ToolTip": "F:\\C\u00F4ng Ngh\u1EC7 Ph\u1EA7n M\u1EC1m\\KOI Competition\\KOI Competition\\Program.cs",
+              "RelativeToolTip": "KOI Competition\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T12:11:06.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\C\u00F4ng Ngh\u1EC7 Ph\u1EA7n M\u1EC1m\\KOI Competition\\KOI Competition\\Views\\Account\\Index.cshtml",
+              "RelativeDocumentMoniker": "KOI Competition\\Views\\Account\\Index.cshtml",
+              "ToolTip": "F:\\C\u00F4ng Ngh\u1EC7 Ph\u1EA7n M\u1EC1m\\KOI Competition\\KOI Competition\\Views\\Account\\Index.cshtml",
+              "RelativeToolTip": "KOI Competition\\Views\\Account\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-16T15:54:16.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "F:\\C\u00F4ng Ngh\u1EC7 Ph\u1EA7n M\u1EC1m\\KOI Competition\\KOI Competition\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "KOI Competition\\Controllers\\UsersController.cs",
+              "ToolTip": "F:\\C\u00F4ng Ngh\u1EC7 Ph\u1EA7n M\u1EC1m\\KOI Competition\\KOI Competition\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "KOI Competition\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T14:35:09.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "F:\\C\u00F4ng Ngh\u1EC7 Ph\u1EA7n M\u1EC1m\\KOI Competition\\KOI Competition\\Models\\User.cs",
+              "RelativeDocumentMoniker": "KOI Competition\\Models\\User.cs",
+              "ToolTip": "F:\\C\u00F4ng Ngh\u1EC7 Ph\u1EA7n M\u1EC1m\\KOI Competition\\KOI Competition\\Models\\User.cs",
+              "RelativeToolTip": "KOI Competition\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T14:18:49.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "F:\\C\u00F4ng Ngh\u1EC7 Ph\u1EA7n M\u1EC1m\\KOI Competition\\KOI Competition\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "KOI Competition\\Controllers\\AccountController.cs",
+              "ToolTip": "F:\\C\u00F4ng Ngh\u1EC7 Ph\u1EA7n M\u1EC1m\\KOI Competition\\KOI Competition\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "KOI Competition\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAADcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T15:53:32.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "F:\\C\u00F4ng Ngh\u1EC7 Ph\u1EA7n M\u1EC1m\\KOI Competition\\KOI Competition\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "KOI Competition\\Controllers\\AdminController.cs",
+              "ToolTip": "F:\\C\u00F4ng Ngh\u1EC7 Ph\u1EA7n M\u1EC1m\\KOI Competition\\KOI Competition\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "KOI Competition\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T13:59:08.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "F:\\C\u00F4ng Ngh\u1EC7 Ph\u1EA7n M\u1EC1m\\KOI Competition\\KOI Competition\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "KOI Competition\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "F:\\C\u00F4ng Ngh\u1EC7 Ph\u1EA7n M\u1EC1m\\KOI Competition\\KOI Competition\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "KOI Competition\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB8AAAB2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-14T13:39:34.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "F:\\C\u00F4ng Ngh\u1EC7 Ph\u1EA7n M\u1EC1m\\KOI Competition\\KOI Competition\\appsettings.json",
+              "RelativeDocumentMoniker": "KOI Competition\\appsettings.json",
+              "ToolTip": "F:\\C\u00F4ng Ngh\u1EC7 Ph\u1EA7n M\u1EC1m\\KOI Competition\\KOI Competition\\appsettings.json",
+              "RelativeToolTip": "KOI Competition\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-14T14:46:26.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_AdminLayout.cshtml",
+              "DocumentMoniker": "F:\\C\u00F4ng Ngh\u1EC7 Ph\u1EA7n M\u1EC1m\\KOI Competition\\KOI Competition\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "KOI Competition\\Views\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "F:\\C\u00F4ng Ngh\u1EC7 Ph\u1EA7n M\u1EC1m\\KOI Competition\\KOI Competition\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeToolTip": "KOI Competition\\Views\\Shared\\_AdminLayout.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAACkAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-14T13:44:19.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "F:\\C\u00F4ng Ngh\u1EC7 Ph\u1EA7n M\u1EC1m\\KOI Competition\\KOI Competition\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "KOI Competition\\Views\\Account\\Login.cshtml",
+              "ToolTip": "F:\\C\u00F4ng Ngh\u1EC7 Ph\u1EA7n M\u1EC1m\\KOI Competition\\KOI Competition\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "KOI Competition\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAAAGkAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-14T15:55:47.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\C\u00F4ng Ngh\u1EC7 Ph\u1EA7n M\u1EC1m\\KOI Competition\\KOI Competition\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "KOI Competition\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "F:\\C\u00F4ng Ngh\u1EC7 Ph\u1EA7n M\u1EC1m\\KOI Competition\\KOI Competition\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "KOI Competition\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-14T14:00:55.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20241014154229_initUserTable.cs",
+              "DocumentMoniker": "F:\\C\u00F4ng Ngh\u1EC7 Ph\u1EA7n M\u1EC1m\\KOI Competition\\KOI Competition\\Migrations\\20241014154229_initUserTable.cs",
+              "RelativeDocumentMoniker": "KOI Competition\\Migrations\\20241014154229_initUserTable.cs",
+              "ToolTip": "F:\\C\u00F4ng Ngh\u1EC7 Ph\u1EA7n M\u1EC1m\\KOI Competition\\KOI Competition\\Migrations\\20241014154229_initUserTable.cs",
+              "RelativeToolTip": "KOI Competition\\Migrations\\20241014154229_initUserTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T15:42:30.028Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
