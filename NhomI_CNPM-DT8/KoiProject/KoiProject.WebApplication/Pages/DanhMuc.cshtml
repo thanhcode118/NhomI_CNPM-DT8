@@ -1,0 +1,223 @@
+﻿@page
+@model PrivacyModel
+@{
+    ViewData["Title"] = "Giải thưởng Cuộc thi và Cửa hàng Cá Koi";
+}
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            background-color: #f9f9f9;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .header {
+            background: linear-gradient(45deg, #2196f3, #21cbf3);
+            color: white;
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        .small-container {
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            margin-bottom: 30px; /* Khoảng cách dưới mỗi khung */
+        }
+
+        .competition-rules h2 {
+            color: #333;
+        }
+
+        .competition-rules p.lead {
+            color: #555;
+        }
+
+        .competition-rules ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .competition-rules li {
+            font-size: 1rem;
+            color: #666;
+        }
+
+        .competition-rules i {
+            color: #28a745;
+            margin-right: 8px;
+        }
+
+        .card {
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+            .card:hover {
+                transform: scale(1.05);
+                box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+            }
+
+        .btn-warning {
+            background-color: #ff9800;
+            border: none;
+        }
+
+        .btn-primary {
+            background-color: #2196f3;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Cuộc thi Cá Koi</h1>
+        <p>Khám phá những cá Koi tuyệt đẹp và cửa hàng cá Koi hàng đầu</p>
+    </div>
+        <!-- Danh sách giải thưởng -->
+        <div class="container my-5">
+        <div class="small-container competition-awards text-center">
+            <h2 class="mb-4">Giải Thưởng Cuộc Thi Cá Koi</h2>
+            <p class="lead">Chúng tôi rất tự hào công bố các giải thưởng cho cuộc thi cá Koi năm nay:</p>
+            <ul class="list-unstyled">
+                <li class="mb-3">
+                    <h5>Giải Nhất: Cá Koi Đẹp Nhất</h5>
+                    <p>Người chiến thắng sẽ nhận được một giải thưởng trị giá 10.000.000 VNĐ và cúp vô địch.</p>
+                </li>
+                <li class="mb-3">
+                    <h5>Giải Nhì: Cá Koi Có Màu Sắc Đẹp Nhất</h5>
+                    <p>Người chiến thắng sẽ nhận được một giải thưởng trị giá 5.000.000 VNĐ.</p>
+                </li>
+                <li class="mb-3">
+                    <h5>Giải Ba: Cá Koi Có Hình Dáng Đẹp Nhất</h5>
+                    <p>Người chiến thắng sẽ nhận được một giải thưởng trị giá 3.000.000 VNĐ.</p>
+                </li>
+                <li class="mb-3">
+                    <h5>Giải Khuyến Khích</h5>
+                    <p>Tất cả các thí sinh tham gia sẽ nhận được một chứng nhận tham gia và phần quà lưu niệm từ ban tổ chức.</p>
+                </li>
+            </ul>
+            <p class="mt-4">Chúc mừng tất cả các thí sinh! Chúng tôi rất mong chờ được thấy những tác phẩm tuyệt vời từ bạn!</p>
+        </div>
+<div class="container my-5">
+    <h1 class="text-center my-4">Cửa Hàng Cá Koi</h1>
+
+    <!-- Tìm kiếm -->
+    <div class="mb-4 text-center">
+        <input type="text" id="search" class="form-control w-50 mx-auto" placeholder="Tìm kiếm cá Koi...">
+    </div>
+
+    <div class="row" id="koiList">
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card shadow-lg rounded">
+                <img src="~/Images/CaKoiNHAT.jpg" class="card-img-top" alt="Cá Koi Nhật Bản">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Cá Koi Nhật Bản</h5>
+                    <p class="card-text">Cá Koi Nhật Bản nổi tiếng với màu sắc rực rỡ và hình dáng hoàn hảo.</p>
+                    <a href="/fish-list" class="btn btn-primary">Xem chi tiết</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card shadow-lg rounded">
+                <img src="~/Images/CaKoiVN.jpg" class="card-img-top" alt="Cá Koi Bản Địa">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Cá Koi Bản Địa</h5>
+                    <p class="card-text">Những chú cá Koi được nuôi tại Việt Nam với màu sắc tự nhiên.</p>
+                    <a href="/fish-list" class="btn btn-primary">Xem chi tiết</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card shadow-lg rounded">
+                <img src="~/Images/CaKoiTG.jpg" class="card-img-top" alt="Cá Koi Thế Giới">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Cá Koi Thế Giới</h5>
+                    <p class="card-text">Sự đa dạng trong chủng loại cá Koi từ khắp nơi trên thế giới.</p>
+                    <a href="/fish-list" class="btn btn-primary">Xem chi tiết</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Thêm nhiều card sản phẩm khác -->
+    </div>
+</div>
+
+<style>
+    body {
+        background-color: #f9f9f9;
+        font-family: 'Arial', sans-serif;
+    }
+
+    .card {
+        transition: transform 0.3s, box-shadow 0.3s;
+        border-radius: 12px;
+        overflow: hidden;
+    }
+
+    .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+    }
+
+    .btn-primary {
+        background-color: #007bff;
+        border: none;
+        transition: background-color 0.3s;
+    }
+
+    .btn-primary:hover {
+        background-color: #0056b3;
+    }
+
+    h1 {
+        color: #333;
+        font-weight: bold;
+    }
+
+    #search {
+        border-radius: 25px; /* Bo tròn góc cho ô tìm kiếm */
+        padding: 12px 20px; /* Padding cho ô tìm kiếm */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    media (max-width: 768px) {
+        #search {
+            width: 80%; /* Mở rộng ô tìm kiếm trên thiết bị nhỏ */
+        }
+    }
+</style>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        // Tìm kiếm cá Koi
+        document.getElementById('search').addEventListener('keyup', function () {
+            var query = this.value.toLowerCase();
+            var koiItems = document.querySelectorAll('#koiList .card');
+
+            koiItems.forEach(function (item) {
+                var title = item.querySelector('.card-title').innerText.toLowerCase();
+                if (title.includes(query)) {
+                    item.style.display = '';
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+        });
+    </script>
+</body>
+</html>
+
