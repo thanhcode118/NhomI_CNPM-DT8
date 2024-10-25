@@ -1,4 +1,7 @@
-﻿/* Thiết lập cho phần header */
+﻿/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+/* Thiết lập cho phần header */
 .header {
     background-color: #b00000; /* Màu nền đỏ */
     display: flex;
@@ -16,7 +19,6 @@
     height: 50px; /* Kích thước logo */
     display: block;
 }
-
 
 /* Thiết lập cho thanh điều hướng */
 .nav_menu {
@@ -57,7 +59,7 @@
             }
 
             .nav_menu ul li a {
-                text-decoration: none;
+                text-decoration: none; /* Không gạch chân liên kết */
                 font-size: 16px;
                 color: white;
                 font-weight: bold;
@@ -67,9 +69,8 @@
             }
 
                 .nav_menu ul li a:hover {
-                    color: #ffcc00; /* Màu khi hover */
+                    color: #ffcc00; /* Màu khi hover, không gạch chân */
                 }
-
 
 /* Container phần nội dung chính */
 .container {
@@ -110,14 +111,13 @@ img {
     height: auto;
 }
 
-
 /* Phần giới thiệu cuộc thi */
-
-/* Container bao gồm cả nội dung và hình ảnh */
-.introduction-container {
+.introduction-container,
+.award-container,
+.rules-container {
     display: flex;
-    justify-content: space-between; /* Căn hai cột đều nhau */
-    align-items: flex-start; /* Căn nội dung từ đầu */
+    justify-content: space-between;
+    align-items: flex-start;
     margin: 20px auto;
     max-width: 1200px;
     background-color: #ffffff;
@@ -127,186 +127,49 @@ img {
 }
 
 /* Cột nội dung */
-.introduction-content {
-    text-decoration: none;
-    flex: 1; /* Chiếm toàn bộ không gian trừ phần hình ảnh */
+.introduction-content,
+.award-content,
+.rules-content {
+    flex: 1;
     padding-right: 20px; /* Khoảng cách giữa nội dung và hình ảnh */
 }
 
-    .introduction-content h2 {
+    .introduction-content h2,
+    .award-content h2,
+    .rules-content h2 {
         text-align: center;
         color: #b00000;
         font-size: 28px;
         margin-bottom: 20px;
     }
 
-    .introduction-content .section {
-        margin-bottom: 20px;
-    }
-
-    .introduction-content h3 {
+    .introduction-content h3,
+    .award-content h3,
+    .rules-content h3 {
         font-size: 25px;
         color: #333;
         margin-bottom: 10px;
     }
 
-    .introduction-content p {
+    .introduction-content p,
+    .award-content p,
+    .rules-content p {
         font-size: 22px;
         line-height: 1.6;
         color: #666;
         text-align: justify;
     }
 
-
-/* Cột hình ảnh */
-.introduction-image {
-    flex: 1; /* Chiếm 1 phần không gian */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-    .introduction-image img {
-        max-width: 100%;
-        height: auto;
-        border-radius: 8px;
-        box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    }
-
-/* Định dạng danh sách */
-.section ul {
-    list-style-type: disc; /* Kiểu danh sách dạng chấm tròn */
-    margin-left: 20px; /* Khoảng cách lề trái */
-    padding-left: 0; /* Xóa padding mặc định */
-}
-
-    .section ul li {
-        font-size: 16px;
-        line-height: 1.6; /* Khoảng cách giữa các dòng */
-        color: #666;
-        margin-bottom: 10px; /* Khoảng cách giữa các mục */
-    }
-
-
-/* Phần thông tin giải thưởng */
-.award-container {
-    display: flex;
-    justify-content: space-between; /* Căn hai cột đều nhau */
-    align-items: flex-start; /* Căn nội dung từ đầu */
-    margin: 20px auto;
-    max-width: 1200px;
-    background-color: #ffffff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
-
-/* Cột nội dung */
-.award-content {
-    flex: 1;
-    padding-right: 20px; /* Khoảng cách giữa nội dung và hình ảnh */
-}
-
-    .award-content h2 {
-        text-align: center;
-        color: #b00000;
-        font-size: 24px;
-        margin-bottom: 20px;
-    }
-
-    .award-content .section {
-        margin-bottom: 20px;
-    }
-
-    .award-content h3 {
-        font-size: 20px;
-        color: #333;
-        margin-bottom: 10px;
-    }
-
-    .award-content p {
-        font-size: 16px;
-        line-height: 1.6;
-        color: #666;
-        text-align: justify;
-    }
-
-    .award-content ul {
-        list-style-type: disc;
-        margin-left: 20px;
-    }
-
-        .award-content ul li {
-            font-size: 16px;
-            line-height: 1.6;
-            color: #666;
-            margin-bottom: 10px;
-        }
-
-/* Cột hình ảnh */
-.award-image {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-    .award-image img {
-        max-width: 100%;
-        height: auto;
-        border-radius: 8px;
-        box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    }
-
-
-/* Phần thông tin luật thi đấu */
-.rules-container {
-    display: flex;
-    justify-content: space-between; /* Căn hai cột đều nhau */
-    align-items: flex-start; /* Căn nội dung từ đầu */
-    margin: 20px auto;
-    max-width: 1200px;
-    background-color: #ffffff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
-
-/* Cột nội dung */
-.rules-content {
-    flex: 1;
-    padding-right: 20px; /* Khoảng cách giữa nội dung và hình ảnh */
-}
-
-    .rules-content h2 {
-        text-align: center;
-        color: #b00000;
-        font-size: 24px;
-        margin-bottom: 20px;
-    }
-
-    .rules-content .section {
-        margin-bottom: 20px;
-    }
-
-    .rules-content h3 {
-        font-size: 20px;
-        color: #333;
-        margin-bottom: 10px;
-    }
-
-    .rules-content p {
-        font-size: 16px;
-        line-height: 1.6;
-        color: #666;
-        text-align: justify;
-    }
-
+    .introduction-content ul,
+    .award-content ul,
     .rules-content ul {
         list-style-type: disc;
         margin-left: 20px;
+        padding-left: 0;
     }
 
+        .introduction-content ul li,
+        .award-content ul li,
         .rules-content ul li {
             font-size: 16px;
             line-height: 1.6;
@@ -315,6 +178,8 @@ img {
         }
 
 /* Cột hình ảnh */
+.introduction-image,
+.award-image,
 .rules-image {
     flex: 1;
     display: flex;
@@ -322,28 +187,14 @@ img {
     align-items: center;
 }
 
+    .introduction-image img,
+    .award-image img,
     .rules-image img {
         max-width: 100%;
         height: auto;
         border-radius: 8px;
         box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
-
-/* Đặt kiểu chữ và màu sắc chung */
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-}
-
-h2 {
-    color: #b00000;
-    text-align: center;
-    font-size: 24px;
-    margin-bottom: 20px;
-}
 
 /* Tin tức và cập nhật */
 .news-updates {
@@ -366,11 +217,11 @@ h2 {
 
     .news-updates a {
         color: #007BFF;
-        text-decoration: none;
+        text-decoration: none; /* Không gạch chân */
     }
 
         .news-updates a:hover {
-            text-decoration: underline;
+            text-decoration: underline; /* Gạch chân khi hover */
         }
 
 /* Đăng ký nhanh */
@@ -451,19 +302,19 @@ footer {
 
     footer a {
         color: white;
-        text-decoration: none;
+        text-decoration: none; /* Không gạch chân */
     }
 
         footer a:hover {
-            text-decoration: underline;
+            text-decoration: underline; /* Gạch chân khi hover */
         }
 
 .social-links a {
     margin: 0 10px;
     color: white;
-    text-decoration: none;
+    text-decoration: none; /* Không gạch chân */
 }
 
     .social-links a:hover {
-        text-decoration: underline;
+        text-decoration: underline; /* Gạch chân khi hover */
     }

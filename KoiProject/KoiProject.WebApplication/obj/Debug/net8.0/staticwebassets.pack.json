@@ -61,6 +61,34 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\formLogin\\css\\styles.css",
+      "PackagePath": "staticwebassets\\formLogin\\css\\styles.css"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\formLogin\\img\\login-bg.jpg",
+      "PackagePath": "staticwebassets\\formLogin\\img\\login-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\formLogin\\scss\\base\\_base.scss",
+      "PackagePath": "staticwebassets\\formLogin\\scss\\base\\_base.scss"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\formLogin\\scss\\components\\_breakpoints.scss",
+      "PackagePath": "staticwebassets\\formLogin\\scss\\components\\_breakpoints.scss"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\formLogin\\scss\\components\\_login.scss",
+      "PackagePath": "staticwebassets\\formLogin\\scss\\components\\_login.scss"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\formLogin\\scss\\config\\_variables.scss",
+      "PackagePath": "staticwebassets\\formLogin\\scss\\config\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\formLogin\\scss\\styles.scss",
+      "PackagePath": "staticwebassets\\formLogin\\scss\\styles.scss"
+    },
+    {
       "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
