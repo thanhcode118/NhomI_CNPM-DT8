@@ -7719,11 +7719,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\cnpm\\githup\\NhomI_CNPM-DT8-5d36970cdd308c16f894638f28cc6e289fd664ab\\NhomI_CNPM-DT8-5d36970cdd308c16f894638f28cc6e289fd664ab\\KOI Competition\\KOI Competition\\KOI Competition.csproj",
+      "projectUniqueName": "C:\\Users\\ADMIN\\OneDrive\\Documents\\GitHub\\Githup\\NhomI_CNPM-DT8\\NhomI_CNPM-DT8-5d36970cdd308c16f894638f28cc6e289fd664ab\\KOI Competition\\KOI Competition\\KOI Competition.csproj",
       "projectName": "KOI Competition",
-      "projectPath": "E:\\cnpm\\githup\\NhomI_CNPM-DT8-5d36970cdd308c16f894638f28cc6e289fd664ab\\NhomI_CNPM-DT8-5d36970cdd308c16f894638f28cc6e289fd664ab\\KOI Competition\\KOI Competition\\KOI Competition.csproj",
+      "projectPath": "C:\\Users\\ADMIN\\OneDrive\\Documents\\GitHub\\Githup\\NhomI_CNPM-DT8\\NhomI_CNPM-DT8-5d36970cdd308c16f894638f28cc6e289fd664ab\\KOI Competition\\KOI Competition\\KOI Competition.csproj",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "E:\\cnpm\\githup\\NhomI_CNPM-DT8-5d36970cdd308c16f894638f28cc6e289fd664ab\\NhomI_CNPM-DT8-5d36970cdd308c16f894638f28cc6e289fd664ab\\KOI Competition\\KOI Competition\\obj\\",
+      "outputPath": "C:\\Users\\ADMIN\\OneDrive\\Documents\\GitHub\\Githup\\NhomI_CNPM-DT8\\NhomI_CNPM-DT8-5d36970cdd308c16f894638f28cc6e289fd664ab\\KOI Competition\\KOI Competition\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",

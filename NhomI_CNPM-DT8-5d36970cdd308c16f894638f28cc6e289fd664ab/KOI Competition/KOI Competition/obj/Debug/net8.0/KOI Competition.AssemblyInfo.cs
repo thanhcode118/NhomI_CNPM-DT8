@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KOI Competition")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0ae65359749c7955f48d624ccd4faa8b40b4ffc5")]
 [assembly: System.Reflection.AssemblyProductAttribute("KOI Competition")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KOI Competition")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gNqWu02tfM8=",
+  "dgSpecHash": "sltb8tNtJz8=",
   "success": true,
-  "projectFilePath": "E:\\cnpm\\githup\\NhomI_CNPM-DT8-5d36970cdd308c16f894638f28cc6e289fd664ab\\NhomI_CNPM-DT8-5d36970cdd308c16f894638f28cc6e289fd664ab\\KOI Competition\\KOI Competition\\KOI Competition.csproj",
+  "projectFilePath": "C:\\Users\\ADMIN\\OneDrive\\Documents\\GitHub\\Githup\\NhomI_CNPM-DT8\\NhomI_CNPM-DT8-5d36970cdd308c16f894638f28cc6e289fd664ab\\KOI Competition\\KOI Competition\\KOI Competition.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ADMIN\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\ADMIN\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
