@@ -56,3 +56,18 @@ C:\Users\LENOVO\OneDrive\Documents\GIT\CNPM\NhomI_CNPM-DT8\KoiProject\KoiProject
 C:\Users\LENOVO\OneDrive\Documents\GIT\CNPM\NhomI_CNPM-DT8\KoiProject\KoiProject.Repositories\obj\Debug\net8.0\KoiProject.Repositories.pdb
 C:\Users\LENOVO\OneDrive\Documents\GIT\CNPM\NhomI_CNPM-DT8\KoiProject\KoiProject.Repositories\obj\Debug\net8.0\KoiProject.Repositories.genruntimeconfig.cache
 C:\Users\LENOVO\OneDrive\Documents\GIT\CNPM\NhomI_CNPM-DT8\KoiProject\KoiProject.Repositories\obj\Debug\net8.0\ref\KoiProject.Repositories.dll
+C:\Users\LENOVO\OneDrive\Documents\GIT\test cnpm\NhomI_CNPM-DT8\KoiProject\KoiProject.Repositories\bin\Debug\net8.0\KoiProject.Repositories.deps.json
+C:\Users\LENOVO\OneDrive\Documents\GIT\test cnpm\NhomI_CNPM-DT8\KoiProject\KoiProject.Repositories\bin\Debug\net8.0\KoiProject.Repositories.runtimeconfig.json
+C:\Users\LENOVO\OneDrive\Documents\GIT\test cnpm\NhomI_CNPM-DT8\KoiProject\KoiProject.Repositories\bin\Debug\net8.0\KoiProject.Repositories.dll
+C:\Users\LENOVO\OneDrive\Documents\GIT\test cnpm\NhomI_CNPM-DT8\KoiProject\KoiProject.Repositories\bin\Debug\net8.0\KoiProject.Repositories.pdb
+C:\Users\LENOVO\OneDrive\Documents\GIT\test cnpm\NhomI_CNPM-DT8\KoiProject\KoiProject.Repositories\obj\Debug\net8.0\KoiProject.Repositories.csproj.AssemblyReference.cache
+C:\Users\LENOVO\OneDrive\Documents\GIT\test cnpm\NhomI_CNPM-DT8\KoiProject\KoiProject.Repositories\obj\Debug\net8.0\KoiProject.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO\OneDrive\Documents\GIT\test cnpm\NhomI_CNPM-DT8\KoiProject\KoiProject.Repositories\obj\Debug\net8.0\KoiProject.Repositories.AssemblyInfoInputs.cache
+C:\Users\LENOVO\OneDrive\Documents\GIT\test cnpm\NhomI_CNPM-DT8\KoiProject\KoiProject.Repositories\obj\Debug\net8.0\KoiProject.Repositories.AssemblyInfo.cs
+C:\Users\LENOVO\OneDrive\Documents\GIT\test cnpm\NhomI_CNPM-DT8\KoiProject\KoiProject.Repositories\obj\Debug\net8.0\KoiProject.Repositories.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\OneDrive\Documents\GIT\test cnpm\NhomI_CNPM-DT8\KoiProject\KoiProject.Repositories\obj\Debug\net8.0\KoiProject.Repositories.sourcelink.json
+C:\Users\LENOVO\OneDrive\Documents\GIT\test cnpm\NhomI_CNPM-DT8\KoiProject\KoiProject.Repositories\obj\Debug\net8.0\KoiProject.Repositories.dll
+C:\Users\LENOVO\OneDrive\Documents\GIT\test cnpm\NhomI_CNPM-DT8\KoiProject\KoiProject.Repositories\obj\Debug\net8.0\refint\KoiProject.Repositories.dll
+C:\Users\LENOVO\OneDrive\Documents\GIT\test cnpm\NhomI_CNPM-DT8\KoiProject\KoiProject.Repositories\obj\Debug\net8.0\KoiProject.Repositories.pdb
+C:\Users\LENOVO\OneDrive\Documents\GIT\test cnpm\NhomI_CNPM-DT8\KoiProject\KoiProject.Repositories\obj\Debug\net8.0\KoiProject.Repositories.genruntimeconfig.cache
+C:\Users\LENOVO\OneDrive\Documents\GIT\test cnpm\NhomI_CNPM-DT8\KoiProject\KoiProject.Repositories\obj\Debug\net8.0\ref\KoiProject.Repositories.dll

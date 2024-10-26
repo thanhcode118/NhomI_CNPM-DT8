@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3ANTx3un3VU=",
+  "dgSpecHash": "lvPWhwPp2qw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.Repositories\\KoiProject.Repositories.csproj",
+  "projectFilePath": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\test cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.Repositories\\KoiProject.Repositories.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LENOVO\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
