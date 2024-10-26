@@ -5,92 +5,80 @@
       "PackagePath": "staticwebassets\\KoiProject.WebApplication.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\Images\\3c1e369ab35c5b57c486a3c2a1535301.jpg",
-      "PackagePath": "staticwebassets\\Images\\3c1e369ab35c5b57c486a3c2a1535301.jpg"
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\css\\loginForm\\media.css",
+      "PackagePath": "staticwebassets\\css\\loginForm\\media.css"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\Images\\LOGO-removebg-preview.png",
-      "PackagePath": "staticwebassets\\Images\\LOGO-removebg-preview.png"
-    },
-    {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\Images\\LOGO.jpg",
-      "PackagePath": "staticwebassets\\Images\\LOGO.jpg"
-    },
-    {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\Images\\LuatThiDau.jpg",
-      "PackagePath": "staticwebassets\\Images\\LuatThiDau.jpg"
-    },
-    {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\Images\\banner1.jpg",
-      "PackagePath": "staticwebassets\\Images\\banner1.jpg"
-    },
-    {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\Images\\banner2.jpg",
-      "PackagePath": "staticwebassets\\Images\\banner2.jpg"
-    },
-    {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\Images\\banner3.jpg",
-      "PackagePath": "staticwebassets\\Images\\banner3.jpg"
-    },
-    {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\Images\\bgr.jpg",
-      "PackagePath": "staticwebassets\\Images\\bgr.jpg"
-    },
-    {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\Images\\bgr_header.jfif",
-      "PackagePath": "staticwebassets\\Images\\bgr_header.jfif"
-    },
-    {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\Images\\caphongthuy.png",
-      "PackagePath": "staticwebassets\\Images\\caphongthuy.png"
-    },
-    {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\Images\\giaithuong.jpg",
-      "PackagePath": "staticwebassets\\Images\\giaithuong.jpg"
-    },
-    {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\Images\\header.jpg",
-      "PackagePath": "staticwebassets\\Images\\header.jpg"
-    },
-    {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\css\\Style.css",
-      "PackagePath": "staticwebassets\\css\\Style.css"
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\css\\loginForm\\style.css",
+      "PackagePath": "staticwebassets\\css\\loginForm\\style.css"
     },
     {
       "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\formLogin\\css\\styles.css",
-      "PackagePath": "staticwebassets\\formLogin\\css\\styles.css"
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\3c1e369ab35c5b57c486a3c2a1535301.jpg",
+      "PackagePath": "staticwebassets\\img\\3c1e369ab35c5b57c486a3c2a1535301.jpg"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\formLogin\\img\\login-bg.jpg",
-      "PackagePath": "staticwebassets\\formLogin\\img\\login-bg.jpg"
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\LOGO-removebg-preview.png",
+      "PackagePath": "staticwebassets\\img\\LOGO-removebg-preview.png"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\formLogin\\scss\\base\\_base.scss",
-      "PackagePath": "staticwebassets\\formLogin\\scss\\base\\_base.scss"
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\LOGO.jpg",
+      "PackagePath": "staticwebassets\\img\\LOGO.jpg"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\formLogin\\scss\\components\\_breakpoints.scss",
-      "PackagePath": "staticwebassets\\formLogin\\scss\\components\\_breakpoints.scss"
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\LuatThiDau.jpg",
+      "PackagePath": "staticwebassets\\img\\LuatThiDau.jpg"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\formLogin\\scss\\components\\_login.scss",
-      "PackagePath": "staticwebassets\\formLogin\\scss\\components\\_login.scss"
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\banner1.jpg",
+      "PackagePath": "staticwebassets\\img\\banner1.jpg"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\formLogin\\scss\\config\\_variables.scss",
-      "PackagePath": "staticwebassets\\formLogin\\scss\\config\\_variables.scss"
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\banner2.jpg",
+      "PackagePath": "staticwebassets\\img\\banner2.jpg"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\formLogin\\scss\\styles.scss",
-      "PackagePath": "staticwebassets\\formLogin\\scss\\styles.scss"
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\banner3.jpg",
+      "PackagePath": "staticwebassets\\img\\banner3.jpg"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\js\\site.js",
-      "PackagePath": "staticwebassets\\js\\site.js"
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\bgr.jpg",
+      "PackagePath": "staticwebassets\\img\\bgr.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\bgr_header.jfif",
+      "PackagePath": "staticwebassets\\img\\bgr_header.jfif"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\caphongthuy.png",
+      "PackagePath": "staticwebassets\\img\\caphongthuy.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\giaithuong.jpg",
+      "PackagePath": "staticwebassets\\img\\giaithuong.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\header.jpg",
+      "PackagePath": "staticwebassets\\img\\header.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\undraw_Login_re_4vu2.svg",
+      "PackagePath": "staticwebassets\\img\\undraw_Login_re_4vu2.svg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\undraw_authentication_fsn5.svg",
+      "PackagePath": "staticwebassets\\img\\undraw_authentication_fsn5.svg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\undraw_profile_pic_ic5t.svg",
+      "PackagePath": "staticwebassets\\img\\undraw_profile_pic_ic5t.svg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\js\\script.js",
+      "PackagePath": "staticwebassets\\js\\script.js"
     },
     {
       "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\LICENSE",
