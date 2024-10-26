@@ -2790,11 +2790,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ADMIN\\OneDrive\\Documents\\GitHub\\Githup\\KoiProject\\KoiProject.WebApplication\\KoiProject.WebApplication.csproj",
+      "projectUniqueName": "C:\\Users\\ADMIN\\OneDrive\\Documents\\GitHub\\Githup\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\KoiProject.WebApplication.csproj",
       "projectName": "KoiProject.WebApplication",
-      "projectPath": "C:\\Users\\ADMIN\\OneDrive\\Documents\\GitHub\\Githup\\KoiProject\\KoiProject.WebApplication\\KoiProject.WebApplication.csproj",
+      "projectPath": "C:\\Users\\ADMIN\\OneDrive\\Documents\\GitHub\\Githup\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\KoiProject.WebApplication.csproj",
       "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ADMIN\\OneDrive\\Documents\\GitHub\\Githup\\KoiProject\\KoiProject.WebApplication\\obj\\",
+      "outputPath": "C:\\Users\\ADMIN\\OneDrive\\Documents\\GitHub\\Githup\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2812,8 +2812,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\ADMIN\\OneDrive\\Documents\\GitHub\\Githup\\KoiProject\\KoiProject.Service\\KoiProject.Service.csproj": {
-              "projectPath": "C:\\Users\\ADMIN\\OneDrive\\Documents\\GitHub\\Githup\\KoiProject\\KoiProject.Service\\KoiProject.Service.csproj"
+            "C:\\Users\\ADMIN\\OneDrive\\Documents\\GitHub\\Githup\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.Service\\KoiProject.Service.csproj": {
+              "projectPath": "C:\\Users\\ADMIN\\OneDrive\\Documents\\GitHub\\Githup\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.Service\\KoiProject.Service.csproj"
             }
           }
         }

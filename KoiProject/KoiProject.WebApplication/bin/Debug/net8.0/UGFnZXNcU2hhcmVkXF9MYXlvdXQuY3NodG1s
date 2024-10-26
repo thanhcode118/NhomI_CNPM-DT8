@@ -61,8 +61,8 @@
             <ul>
                 <li><a asp-area="" asp-page="/Index">Home</a></li> 
                 <li><a asp-area="" asp-page="/DanhMuc">Danh Mục</a></li>
-                <li><a asp-area="" asp-page="/Index">Admin</a></li>
-                <li><a asp-area="" asp-page="/Index">Login</a></li>
+                <li><a asp-area="" asp-page="/Admin">Admin</a></li>
+                <li><a asp-area="" asp-page="/Login">Login</a></li>
 
             </ul>
         </nav>
