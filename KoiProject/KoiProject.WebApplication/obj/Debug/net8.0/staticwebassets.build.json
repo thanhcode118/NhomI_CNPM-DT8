@@ -1,6 +1,10 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "Hash": "d6UNk+va3rlmWlW1FmfJix9cVRrCzBW8F8tmnQU9/ag=",
+=======
+  "Hash": "Ne64d3K3xSR0Xf+rUTqmXelLZEHTXOtgsOLoYlxSEH8=",
+>>>>>>> 0b3a42704bfaa0a29a91b2085bce27de8b2d4127
   "Source": "KoiProject.WebApplication",
   "BasePath": "_content/KoiProject.WebApplication",
   "Mode": "Default",
@@ -55,12 +59,16 @@
       "OriginalItemSpec": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\KoiProject.WebApplication.bundle.scp.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\css\\Style.css",
+=======
+      "Identity": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\css\\loginForm\\media.css",
+>>>>>>> 0b3a42704bfaa0a29a91b2085bce27de8b2d4127
       "SourceId": "KoiProject.WebApplication",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\",
       "BasePath": "_content/KoiProject.WebApplication",
-      "RelativePath": "css/Style.css",
+      "RelativePath": "css/loginForm/media.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -71,7 +79,26 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\Style.css"
+      "OriginalItemSpec": "wwwroot\\css\\loginForm\\media.css"
+    },
+    {
+      "Identity": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\css\\loginForm\\style.css",
+      "SourceId": "KoiProject.WebApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\",
+      "BasePath": "_content/KoiProject.WebApplication",
+      "RelativePath": "css/loginForm/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\loginForm\\style.css"
     },
     {
       "Identity": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\favicon.ico",
@@ -93,12 +120,16 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\Images\\3c1e369ab35c5b57c486a3c2a1535301.jpg",
+=======
+      "Identity": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\3c1e369ab35c5b57c486a3c2a1535301.jpg",
+>>>>>>> 0b3a42704bfaa0a29a91b2085bce27de8b2d4127
       "SourceId": "KoiProject.WebApplication",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\",
       "BasePath": "_content/KoiProject.WebApplication",
-      "RelativePath": "Images/3c1e369ab35c5b57c486a3c2a1535301.jpg",
+      "RelativePath": "img/3c1e369ab35c5b57c486a3c2a1535301.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -109,15 +140,19 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\3c1e369ab35c5b57c486a3c2a1535301.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\3c1e369ab35c5b57c486a3c2a1535301.jpg"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\Images\\banner1.jpg",
+=======
+      "Identity": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\banner1.jpg",
+>>>>>>> 0b3a42704bfaa0a29a91b2085bce27de8b2d4127
       "SourceId": "KoiProject.WebApplication",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\",
       "BasePath": "_content/KoiProject.WebApplication",
-      "RelativePath": "Images/banner1.jpg",
+      "RelativePath": "img/banner1.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -128,15 +163,19 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\banner1.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\banner1.jpg"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\Images\\banner2.jpg",
+=======
+      "Identity": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\banner2.jpg",
+>>>>>>> 0b3a42704bfaa0a29a91b2085bce27de8b2d4127
       "SourceId": "KoiProject.WebApplication",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\",
       "BasePath": "_content/KoiProject.WebApplication",
-      "RelativePath": "Images/banner2.jpg",
+      "RelativePath": "img/banner2.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -147,15 +186,19 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\banner2.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\banner2.jpg"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\Images\\banner3.jpg",
+=======
+      "Identity": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\banner3.jpg",
+>>>>>>> 0b3a42704bfaa0a29a91b2085bce27de8b2d4127
       "SourceId": "KoiProject.WebApplication",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\",
       "BasePath": "_content/KoiProject.WebApplication",
-      "RelativePath": "Images/banner3.jpg",
+      "RelativePath": "img/banner3.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -166,15 +209,19 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\banner3.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\banner3.jpg"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\Images\\bgr.jpg",
+=======
+      "Identity": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\bgr.jpg",
+>>>>>>> 0b3a42704bfaa0a29a91b2085bce27de8b2d4127
       "SourceId": "KoiProject.WebApplication",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\",
       "BasePath": "_content/KoiProject.WebApplication",
-      "RelativePath": "Images/bgr.jpg",
+      "RelativePath": "img/bgr.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -185,15 +232,19 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\bgr.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\bgr.jpg"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\Images\\bgr_header.jfif",
+=======
+      "Identity": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\bgr_header.jfif",
+>>>>>>> 0b3a42704bfaa0a29a91b2085bce27de8b2d4127
       "SourceId": "KoiProject.WebApplication",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\",
       "BasePath": "_content/KoiProject.WebApplication",
-      "RelativePath": "Images/bgr_header.jfif",
+      "RelativePath": "img/bgr_header.jfif",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -204,15 +255,19 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\bgr_header.jfif"
+      "OriginalItemSpec": "wwwroot\\img\\bgr_header.jfif"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\Images\\caphongthuy.png",
+=======
+      "Identity": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\caphongthuy.png",
+>>>>>>> 0b3a42704bfaa0a29a91b2085bce27de8b2d4127
       "SourceId": "KoiProject.WebApplication",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\",
       "BasePath": "_content/KoiProject.WebApplication",
-      "RelativePath": "Images/caphongthuy.png",
+      "RelativePath": "img/caphongthuy.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -223,15 +278,19 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\caphongthuy.png"
+      "OriginalItemSpec": "wwwroot\\img\\caphongthuy.png"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\Images\\giaithuong.jpg",
+=======
+      "Identity": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\giaithuong.jpg",
+>>>>>>> 0b3a42704bfaa0a29a91b2085bce27de8b2d4127
       "SourceId": "KoiProject.WebApplication",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\",
       "BasePath": "_content/KoiProject.WebApplication",
-      "RelativePath": "Images/giaithuong.jpg",
+      "RelativePath": "img/giaithuong.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -242,15 +301,19 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\giaithuong.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\giaithuong.jpg"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\Images\\header.jpg",
+=======
+      "Identity": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\header.jpg",
+>>>>>>> 0b3a42704bfaa0a29a91b2085bce27de8b2d4127
       "SourceId": "KoiProject.WebApplication",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\",
       "BasePath": "_content/KoiProject.WebApplication",
-      "RelativePath": "Images/header.jpg",
+      "RelativePath": "img/header.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -261,15 +324,19 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\header.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\header.jpg"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\Images\\LOGO.jpg",
+=======
+      "Identity": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\LOGO.jpg",
+>>>>>>> 0b3a42704bfaa0a29a91b2085bce27de8b2d4127
       "SourceId": "KoiProject.WebApplication",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\",
       "BasePath": "_content/KoiProject.WebApplication",
-      "RelativePath": "Images/LOGO.jpg",
+      "RelativePath": "img/LOGO.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -280,15 +347,19 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\LOGO.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\LOGO.jpg"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\Images\\LOGO-removebg-preview.png",
+=======
+      "Identity": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\LOGO-removebg-preview.png",
+>>>>>>> 0b3a42704bfaa0a29a91b2085bce27de8b2d4127
       "SourceId": "KoiProject.WebApplication",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\",
       "BasePath": "_content/KoiProject.WebApplication",
-      "RelativePath": "Images/LOGO-removebg-preview.png",
+      "RelativePath": "img/LOGO-removebg-preview.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -299,15 +370,19 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\LOGO-removebg-preview.png"
+      "OriginalItemSpec": "wwwroot\\img\\LOGO-removebg-preview.png"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\Images\\LuatThiDau.jpg",
+=======
+      "Identity": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\LuatThiDau.jpg",
+>>>>>>> 0b3a42704bfaa0a29a91b2085bce27de8b2d4127
       "SourceId": "KoiProject.WebApplication",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\",
       "BasePath": "_content/KoiProject.WebApplication",
-      "RelativePath": "Images/LuatThiDau.jpg",
+      "RelativePath": "img/LuatThiDau.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -318,15 +393,19 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Images\\LuatThiDau.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\LuatThiDau.jpg"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\js\\site.js",
+=======
+      "Identity": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\undraw_authentication_fsn5.svg",
+>>>>>>> 0b3a42704bfaa0a29a91b2085bce27de8b2d4127
       "SourceId": "KoiProject.WebApplication",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\",
       "BasePath": "_content/KoiProject.WebApplication",
-      "RelativePath": "js/site.js",
+      "RelativePath": "img/undraw_authentication_fsn5.svg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -337,7 +416,64 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\site.js"
+      "OriginalItemSpec": "wwwroot\\img\\undraw_authentication_fsn5.svg"
+    },
+    {
+      "Identity": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\undraw_Login_re_4vu2.svg",
+      "SourceId": "KoiProject.WebApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\",
+      "BasePath": "_content/KoiProject.WebApplication",
+      "RelativePath": "img/undraw_Login_re_4vu2.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\undraw_Login_re_4vu2.svg"
+    },
+    {
+      "Identity": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\undraw_profile_pic_ic5t.svg",
+      "SourceId": "KoiProject.WebApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\",
+      "BasePath": "_content/KoiProject.WebApplication",
+      "RelativePath": "img/undraw_profile_pic_ic5t.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\undraw_profile_pic_ic5t.svg"
+    },
+    {
+      "Identity": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\js\\script.js",
+      "SourceId": "KoiProject.WebApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\",
+      "BasePath": "_content/KoiProject.WebApplication",
+      "RelativePath": "js/script.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\script.js"
     },
     {
       "Identity": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",

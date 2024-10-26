@@ -54,7 +54,19 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFuYWdlS29pLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+<<<<<<< HEAD
 [C:/WORK_SPACE/CNPM_connectDB/source/Github_Cnpm/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Privacy.cshtml]
+=======
+[C:/Users/LENOVO/OneDrive/Documents/GIT/CNPM/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LENOVO/OneDrive/Documents/GIT/CNPM/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/ManageCompetition.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFuYWdlQ29tcGV0aXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LENOVO/OneDrive/Documents/GIT/CNPM/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Privacy.cshtml]
+>>>>>>> 0b3a42704bfaa0a29a91b2085bce27de8b2d4127
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
