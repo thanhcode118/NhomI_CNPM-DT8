@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace KoiProject.WebApplication.Pages
 {
-    public class RegisterModel : PageModel
+    public class ManageKoiModel : PageModel
     {
         public void OnGet()
         {

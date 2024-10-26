@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace KoiProject.WebApplication.Pages
 {
-    public class JudgingModel : PageModel
+    public class CompetitionProgressModel : PageModel
     {
         public void OnGet()
         {
