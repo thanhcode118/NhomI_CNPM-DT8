@@ -1,0 +1,6 @@
+.vs/
+*.suo
+bin/
+obj/
+/KoiProject/KoiProject.WebApplication/obj/
+
