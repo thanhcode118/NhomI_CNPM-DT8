@@ -1,319 +1,319 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\test cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\KoiProject.WebApplication.bundle.scp.css",
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\KoiProject.WebApplication.bundle.scp.css",
       "PackagePath": "staticwebassets\\KoiProject.WebApplication.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\test cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\css\\Style.css",
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\css\\Style.css",
       "PackagePath": "staticwebassets\\css\\Style.css"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\test cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\css\\layoutForm\\site.css",
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\css\\layoutForm\\site.css",
       "PackagePath": "staticwebassets\\css\\layoutForm\\site.css"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\test cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\css\\loginForm\\media.css",
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\css\\loginForm\\media.css",
       "PackagePath": "staticwebassets\\css\\loginForm\\media.css"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\test cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\css\\loginForm\\style.css",
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\css\\loginForm\\style.css",
       "PackagePath": "staticwebassets\\css\\loginForm\\style.css"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\test cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\test cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\3c1e369ab35c5b57c486a3c2a1535301.jpg",
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\3c1e369ab35c5b57c486a3c2a1535301.jpg",
       "PackagePath": "staticwebassets\\img\\3c1e369ab35c5b57c486a3c2a1535301.jpg"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\test cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\LOGO-removebg-preview.png",
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\LOGO-removebg-preview.png",
       "PackagePath": "staticwebassets\\img\\LOGO-removebg-preview.png"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\test cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\LOGO.jpg",
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\LOGO.jpg",
       "PackagePath": "staticwebassets\\img\\LOGO.jpg"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\test cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\LuatThiDau.jpg",
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\LuatThiDau.jpg",
       "PackagePath": "staticwebassets\\img\\LuatThiDau.jpg"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\test cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\banner1.jpg",
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\banner1.jpg",
       "PackagePath": "staticwebassets\\img\\banner1.jpg"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\test cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\banner2.jpg",
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\banner2.jpg",
       "PackagePath": "staticwebassets\\img\\banner2.jpg"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\test cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\banner3.jpg",
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\banner3.jpg",
       "PackagePath": "staticwebassets\\img\\banner3.jpg"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\test cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\bgr.jpg",
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\bgr.jpg",
       "PackagePath": "staticwebassets\\img\\bgr.jpg"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\test cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\bgr_header.jfif",
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\bgr_header.jfif",
       "PackagePath": "staticwebassets\\img\\bgr_header.jfif"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\test cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\caphongthuy.png",
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\caphongthuy.png",
       "PackagePath": "staticwebassets\\img\\caphongthuy.png"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\test cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\giaithuong.jpg",
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\giaithuong.jpg",
       "PackagePath": "staticwebassets\\img\\giaithuong.jpg"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\test cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\header.jpg",
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\header.jpg",
       "PackagePath": "staticwebassets\\img\\header.jpg"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\test cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\undraw_Login_re_4vu2.svg",
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\undraw_Login_re_4vu2.svg",
       "PackagePath": "staticwebassets\\img\\undraw_Login_re_4vu2.svg"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\test cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\undraw_authentication_fsn5.svg",
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\undraw_authentication_fsn5.svg",
       "PackagePath": "staticwebassets\\img\\undraw_authentication_fsn5.svg"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\test cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\undraw_profile_pic_ic5t.svg",
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\undraw_profile_pic_ic5t.svg",
       "PackagePath": "staticwebassets\\img\\undraw_profile_pic_ic5t.svg"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\test cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\js\\script.js",
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\js\\script.js",
       "PackagePath": "staticwebassets\\js\\script.js"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\test cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\test cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\test cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\test cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\test cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\test cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\test cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\test cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\test cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\test cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\test cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\test cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\test cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\test cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\test cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\test cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\test cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\test cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\test cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\test cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\test cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\test cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\test cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\test cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\test cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\test cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\test cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\test cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\test cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\test cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\test cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\test cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\test cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\test cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\test cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\test cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\test cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\test cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\test cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\test cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\test cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\test cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\test cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\test cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\test cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\test cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\test cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\test cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\test cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\test cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\test cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\test cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\test cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\test cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\test cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\test cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\test cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
