@@ -564,6 +564,7 @@ progress {
     }
 }
 
+
 .display-6 {
     font-size: calc(1.375rem + 1.5vw);
     font-weight: 300;
@@ -620,8 +621,12 @@ progress {
     }
 
 .img-fluid {
-    max-width: 100%;
-    height: auto;
+    width:100%;
+    height:100%;
+}
+.ImgMenu {
+    width: 100%;
+    height: 250px;
 }
 
 .img-thumbnail {
@@ -12755,49 +12760,51 @@ header.masthead {
             background-color: #ffc800;
         }
 
-            .timeline > li .timeline-image h4, .timeline > li .timeline-image .h4 {
-                font-size: 10px;
-                line-height: 14px;
-                margin-top: 12px;
-            }
 
-        .timeline > li.timeline-inverted > .timeline-panel {
-            float: right;
-            padding: 0 20px 0 100px;
-            text-align: left;
-        }
 
-            .timeline > li.timeline-inverted > .timeline-panel:before {
-                right: auto;
-                left: -15px;
-                border-right-width: 15px;
-                border-left-width: 0;
-            }
+.timeline > li .timeline-image h4, .timeline > li .timeline-image .h4 {
+    font-size: 10px;
+    line-height: 14px;
+    margin-top: 12px;
+}
 
-            .timeline > li.timeline-inverted > .timeline-panel:after {
-                right: auto;
-                left: -14px;
-                border-right-width: 14px;
-                border-left-width: 0;
-            }
+.timeline > li.timeline-inverted > .timeline-panel {
+    float: right;
+    padding: 0 20px 0 100px;
+    text-align: left;
+}
 
-        .timeline > li:last-child {
-            margin-bottom: 0;
-        }
-
-    .timeline .timeline-heading h4, .timeline .timeline-heading .h4 {
-        margin-top: 0;
-        color: inherit;
+    .timeline > li.timeline-inverted > .timeline-panel:before {
+        right: auto;
+        left: -15px;
+        border-right-width: 15px;
+        border-left-width: 0;
     }
 
-        .timeline .timeline-heading h4.subheading, .timeline .timeline-heading .subheading.h4 {
-            text-transform: none;
-        }
-
-    .timeline .timeline-body > ul,
-    .timeline .timeline-body > p {
-        margin-bottom: 0;
+    .timeline > li.timeline-inverted > .timeline-panel:after {
+        right: auto;
+        left: -14px;
+        border-right-width: 14px;
+        border-left-width: 0;
     }
+
+.timeline > li:last-child {
+    margin-bottom: 0;
+}
+
+.timeline .timeline-heading h4, .timeline .timeline-heading .h4 {
+    margin-top: 0;
+    color: inherit;
+}
+
+    .timeline .timeline-heading h4.subheading, .timeline .timeline-heading .subheading.h4 {
+        text-transform: none;
+    }
+
+.timeline .timeline-body > ul,
+.timeline .timeline-body > p {
+    margin-bottom: 0;
+}
 
 @media (min-width: 768px) {
     .timeline:before {

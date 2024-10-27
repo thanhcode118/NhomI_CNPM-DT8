@@ -41,47 +41,47 @@
                         <i class="fas fa-circle fa-stack-2x text-primary"></i>
                         <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="my-3">E-Commerce</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                    <h4 class="my-3">Competition Registration</h4>
+                    <p class="text-muted">Hỗ trợ đăng ký tài khoản và hồ sơ cá Koi tham gia cuộc thi.</p>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fas fa-circle fa-stack-2x text-primary"></i>
                         <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="my-3">Responsive Design</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                    <h4 class="my-3">Category Classification</h4>
+                    <p class="text-muted">Phân loại cá Koi theo các hạng như Grand Champion, Sakura Champion, v.v., giúp người dùng hiểu rõ các tiêu chí phân loại..</p>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
                         <i class="fas fa-circle fa-stack-2x text-primary"></i>
                         <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="my-3">Web Security</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                    <h4 class="my-3">Judging and Scoring</h4>
+                    <p class="text-muted">Chấm điểm và xếp hạng dựa trên các tiêu chí như dáng, màu sắc, hoa văn, thể hiện quy trình và tiêu chí chấm điểm trong cuộc thi.</p>
                 </div>
             </div>
         </div>
     </section>
-    <!-- Portfolio Grid-->
+    <!-- Menu-->
     <section class="page-section bg-light" id="portfolio">
         <div class="container">
             <div class="text-center">
-                <h2 class="section-heading text-uppercase">Portfolio</h2>
-                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                <h2 class="section-heading text-uppercase">Menu</h2>
+                <h3 class="section-subheading text-muted">Web Functions</h3>
             </div>
             <div class="row">
                 <div class="col-lg-4 col-sm-6 mb-4">
-                    <!-- Portfolio item 1-->
+                    <!-- Functions item 1-->
                     <div class="portfolio-item">
-                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="./">
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/1.jpg" alt="..." />
+                            <img class="ImgMenu" src="img/AIContestant.jpg" alt="..." />
                         </a>
                         <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">Threads</div>
+                            <div class="portfolio-caption-heading">Contest Details</div>
                             <div class="portfolio-caption-subheading text-muted">Illustration</div>
                         </div>
                     </div>
@@ -89,14 +89,14 @@
                 <div class="col-lg-4 col-sm-6 mb-4">
                     <!-- Portfolio item 2-->
                     <div class="portfolio-item">
-                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="./Login">
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/2.jpg" alt="..." />
+                            <img class="ImgMenu" src="img/Login.jpg" alt="..." />
                         </a>
                         <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">Explore</div>
+                            <div class="portfolio-caption-heading">Login</div>
                             <div class="portfolio-caption-subheading text-muted">Graphic Design</div>
                         </div>
                     </div>
@@ -104,14 +104,14 @@
                 <div class="col-lg-4 col-sm-6 mb-4">
                     <!-- Portfolio item 3-->
                     <div class="portfolio-item">
-                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="./Error">
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/3.jpg" alt="..." />
+                            <img class="ImgMenu" src="img/Report.jpg" alt="..." />
                         </a>
                         <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">Finish</div>
+                            <div class="portfolio-caption-heading">Report</div>
                             <div class="portfolio-caption-subheading text-muted">Identity</div>
                         </div>
                     </div>
@@ -119,14 +119,14 @@
                 <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
                     <!-- Portfolio item 4-->
                     <div class="portfolio-item">
-                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="./Login">
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/4.jpg" alt="..." />
+                            <img class="ImgMenu" src="img/Result.jpg" alt="..." />
                         </a>
                         <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">Lines</div>
+                            <div class="portfolio-caption-heading">Result</div>
                             <div class="portfolio-caption-subheading text-muted">Branding</div>
                         </div>
                     </div>
@@ -138,10 +138,10 @@
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/5.jpg" alt="..." />
+                            <img class="ImgMenu" src="img/FishManagement.jpg" alt="..." />
                         </a>
                         <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">Southwest</div>
+                            <div class="portfolio-caption-heading">Management</div>
                             <div class="portfolio-caption-subheading text-muted">Website Design</div>
                         </div>
                     </div>
@@ -153,10 +153,10 @@
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/6.jpg" alt="..." />
+                            <img class="ImgMenu" src="img/Competition.jpg" alt="..." />
                         </a>
                         <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">Window</div>
+                            <div class="portfolio-caption-heading">Competition Process</div>
                             <div class="portfolio-caption-subheading text-muted">Photography</div>
                         </div>
                     </div>
@@ -169,58 +169,150 @@
         <div class="container">
             <div class="text-center">
                 <h2 class="section-heading text-uppercase">About</h2>
-                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                <h3 class="section-subheading text-muted">Site content overview includes.</h3>
             </div>
             <ul class="timeline">
                 <li>
-                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/1.jpg" alt="..." /></div>
+                    <div class="timeline-image"><img  class="rounded-circle img-fluid" src="img/caphongthuy.png" alt="..." /></div>
                     <div class="timeline-panel">
                         <div class="timeline-heading">
-                            <h4>2009-2011</h4>
-                            <h4 class="subheading">Our Humble Beginnings</h4>
+                            <h2 >Giới thiệu Cuộc Thi</h2>
+                            <h4 class="subheading">Tổng quan</h4>
                         </div>
-                        <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                        <div class="timeline-body">
+                            <p class="text-muted">
+                                Cuộc thi cá Koi là sự kiện thường niên thu hút nhiều người yêu thích cá Koi từ khắp nơi. Cuộc thi nhằm tạo sân chơi và cơ hội để các nhà sưu tập và người nuôi cá Koi chia sẻ kinh nghiệm, trình diễn những chú cá đẹp nhất của mình.
+                            </p>
+                        </div>
+                        <div class="timeline-heading">
+                    
+                            <h4 class="subheading">Mục Tiêu</h4>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="text-muted">
+                                Mục tiêu chính của cuộc thi là tôn vinh vẻ đẹp và giá trị của loài cá Koi, thúc đẩy phong trào nuôi cá Koi và tạo môi trường giao lưu cho những người đam mê cá cảnh.
+                            </p>
+                        </div>
+                        <div class="timeline-heading">
+
+                            <h4 class="subheading">Nội dung</h4>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="text-muted">
+                                Cuộc thi bao gồm các hạng mục tranh tài dựa trên màu sắc, kích thước, hình dáng và sự khỏe mạnh của cá Koi. Người tham gia có thể đăng ký và gửi hình ảnh hoặc video cá Koi của mình để dự thi.
+                            </p>
+                        </div>
                     </div>
                 </li>
                 <li class="timeline-inverted">
-                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/2.jpg" alt="..." /></div>
+                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="img/giaithuong.jpg" alt="..." /></div>
                     <div class="timeline-panel">
                         <div class="timeline-heading">
-                            <h4>March 2011</h4>
-                            <h4 class="subheading">An Agency is Born</h4>
+                            <h2>Thông tin về Giải Thưởng</h2>
+                            <h4 class="subheading">Các hạng mục giải thưởng</h4>
                         </div>
-                        <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                        <div class="timeline-body">
+                            <p class="text-muted">
+                                <ul>
+                                    <li>Giải Grand Champion: Dành cho chú cá Koi có điểm tổng cao nhất.</li>
+                                    <li>Giải Sakura Champion: Dành cho cá Koi có màu sắc ấn tượng nhất.</li>
+                                    <li>Giải Mature Champion: Dành cho cá Koi trưởng thành đẹp nhất.</li>
+                                    <li>Giải Young Champion: Dành cho cá Koi trẻ dưới 3 tuổi.</li>
+                                    <li>Giải Baby Champion: Dành cho cá Koi nhỏ dưới 1 tuổi.</li>
+                                </ul>
+                            </p>
+                        </div>
+                        <div class="timeline-heading">
+          
+                            <h4 class="subheading">Tiêu chí chấm điểm</h4>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="text-muted">
+                                <ul>
+                                    <li>50% Dáng: Dáng bơi và sự cân đối của thân cá.</li>
+                                    <li>30% Màu sắc: Độ tươi sáng và phân bố màu sắc.</li>
+                                    <li>20% Hoa văn: Sự phân bố và cân đối của các hoa văn trên cá.</li>
+                                </ul>
+                            </p>
+                        </div>
+                        <div class="timeline-heading">
+                            <h4 class="subheading">Giá trị giải thưởng</h4>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="text-muted">
+                                Các giải thưởng bao gồm cúp, huy chương và các phần thưởng tiền mặt. Giải Grand Champion sẽ nhận được giải thưởng lớn nhất trị giá 100 triệu đồng, cùng với cúp vàng danh giá.
+                            </p>
+                        </div>
                     </div>
                 </li>
                 <li>
-                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/3.jpg" alt="..." /></div>
+                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="img/LuatThiDau.jpg" alt="..." /></div>
                     <div class="timeline-panel">
                         <div class="timeline-heading">
-                            <h4>December 2015</h4>
-                            <h4 class="subheading">Transition to Full Service</h4>
+                            <h2>Thông tin về Luật Thi Đấu</h2>
+                            <h4 class="subheading">Quy định thi đấu</h4>
                         </div>
-                        <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
-                    </div>
+                        <div class="timeline-body"><p class="text-muted">
+                            <ul>
+                            <li>Người tham gia phải đăng ký trước thời hạn và cung cấp đầy đủ thông tin về cá Koi tham gia.</li>
+                            <li>Cá Koi phải được kiểm tra sức khỏe trước khi tham gia thi đấu.</li>
+                            <li>Không được phép can thiệp vào hồ cá của đối thủ trong quá trình thi đấu.</li>
+                            <li>Không sử dụng bất kỳ chất hóa học nào để làm thay đổi màu sắc hoặc dáng bơi của cá.</li>
+                            <li>Người tham gia phải tuân thủ các quy định về bảo vệ môi trường và chăm sóc cá.</li>
+                            </ul>
+                            </p>
+                        </div>
+        <div class="timeline-heading">
+ 
+            <h4 class="subheading">Tiêu chí chấm điểm</h4>
+        </div>
+        <div class="timeline-body">
+            <p class="text-muted">
+                <ul>
+                    <li>50% Dáng bơi: Đánh giá sự cân đối và uyển chuyển của dáng bơi cá Koi.</li>
+                    <li>30% Màu sắc: Đánh giá độ tươi sáng, sự đồng đều và phân bố màu sắc trên cơ thể cá.</li>
+                    <li>20% Hoa văn: Sự cân đối và hài hòa của hoa văn trên cá Koi.</li>
+                </ul>
+            </p>
+        </div>
+                </div>
                 </li>
                 <li class="timeline-inverted">
                     <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/4.jpg" alt="..." /></div>
                     <div class="timeline-panel">
                         <div class="timeline-heading">
-                            <h4>July 2020</h4>
-                            <h4 class="subheading">Phase Two Expansion</h4>
+                            <h2>Tin tức và Cập nhật</h2>
+                            <h4 class="subheading">Cập nhật những tin tức mới nhất liên quan đến cuộc thi.</h4>
                         </div>
-                        <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                        <div class="timeline-body">
+                            <p class="text-muted">
+                                <ul>
+                                    <li><a href="#">Thay đổi lịch trình cuộc thi cá Koi 2024</a></li>
+                                    <li><a href="#">Phỏng vấn ban giám khảo cuộc thi cá Koi</a></li>
+                                    <li><a href="#">Bài viết về những chú cá Koi nổi bật nhất</a></li>
+                                </ul>
+                            </p>
+                            <p><a href="#">Tài liệu tham khảo về chăm sóc và nuôi cá Koi</a></p>
+                        </div>
                     </div>
                 </li>
-                <li class="timeline-inverted">
-                    <div class="timeline-image">
-                        <h4>
-                            Be Part
-                            <br />
-                            Of Our
-                            <br />
-                            Story!
-                        </h4>
+                <li class="timeline-inverted_2">
+                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/1.jpg" alt="..." /></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h2>Câu hỏi thường gặp</h2>
+                            
+                        </div>
+                        <div class="timeline-body">
+                            <p class="text-muted">
+                                <ul>
+                                    <li><strong>Làm sao để đăng ký cá Koi?</strong> Bạn có thể đăng ký qua form đăng ký nhanh trên trang chủ.</li>
+                                    <li><strong>Có chi phí tham gia không?</strong> Cuộc thi có phí tham gia tùy vào từng hạng mục.</li>
+                                    <li><strong>Các tiêu chí chấm điểm là gì?</strong> Dáng bơi, màu sắc và hoa văn của cá Koi.</li>
+                                </ul>
+                            </p>
+                        </div>
+                   
                     </div>
                 </li>
             </ul>
@@ -236,18 +328,18 @@
             <div class="row">
                 <div class="col-lg-4">
                     <div class="team-member">
-                        <img class="mx-auto rounded-circle" src="assets/img/team/1.jpg" alt="..." />
-                        <h4>Parveen Anand</h4>
+                        <img class="mx-auto rounded-circle" src="img/Toan.jpg" alt="..." />
+                        <h4>Nguyễn Ngọc Toàn</h4>
                         <p class="text-muted">Lead Designer</p>
                         <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand Twitter Profile"><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand Facebook Profile"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/kenlyss.nguyenss/" aria-label="Parveen Anand Facebook Profile"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/ntoan515450/?hl=en" aria-label="Parveen Anand LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="team-member">
-                        <img class="mx-auto rounded-circle" src="assets/img/team/2.jpg" alt="..." />
-                        <h4>Diana Petersen</h4>
+                        <img class="mx-auto rounded-circle" src="img/Thanh.jpg" alt="..." />
+                        <h4>Nguyễn Thị Thu Thanh</h4>
                         <p class="text-muted">Lead Marketer</p>
                         <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen Twitter Profile"><i class="fab fa-twitter"></i></a>
                         <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen Facebook Profile"><i class="fab fa-facebook-f"></i></a>
@@ -256,12 +348,12 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="team-member">
-                        <img class="mx-auto rounded-circle" src="assets/img/team/3.jpg" alt="..." />
-                        <h4>Larry Parker</h4>
+                        <img class="mx-auto rounded-circle" src="img/Toan.jpg" alt="..." />
+                        <h4>Nguyễn Ngọc Toàn</h4>
                         <p class="text-muted">Lead Developer</p>
                         <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Twitter Profile"><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Facebook Profile"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/kenlyss.nguyenss/" aria-label="Larry Parker Facebook Profile"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/ntoan515450/?hl=en" aria-label="Larry Parker LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
             </div>

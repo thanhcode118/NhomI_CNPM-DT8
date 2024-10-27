@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\KoiProject.WebApplication.csproj": {}
+    "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\KoiProject.WebApplication.csproj": {}
   },
   "projects": {
-    "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.Repositories\\KoiProject.Repositories.csproj": {
+    "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.Repositories\\KoiProject.Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.Repositories\\KoiProject.Repositories.csproj",
+        "projectUniqueName": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.Repositories\\KoiProject.Repositories.csproj",
         "projectName": "KoiProject.Repositories",
-        "projectPath": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.Repositories\\KoiProject.Repositories.csproj",
-        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.Repositories\\obj\\",
+        "projectPath": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.Repositories\\KoiProject.Repositories.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.Repositories\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -91,20 +91,20 @@
         }
       }
     },
-    "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.Service\\KoiProject.Service.csproj": {
+    "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.Service\\KoiProject.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.Service\\KoiProject.Service.csproj",
+        "projectUniqueName": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.Service\\KoiProject.Service.csproj",
         "projectName": "KoiProject.Service",
-        "projectPath": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.Service\\KoiProject.Service.csproj",
-        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.Service\\obj\\",
+        "projectPath": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.Service\\KoiProject.Service.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -120,8 +120,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.Repositories\\KoiProject.Repositories.csproj": {
-                "projectPath": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.Repositories\\KoiProject.Repositories.csproj"
+              "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.Repositories\\KoiProject.Repositories.csproj": {
+                "projectPath": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.Repositories\\KoiProject.Repositories.csproj"
               }
             }
           }
@@ -160,20 +160,20 @@
         }
       }
     },
-    "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\KoiProject.WebApplication.csproj": {
+    "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\KoiProject.WebApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\KoiProject.WebApplication.csproj",
+        "projectUniqueName": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\KoiProject.WebApplication.csproj",
         "projectName": "KoiProject.WebApplication",
-        "projectPath": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\KoiProject.WebApplication.csproj",
-        "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\obj\\",
+        "projectPath": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\KoiProject.WebApplication.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -189,8 +189,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.Service\\KoiProject.Service.csproj": {
-                "projectPath": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.Service\\KoiProject.Service.csproj"
+              "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.Service\\KoiProject.Service.csproj": {
+                "projectPath": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.Service\\KoiProject.Service.csproj"
               }
             }
           }
