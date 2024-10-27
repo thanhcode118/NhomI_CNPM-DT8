@@ -1,26 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\",
+  "WorkspaceRootPath": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|c:\\users\\lenovo\\onedrive\\documents\\git\\nhomi_cnpm-dt8\\koiproject\\koiproject.webapplication\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|c:\\users\\lenovo\\onedrive\\documents\\git\\cnpm\\nhomi_cnpm-dt8\\koiproject\\koiproject.webapplication\\wwwroot\\css\\layoutform\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|solutionrelative:koiproject.webapplication\\wwwroot\\css\\layoutform\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|c:\\users\\lenovo\\onedrive\\documents\\git\\cnpm\\nhomi_cnpm-dt8\\koiproject\\koiproject.webapplication\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|solutionrelative:koiproject.webapplication\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|c:\\users\\lenovo\\onedrive\\documents\\git\\nhomi_cnpm-dt8\\koiproject\\koiproject.webapplication\\pages\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|solutionrelative:koiproject.webapplication\\pages\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|c:\\users\\lenovo\\onedrive\\documents\\git\\nhomi_cnpm-dt8\\koiproject\\koiproject.webapplication\\wwwroot\\css\\layoutform\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|solutionrelative:koiproject.webapplication\\wwwroot\\css\\layoutform\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|c:\\users\\lenovo\\onedrive\\documents\\git\\nhomi_cnpm-dt8\\koiproject\\koiproject.webapplication\\wwwroot\\css\\loginform\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|solutionrelative:koiproject.webapplication\\wwwroot\\css\\loginform\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|c:\\users\\lenovo\\onedrive\\documents\\git\\nhomi_cnpm-dt8\\koiproject\\koiproject.webapplication\\wwwroot\\css\\loginform\\media.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|solutionrelative:koiproject.webapplication\\wwwroot\\css\\loginform\\media.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|c:\\users\\lenovo\\onedrive\\documents\\git\\cnpm\\nhomi_cnpm-dt8\\koiproject\\koiproject.webapplication\\wwwroot\\js\\layoutform\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|solutionrelative:koiproject.webapplication\\wwwroot\\js\\layoutform\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 275,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,64 +30,40 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_Layout.cshtml.css",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\Pages\\Shared\\_Layout.cshtml.css",
-              "RelativeDocumentMoniker": "KoiProject.WebApplication\\Pages\\Shared\\_Layout.cshtml.css",
-              "ToolTip": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\Pages\\Shared\\_Layout.cshtml.css",
-              "RelativeToolTip": "KoiProject.WebApplication\\Pages\\Shared\\_Layout.cshtml.css",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAswDAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "styles.css",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\css\\layoutForm\\styles.css",
+              "RelativeDocumentMoniker": "KoiProject.WebApplication\\wwwroot\\css\\layoutForm\\styles.css",
+              "ToolTip": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\css\\layoutForm\\styles.css",
+              "RelativeToolTip": "KoiProject.WebApplication\\wwwroot\\css\\layoutForm\\styles.css",
+              "ViewState": "AgIAAPgwAAAAAAAAAAAowAIxAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-26T06:59:12.458Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "media.css",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\css\\loginForm\\media.css",
-              "RelativeDocumentMoniker": "KoiProject.WebApplication\\wwwroot\\css\\loginForm\\media.css",
-              "ToolTip": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\css\\loginForm\\media.css",
-              "RelativeToolTip": "KoiProject.WebApplication\\wwwroot\\css\\loginForm\\media.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-26T06:46:34.455Z"
+              "WhenOpened": "2024-10-27T06:38:33.965Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\css\\layoutForm\\site.css",
-              "RelativeDocumentMoniker": "KoiProject.WebApplication\\wwwroot\\css\\layoutForm\\site.css",
-              "ToolTip": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\css\\layoutForm\\site.css",
-              "RelativeToolTip": "KoiProject.WebApplication\\wwwroot\\css\\layoutForm\\site.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-26T06:46:12.409Z"
+              "Title": "script.js",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\js\\layoutForm\\script.js",
+              "RelativeDocumentMoniker": "KoiProject.WebApplication\\wwwroot\\js\\layoutForm\\script.js",
+              "ToolTip": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\js\\layoutForm\\script.js",
+              "RelativeToolTip": "KoiProject.WebApplication\\wwwroot\\js\\layoutForm\\script.js",
+              "ViewState": "AgIAABwAAAAAAAAAAAAiwDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-10-27T05:16:16.731Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "style.css",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\css\\loginForm\\style.css",
-              "RelativeDocumentMoniker": "KoiProject.WebApplication\\wwwroot\\css\\loginForm\\style.css",
-              "ToolTip": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\css\\loginForm\\style.css",
-              "RelativeToolTip": "KoiProject.WebApplication\\wwwroot\\css\\loginForm\\style.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAL8AAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-10-26T06:45:32.358Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\Pages\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\Pages\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "KoiProject.WebApplication\\Pages\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\LENOVO\\OneDrive\\Documents\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\Pages\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "KoiProject.WebApplication\\Pages\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAASwBUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-26T06:19:32.333Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-27T05:15:36.216Z"
             }
           ]
         }

@@ -1,4 +1,4 @@
-﻿const signin__btn = document.querySelector("#signin__btn");
+const signin__btn = document.querySelector("#signin__btn");
 const signup__btn = document.querySelector("#register__btn");
 const container = document.querySelector(".container");
 let daysToExpire = new Date(2147483647 * 1000).toUTCString();
@@ -14,7 +14,7 @@ signin__btn.addEventListener('click', () => {
 });
 const buttons = document.querySelector('#register__btn');
 
-buttons.addEventListener('click', function (e) {
+buttons.addEventListener('click', function(e) {
 
     let x = e.clientX - e.target.offsetLeft;
     let y = e.clientY - e.target.offsetTop;
@@ -27,7 +27,7 @@ buttons.addEventListener('click', function (e) {
 
     setTimeout(() => {
         ripples.remove()
-    }, 750);
+    },750);
 });
 
 function getCookie(cName) {
@@ -48,7 +48,7 @@ function checkCookie(name) {
     let cName = getCookie(name);
     if (cName != undefined && cName != 'signin') {
         return true;
-    } else {
+    } else{
         return false;
     }
 }
@@ -64,22 +64,22 @@ const passwordIndicator = document.querySelectorAll('.password__indicator span')
 const registerBtn = document.querySelector('.register_button');
 const validateEmail = (eml) => {
     return String(eml)
-        .toLowerCase()
-        .match(
-            /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+      .toLowerCase()
+      .match(
+        /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
         );
 };
 for (let i = 0; i < inputs.length; i++) {
-    inputs[i].addEventListener('change', function () {
+    inputs[i].addEventListener('change', function(){
         this.classList.remove('is-invalid');
     });
 }
 for (let i = 0; i < passwordEye.length; i++) {
-    passwordEye[i].addEventListener('click', function () {
+    passwordEye[i].addEventListener('click', function(){
         this.classList.toggle('show');
         if (this.classList.contains('show')) {
             allPassword[i].setAttribute('type', 'text');
-        } else {
+        } else{
             allPassword[i].setAttribute('type', 'password');
         }
         allPassword[i].focus();
@@ -87,27 +87,27 @@ for (let i = 0; i < passwordEye.length; i++) {
 }
 const password = document.querySelectorAll('.form_password');
 for (let i = 0; i < password.length; i++) {
-    password[i].addEventListener('keyup', function () {
+    password[i].addEventListener('keyup', function(){
         var passValue = password[i].value;
         checkStrength(passValue, passwordIndicator[i], document.querySelectorAll('#passWeak')[i], document.querySelectorAll('#passMedium')[i], document.querySelectorAll('#passStrong')[i]);
         checkStrength(passValue, passwordIndicator[i], document.querySelectorAll('#passWeak')[i], document.querySelectorAll('#passMedium')[i], document.querySelectorAll('#passStrong')[i]) ? errorPass.style.display = 'none' : errorPass.style.display = 'block';
     })
-    password[i].addEventListener('focus', function () {
+    password[i].addEventListener('focus', function(){
         passwordContent[i].classList.add('active');
     });
-    password[i].addEventListener('blur', function () {
+    password[i].addEventListener('blur', function(){
         passwordContent[i].classList.remove('active');
     });
 }
-email.addEventListener('input', function () {
+email.addEventListener('input', function(){
     if (this.value.length >= 1) {
         email.classList.add('filled');
         if (!validateEmail(this.value)) {
             errorMessage.style.display = 'block';
-        } else {
+        } else{
             errorMessage.style.display = 'none';
         }
-    } else {
+    } else{
         email.classList.remove('filled');
     }
     console.log(this.value);
@@ -119,13 +119,13 @@ function checkStrength(value, indicator, weak, medium, strong) {
     if (value.length > 5) {
         strength += 1;
         weak.style.color = '#00ff00';
-    } else {
+    } else{
         weak.style.color = '#ff2340';
     }
     if (value.match(/[0-9]/g)) {
         strength += 1;
         medium.style.color = '#00ff00';
-    } else {
+    } else{
         medium.style.color = '#ff2340';
     }
     if (value.match(/[A-Z]/g)) {
@@ -152,14 +152,14 @@ function checkStrength(value, indicator, weak, medium, strong) {
             registerBtn.disabled = false;
             return true;
         }
-    } else {
+    } else{
         registerBtn.disabled = true;
         return false;
     }
 }
 
 class imgUploader {
-    constructor() {
+    constructor(){
         const register = document.querySelector('.register');
         const formWrapper = document.querySelector('.form__wrapper');
         const formCancel = document.querySelector('.formUploader__cancel');
@@ -171,19 +171,19 @@ class imgUploader {
         const steps = document.querySelectorAll('.steps');
         const formImgName = document.querySelector('.formUploader__fileName p');
         let regExp = /[0-9a-zA-Z\^\&\'\@\{\}\[\]\,\$\=\!\-\#\(\)\.\%\+\~\_ ]+$/;
-        formImg.addEventListener('click', function () {
+        formImg.addEventListener('click', function(){
             imgUploader.click();
         })
-        imgUploader.addEventListener('change', function () {
+        imgUploader.addEventListener('change', function(){
             const formFile = this.files[0];
             if (formFile) {
                 const reader = new FileReader();
-                reader.onload = function () {
+                reader.onload = function(){
                     let result = reader.result;
                     formImg.src = result;
                     formWrapper.classList.add('active');
                 }
-                formCancel.addEventListener('click', function () {
+                formCancel.addEventListener('click', function(){
                     formImg.src = "";
                     formWrapper.classList.remove('active');
                 })
@@ -194,25 +194,25 @@ class imgUploader {
                 formImgName.innerHTML = valueStore;
             }
         });
-        for (let i = 0; i < backBtn.length; i++) {
-            nextBtn[i].addEventListener('click', function () {
+        for (let i = 0; i < backBtn.length; i++) {            
+            nextBtn[i].addEventListener('click', function(){
                 formPages.style.transform = `translateX(-${i == 0 ? '33.33%' : i == 1 ? '66.66%' : ''})`;
                 i == 0 ? steps[0].classList.add('active') : '';
                 i == 1 ? steps[1].classList.add('active') : '';
             });
-            backBtn[i].addEventListener('click', function () {
+            backBtn[i].addEventListener('click', function(){
                 formPages.style.transform = `translateX(-${i == 0 ? '0' : i == 1 ? '33.33%' : ''})`;
                 i == 0 ? steps[0].classList.remove('active') : '';
                 i == 1 ? steps[1].classList.remove('active') : '';
             });
         }
-        registerBtn.addEventListener('click', function () {
+        registerBtn.addEventListener('click', function(){
             for (let i = 0; i < inputs.length; i++) {
                 if (inputs[i].classList.contains('invalid')) {
                     register.classList.add('invalid');
                 }
             }
-        });
+         });
     }
 }
 const imguploader = new imgUploader();
