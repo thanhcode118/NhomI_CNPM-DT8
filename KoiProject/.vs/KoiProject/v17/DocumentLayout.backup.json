@@ -1,25 +1,51 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\",
+  "WorkspaceRootPath": "C:\\Users\\HP\\OneDrive\\Desktop\\cakoi\\NhomI_CNPM-DT8\\KoiProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|c:\\work_space\\cnpm_connectdb\\source\\github_cnpm\\nhomi_cnpm-dt8\\koiproject\\koiproject.webapplication\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|solutionrelative:koiproject.webapplication\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{BC003EBC-5803-422B-9B61-F1D47E389EF2}|KoiProject.Service\\KoiProject.Service.csproj|c:\\users\\hp\\onedrive\\desktop\\cakoi\\nhomi_cnpm-dt8\\koiproject\\koiproject.service\\interfaces\\iloginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC003EBC-5803-422B-9B61-F1D47E389EF2}|KoiProject.Service\\KoiProject.Service.csproj|solutionrelative:koiproject.service\\interfaces\\iloginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|c:\\work_space\\cnpm_connectdb\\source\\github_cnpm\\nhomi_cnpm-dt8\\koiproject\\koiproject.webapplication\\wwwroot\\css\\layoutform\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HP\\OneDrive\\Desktop\\Koi\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.Service\\Interfaces\\ILoginService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC003EBC-5803-422B-9B61-F1D47E389EF2}|KoiProject.Service\\KoiProject.Service.csproj|c:\\users\\hp\\onedrive\\desktop\\cakoi\\nhomi_cnpm-dt8\\koiproject\\koiproject.service\\service\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC003EBC-5803-422B-9B61-F1D47E389EF2}|KoiProject.Service\\KoiProject.Service.csproj|solutionrelative:koiproject.service\\service\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC003EBC-5803-422B-9B61-F1D47E389EF2}|KoiProject.Service\\KoiProject.Service.csproj|c:\\users\\hp\\onedrive\\desktop\\cakoi\\nhomi_cnpm-dt8\\koiproject\\koiproject.service\\koiproject.service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BC003EBC-5803-422B-9B61-F1D47E389EF2}|KoiProject.Service\\KoiProject.Service.csproj|solutionrelative:koiproject.service\\koiproject.service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|c:\\users\\hp\\onedrive\\desktop\\cakoi\\nhomi_cnpm-dt8\\koiproject\\koiproject.webapplication\\models\\loginmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|solutionrelative:koiproject.webapplication\\models\\loginmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HP\\OneDrive\\Desktop\\Koi\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\Models\\LoginModels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8208CDE1-A848-4B86-8437-A8ED4B88BE5F}|Solution Items{8208CDE1-A848-4B86-8437-A8ED4B88BE5F}|C:\\Users\\HP\\OneDrive\\Desktop\\cakoi\\NhomI_CNPM-DT8\\KoiProject\\Startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8208CDE1-A848-4B86-8437-A8ED4B88BE5F}|Solution Items{8208CDE1-A848-4B86-8437-A8ED4B88BE5F}|solutionrelative:Startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|c:\\users\\hp\\onedrive\\desktop\\cakoi\\nhomi_cnpm-dt8\\koiproject\\koiproject.webapplication\\wwwroot\\css\\layoutform\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|solutionrelative:koiproject.webapplication\\wwwroot\\css\\layoutform\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|c:\\work_space\\cnpm_connectdb\\source\\github_cnpm\\nhomi_cnpm-dt8\\koiproject\\koiproject.webapplication\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|c:\\users\\hp\\onedrive\\desktop\\cakoi\\nhomi_cnpm-dt8\\koiproject\\koiproject.webapplication\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|solutionrelative:koiproject.webapplication\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|c:\\users\\hp\\onedrive\\desktop\\cakoi\\nhomi_cnpm-dt8\\koiproject\\koiproject.webapplication\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|solutionrelative:koiproject.webapplication\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|c:\\work_space\\cnpm_connectdb\\source\\github_cnpm\\nhomi_cnpm-dt8\\koiproject\\koiproject.webapplication\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|c:\\users\\hp\\onedrive\\desktop\\cakoi\\nhomi_cnpm-dt8\\koiproject\\koiproject.webapplication\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|solutionrelative:koiproject.webapplication\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|c:\\work_space\\cnpm_connectdb\\source\\github_cnpm\\nhomi_cnpm-dt8\\koiproject\\koiproject.webapplication\\wwwroot\\js\\layoutform\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "AbsoluteMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|c:\\users\\hp\\onedrive\\desktop\\cakoi\\nhomi_cnpm-dt8\\koiproject\\koiproject.webapplication\\wwwroot\\js\\layoutform\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|solutionrelative:koiproject.webapplication\\wwwroot\\js\\layoutform\\script.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
@@ -30,36 +56,119 @@
       "DocumentGroups": [
         {
           "DockedWidth": 275,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ILoginService.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Koi\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.Service\\Interfaces\\ILoginService.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Koi\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.Service\\Interfaces\\ILoginService.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Koi\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.Service\\Interfaces\\ILoginService.cs",
+              "RelativeToolTip": "..\\..\\..\\Koi\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.Service\\Interfaces\\ILoginService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T12:04:32.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ILoginService.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\cakoi\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.Service\\Interfaces\\ILoginService.cs",
+              "RelativeDocumentMoniker": "KoiProject.Service\\Interfaces\\ILoginService.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\cakoi\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.Service\\Interfaces\\ILoginService.cs*",
+              "RelativeToolTip": "KoiProject.Service\\Interfaces\\ILoginService.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T12:04:26.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginService.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\cakoi\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.Service\\Service\\LoginService.cs",
+              "RelativeDocumentMoniker": "KoiProject.Service\\Service\\LoginService.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\cakoi\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.Service\\Service\\LoginService.cs*",
+              "RelativeToolTip": "KoiProject.Service\\Service\\LoginService.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T12:03:55.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "KoiProject.Service",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\cakoi\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.Service\\KoiProject.Service.csproj",
+              "RelativeDocumentMoniker": "KoiProject.Service\\KoiProject.Service.csproj",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\cakoi\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.Service\\KoiProject.Service.csproj",
+              "RelativeToolTip": "KoiProject.Service\\KoiProject.Service.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-27T12:03:38.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginModels.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\cakoi\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\Models\\LoginModels.cs",
+              "RelativeDocumentMoniker": "KoiProject.WebApplication\\Models\\LoginModels.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\cakoi\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\Models\\LoginModels.cs*",
+              "RelativeToolTip": "KoiProject.WebApplication\\Models\\LoginModels.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T12:03:13.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginModels.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\Koi\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\Models\\LoginModels.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Koi\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\Models\\LoginModels.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\Koi\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\Models\\LoginModels.cs",
+              "RelativeToolTip": "..\\..\\..\\Koi\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\Models\\LoginModels.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T12:02:50.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\cakoi\\NhomI_CNPM-DT8\\KoiProject\\Startup.cs",
+              "RelativeDocumentMoniker": "Startup.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\cakoi\\NhomI_CNPM-DT8\\KoiProject\\Startup.cs*",
+              "RelativeToolTip": "Startup.cs*",
+              "ViewState": "AgIAABMAAAAAAAAAAAAmwCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-27T12:02:20.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "styles.css",
-              "DocumentMoniker": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\css\\layoutForm\\styles.css",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\cakoi\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\css\\layoutForm\\styles.css",
               "RelativeDocumentMoniker": "KoiProject.WebApplication\\wwwroot\\css\\layoutForm\\styles.css",
-              "ToolTip": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\css\\layoutForm\\styles.css",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\cakoi\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\css\\layoutForm\\styles.css",
               "RelativeToolTip": "KoiProject.WebApplication\\wwwroot\\css\\layoutForm\\styles.css",
-              "ViewState": "AgIAAF4CAAAAAAAAAAAewGMCAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAGoCAAAAAAAAAAAewGMCAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2024-10-27T06:38:33.965Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "script.js",
-              "DocumentMoniker": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\js\\layoutForm\\script.js",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\cakoi\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\js\\layoutForm\\script.js",
               "RelativeDocumentMoniker": "KoiProject.WebApplication\\wwwroot\\js\\layoutForm\\script.js",
-              "ToolTip": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\js\\layoutForm\\script.js",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\cakoi\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\js\\layoutForm\\script.js",
               "RelativeToolTip": "KoiProject.WebApplication\\wwwroot\\js\\layoutForm\\script.js",
               "ViewState": "AgIAABwAAAAAAAAAAAAiwDYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
@@ -73,42 +182,40 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\Pages\\Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\cakoi\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\Pages\\Login.cshtml",
               "RelativeDocumentMoniker": "KoiProject.WebApplication\\Pages\\Login.cshtml",
-              "ToolTip": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\Pages\\Login.cshtml",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\cakoi\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\Pages\\Login.cshtml",
               "RelativeToolTip": "KoiProject.WebApplication\\Pages\\Login.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-27T09:31:47.044Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-27T09:31:47.044Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\Pages\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\cakoi\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\Pages\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "KoiProject.WebApplication\\Pages\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\cakoi\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\Pages\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "KoiProject.WebApplication\\Pages\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAEkBAAAAAAAAAAAkwFQBAABOAAAAAAAAAA==",
+              "ViewState": "AgIAABwBAAAAAAAAAAAkwFUBAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-27T05:15:36.216Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\Pages\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\cakoi\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\Pages\\Index.cshtml",
               "RelativeDocumentMoniker": "KoiProject.WebApplication\\Pages\\Index.cshtml",
-              "ToolTip": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\cakoi\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\Pages\\Index.cshtml",
               "RelativeToolTip": "KoiProject.WebApplication\\Pages\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-27T07:24:53.399Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-27T07:24:53.399Z"
             }
           ]
         }
