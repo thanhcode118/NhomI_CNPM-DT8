@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KoiProject.WebApplication")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dd3031460c6c1b08149a02e0dbd20521c71dd872")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1ad46c2b5abf44b0a69eaf1965de0a71ec3e4759")]
 [assembly: System.Reflection.AssemblyProductAttribute("KoiProject.WebApplication")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KoiProject.WebApplication")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
