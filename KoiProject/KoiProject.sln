@@ -8,7 +8,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KoiProject.WebApplication",
 		{BC003EBC-5803-422B-9B61-F1D47E389EF2} = {BC003EBC-5803-422B-9B61-F1D47E389EF2}
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KoiProject.Services", "KoiProject.Service\KoiProject.Services.csproj", "{BC003EBC-5803-422B-9B61-F1D47E389EF2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KoiProject.Service", "KoiProject.Service\KoiProject.Service.csproj", "{BC003EBC-5803-422B-9B61-F1D47E389EF2}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KoiProject.Repositories", "KoiProject.Repositories\KoiProject.Repositories.csproj", "{3F011BC1-09AF-48AA-AD29-4BAFD34E57F6}"
 EndProject
