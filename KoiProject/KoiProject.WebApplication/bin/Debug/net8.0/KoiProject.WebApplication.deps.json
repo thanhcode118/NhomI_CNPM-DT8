@@ -2170,6 +2170,17 @@
             "fileVersion": "1.0.0.0"
           }
         }
+      },
+      "KoiProject.Service/1.0.0": {
+        "dependencies": {
+          "KoiProject.Repositories": "1.0.0"
+        },
+        "runtime": {
+          "KoiProject.Service.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -3398,6 +3409,11 @@
       "hashPath": "system.windows.extensions.7.0.0.nupkg.sha512"
     },
     "KoiProject.Repositories/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "KoiProject.Service/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
