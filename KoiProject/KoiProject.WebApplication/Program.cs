@@ -1,23 +1,20 @@
-﻿using KoiProject.Repositories.Entities;
-using KoiProject.Repositories.Interfaces;
-using KoiProject.Repositories.Repositories;
-using KoiProject.Service.Interfaces;
-using KoiProject.Service.Services;
+using KoiProject.Services.Service;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
-// DI - Đăng ký các dịch vụ vào container
-builder.Services.AddDbContext<FengShuiKoiDbContext>(options =>
-{
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DbContext"));
-});
-
-builder.Services.AddScoped<IKoiService, KoiService>();
-builder.Services.AddScoped<IKoiRepository, KoiRepositories>();
-
 // Đăng ký Razor Pages và Blazor
 builder.Services.AddRazorPages();
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+{
+    var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+    options.UseSqlServer(connectionString);
+
+});
+
+builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = false).AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddServerSideBlazor();
 
 var app = builder.Build();
