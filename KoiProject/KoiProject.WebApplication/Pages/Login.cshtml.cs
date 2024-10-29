@@ -8,5 +8,9 @@ namespace KoiProject.WebApplication.Pages
         public void OnGet()
         {
         }
+        public IActionResult OnPost()
+        {
+            return RedirectToPage("/dashboard");
+        }
     }
 }
