@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "InYRBswUwMgzH6GWrvSrV06d0zJ19f9iXW8kVlk9pUE=",
+  "Hash": "tG038WEi6D848Vo7UQgKjHIa9UKcTaJ/270yssJpYpQ=",
   "Source": "KoiProject.WebApplication",
   "BasePath": "_content/KoiProject.WebApplication",
   "Mode": "Default",
@@ -1423,25 +1423,6 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\map-image.png"
     },
     {
-      "Identity": "E:\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\img\\portfolio\\1.jpg",
-      "SourceId": "KoiProject.WebApplication",
-      "SourceType": "Discovered",
-      "ContentRoot": "E:\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\",
-      "BasePath": "_content/KoiProject.WebApplication",
-      "RelativePath": "assets/img/portfolio/1.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\img\\portfolio\\1.jpg"
-    },
-    {
       "Identity": "E:\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\img\\portfolio\\2.jpg",
       "SourceId": "KoiProject.WebApplication",
       "SourceType": "Discovered",
@@ -1461,12 +1442,12 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\portfolio\\2.jpg"
     },
     {
-      "Identity": "E:\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\img\\portfolio\\3.jpg",
+      "Identity": "E:\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\img\\portfolio\\Contest Details.jpg",
       "SourceId": "KoiProject.WebApplication",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\",
       "BasePath": "_content/KoiProject.WebApplication",
-      "RelativePath": "assets/img/portfolio/3.jpg",
+      "RelativePath": "assets/img/portfolio/Contest Details.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1477,15 +1458,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\img\\portfolio\\3.jpg"
+      "OriginalItemSpec": "wwwroot\\assets\\img\\portfolio\\Contest Details.jpg"
     },
     {
-      "Identity": "E:\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\img\\portfolio\\4.jpg",
+      "Identity": "E:\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\img\\portfolio\\Instructions for participation.webp",
       "SourceId": "KoiProject.WebApplication",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\",
       "BasePath": "_content/KoiProject.WebApplication",
-      "RelativePath": "assets/img/portfolio/4.jpg",
+      "RelativePath": "assets/img/portfolio/Instructions for participation.webp",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1496,15 +1477,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\img\\portfolio\\4.jpg"
+      "OriginalItemSpec": "wwwroot\\assets\\img\\portfolio\\Instructions for participation.webp"
     },
     {
-      "Identity": "E:\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\img\\portfolio\\5.jpg",
+      "Identity": "E:\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\img\\portfolio\\Match.webp",
       "SourceId": "KoiProject.WebApplication",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\",
       "BasePath": "_content/KoiProject.WebApplication",
-      "RelativePath": "assets/img/portfolio/5.jpg",
+      "RelativePath": "assets/img/portfolio/Match.webp",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1515,15 +1496,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\img\\portfolio\\5.jpg"
+      "OriginalItemSpec": "wwwroot\\assets\\img\\portfolio\\Match.webp"
     },
     {
-      "Identity": "E:\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\img\\portfolio\\6.jpg",
+      "Identity": "E:\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\img\\portfolio\\Newpaper.webp",
       "SourceId": "KoiProject.WebApplication",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\",
       "BasePath": "_content/KoiProject.WebApplication",
-      "RelativePath": "assets/img/portfolio/6.jpg",
+      "RelativePath": "assets/img/portfolio/Newpaper.webp",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1534,7 +1515,26 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\assets\\img\\portfolio\\6.jpg"
+      "OriginalItemSpec": "wwwroot\\assets\\img\\portfolio\\Newpaper.webp"
+    },
+    {
+      "Identity": "E:\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\img\\portfolio\\Support.png",
+      "SourceId": "KoiProject.WebApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\",
+      "BasePath": "_content/KoiProject.WebApplication",
+      "RelativePath": "assets/img/portfolio/Support.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\portfolio\\Support.png"
     },
     {
       "Identity": "E:\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\img\\team\\1.jpg",

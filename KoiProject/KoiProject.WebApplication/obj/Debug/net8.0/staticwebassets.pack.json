@@ -53,28 +53,28 @@
       "PackagePath": "staticwebassets\\assets\\img\\map-image.png"
     },
     {
-      "Id": "E:\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\img\\portfolio\\1.jpg",
-      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\1.jpg"
-    },
-    {
       "Id": "E:\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\img\\portfolio\\2.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\portfolio\\2.jpg"
     },
     {
-      "Id": "E:\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\img\\portfolio\\3.jpg",
-      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\3.jpg"
+      "Id": "E:\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\img\\portfolio\\Contest Details.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\Contest Details.jpg"
     },
     {
-      "Id": "E:\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\img\\portfolio\\4.jpg",
-      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\4.jpg"
+      "Id": "E:\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\img\\portfolio\\Instructions for participation.webp",
+      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\Instructions for participation.webp"
     },
     {
-      "Id": "E:\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\img\\portfolio\\5.jpg",
-      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\5.jpg"
+      "Id": "E:\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\img\\portfolio\\Match.webp",
+      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\Match.webp"
     },
     {
-      "Id": "E:\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\img\\portfolio\\6.jpg",
-      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\6.jpg"
+      "Id": "E:\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\img\\portfolio\\Newpaper.webp",
+      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\Newpaper.webp"
+    },
+    {
+      "Id": "E:\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\img\\portfolio\\Support.png",
+      "PackagePath": "staticwebassets\\assets\\img\\portfolio\\Support.png"
     },
     {
       "Id": "E:\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\img\\team\\1.jpg",
