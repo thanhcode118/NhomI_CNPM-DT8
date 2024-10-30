@@ -26,20 +26,33 @@ namespace KoiProject.WebApplication.Pages
 
         public async Task<IActionResult> OnPostAsync()
         {
-            // Kiểm tra thông tin đăng nhập
-            var member = await _memberService.LoginMemberAsync(Email, Password);
-            if (member != null)
+            try
             {
-                // Lưu thông tin người dùng vào session hoặc cookie nếu cần thiết
-                HttpContext.Session.SetString("MemberID", member.MemberId.ToString());
 
-                // Chuyển hướng đến trang dashboard
-                return RedirectToPage("/Home");
+                if (!ModelState.IsValid)
+                {
+                    return Page();
+                }
+                var member = await _memberService.LoginMemberAsync(Email, Password);
+
+                if (member != null)
+                {
+                    // Lưu thông tin session
+                    HttpContext.Session.SetString("MemberID", member.MemberId.ToString());
+                    HttpContext.Session.SetString("Username", member.Username);
+                    return RedirectToPage("/Dashboard");
+
+                }
+                return RedirectToPage("/Dashboard");
+            }
+            catch (Exception ex)
+            {
+                ModelState.AddModelError(string.Empty, "Invalid email or password.");
+                return Page();
+
             }
 
-            // Nếu thông tin đăng nhập không hợp lệ
-            ModelState.AddModelError(string.Empty, "Invalid login attempt.");
-            return Page();
         }
     }
 }
+

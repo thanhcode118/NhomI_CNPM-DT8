@@ -1,30 +1,29 @@
 ﻿using KoiProject.Service.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using System.ComponentModel.DataAnnotations;
 using System.Threading.Tasks;
 
 namespace KoiProject.WebApplication.Pages
 {
-    public class RegisterModel : PageModel
+    public class RegisterModel(IMemberService memberService) : PageModel
     {
-        private readonly IMemberService _memberService;
+        private readonly IMemberService _memberService = memberService;
 
-        public RegisterModel(IMemberService memberService)
-        {
-            _memberService = memberService;
-        }
+        [Required(ErrorMessage = "Username is required.")]
+        public string Username { get; set; } = string.Empty;
 
-        [BindProperty]
-        public string Username { get; set; }
+        [Required(ErrorMessage = "Email is required.")]
+        [EmailAddress(ErrorMessage = "Invalid email format.")]
+        public string Email { get; set; } = string.Empty;
 
-        [BindProperty]
-        public string Email { get; set; }
+        [Required(ErrorMessage = "Password is required.")]
+        public string Password { get; set; } = string.Empty;
 
-        [BindProperty]
-        public string Password { get; set; }
+        [Required(ErrorMessage = "Confirm Password is required.")]
+        [Compare("Password", ErrorMessage = "Passwords do not match.")]
+        public string ConfirmPassword { get; set; } = string.Empty;
 
-        [BindProperty]
-        public string ConfirmPassword { get; set; }
 
         public void OnGet()
         {

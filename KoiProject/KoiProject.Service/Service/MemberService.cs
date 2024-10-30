@@ -29,9 +29,22 @@ namespace KoiProject.Service.Service
             return await _memberRepository.RegisterMemberAsync(member);
         }
 
-        public async Task<Member> LoginMemberAsync(string email, string password)
+        public async Task<Member?> LoginMemberAsync(string email, string password)
         {
-            return await _memberRepository.LoginMemberAsync(email, password);
+            try
+            {
+                if (string.IsNullOrEmpty(email) || string.IsNullOrEmpty(password))
+                {
+                    return null;
+                }
+
+                return await _memberRepository.LoginMemberAsync(email, password);
+            }
+            catch (Exception)
+            {
+                // Log exception here
+                return null;
+            }
         }
     }
 }

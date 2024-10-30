@@ -16,8 +16,10 @@ namespace KoiProject.Repositories.Repositories
 
         public MemberRepository(IConfiguration configuration)
         {
-            _connectionString = configuration.GetConnectionString("DefaultConnection");
+            _connectionString = configuration.GetConnectionString("DefaultConnection")
+                                ?? throw new ArgumentNullException(nameof(configuration), "Connection string not found.");
         }
+
 
         public async Task<bool> RegisterMemberAsync(Member member)
         {
@@ -37,25 +39,37 @@ namespace KoiProject.Repositories.Repositories
         {
             using (var connection = new SqlConnection(_connectionString))
             {
-                var command = new SqlCommand("SELECT * FROM Members WHERE Email = @Email AND Password = @Password", connection);
-                command.Parameters.AddWithValue("@Email", email);
-                command.Parameters.AddWithValue("@Password", password);
-
-                connection.Open();
-                using (var reader = await command.ExecuteReaderAsync())
+                try
                 {
-                    if (reader.Read())
+                    var command = new SqlCommand(
+                        "SELECT * FROM Members WHERE Email = @Email AND Password = @Password",
+                        connection);
+
+                    command.Parameters.AddWithValue("@Email", email);
+                    command.Parameters.AddWithValue("@Password", password);
+
+                    await connection.OpenAsync();
+
+                    using (var reader = await command.ExecuteReaderAsync())
                     {
-                        return new Member
+                        if (await reader.ReadAsync())
                         {
-                            MemberId = (int)reader["MemberID"],
-                            Username = reader["Username"].ToString(),
-                            Email = reader["Email"].ToString(),
-                        };
+                            return new Member
+                            {
+                                MemberId = reader.GetInt32(reader.GetOrdinal("MemberID")),
+                                Username = reader.GetString(reader.GetOrdinal("Username")),
+                                Email = reader.GetString(reader.GetOrdinal("Email"))
+                            };
+                        }
+                        return new Member();
                     }
                 }
+                catch (Exception )
+                {
+                    // Log exception here
+                    throw; // Re-throw để caller có thể xử lý
+                }
             }
-            return null;
         }
     }
 }
