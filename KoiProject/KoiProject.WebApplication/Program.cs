@@ -1,6 +1,10 @@
 using KoiProject.Services.Service;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
+using KoiProject.Repositories.Interfaces;
+using KoiProject.Repositories.Repositories;
+using KoiProject.Service.Interfaces;
+using KoiProject.Service.Service;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -13,6 +17,11 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connectionString);
 
 });
+
+builder.Services.AddRazorPages();
+builder.Services.AddScoped<IMemberRepository, MemberRepository>();
+builder.Services.AddScoped<IMemberService, MemberService>();
+builder.Services.AddSession(); // Thêm dịch vụ session
 
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = false).AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddServerSideBlazor();
@@ -37,5 +46,6 @@ app.MapBlazorHub(); // Map endpoint cho Blazor
 app.MapFallbackToPage("/_Host"); // Dự phòng cho Blazor nếu không tìm thấy route
 
 app.MapRazorPages(); // Map Razor Pages
+app.UseSession();
 
 app.Run();
