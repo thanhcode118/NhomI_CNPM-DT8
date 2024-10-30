@@ -88,7 +88,6 @@ E:\clone git\NhomI_CNPM-DT8\KoiProject\KoiProject.Service\obj\Debug\net8.0\KoiPr
 E:\clone git\NhomI_CNPM-DT8\KoiProject\KoiProject.Service\obj\Debug\net8.0\KoiProject.Service.AssemblyInfoInputs.cache
 E:\clone git\NhomI_CNPM-DT8\KoiProject\KoiProject.Service\obj\Debug\net8.0\KoiProject.Service.AssemblyInfo.cs
 E:\clone git\NhomI_CNPM-DT8\KoiProject\KoiProject.Service\obj\Debug\net8.0\KoiProject.Service.csproj.CoreCompileInputs.cache
-E:\clone git\NhomI_CNPM-DT8\KoiProject\KoiProject.Service\obj\Debug\net8.0\KoiProject.Service.sourcelink.json
 E:\clone git\NhomI_CNPM-DT8\KoiProject\KoiProject.Service\obj\Debug\net8.0\KoiProje.14F2F364.Up2Date
 E:\clone git\NhomI_CNPM-DT8\KoiProject\KoiProject.Service\obj\Debug\net8.0\KoiProject.Service.dll
 E:\clone git\NhomI_CNPM-DT8\KoiProject\KoiProject.Service\obj\Debug\net8.0\refint\KoiProject.Service.dll

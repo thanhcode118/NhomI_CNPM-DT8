@@ -1548,7 +1548,6 @@ E:\clone git\NhomI_CNPM-DT8\KoiProject\KoiProject.WebApplication\obj\Debug\net8.
 E:\clone git\NhomI_CNPM-DT8\KoiProject\KoiProject.WebApplication\obj\Debug\net8.0\KoiProject.WebApplication.MvcApplicationPartsAssemblyInfo.cache
 E:\clone git\NhomI_CNPM-DT8\KoiProject\KoiProject.WebApplication\obj\Debug\net8.0\KoiProject.WebApplication.RazorAssemblyInfo.cache
 E:\clone git\NhomI_CNPM-DT8\KoiProject\KoiProject.WebApplication\obj\Debug\net8.0\KoiProject.WebApplication.RazorAssemblyInfo.cs
-E:\clone git\NhomI_CNPM-DT8\KoiProject\KoiProject.WebApplication\obj\Debug\net8.0\KoiProject.WebApplication.sourcelink.json
 E:\clone git\NhomI_CNPM-DT8\KoiProject\KoiProject.WebApplication\obj\Debug\net8.0\staticwebassets.build.json
 E:\clone git\NhomI_CNPM-DT8\KoiProject\KoiProject.WebApplication\obj\Debug\net8.0\staticwebassets.development.json
 E:\clone git\NhomI_CNPM-DT8\KoiProject\KoiProject.WebApplication\obj\Debug\net8.0\staticwebassets\msbuild.KoiProject.WebApplication.Microsoft.AspNetCore.StaticWebAssets.props

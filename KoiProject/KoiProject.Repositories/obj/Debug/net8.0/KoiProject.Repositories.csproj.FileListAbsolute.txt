@@ -82,7 +82,6 @@ E:\clone git\NhomI_CNPM-DT8\KoiProject\KoiProject.Repositories\obj\Debug\net8.0\
 E:\clone git\NhomI_CNPM-DT8\KoiProject\KoiProject.Repositories\obj\Debug\net8.0\KoiProject.Repositories.AssemblyInfoInputs.cache
 E:\clone git\NhomI_CNPM-DT8\KoiProject\KoiProject.Repositories\obj\Debug\net8.0\KoiProject.Repositories.AssemblyInfo.cs
 E:\clone git\NhomI_CNPM-DT8\KoiProject\KoiProject.Repositories\obj\Debug\net8.0\KoiProject.Repositories.csproj.CoreCompileInputs.cache
-E:\clone git\NhomI_CNPM-DT8\KoiProject\KoiProject.Repositories\obj\Debug\net8.0\KoiProject.Repositories.sourcelink.json
 E:\clone git\NhomI_CNPM-DT8\KoiProject\KoiProject.Repositories\obj\Debug\net8.0\KoiProject.Repositories.dll
 E:\clone git\NhomI_CNPM-DT8\KoiProject\KoiProject.Repositories\obj\Debug\net8.0\refint\KoiProject.Repositories.dll
 E:\clone git\NhomI_CNPM-DT8\KoiProject\KoiProject.Repositories\obj\Debug\net8.0\KoiProject.Repositories.pdb
