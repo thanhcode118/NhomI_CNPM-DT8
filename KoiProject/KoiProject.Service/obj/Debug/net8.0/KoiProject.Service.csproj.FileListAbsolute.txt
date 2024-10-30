@@ -93,3 +93,19 @@ E:\clone git\NhomI_CNPM-DT8\KoiProject\KoiProject.Service\obj\Debug\net8.0\KoiPr
 E:\clone git\NhomI_CNPM-DT8\KoiProject\KoiProject.Service\obj\Debug\net8.0\refint\KoiProject.Service.dll
 E:\clone git\NhomI_CNPM-DT8\KoiProject\KoiProject.Service\obj\Debug\net8.0\KoiProject.Service.pdb
 E:\clone git\NhomI_CNPM-DT8\KoiProject\KoiProject.Service\obj\Debug\net8.0\ref\KoiProject.Service.dll
+F:\Git Clone CNPM\NhomI_CNPM-DT8\KoiProject\KoiProject.Service\bin\Debug\net8.0\KoiProject.Service.deps.json
+F:\Git Clone CNPM\NhomI_CNPM-DT8\KoiProject\KoiProject.Service\bin\Debug\net8.0\KoiProject.Service.dll
+F:\Git Clone CNPM\NhomI_CNPM-DT8\KoiProject\KoiProject.Service\bin\Debug\net8.0\KoiProject.Service.pdb
+F:\Git Clone CNPM\NhomI_CNPM-DT8\KoiProject\KoiProject.Service\bin\Debug\net8.0\KoiProject.Repositories.dll
+F:\Git Clone CNPM\NhomI_CNPM-DT8\KoiProject\KoiProject.Service\bin\Debug\net8.0\KoiProject.Repositories.pdb
+F:\Git Clone CNPM\NhomI_CNPM-DT8\KoiProject\KoiProject.Service\obj\Debug\net8.0\KoiProject.Service.csproj.AssemblyReference.cache
+F:\Git Clone CNPM\NhomI_CNPM-DT8\KoiProject\KoiProject.Service\obj\Debug\net8.0\KoiProject.Service.GeneratedMSBuildEditorConfig.editorconfig
+F:\Git Clone CNPM\NhomI_CNPM-DT8\KoiProject\KoiProject.Service\obj\Debug\net8.0\KoiProject.Service.AssemblyInfoInputs.cache
+F:\Git Clone CNPM\NhomI_CNPM-DT8\KoiProject\KoiProject.Service\obj\Debug\net8.0\KoiProject.Service.AssemblyInfo.cs
+F:\Git Clone CNPM\NhomI_CNPM-DT8\KoiProject\KoiProject.Service\obj\Debug\net8.0\KoiProject.Service.csproj.CoreCompileInputs.cache
+F:\Git Clone CNPM\NhomI_CNPM-DT8\KoiProject\KoiProject.Service\obj\Debug\net8.0\KoiProject.Service.sourcelink.json
+F:\Git Clone CNPM\NhomI_CNPM-DT8\KoiProject\KoiProject.Service\obj\Debug\net8.0\KoiProje.14F2F364.Up2Date
+F:\Git Clone CNPM\NhomI_CNPM-DT8\KoiProject\KoiProject.Service\obj\Debug\net8.0\KoiProject.Service.dll
+F:\Git Clone CNPM\NhomI_CNPM-DT8\KoiProject\KoiProject.Service\obj\Debug\net8.0\refint\KoiProject.Service.dll
+F:\Git Clone CNPM\NhomI_CNPM-DT8\KoiProject\KoiProject.Service\obj\Debug\net8.0\KoiProject.Service.pdb
+F:\Git Clone CNPM\NhomI_CNPM-DT8\KoiProject\KoiProject.Service\obj\Debug\net8.0\ref\KoiProject.Service.dll

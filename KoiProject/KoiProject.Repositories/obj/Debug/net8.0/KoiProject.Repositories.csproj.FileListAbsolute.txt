@@ -87,3 +87,18 @@ E:\clone git\NhomI_CNPM-DT8\KoiProject\KoiProject.Repositories\obj\Debug\net8.0\
 E:\clone git\NhomI_CNPM-DT8\KoiProject\KoiProject.Repositories\obj\Debug\net8.0\KoiProject.Repositories.pdb
 E:\clone git\NhomI_CNPM-DT8\KoiProject\KoiProject.Repositories\obj\Debug\net8.0\KoiProject.Repositories.genruntimeconfig.cache
 E:\clone git\NhomI_CNPM-DT8\KoiProject\KoiProject.Repositories\obj\Debug\net8.0\ref\KoiProject.Repositories.dll
+F:\Git Clone CNPM\NhomI_CNPM-DT8\KoiProject\KoiProject.Repositories\bin\Debug\net8.0\KoiProject.Repositories.deps.json
+F:\Git Clone CNPM\NhomI_CNPM-DT8\KoiProject\KoiProject.Repositories\bin\Debug\net8.0\KoiProject.Repositories.runtimeconfig.json
+F:\Git Clone CNPM\NhomI_CNPM-DT8\KoiProject\KoiProject.Repositories\bin\Debug\net8.0\KoiProject.Repositories.dll
+F:\Git Clone CNPM\NhomI_CNPM-DT8\KoiProject\KoiProject.Repositories\bin\Debug\net8.0\KoiProject.Repositories.pdb
+F:\Git Clone CNPM\NhomI_CNPM-DT8\KoiProject\KoiProject.Repositories\obj\Debug\net8.0\KoiProject.Repositories.csproj.AssemblyReference.cache
+F:\Git Clone CNPM\NhomI_CNPM-DT8\KoiProject\KoiProject.Repositories\obj\Debug\net8.0\KoiProject.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+F:\Git Clone CNPM\NhomI_CNPM-DT8\KoiProject\KoiProject.Repositories\obj\Debug\net8.0\KoiProject.Repositories.AssemblyInfoInputs.cache
+F:\Git Clone CNPM\NhomI_CNPM-DT8\KoiProject\KoiProject.Repositories\obj\Debug\net8.0\KoiProject.Repositories.AssemblyInfo.cs
+F:\Git Clone CNPM\NhomI_CNPM-DT8\KoiProject\KoiProject.Repositories\obj\Debug\net8.0\KoiProject.Repositories.csproj.CoreCompileInputs.cache
+F:\Git Clone CNPM\NhomI_CNPM-DT8\KoiProject\KoiProject.Repositories\obj\Debug\net8.0\KoiProject.Repositories.sourcelink.json
+F:\Git Clone CNPM\NhomI_CNPM-DT8\KoiProject\KoiProject.Repositories\obj\Debug\net8.0\KoiProject.Repositories.dll
+F:\Git Clone CNPM\NhomI_CNPM-DT8\KoiProject\KoiProject.Repositories\obj\Debug\net8.0\refint\KoiProject.Repositories.dll
+F:\Git Clone CNPM\NhomI_CNPM-DT8\KoiProject\KoiProject.Repositories\obj\Debug\net8.0\KoiProject.Repositories.pdb
+F:\Git Clone CNPM\NhomI_CNPM-DT8\KoiProject\KoiProject.Repositories\obj\Debug\net8.0\KoiProject.Repositories.genruntimeconfig.cache
+F:\Git Clone CNPM\NhomI_CNPM-DT8\KoiProject\KoiProject.Repositories\obj\Debug\net8.0\ref\KoiProject.Repositories.dll
