@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = KoiProject.Service
-build_property.ProjectDir = C:\WORK_SPACE\CNPM_connectDB\source\Github_Cnpm\NhomI_CNPM-DT8\KoiProject\KoiProject.Service\
+build_property.ProjectDir = F:\Git Clone CNPM\NhomI_CNPM-DT8\KoiProject\KoiProject.Service\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

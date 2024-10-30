@@ -1,4 +1,4 @@
-'use strict';
+﻿'use strict';
 
 window.chartColors = {
     green: '#75c181',
@@ -174,9 +174,9 @@ window.addEventListener('load', function () {
     // Update chart titles in HTML
     document.querySelectorAll('.app-card-title').forEach(function (element) {
         if (element.textContent === 'Line Chart Example') {
-            element.textContent = 'KOI Winner Rate';
+            element.textContent = 'Tỉ lệ chiến thắng';
         } else if (element.textContent === 'Bar Chart Example') {
-            element.textContent = 'KOI Betting Odds';
+            element.textContent = 'Tỉ lệ đặt cược';
         }
     });
 
