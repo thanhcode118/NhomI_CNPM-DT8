@@ -1861,3 +1861,4 @@ F:\Git Clone CNPM\NhomI_CNPM-DT8\KoiProject\KoiProject.WebApplication\obj\Debug\
 F:\Git Clone CNPM\NhomI_CNPM-DT8\KoiProject\KoiProject.WebApplication\obj\Debug\net8.0\KoiProject.WebApplication.pdb
 F:\Git Clone CNPM\NhomI_CNPM-DT8\KoiProject\KoiProject.WebApplication\obj\Debug\net8.0\KoiProject.WebApplication.genruntimeconfig.cache
 F:\Git Clone CNPM\NhomI_CNPM-DT8\KoiProject\KoiProject.WebApplication\obj\Debug\net8.0\ref\KoiProject.WebApplication.dll
+E:\clone git\NhomI_CNPM-DT8\KoiProject\KoiProject.WebApplication\obj\Debug\net8.0\KoiProject.WebApplication.sourcelink.json

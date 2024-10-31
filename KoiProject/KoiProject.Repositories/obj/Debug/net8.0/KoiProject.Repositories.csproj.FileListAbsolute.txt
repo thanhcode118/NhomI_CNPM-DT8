@@ -102,3 +102,4 @@ F:\Git Clone CNPM\NhomI_CNPM-DT8\KoiProject\KoiProject.Repositories\obj\Debug\ne
 F:\Git Clone CNPM\NhomI_CNPM-DT8\KoiProject\KoiProject.Repositories\obj\Debug\net8.0\KoiProject.Repositories.pdb
 F:\Git Clone CNPM\NhomI_CNPM-DT8\KoiProject\KoiProject.Repositories\obj\Debug\net8.0\KoiProject.Repositories.genruntimeconfig.cache
 F:\Git Clone CNPM\NhomI_CNPM-DT8\KoiProject\KoiProject.Repositories\obj\Debug\net8.0\ref\KoiProject.Repositories.dll
+E:\clone git\NhomI_CNPM-DT8\KoiProject\KoiProject.Repositories\obj\Debug\net8.0\KoiProject.Repositories.sourcelink.json

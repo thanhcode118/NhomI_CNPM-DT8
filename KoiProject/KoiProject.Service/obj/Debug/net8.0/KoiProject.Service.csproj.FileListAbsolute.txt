@@ -109,3 +109,4 @@ F:\Git Clone CNPM\NhomI_CNPM-DT8\KoiProject\KoiProject.Service\obj\Debug\net8.0\
 F:\Git Clone CNPM\NhomI_CNPM-DT8\KoiProject\KoiProject.Service\obj\Debug\net8.0\refint\KoiProject.Service.dll
 F:\Git Clone CNPM\NhomI_CNPM-DT8\KoiProject\KoiProject.Service\obj\Debug\net8.0\KoiProject.Service.pdb
 F:\Git Clone CNPM\NhomI_CNPM-DT8\KoiProject\KoiProject.Service\obj\Debug\net8.0\ref\KoiProject.Service.dll
+E:\clone git\NhomI_CNPM-DT8\KoiProject\KoiProject.Service\obj\Debug\net8.0\KoiProject.Service.sourcelink.json

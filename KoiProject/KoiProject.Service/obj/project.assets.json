@@ -2941,19 +2941,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Asus\\.nuget\\packages\\": {}
+    "C:\\Users\\ADMIN\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Git Clone CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.Service\\KoiProject.Service.csproj",
+      "projectUniqueName": "E:\\clone git\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.Service\\KoiProject.Service.csproj",
       "projectName": "KoiProject.Service",
-      "projectPath": "F:\\Git Clone CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.Service\\KoiProject.Service.csproj",
-      "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-      "outputPath": "F:\\Git Clone CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.Service\\obj\\",
+      "projectPath": "E:\\clone git\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.Service\\KoiProject.Service.csproj",
+      "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+      "outputPath": "E:\\clone git\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.Service\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2968,8 +2968,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "F:\\Git Clone CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.Repositories\\KoiProject.Repositories.csproj": {
-              "projectPath": "F:\\Git Clone CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.Repositories\\KoiProject.Repositories.csproj"
+            "E:\\clone git\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.Repositories\\KoiProject.Repositories.csproj": {
+              "projectPath": "E:\\clone git\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.Repositories\\KoiProject.Repositories.csproj"
             }
           }
         }
