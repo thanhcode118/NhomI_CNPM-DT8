@@ -1,14 +1,13 @@
-﻿using KoiProject.Service.Interfaces;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.ComponentModel.DataAnnotations;
 using System.Threading.Tasks;
 
 namespace KoiProject.WebApplication.Pages
 {
-    public class RegisterModel(IMemberService memberService) : PageModel
+    public class RegisterModel : PageModel
     {
-        private readonly IMemberService _memberService = memberService;
+        
 
         [Required(ErrorMessage = "Username is required.")]
         public string Username { get; set; } = string.Empty;
@@ -39,12 +38,8 @@ namespace KoiProject.WebApplication.Pages
             }
 
             // Tạo đối tượng Member
-            var memberCreated = await _memberService.RegisterMemberAsync(Username, Email, Password);
-            if (memberCreated)
-            {
-                // Chuyển hướng đến trang đăng nhập
-                return RedirectToPage("/Login");
-            }
+            
+            
 
             // Nếu đăng ký không thành công
             ModelState.AddModelError(string.Empty, "Registration failed. Please try again.");

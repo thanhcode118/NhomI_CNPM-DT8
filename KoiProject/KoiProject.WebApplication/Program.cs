@@ -1,10 +1,7 @@
 ﻿using KoiProject.Services.Service;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
-using KoiProject.Repositories.Interfaces;
-using KoiProject.Repositories.Repositories;
-using KoiProject.Service.Interfaces;
-using KoiProject.Service.Service;
+
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -19,8 +16,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 });
 
 builder.Services.AddRazorPages();
-builder.Services.AddScoped<IMemberRepository, MemberRepository>();
-builder.Services.AddScoped<IMemberService, MemberService>();
+
 builder.Services.AddSession(); // Thêm dịch vụ session
 
 builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = false).AddEntityFrameworkStores<ApplicationDbContext>();
