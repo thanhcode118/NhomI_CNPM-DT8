@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\1 c\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\new_update_31-10\\NhomI_CNPM-DT8\\KoiProject\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|d:\\1 c\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\new_update_31-10\\nhomi_cnpm-dt8\\koiproject\\koiproject.webapplication\\wwwroot\\html\\orders.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|solutionrelative:koiproject.webapplication\\wwwroot\\html\\orders.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|d:\\1 c\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\new_update_31-10\\nhomi_cnpm-dt8\\koiproject\\koiproject.webapplication\\pages\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|solutionrelative:koiproject.webapplication\\pages\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -13,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|d:\\1 c\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\new_update_31-10\\nhomi_cnpm-dt8\\koiproject\\koiproject.webapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|solutionrelative:koiproject.webapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|d:\\1 c\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\new_update_31-10\\nhomi_cnpm-dt8\\koiproject\\koiproject.webapplication\\wwwroot\\html\\orders.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|solutionrelative:koiproject.webapplication\\wwwroot\\html\\orders.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|d:\\1 c\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\new_update_31-10\\nhomi_cnpm-dt8\\koiproject\\koiproject.webapplication\\koiproject.webapplication.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -34,36 +34,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 275,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Register.cshtml",
               "DocumentMoniker": "D:\\1 c\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\new_update_31-10\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\Pages\\Register.cshtml",
               "RelativeDocumentMoniker": "KoiProject.WebApplication\\Pages\\Register.cshtml",
               "ToolTip": "D:\\1 c\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\new_update_31-10\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\Pages\\Register.cshtml",
               "RelativeToolTip": "KoiProject.WebApplication\\Pages\\Register.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABwAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-31T13:38:20.169Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "orders.html",
               "DocumentMoniker": "D:\\1 c\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\new_update_31-10\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\html\\orders.html",
               "RelativeDocumentMoniker": "KoiProject.WebApplication\\wwwroot\\html\\orders.html",
               "ToolTip": "D:\\1 c\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\new_update_31-10\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\html\\orders.html",
               "RelativeToolTip": "KoiProject.WebApplication\\wwwroot\\html\\orders.html",
-              "ViewState": "AgIAAFcCAAAAAAAAAAAswIYCAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAADYCAAAAAAAAAAAswEECAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-10-31T13:29:32.914Z"
+              "WhenOpened": "2024-10-31T13:29:32.914Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\1 c\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\new_update_31-10\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\Program.cs",
               "RelativeDocumentMoniker": "KoiProject.WebApplication\\Program.cs",
@@ -75,7 +76,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Login.cshtml.cs",
               "DocumentMoniker": "D:\\1 c\u00F4ng ngh\u1EC7 ph\u1EA7n m\u1EC1m\\new_update_31-10\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\Pages\\Login.cshtml.cs",
               "RelativeDocumentMoniker": "KoiProject.WebApplication\\Pages\\Login.cshtml.cs",
