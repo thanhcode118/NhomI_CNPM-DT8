@@ -1,0 +1,195 @@
+﻿@page
+@{
+    Layout = null;
+    ViewData["Title"] = "Home";
+}
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            background-color: #F8F9FA;
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        .container {
+            padding-top: 50px;
+        }
+        
+        .small-container {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            position: relative;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .small-container:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+        }
+        
+        .button {
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        
+        .button:hover {
+            background-color: #0056b3;
+            transform: scale(1.05);
+        }
+
+        /* Countdown Timer */
+        .countdown-timer {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: #4169e1;
+            margin-top: 20px;
+        }
+
+        .countdown-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            animation: glow 1.5s infinite;
+        }
+
+        .time-box {
+            text-align: center;
+            background-color: #343a40;
+            color: white;
+            padding: 20px 10px;
+            border-radius: 8px;
+            width: 80px;
+            animation: pulse 1s infinite;
+        }
+
+        .time-value {
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+
+        /* Animation Effects */
+        @@keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+        
+        .text-icon {
+            font-size: 3rem;
+            color: #17a2b8;
+            margin-bottom: 10px;
+        }
+
+    </style>
+</head>
+<body style="background: url('/img/Home.jpeg') no-repeat center center; background-size: cover; color: white;">
+    <div class="container mt-4">
+        <div class="row">
+            <!-- Section with icons -->
+            <div class="col-md-4 mb-4">
+                <div class="small-container text-center">
+                    <i class="fas fa-fish text-icon"></i>
+                    <h3>Danh sách cá Koi</h3>
+                    <p>Xem danh sách cá Koi đã đăng kí tham gia và đã tham gia.</p>
+                    <a href="/fish-list" class="btn btn-primary button">Xem danh sách</a>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="small-container text-center">
+                    <i class="fas fa-trophy text-icon"></i>
+                    <h3>Tham Gia Cuộc Thi</h3>
+                    <p>Đăng ký và tham gia các cuộc thi cá Koi đầy hấp dẫn.</p>
+                    <a href="/competitions" class="btn btn-primary button">Tham gia ngay</a>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="small-container text-center">
+                    <i class="fas fa-vote-yea text-icon"></i>
+                    <h3>Bình Chọn Cá Koi</h3>
+                    <p>Bình chọn cho cá koi xuất sắc nhất theo ý kiến của bạn.</p>
+                    <a href="/vote" class="btn btn-primary button">Bình chọn ngay</a>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="small-container text-center">
+                    <i class="fas fa-chart-line text-icon"></i>
+                    <h3>Bảng Xếp Hạng</h3>
+                    <p>Xem xếp hạng các chú cá Koi dựa trên điểm số và bình chọn.</p>
+                    <a href="/leaderboard" class="btn btn-primary button">Xem xếp hạng</a>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="small-container text-center">
+                    <i class="fas fa-bullhorn text-icon"></i>
+                    <h3>Thông Báo</h3>
+                    <p>Cập nhật những tin tức mới nhất về các cuộc thi và sự kiện.</p>
+                    <a href="/news" class="btn btn-primary button">Xem thông báo</a>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="small-container text-center">
+                    <i class="fas fa-comments text-icon"></i>
+                    <h3>Diễn Đàn</h3>
+                    <p>Tham gia thảo luận và chia sẻ kiến thức cùng cộng đồng.</p>
+                    <a href="/forum" class="btn btn-primary button">Tham gia diễn đàn</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Countdown Timer -->
+        <div class="text-center countdown-timer mt-4">
+            <p>Sự kiện tiếp theo bắt đầu trong:</p>
+            <div class="countdown-container">
+                <div class="time-box">
+                    <span id="days" class="time-value">00</span>
+                    <span class="time-label">Ngày</span>
+                </div>
+                <div class="time-box">
+                    <span id="hours" class="time-value">00</span>
+                    <span class="time-label">Giờ</span>
+                </div>
+                <div class="time-box">
+                    <span id="minutes" class="time-value">00</span>
+                    <span class="time-label">Phút</span>
+                </div>
+                <div class="time-box">
+                    <span id="seconds" class="time-value">00</span>
+                    <span class="time-label">Giây</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="text-center mt-4">
+        <p>Hệ thống Quản lý cá Koi</p>
+    </footer>
+
+    <script>
+        const countdownDate = new Date("2024-10-27T23:00:00").getTime();
+        const countdownFunction = setInterval(() => {
+            const now = new Date().getTime();
+            const distance = countdownDate - now;
+            const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            document.getElementById("days").innerHTML = days < 10 ? '0' + days : days;
+            document.getElementById("hours").innerHTML = hours < 10 ? '0' + hours : hours;
+            document.getElementById("minutes").innerHTML = minutes < 10 ? '0' + minutes : minutes;
+            document.getElementById("seconds").innerHTML = seconds < 10 ? '0' + seconds : seconds;
+
+            if (distance < 0) {
+                clearInterval(countdownFunction);
+                document.querySelector(".countdown-container").innerHTML = "<p>Sự kiện đang diễn ra!</p>";
+            }
+        }, 1000);
+    </script>
+</body>
+</html>

@@ -1,0 +1,662 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Koi Competition</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/layoutForm/styles.css" rel="stylesheet" />
+</head>
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    </nav>
+    <!-- Masthead-->
+    <header class="masthead">
+        <div class="container">
+            <div class="masthead-subheading">Welcome To KOI Competition Studio!</div>
+            <div class="masthead-heading text-uppercase">It's Nice To Meet You</div>
+            <a class="btn btn-primary btn-xl text-uppercase" href="#services">Tell Me More</a>
+        </div>
+    </header>
+
+    <!-- Test HomePage-->
+    <header>
+        <nav>
+            <ul>
+                <li><a asp-area="" asp-page="/Home">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- Services-->
+    <section class="page-section" id="services">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Services</h2>
+                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="my-3">Competition Registration</h4>
+                    <p class="text-muted">Hỗ trợ đăng ký tài khoản và hồ sơ cá Koi tham gia cuộc thi.</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="my-3">Category Classification</h4>
+                    <p class="text-muted">Phân loại cá Koi theo các hạng như Grand Champion, Sakura Champion, v.v., giúp người dùng hiểu rõ các tiêu chí phân loại..</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="my-3">Judging and Scoring</h4>
+                    <p class="text-muted">Chấm điểm và xếp hạng dựa trên các tiêu chí như dáng, màu sắc, hoa văn, thể hiện quy trình và tiêu chí chấm điểm trong cuộc thi.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Menu-->
+
+    <section class="page-section bg-light" id="portfolio">
+        <div class="container">
+            
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Menu</h2>
+            </div>
+            <!-- Search Bar with Button -->
+            <div class="row mb-4 justify-content-center">
+                <div class="col-lg-4 col-sm-6">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="search-bar">
+                        <button class="btn btn-primary" onclick="searchContent()">Search</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-sm-6 mb-4">
+
+                    <!-- Functions item 1-->
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" href="/dashboard">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="ImgMenu" src="img/AIContestant.jpg" alt="..." />
+                        </a>
+                        <div class="portfolio-caption">
+                            <a href="/dashboard">
+                                <div class="portfolio-caption-heading">Contest Details</div>
+                            </a>
+                            <div class="portfolio-caption-subheading text-muted">Illustration</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <!-- Portfolio item 2-->
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="./Login">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="ImgMenu" src="img/Login.jpg" alt="..." />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Login</div>
+                            <div class="portfolio-caption-subheading text-muted">Graphic Design</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4">
+                    <!-- Portfolio item 3-->
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="ImgMenu" src="img/Newspaper.jpg" alt="..." />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Newspaper</div>
+                            <div class="portfolio-caption-subheading text-muted">Latest Information</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                    <!-- Portfolio item 4-->
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="ImgMenu" src="img/MatchSchedule.jpg" alt="..." />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Match Schedule</div>
+                            <div class="portfolio-caption-subheading text-muted">Event Schedule</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+                    <!-- Portfolio item 5-->
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="ImgMenu" src="img/Instructions for participation.webp" alt="..." />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Instruct</div>
+                            <div class="portfolio-caption-subheading text-muted">Instructions For Participation</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <!-- Portfolio item 6-->
+                    <div class="portfolio-item">
+                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
+                            <div class="portfolio-hover">
+                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="ImgMenu" src="img/Supports.jpg" alt="..." />
+                        </a>
+                        <div class="portfolio-caption">
+                            <div class="portfolio-caption-heading">Supports</div>
+                            <div class="portfolio-caption-subheading text-muted">Contact For Support</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About-->
+    <section class="page-section" id="about">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">About</h2>
+                <h3 class="section-subheading text-muted">Site content overview includes.</h3>
+            </div>
+            <ul class="timeline">
+                <li>
+                    <div class="timeline-image"><img  class="rounded-circle img-fluid" src="img/caphongthuy.png" alt="..." /></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h2 >Giới thiệu Cuộc Thi</h2>
+                            <h4 class="subheading">Tổng quan</h4>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="text-muted">
+                                Cuộc thi cá Koi là sự kiện thường niên thu hút nhiều người yêu thích cá Koi từ khắp nơi. Cuộc thi nhằm tạo sân chơi và cơ hội để các nhà sưu tập và người nuôi cá Koi chia sẻ kinh nghiệm, trình diễn những chú cá đẹp nhất của mình.
+                            </p>
+                        </div>
+                        <div class="timeline-heading">
+                    
+                            <h4 class="subheading">Mục Tiêu</h4>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="text-muted">
+                                Mục tiêu chính của cuộc thi là tôn vinh vẻ đẹp và giá trị của loài cá Koi, thúc đẩy phong trào nuôi cá Koi và tạo môi trường giao lưu cho những người đam mê cá cảnh.
+                            </p>
+                        </div>
+                        <div class="timeline-heading">
+
+                            <h4 class="subheading">Nội dung</h4>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="text-muted">
+                                Cuộc thi bao gồm các hạng mục tranh tài dựa trên màu sắc, kích thước, hình dáng và sự khỏe mạnh của cá Koi. Người tham gia có thể đăng ký và gửi hình ảnh hoặc video cá Koi của mình để dự thi.
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="timeline-inverted">
+                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="img/giaithuong.jpg" alt="..." /></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h2>Thông tin về Giải Thưởng</h2>
+                            <h4 class="subheading">Các hạng mục giải thưởng</h4>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="text-muted">
+                                <ul>
+                                    <li>Giải Grand Champion: Dành cho chú cá Koi có điểm tổng cao nhất.</li>
+                                    <li>Giải Sakura Champion: Dành cho cá Koi có màu sắc ấn tượng nhất.</li>
+                                    <li>Giải Mature Champion: Dành cho cá Koi trưởng thành đẹp nhất.</li>
+                                    <li>Giải Young Champion: Dành cho cá Koi trẻ dưới 3 tuổi.</li>
+                                    <li>Giải Baby Champion: Dành cho cá Koi nhỏ dưới 1 tuổi.</li>
+                                </ul>
+                            </p>
+                        </div>
+                        <div class="timeline-heading">
+          
+                            <h4 class="subheading">Tiêu chí chấm điểm</h4>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="text-muted">
+                                <ul>
+                                    <li>50% Dáng: Dáng bơi và sự cân đối của thân cá.</li>
+                                    <li>30% Màu sắc: Độ tươi sáng và phân bố màu sắc.</li>
+                                    <li>20% Hoa văn: Sự phân bố và cân đối của các hoa văn trên cá.</li>
+                                </ul>
+                            </p>
+                        </div>
+                        <div class="timeline-heading">
+                            <h4 class="subheading">Giá trị giải thưởng</h4>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="text-muted">
+                                Các giải thưởng bao gồm cúp, huy chương và các phần thưởng tiền mặt. Giải Grand Champion sẽ nhận được giải thưởng lớn nhất trị giá 100 triệu đồng, cùng với cúp vàng danh giá.
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="img/LuatThiDau.jpg" alt="..." /></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h2>Thông tin về Luật Thi Đấu</h2>
+                            <h4 class="subheading">Quy định thi đấu</h4>
+                        </div>
+                        <div class="timeline-body"><p class="text-muted">
+                            <ul>
+                            <li>Người tham gia phải đăng ký trước thời hạn và cung cấp đầy đủ thông tin về cá Koi tham gia.</li>
+                            <li>Cá Koi phải được kiểm tra sức khỏe trước khi tham gia thi đấu.</li>
+                            <li>Không được phép can thiệp vào hồ cá của đối thủ trong quá trình thi đấu.</li>
+                            <li>Không sử dụng bất kỳ chất hóa học nào để làm thay đổi màu sắc hoặc dáng bơi của cá.</li>
+                            <li>Người tham gia phải tuân thủ các quy định về bảo vệ môi trường và chăm sóc cá.</li>
+                            </ul>
+                            </p>
+                        </div>
+        <div class="timeline-heading">
+ 
+            <h4 class="subheading">Tiêu chí chấm điểm</h4>
+        </div>
+        <div class="timeline-body">
+            <p class="text-muted">
+                <ul>
+                    <li>50% Dáng bơi: Đánh giá sự cân đối và uyển chuyển của dáng bơi cá Koi.</li>
+                    <li>30% Màu sắc: Đánh giá độ tươi sáng, sự đồng đều và phân bố màu sắc trên cơ thể cá.</li>
+                    <li>20% Hoa văn: Sự cân đối và hài hòa của hoa văn trên cá Koi.</li>
+                </ul>
+            </p>
+        </div>
+                </div>
+                </li>
+                <li class="timeline-inverted">
+                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/4.jpg" alt="..." /></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h2>Tin tức và Cập nhật</h2>
+                            <h4 class="subheading">Cập nhật những tin tức mới nhất liên quan đến cuộc thi.</h4>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="text-muted">
+                                <ul>
+                                    <li><a href="#">Thay đổi lịch trình cuộc thi cá Koi 2024</a></li>
+                                    <li><a href="#">Phỏng vấn ban giám khảo cuộc thi cá Koi</a></li>
+                                    <li><a href="#">Bài viết về những chú cá Koi nổi bật nhất</a></li>
+                                </ul>
+                            </p>
+                            <p><a href="#">Tài liệu tham khảo về chăm sóc và nuôi cá Koi</a></p>
+                        </div>
+                    </div>
+                </li>
+                <li class="timeline-inverted_2">
+                    <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/1.jpg" alt="..." /></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h2>Câu hỏi thường gặp</h2>
+                            
+                        </div>
+                        <div class="timeline-body">
+                            <p class="text-muted">
+                                <ul>
+                                    <li><strong>Làm sao để đăng ký cá Koi?</strong> Bạn có thể đăng ký qua form đăng ký nhanh trên trang chủ.</li>
+                                    <li><strong>Có chi phí tham gia không?</strong> Cuộc thi có phí tham gia tùy vào từng hạng mục.</li>
+                                    <li><strong>Các tiêu chí chấm điểm là gì?</strong> Dáng bơi, màu sắc và hoa văn của cá Koi.</li>
+                                </ul>
+                            </p>
+                        </div>
+                   
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <!-- Team-->
+    <section class="page-section bg-light" id="team">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Our Amazing Team</h2>
+                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="img/Toan.jpg" alt="..." />
+                        <h4>Nguyễn Ngọc Toàn</h4>
+                        <p class="text-muted">Lead Designer</p>
+                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Parveen Anand Twitter Profile"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/kenlyss.nguyenss/" aria-label="Parveen Anand Facebook Profile"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/ntoan515450/?hl=en" aria-label="Parveen Anand LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="img/Thanh.jpg" alt="..." />
+                        <h4>Nguyễn Thị Thanh</h4>
+                        <p class="text-muted">Lead Marketer</p>
+                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen Twitter Profile"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen Facebook Profile"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Diana Petersen LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="img/Toan.jpg" alt="..." />
+                        <h4>Nguyễn Ngọc Toàn</h4>
+                        <p class="text-muted">Lead Developer</p>
+                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Larry Parker Twitter Profile"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="https://www.facebook.com/kenlyss.nguyenss/" aria-label="Larry Parker Facebook Profile"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/ntoan515450/?hl=en" aria-label="Larry Parker LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p></div>
+            </div>
+        </div>
+    </section>
+    <!-- Clients-->
+    <div class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-3 col-sm-6 my-3">
+                    <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/microsoft.svg" alt="..." aria-label="Microsoft Logo" /></a>
+                </div>
+                <div class="col-md-3 col-sm-6 my-3">
+                    <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/google.svg" alt="..." aria-label="Google Logo" /></a>
+                </div>
+                <div class="col-md-3 col-sm-6 my-3">
+                    <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/facebook.svg" alt="..." aria-label="Facebook Logo" /></a>
+                </div>
+                <div class="col-md-3 col-sm-6 my-3">
+                    <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/ibm.svg" alt="..." aria-label="IBM Logo" /></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact-->
+    <section class="page-section" id="contact">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Contact Us</h2>
+                <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+            </div>
+            <!-- * * * * * * * * * * * * * * *-->
+            <!-- * * SB Forms Contact Form * *-->
+            <!-- * * * * * * * * * * * * * * *-->
+            <!-- This form is pre-integrated with SB Forms.-->
+            <!-- To make this form functional, sign up at-->
+            <!-- https://startbootstrap.com/solution/contact-forms-->
+            <!-- to get an API token!-->
+            <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                <div class="row align-items-stretch mb-5">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <!-- Name input-->
+                            <input class="form-control" id="name" type="text" placeholder="Your Name *" data-sb-validations="required" />
+                            <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+                        </div>
+                        <div class="form-group">
+                            <!-- Email address input-->
+                            <input class="form-control" id="email" type="email" placeholder="Your Email *" data-sb-validations="required,email" />
+                            <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
+                            <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+                        </div>
+                        <div class="form-group mb-md-0">
+                            <!-- Phone number input-->
+                            <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" data-sb-validations="required" />
+                            <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group form-group-textarea mb-md-0">
+                            <!-- Message input-->
+                            <textarea class="form-control" id="message" placeholder="Your Message *" data-sb-validations="required"></textarea>
+                            <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Submit success message-->
+                <!---->
+                <!-- This is what your users will see when the form-->
+                <!-- has successfully submitted-->
+                <div class="d-none" id="submitSuccessMessage">
+                    <div class="text-center text-white mb-3">
+                        <div class="fw-bolder">Form submission successful!</div>
+                        To activate this form, sign up at
+                        <br />
+                        <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                    </div>
+                </div>
+                <!-- Submit error message-->
+                <!---->
+                <!-- This is what your users will see when there is-->
+                <!-- an error submitting the form-->
+                <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
+                <!-- Submit Button-->
+                <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton" type="submit">Send Message</button></div>
+            </form>
+        </div>
+    </section>
+    <!-- Footer-->
+    <footer class="footer py-4">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-4 text-lg-start">Copyright &copy; Your Website 2023</div>
+                <div class="col-lg-4 my-3 my-lg-0">
+                    <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <div class="col-lg-4 text-lg-end">
+                    <a class="link-dark text-decoration-none me-3" href="#!">Privacy Policy</a>
+                    <a class="link-dark text-decoration-none" href="#!">Terms of Use</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Portfolio Modals-->
+    <!-- Portfolio item 1 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project details-->
+                                <h2 class="text-uppercase">Contest Details</h2>
+                                <p class="item-intro text-muted">Illustration.</p>
+                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Contest Details.jpg" alt="..." />
+                                <p>Cuộc thi nhằm tôn vinh vẻ đẹp của cá Koi và tạo sân chơi cho người nuôi cá chia sẻ kinh nghiệm, so tài.</p>
+                               
+                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                    <i class="fas fa-xmark me-1"></i>
+                                    Close Project
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio item 2 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project details-->
+                                <h2 class="text-uppercase">Project Name</h2>
+                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/2.jpg" alt="..." />
+                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                              
+                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                    <i class="fas fa-xmark me-1"></i>
+                                    Close Project
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio item 3 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project details-->
+                                <h2 class="text-uppercase">Newspaper</h2>
+                                <p class="item-intro text-muted">Latest Information.</p>
+                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Newpaper.webp" alt="..." />
+                                <p>Tin tức sẽ được cập nhật sớm nhất!</p>
+                               
+                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                    <i class="fas fa-xmark me-1"></i>
+                                    Close Project
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio item 4 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project details-->
+                                <h2 class="text-uppercase">Match Schedule</h2>
+                                <p class="item-intro text-muted">Event Schedule.</p>
+                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Match.webp" alt="..." />
+                                <p>
+                                    Mở đăng ký: Từ ngày ... đến ngày ...
+                                  
+                                </p>
+                              
+                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                    <i class="fas fa-xmark me-1"></i>
+                                    Close Project
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio item 5 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project details-->
+                                <h2 class="text-uppercase">Instruct</h2>
+                                <p class="item-intro text-muted">Instructions For Participation.</p>
+                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Instructions for participation.webp" alt="..." />
+                                <p>
+                                    Cách thức tham gia: Liên hệ nhân viên để đăng ký cuộc thi!
+                                </p>
+                               
+                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                    <i class="fas fa-xmark me-1"></i>
+                                    Close Project
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio item 6 modal popup-->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="modal-body">
+                                <!-- Project details-->
+                                <h2 class="text-uppercase">Supports</h2>
+                                <p class="item-intro text-muted">Contact For Support.</p>
+                                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/Support.png" alt="..." />
+                                <p>Thông tin liên hệ và hỗ trợ nếu người tham gia cần thêm thông tin về cách đăng ký, quy trình gửi ảnh/video hoặc cần hỗ trợ kỹ thuật "Nguyễn Ngọc Toàn".</p>
+                              
+                                <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                    <i class="fas fa-xmark me-1"></i>
+                                    Close Project
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/layoutForm/scripts.js"></script>
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <!-- * *                               SB Forms JS                               * *-->
+    <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    @RenderBody();
+</body>
+</html>
