@@ -103,3 +103,18 @@ F:\Git Clone CNPM\NhomI_CNPM-DT8\KoiProject\KoiProject.Repositories\obj\Debug\ne
 F:\Git Clone CNPM\NhomI_CNPM-DT8\KoiProject\KoiProject.Repositories\obj\Debug\net8.0\KoiProject.Repositories.genruntimeconfig.cache
 F:\Git Clone CNPM\NhomI_CNPM-DT8\KoiProject\KoiProject.Repositories\obj\Debug\net8.0\ref\KoiProject.Repositories.dll
 E:\clone git\NhomI_CNPM-DT8\KoiProject\KoiProject.Repositories\obj\Debug\net8.0\KoiProject.Repositories.sourcelink.json
+D:\1 công nghệ phần mềm\new_update_31-10\NhomI_CNPM-DT8\KoiProject\KoiProject.Repositories\bin\Debug\net8.0\KoiProject.Repositories.deps.json
+D:\1 công nghệ phần mềm\new_update_31-10\NhomI_CNPM-DT8\KoiProject\KoiProject.Repositories\bin\Debug\net8.0\KoiProject.Repositories.runtimeconfig.json
+D:\1 công nghệ phần mềm\new_update_31-10\NhomI_CNPM-DT8\KoiProject\KoiProject.Repositories\bin\Debug\net8.0\KoiProject.Repositories.dll
+D:\1 công nghệ phần mềm\new_update_31-10\NhomI_CNPM-DT8\KoiProject\KoiProject.Repositories\bin\Debug\net8.0\KoiProject.Repositories.pdb
+D:\1 công nghệ phần mềm\new_update_31-10\NhomI_CNPM-DT8\KoiProject\KoiProject.Repositories\obj\Debug\net8.0\KoiProject.Repositories.csproj.AssemblyReference.cache
+D:\1 công nghệ phần mềm\new_update_31-10\NhomI_CNPM-DT8\KoiProject\KoiProject.Repositories\obj\Debug\net8.0\KoiProject.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+D:\1 công nghệ phần mềm\new_update_31-10\NhomI_CNPM-DT8\KoiProject\KoiProject.Repositories\obj\Debug\net8.0\KoiProject.Repositories.AssemblyInfoInputs.cache
+D:\1 công nghệ phần mềm\new_update_31-10\NhomI_CNPM-DT8\KoiProject\KoiProject.Repositories\obj\Debug\net8.0\KoiProject.Repositories.AssemblyInfo.cs
+D:\1 công nghệ phần mềm\new_update_31-10\NhomI_CNPM-DT8\KoiProject\KoiProject.Repositories\obj\Debug\net8.0\KoiProject.Repositories.csproj.CoreCompileInputs.cache
+D:\1 công nghệ phần mềm\new_update_31-10\NhomI_CNPM-DT8\KoiProject\KoiProject.Repositories\obj\Debug\net8.0\KoiProject.Repositories.sourcelink.json
+D:\1 công nghệ phần mềm\new_update_31-10\NhomI_CNPM-DT8\KoiProject\KoiProject.Repositories\obj\Debug\net8.0\KoiProject.Repositories.dll
+D:\1 công nghệ phần mềm\new_update_31-10\NhomI_CNPM-DT8\KoiProject\KoiProject.Repositories\obj\Debug\net8.0\refint\KoiProject.Repositories.dll
+D:\1 công nghệ phần mềm\new_update_31-10\NhomI_CNPM-DT8\KoiProject\KoiProject.Repositories\obj\Debug\net8.0\KoiProject.Repositories.pdb
+D:\1 công nghệ phần mềm\new_update_31-10\NhomI_CNPM-DT8\KoiProject\KoiProject.Repositories\obj\Debug\net8.0\KoiProject.Repositories.genruntimeconfig.cache
+D:\1 công nghệ phần mềm\new_update_31-10\NhomI_CNPM-DT8\KoiProject\KoiProject.Repositories\obj\Debug\net8.0\ref\KoiProject.Repositories.dll
