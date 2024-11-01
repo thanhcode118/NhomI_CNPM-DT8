@@ -1,0 +1,44 @@
+﻿.alert-danger {
+    padding: 1rem 1.25rem;
+    margin-top: 1rem;
+    color: #d9534f; /* Màu đỏ cho lỗi */
+    background-color: rgba(255, 235, 235, 0.9); /* Nền đỏ nhạt trong suốt */
+    border: 1px solid #d9534f; /* Đường viền đỏ đậm */
+    border-radius: 0.5rem; /* Bo góc mềm mại */
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Thêm bóng mờ */
+    max-width: 90%; /* Giới hạn chiều rộng */
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    .alert-danger .alert-icon {
+        font-size: 1.5rem;
+        margin-right: 0.5rem;
+        color: #d9534f; /* Màu biểu tượng */
+    }
+
+.text-danger,
+.validation-summary-errors {
+    color: #d9534f; /* Màu chữ cho lỗi */
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+    .validation-summary-errors ul {
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+    }
+
+        .validation-summary-errors ul li {
+            color: #d9534f; /* Màu chữ lỗi cho các item */
+            font-size: 0.9rem;
+            margin-top: 0.5rem;
+        }

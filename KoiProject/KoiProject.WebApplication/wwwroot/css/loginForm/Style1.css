@@ -1,0 +1,32 @@
+﻿.alert {
+    padding: 1rem 1.25rem;
+    margin-top: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #d9534f; /* Màu chữ đỏ cho lỗi */
+    background: rgba(255, 255, 255, 0.8); /* Nền trắng mờ */
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Thêm bóng mờ */
+    text-align: center;
+}
+
+.alert .btn-close {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    padding: 0.5rem;
+    color: #d9534f;
+}
+
+.alert-message {
+    font-weight: bold;
+    color: #d9534f; /* Màu đỏ nổi bật */
+    padding-right: 2rem; /* Khoảng cách để không chạm vào nút đóng */
+}
