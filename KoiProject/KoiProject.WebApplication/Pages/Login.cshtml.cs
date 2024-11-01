@@ -1,43 +1,55 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.Threading.Tasks;
+using KoiProject.Repositories.Data;
+using System.Text;
+using Microsoft.EntityFrameworkCore;
+using System.Security.Cryptography;
 
-namespace KoiProject.WebApplication.Pages
+public class LoginModel : PageModel
 {
-    public class LoginModel : PageModel
+    private readonly HtqlkoiContext _context;
+
+    [BindProperty]
+    public string Email { get; set; }
+
+    [BindProperty]
+    public string Password { get; set; }
+
+    public LoginModel(HtqlkoiContext context)
     {
-        
+        _context = context;
+    }
 
-        [BindProperty]
-        public string Email { get; set; }
+    public void OnGet()
+    {
+    }
 
-        [BindProperty]
-        public string Password { get; set; }
+    public async Task<IActionResult> OnPostAsync()
+    {
 
-        public void OnGet()
+        var user = await _context.Users.FirstOrDefaultAsync(u => u.Email == Email && u.Password == Password);
+        if (user != null)
         {
+            HttpContext.Session.SetInt32("UserId", user.UserId);
+            return RedirectToPage("/dashboard"); // Redirect đến trang chính nếu đăng nhập thành công
         }
 
-        public async Task<IActionResult> OnPostAsync()
+        TempData["LoginError"] = "Email hoặc mật khẩu không đúng.";
+        return Page();
+    }
+
+    private string HashPassword(string password)
+    {
+        using (var sha256 = SHA256.Create())
         {
-            try
+            byte[] bytes = sha256.ComputeHash(Encoding.UTF8.GetBytes(password));
+            StringBuilder builder = new StringBuilder();
+            foreach (var b in bytes)
             {
-
-                if (!ModelState.IsValid)
-                {
-                    return Page();
-                }
-                
-                return RedirectToPage("/Dashboard");
+                builder.Append(b.ToString("x2"));
             }
-            catch (Exception ex)
-            {
-                ModelState.AddModelError(string.Empty, "Invalid email or password.");
-                return Page();
-
-            }
-
+            return builder.ToString();
         }
     }
 }
-

@@ -11,7 +11,7 @@
     <!-- ===( CODE AASHU )=== -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Animated Login Form | CODE AASHU</title>
+    <title>Animated Login Form | CODE Thanh Nguyen</title>
     <!-- === Custom CSS === -->
     <link rel="stylesheet" href="~/css/loginForm/style.css" />
 </head>
@@ -51,6 +51,12 @@
                         <a asp-page="/Register">Register</a>
                     </p>
                 </div>
+                @if (TempData["LoginError"] != null)
+                {
+                    <div class="alert alert-danger mt-3">
+                        @TempData["LoginError"]
+                    </div>
+                }
             </form>
         </div>
     </section>

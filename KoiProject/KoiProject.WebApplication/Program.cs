@@ -1,6 +1,6 @@
-﻿using KoiProject.Services.Service;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
+using KoiProject.Repositories.Data;
 
 
 
@@ -8,7 +8,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Đăng ký Razor Pages và Blazor
 builder.Services.AddRazorPages();
-builder.Services.AddDbContext<ApplicationDbContext>(options =>
+builder.Services.AddDbContext<HtqlkoiContext>(options =>
 {
     var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
     options.UseSqlServer(connectionString);
@@ -19,7 +19,6 @@ builder.Services.AddRazorPages();
 
 builder.Services.AddSession(); // Thêm dịch vụ session
 
-builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = false).AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddServerSideBlazor();
 
 var app = builder.Build();

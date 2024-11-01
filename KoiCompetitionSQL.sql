@@ -1,18 +1,19 @@
-﻿-- Tạo cơ sở dữ liệu
-CREATE DATABASE KoiCompetition;
-GO
-
--- Sử dụng cơ sở dữ liệu vừa tạo
+﻿CREATE DATABASE KoiCompetition;
 USE KoiCompetition;
-GO
 
--- Tạo bảng Account
-CREATE TABLE Account (
-    id INT PRIMARY KEY IDENTITY(1,1),
-    name NVARCHAR(100) NOT NULL,
-    email NVARCHAR(100) NOT NULL UNIQUE,
-    username NVARCHAR(50) NOT NULL UNIQUE,
+-- Xóa bảng nếu đã tồn tại
+DROP TABLE IF EXISTS Users;
+
+-- Bảng Users
+CREATE TABLE Users (
+    user_id INT PRIMARY KEY IDENTITY,
+    name NVARCHAR(255) NOT NULL,
+    email NVARCHAR(255) UNIQUE NOT NULL,
     password NVARCHAR(255) NOT NULL,
-    role NVARCHAR(50) NOT NULL
+    role NVARCHAR(50) CHECK (role IN ('member', 'admin')) NOT NULL,
+    created_at DATETIME DEFAULT GETDATE(),
+    updated_at DATETIME DEFAULT GETDATE()
 );
-GO
+
+
+select * from Users
