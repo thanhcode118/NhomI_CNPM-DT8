@@ -1,6 +1,12 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
-using KoiProject.Repositories.Data;
+
+using KoiProject.Repositories.Interfaces;
+using KoiProject.Repositories.Repositories;
+using KoiProject.Service.Interfaces;
+using KoiProject.Service;
+using KoiProject.Repositories.Entities;
+
 
 
 
@@ -8,12 +14,10 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Đăng ký Razor Pages và Blazor
 builder.Services.AddRazorPages();
-builder.Services.AddDbContext<HtqlkoiContext>(options =>
-{
-    var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
-    options.UseSqlServer(connectionString);
-
-});
+builder.Services.AddDbContext<KoiCompetitionContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<IUserService, UserService>();
 
 builder.Services.AddRazorPages();
 

@@ -4,11 +4,18 @@ using Microsoft.EntityFrameworkCore;
 using System.Text;
 using System.Threading.Tasks;
 using System.Security.Cryptography;
-using KoiProject.Repositories.Data;
+using KoiProject.Repositories.Entities;
+using KoiProject.Service.Interfaces;
+using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.BlazorIdentity.Pages.Manage;
 
 public class LoginModel : PageModel
 {
-    private readonly HtqlkoiContext _context;
+    private readonly IUserService _userService;
+
+    public LoginModel(IUserService userService)
+    {
+        _userService = userService;
+    }
 
     [BindProperty]
     public string Email { get; set; }
@@ -16,10 +23,7 @@ public class LoginModel : PageModel
     [BindProperty]
     public string Password { get; set; }
 
-    public LoginModel(HtqlkoiContext context)
-    {
-        _context = context;
-    }
+   
 
     public void OnGet()
     {
@@ -31,7 +35,7 @@ public class LoginModel : PageModel
         var hashedPassword = HashPassword(Password);
 
         // Tìm người dùng với email và mật khẩu đã mã hóa
-        var user = await _context.Users.FirstOrDefaultAsync(u => u.Email == Email && u.Password == Password);
+        var user = await _userService.GetUserByEmailAndPasswordAsync(Email, hashedPassword);
 
         if (user != null)
         {
@@ -48,7 +52,6 @@ public class LoginModel : PageModel
                 return RedirectToPage("/Home"); // Điều hướng đến trang home cho member
             }
         }
-
         TempData["LoginError"] = "Email hoặc mật khẩu không đúng.";
         return Page();
     }

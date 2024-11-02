@@ -1,4 +1,4 @@
-﻿using KoiProject.Repositories.Data;
+﻿
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.ComponentModel.DataAnnotations;
@@ -6,14 +6,15 @@ using System.Threading.Tasks;
 using System;
 using System.Linq;
 using Microsoft.CodeAnalysis.Scripting;
+using KoiProject.Repositories.Entities;
 
 namespace KoiProject.WebApplication.Pages
 {
     public class RegisterModel : PageModel
     {
-        private readonly HtqlkoiContext _context;
+        private readonly KoiCompetitionContext _context;
 
-        public RegisterModel(HtqlkoiContext context)
+        public RegisterModel(KoiCompetitionContext context)
         {
             _context = context;
         }
