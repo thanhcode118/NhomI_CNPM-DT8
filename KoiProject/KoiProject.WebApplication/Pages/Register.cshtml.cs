@@ -1,12 +1,11 @@
-﻿
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.ComponentModel.DataAnnotations;
 using System.Threading.Tasks;
 using System;
-using System.Linq;
-using Microsoft.CodeAnalysis.Scripting;
 using KoiProject.Repositories.Entities;
+using System.Text;
+using System.Security.Cryptography;
 
 namespace KoiProject.WebApplication.Pages
 {
@@ -33,7 +32,6 @@ namespace KoiProject.WebApplication.Pages
         [DataType(DataType.Password)]
         public string Password { get; set; } = string.Empty;
 
-
         public async Task<IActionResult> OnPostAsync()
         {
             if (!ModelState.IsValid)
@@ -57,13 +55,16 @@ namespace KoiProject.WebApplication.Pages
                 return Page();
             }
 
+            // Mã hóa mật khẩu người dùng trước khi lưu vào cơ sở dữ liệu
+            var hashedPassword = HashPassword(Password);
+
             // Tạo người dùng mới và thêm vào cơ sở dữ liệu
             var user = new User
             {
                 Email = Email,
                 Name = Username,
                 Role = "member",
-                Password = Password,
+                Password = hashedPassword, // Lưu mật khẩu đã mã hóa
                 CreatedAt = DateTime.Now,
                 UpdatedAt = DateTime.Now
             };
@@ -73,6 +74,21 @@ namespace KoiProject.WebApplication.Pages
 
             TempData["SuccessMessage"] = "Đăng ký thành công. Vui lòng đăng nhập.";
             return RedirectToPage("/Login");
+        }
+
+        // Phương thức mã hóa mật khẩu
+        private string HashPassword(string password)
+        {
+            using (var sha256 = SHA256.Create())
+            {
+                byte[] bytes = sha256.ComputeHash(Encoding.UTF8.GetBytes(password));
+                StringBuilder builder = new StringBuilder();
+                foreach (var b in bytes)
+                {
+                    builder.Append(b.ToString("x2"));
+                }
+                return builder.ToString();
+            }
         }
     }
 }

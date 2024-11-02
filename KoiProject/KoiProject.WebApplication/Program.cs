@@ -21,7 +21,7 @@ builder.Services.AddScoped<IUserService, UserService>();
 
 builder.Services.AddRazorPages();
 
-builder.Services.AddSession(); // Thêm dịch vụ session
+builder.Services.AddSession(); 
 
 builder.Services.AddServerSideBlazor();
 

@@ -1,4 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+
+
+
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using System.Text;
@@ -31,8 +34,12 @@ public class LoginModel : PageModel
 
     public async Task<IActionResult> OnPostAsync()
     {
+
         // Mã hóa mật khẩu người dùng đã nhập
         var hashedPassword = HashPassword(Password);
+
+        Console.WriteLine($"Email: {Email}");
+        Console.WriteLine($"Password (hashed): {hashedPassword}");
 
         // Tìm người dùng với email và mật khẩu đã mã hóa
         var user = await _userService.GetUserByEmailAndPasswordAsync(Email, hashedPassword);
