@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #e0fbff;
+}
+
+
+/* CONTAINER HEADER */
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    background-color: white;
+    border-radius: 10px;
+    width: 700px;
+    margin: 5%;
+}
+.container header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container header .title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container header .title span {
+    padding: 2px 10px;
+    border-radius: 5px;
+    background-color: midnightblue;
+    align-self: center;
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+    margin-left: 5%;
+}
+.container header p {
+    color: #5b5b5b;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: color 200ms ease-in-out;
+}
+.container header p:hover {
+    color: #7171ff;
+}
+
+
+
+/* CONTAINER ZONE NOTIFICATIONS */
+.container .notifications {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+}
+.container .notifications .notif {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    padding: 1.7%;
+}
+.container .notifications .notif img {
+    width: 70px;
+}
+.container .notifications .notif .text {
+    padding-left: 3%;
+}
+.container .notifications .notif .text p strong {
+    color: black;
+    letter-spacing: 0;
+}
+.container .notifications .notif .text p {
+    color: #5a5a5a;
+    letter-spacing: 1px;
+}
+.container .notifications .notif .text p .post {
+    font-weight: bolder;
+    transition: color 200ms ease-in-out;
+    cursor: pointer;
+}
+.container .notifications .notif .text p .post:hover {
+    color: #7171ff;
+}
+.container .notifications .notif .text p .group {
+    color: #7171ff;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.container .notifications .notif .text .time {
+    color: #b5b5b5;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    margin-top: 2%;
+}
+.container .notifications .notif .msg {
+    margin-top: 3%;
+    padding: 2%;
+    border: solid 1px gray;
+    border-radius: 10px;
+    transition: 200ms ease-in-out;
+    cursor: pointer;
+}
+.container .notifications .notif .msg:hover {
+    background-color: #e0fbff;
+    border: solid 1px #e0fbff;
+}
+.container .notifications .not-read {
+    background-color: #e0fbff;
+}
+.container .notifications .not-read .text p::after {
+    content: "";
+    display: inline-block;
+    background-color: #ff5252;
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+}
+
+
+.container .notifications .notif-commented-picture {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    padding: 1.7%;
+}
+.container .notifications .notif-commented-picture .left {
+    display: flex;
+}
+
+.container .notifications .notif-commented-picture  img {
+    width: 70px;
+    transition: 200ms;
+    cursor: pointer;
+}
+.container .notifications .notif-commented-picture  img:hover {
+    box-shadow: gray 0 0 10px 0;
+    border-radius: 10px;
+}
+.container .notifications .notif-commented-picture  .text {
+    padding-left: 5%;
+}
+.container .notifications .notif-commented-picture  .text p strong {
+    color: black;
+    letter-spacing: 0;
+}
+.container .notifications .notif-commented-picture  .text p {
+    color: #5a5a5a;
+    letter-spacing: 1px;
+}
+.container .notifications .notif-commented-picture  .text p .post {
+    font-weight: bolder;
+}
+.container .notifications .notif-commented-picture  .text p .group {
+    color: #7171ff;
+    font-weight: bolder;
+}
+.container .notifications .notif-commented-picture  .text .time {
+    color: #b5b5b5;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    margin-top: 2%;
+}
+.container .notifications .notif-commented-picture  .msg {
+    margin-top: 3%;
+    padding: 2%;
+    border: solid 1px gray;
+    border-radius: 10px;
+}
