@@ -1,0 +1,30 @@
+﻿@model List<KoiProject.Repositories.Entities.Ranking>
+
+<div class="container">
+    <h1>Bảng Xếp Hạng</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Người dùng</th>
+                <th>Điểm</th>
+                <th>Thay đổi</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var rank in Model)
+            {
+                <tr>
+                    <td>@rank.Id</td>
+                    <td>@rank.UserName</td>
+                    <td>@rank.Score</td>
+                    <td>
+                        <span class="@(rank.Change >= 0 ? "text-green-500" : "text-red-500")">
+                            <i class="@(rank.Change >= 0 ? "fas fa-arrow-up" : "fas fa-arrow-down")"></i>@rank.Change%
+                        </span>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

@@ -14,7 +14,7 @@ public partial class KoiCompetitionContext : DbContext
         : base(options)
     {
     }
-
+    public DbSet<Ranking> Rankings { get; set; }
     public virtual DbSet<User> Users { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
