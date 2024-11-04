@@ -1,0 +1,122 @@
+﻿@page
+@{
+    Layout = null;
+    ViewData["Title"] = "Notification";
+}
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/css/Notification/app.css">
+    <script defer src="/js/Notification/app.js"></script>
+    <title>Notification Page</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="title">
+                <h1>Notifications</h1>
+                <span class="number">3</span>
+            </div>
+            <p onclick="clickRead()" class="mark-all-as-read">Đánh dấu tất cả là đã đọc</p>
+        </header>
+        <section class="notifications">
+
+            <!-- START NOTIF -->
+            <div class="notif not-read">
+                <img src="./assets/assetNotification/images/avatar-mark-webber.webp">
+                <div class="text">
+                    <p>
+                        <strong>Ngoc Toàn </strong> đã phản hồi bài đăng gần đây của bạn
+                        <span class="post">Giải đấu đầu tiên của tôi hôm nay!</span>
+                    </p>
+                    <span class="time">1 phút trước</span>
+                </div>
+            </div>
+            <!-- END NOTIF -->
+            <!-- START NOTIF -->
+            <div class="notif not-read">
+                <img src="./assets/assetNotification/images/avatar-angela-gray.webp">
+                <div class="text">
+                    <p>
+                        <strong>Thanh Nguyễn</strong> đã theo dõi bạn
+                    </p>
+                    <span class="time">5 phút trước</span>
+                </div>
+            </div>
+            <!-- END NOTIF -->
+            <!-- START NOTIF -->
+            <div class="notif not-read">
+                <img src="./assets/assetNotification/images/avatar-jacob-thompson.webp">
+                <div class="text">
+                    <p>
+                        <strong>Minh Trình</strong> đã tham gia nhóm của bạn
+                        <span class="group">Cuộc thi cá Koi</span>
+                    </p>
+                    <span class="time">1 ngày trước</span>
+                </div>
+            </div>
+            <!-- END NOTIF -->
+            <!-- START NOTIF -->
+            <div class="notif">
+                <img src="./assets/assetNotification/images/avatar-rizky-hasanuddin.webp">
+                <div class="text">
+                    <p>
+                        <strong>Văn Vũ</strong> đã gửi cho bạn một tion nhắn riêng tư
+                    </p>
+                    <span class="time">5 ngày trước</span>
+                    <div class="msg">
+                        <p>
+                            Xin chào, cảm ơn bạn đã thành lập Câu lạc bộ cá Koi. 
+                            Tôi đã là thành viên được vài tuần và hiện tại tôi đang có rất nhiều niềm vui, 
+                            đồng thời cải thiện khả năng chơi cá Koi của mình.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- END NOTIF -->
+            <!-- START NOTIF -->
+            <div class="notif-commented-picture">
+                <div class="left">
+                    <img src="./assets/assetNotification/images/avatar-kimberly-smith.webp">
+                    <div class="text">
+                        <p>
+                            <strong>Huỳnh Tấn Phát</strong> đã bình luận ảnh đại diện của bạn
+                        </p>
+                        <span class="time">1 tuần trước</span>
+                    </div>
+                </div>
+                <div class="img">
+                    <img alt="img-post" src="./assets/assetNotification/images/image-chess.webp">
+                </div>
+            </div>
+            <!-- END NOTIF -->
+            <!-- START NOTIF -->
+            <div class="notif">
+                <img src="./assets/assetNotification/images/avatar-nathan-peterson.webp">
+                <div class="text">
+                    <p>
+                        <strong>Quang Trần</strong> đã bày tỏ cảm xúc về bài viết gần đây của bạn
+                        <span class="post">5 chiến lược cuối trận để tăng tỷ lệ thắng của bạn</span>
+                    </p>
+                    <span class="time">2 tuần trước</span>
+                </div>
+            </div>
+            <!-- END NOTIF -->
+            <!-- START NOTIF -->
+            <div class="notif">
+                <img src="./assets/assetNotification/images/avatar-anna-kim.webp">
+                <div class="text">
+                    <p>
+                        <strong>Thanh Nguyễn</strong> đã rời khỏi nhóm <span class="group">Cuộc thi cá Koi</span>
+                    </p>
+                    <span class="time">2 tuần trước</span>
+                </div>
+            </div>
+            <!-- END NOTIF -->
+        </section>
+    </div>
+</body>
+</html>
