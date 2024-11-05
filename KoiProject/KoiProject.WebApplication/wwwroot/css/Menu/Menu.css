@@ -3,14 +3,21 @@
     padding: 0;
 }
 
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 #header {
     width: 100%;
+    height: 100vh;
     background-image: url(../../img/Menu.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 650px;
     z-index: 1;
 }
+
 
 #header-top {
     display: flex;
@@ -37,9 +44,13 @@
     width: 100%;
     height: 380px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
+
 
 .timtuor {
     display: flex;
@@ -51,6 +62,32 @@
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
 }
+
+.back-button {
+    --bg: #000;
+    --hover-bg: #ff90e8;
+    --hover-text: #000;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid var(--bg);
+    border-radius: 4px;
+    padding: 0.8em 2em;
+    background: var(--bg);
+    transition: 0.2s;
+    margin: 10px 0 20px 10px;
+}
+
+    .back-button:hover {
+        color: var(--hover-text);
+        transform: translate(-0.25rem, -0.25rem);
+        background: var(--hover-bg);
+        box-shadow: 0.25rem 0.25rem var(--bg);
+    }
+
+    .back-button:active {
+        transform: translate(0);
+        box-shadow: none;
+    }
 
 #button {
     height: 50px;
@@ -827,4 +864,13 @@ ul {
     .col-1 {
         justify-content: flex-start;
     }
+}
+
+
+
+
+/* Căn lề cho các tiêu đề */
+.main-1 p {
+    text-align: left;
+    margin-left: 20px;
 }
