@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "iRSTLQfn6AvpHlesaFOpIcsxuxhzJTbci3FBgEBNj3g=",
+  "Hash": "1nuFoqnBmNokYmh+Ld4OjW2RhR5/Sjv5tCbnGhfNomY=",
   "Source": "KoiProject.WebApplication",
   "BasePath": "_content/KoiProject.WebApplication",
   "Mode": "Default",
@@ -60361,6 +60361,25 @@
       "OriginalItemSpec": "wwwroot\\css\\Notification\\app.css"
     },
     {
+      "Identity": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\css\\Ranking\\Ranking.css",
+      "SourceId": "KoiProject.WebApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\",
+      "BasePath": "_content/KoiProject.WebApplication",
+      "RelativePath": "css/Ranking/Ranking.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Ranking\\Ranking.css"
+    },
+    {
       "Identity": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\css\\rankingForm\\styles.css",
       "SourceId": "KoiProject.WebApplication",
       "SourceType": "Discovered",
@@ -67712,6 +67731,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\html\\orders.html"
+    },
+    {
+      "Identity": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\html\\Ranking.html",
+      "SourceId": "KoiProject.WebApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\",
+      "BasePath": "_content/KoiProject.WebApplication",
+      "RelativePath": "html/Ranking.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\html\\Ranking.html"
     },
     {
       "Identity": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\html\\README.md",

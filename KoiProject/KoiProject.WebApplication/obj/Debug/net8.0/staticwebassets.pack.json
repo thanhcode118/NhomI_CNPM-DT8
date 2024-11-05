@@ -12437,6 +12437,10 @@
       "PackagePath": "staticwebassets\\css\\Notification\\app.css"
     },
     {
+      "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\css\\Ranking\\Ranking.css",
+      "PackagePath": "staticwebassets\\css\\Ranking\\Ranking.css"
+    },
+    {
       "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\css\\cssRanking\\maps\\style.css.map",
       "PackagePath": "staticwebassets\\css\\cssRanking\\maps\\style.css.map"
     },
@@ -13975,6 +13979,10 @@
     {
       "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\html\\README.md",
       "PackagePath": "staticwebassets\\html\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\html\\Ranking.html",
+      "PackagePath": "staticwebassets\\html\\Ranking.html"
     },
     {
       "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\html\\account.html",

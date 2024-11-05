@@ -10,6 +10,9 @@ public class Startup
     {
         services.AddRazorPages();
         services.AddScoped<LoginService>();
+        services.AddScoped<IRankingRepository, RankingRepository>();
+        services.AddScoped<IRankingService, RankingService>();
+        services.AddControllersWithViews();
     }
 
     // Phương thức này được gọi để cấu hình pipeline của ứng dụng.
