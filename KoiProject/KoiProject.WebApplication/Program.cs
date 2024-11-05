@@ -1,6 +1,4 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Microsoft.AspNetCore.Identity;
-
 using KoiProject.Repositories.Interfaces;
 using KoiProject.Repositories.Repositories;
 using KoiProject.Service.Interfaces;
