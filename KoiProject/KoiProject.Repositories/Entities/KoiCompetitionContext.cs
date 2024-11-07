@@ -14,20 +14,45 @@ public partial class KoiCompetitionContext : DbContext
         : base(options)
     {
     }
-    public DbSet<Ranking> Rankings { get; set; }
+
+    public virtual DbSet<KoiManagement> KoiManagements { get; set; }
+
     public virtual DbSet<User> Users { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-    {
-        if (!optionsBuilder.IsConfigured)
-        {
-            // Đoạn mã này có thể xóa hoặc bình luận
-            // => optionsBuilder.UseSqlServer("Data Source=DESKTOP-D3GEO91\\NTOANSQL;Initial Catalog=KoiCompetition;Persist Security Info=True;User ID=sa;Password=123456789;MultipleActiveResultSets=True;TrustServerCertificate=True");
-        }
-    }
+#warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
+        => optionsBuilder.UseSqlServer("Data Source=DESKTOP-D3GEO91\\NTOANSQL;Initial Catalog=KoiCompetition;Persist Security Info=True;User ID=sa;Password=123456789;MultipleActiveResultSets=True;TrustServerCertificate=True");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        modelBuilder.Entity<KoiManagement>(entity =>
+        {
+            entity.HasKey(e => e.KoiId).HasName("PK__KoiManag__E03435B84C3B6298");
+
+            entity.ToTable("KoiManagement");
+
+            entity.Property(e => e.KoiId).HasColumnName("KoiID");
+            entity.Property(e => e.Breed).HasMaxLength(50);
+            entity.Property(e => e.Color).HasMaxLength(50);
+            entity.Property(e => e.Gpa)
+                .HasColumnType("decimal(3, 2)")
+                .HasColumnName("GPA");
+            entity.Property(e => e.HealthStatus).HasMaxLength(50);
+            entity.Property(e => e.Name).HasMaxLength(50);
+            entity.Property(e => e.Origin).HasMaxLength(100);
+            entity.Property(e => e.Price).HasColumnType("decimal(10, 2)");
+            entity.Property(e => e.Size).HasColumnType("decimal(5, 2)");
+            entity.Property(e => e.UserEmail)
+                .HasMaxLength(255)
+                .HasColumnName("user_email");
+
+            entity.HasOne(d => d.UserEmailNavigation).WithMany(p => p.KoiManagements)
+                .HasPrincipalKey(p => p.Email)
+                .HasForeignKey(d => d.UserEmail)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK__KoiManage__user___239E4DCF");
+        });
+
         modelBuilder.Entity<User>(entity =>
         {
             entity.HasKey(e => e.UserId).HasName("PK__Users__B9BE370FC19E26D1");

@@ -1,0 +1,76 @@
+﻿@page
+@model KoiProject.WebApplication.Pages.KoiFish.DetailsModel
+@{
+    Layout = "_LayoutKoiFish";
+    ViewData["Title"] = "Danh sach ca Koi";
+}
+<div>
+    <h4>KoiManagement</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.KoiManagement.Name)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.KoiManagement.Name)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.KoiManagement.Breed)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.KoiManagement.Breed)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.KoiManagement.Size)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.KoiManagement.Size)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.KoiManagement.Color)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.KoiManagement.Color)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.KoiManagement.DateOfEntry)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.KoiManagement.DateOfEntry)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.KoiManagement.Origin)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.KoiManagement.Origin)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.KoiManagement.Price)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.KoiManagement.Price)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.KoiManagement.HealthStatus)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.KoiManagement.HealthStatus)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.KoiManagement.Gpa)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.KoiManagement.Gpa)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.KoiManagement.UserEmailNavigation)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.KoiManagement.UserEmailNavigation.Email)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.KoiManagement.KoiId">Edit</a> |
+    <a asp-page="./Index">Back to List</a>
+</div>

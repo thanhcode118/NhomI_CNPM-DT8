@@ -1,0 +1,164 @@
+﻿@page
+@model KoiProject.WebApplication.Pages.KoiFish.IndexModel
+@{
+    Layout = "_LayoutKoiFish";
+    ViewData["Title"] = "Danh sach ca Koi";
+}
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<!--<table class="table">
+     <thead>
+         <tr>
+             <th>
+@Html.DisplayNameFor(model => model.KoiManagement[0].Name)
+             </th>
+             <th>
+@Html.DisplayNameFor(model => model.KoiManagement[0].Breed)
+             </th>
+             <th>
+@Html.DisplayNameFor(model => model.KoiManagement[0].Size)
+             </th>
+             <th>
+@Html.DisplayNameFor(model => model.KoiManagement[0].Color)
+             </th>
+             <th>
+@Html.DisplayNameFor(model => model.KoiManagement[0].DateOfEntry)
+             </th>
+             <th>
+@Html.DisplayNameFor(model => model.KoiManagement[0].Origin)
+             </th>
+             <th>
+@Html.DisplayNameFor(model => model.KoiManagement[0].Price)
+             </th>
+             <th>
+@Html.DisplayNameFor(model => model.KoiManagement[0].HealthStatus)
+             </th>
+             <th>
+@Html.DisplayNameFor(model => model.KoiManagement[0].Gpa)
+             </th>
+             <th>
+@Html.DisplayNameFor(model => model.KoiManagement[0].UserEmailNavigation)
+             </th>
+             <th></th>
+         </tr>
+     </thead>
+     <tbody>
+@foreach (var item in Model.KoiManagement)
+{
+             <tr>
+                 <td>
+            @Html.DisplayFor(modelItem => item.Name)
+                 </td>
+                 <td>
+            @Html.DisplayFor(modelItem => item.Breed)
+                 </td>
+                 <td>
+            @Html.DisplayFor(modelItem => item.Size)
+                 </td>
+                 <td>
+            @Html.DisplayFor(modelItem => item.Color)
+                 </td>
+                 <td>
+            @Html.DisplayFor(modelItem => item.DateOfEntry)
+                 </td>
+                 <td>
+            @Html.DisplayFor(modelItem => item.Origin)
+                 </td>
+                 <td>
+            @Html.DisplayFor(modelItem => item.Price)
+                 </td>
+                 <td>
+            @Html.DisplayFor(modelItem => item.HealthStatus)
+                 </td>
+                 <td>
+            @Html.DisplayFor(modelItem => item.Gpa)
+                 </td>
+                 <td>
+            @Html.DisplayFor(modelItem => item.UserEmailNavigation.Email)
+                 </td>
+                 <td>
+                     <a asp-page="./Edit" asp-route-id="@item.KoiId">Edit</a> |
+                     <a asp-page="./Details" asp-route-id="@item.KoiId">Details</a> |
+                     <a asp-page="./Delete" asp-route-id="@item.KoiId">Delete</a>
+                 </td>
+             </tr>
+}
+     </tbody>
+ </table>-->
+
+<div class="container-fluid py-4">
+    <div class="row">
+        <div class="col-12">
+            <div class="card mb-4">
+                <div class="card-header pb-0">
+                    <h6>Danh sách Cá Koi</h6>
+                </div>
+                <div class="card-body px-0 pt-0 pb-2">
+                    <div class="table-responsive p-0">
+                        <table class="table align-items-center mb-0">
+                            <thead>
+                                <tr>
+                                    <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Tên</th>
+                                    <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Giống loài</th>
+                                    <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">TT Sức Khỏe</th>
+                                    <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Màu Sắc</th>
+                                    <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Nguồn gốc</th>
+                                    <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Ngày Đăng Ký</th>
+                                    <th class="text-secondary opacity-7">Bổ Sung</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model.KoiManagement)
+                                {
+                                    <tr>
+                                        <td>
+                                            <div class="d-flex px-2 py-1">
+                                                <div>
+                                                    <img src="~/assets/assetsKoiFishMember/img/team-2.jpg" class="avatar avatar-sm me-3" alt="@item.Name">
+                                                </div>
+                                                <div class="d-flex flex-column justify-content-center">
+                                                    <h6 class="mb-0 text-sm">@item.Name</h6>
+                                                    <p class="text-xs text-secondary mb-0">@item.UserEmailNavigation.Email</p>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <p class="text-xs font-weight-bold mb-0">@item.Breed</p>
+                                            <p class="text-xs text-secondary mb-0">Loài Cá</p>
+                                        </td>
+                                        <td class="align-middle text-center text-sm">
+                                            <span class="badge badge-sm @(item.HealthStatus == "Good" ? "bg-gradient-success" : "bg-gradient-secondary")">
+                                                @item.HealthStatus
+                                            </span>
+                                        </td>
+                                        <td class="align-middle text-center">
+                                            <span class="text-secondary text-xs font-weight-bold">@item.Color</span>
+                                        </td>
+                                        <td class="align-middle text-center">
+                                            <span class="text-secondary text-xs font-weight-bold">@item.Origin</span>
+                                        </td>
+                                        <td class="align-middle text-center">
+                                            <span class="text-secondary text-xs font-weight-bold">@item.DateOfEntry?.ToString("dd/MM/yyyy")</span>
+                                        </td>
+                                        <td class="align-middle">
+                                            <a href="javascript:;" class="text-secondary font-weight-bold text-xs" data-toggle="tooltip" data-original-title="Edit user">
+                                       
+                                            <a asp-page="./Edit" asp-route-id="@item.KoiId">Edit</a> |
+                                            <a asp-page="./Details" asp-route-id="@item.KoiId">Details</a> |
+                                            <a asp-page="./Delete" asp-route-id="@item.KoiId">Delete</a>
+                                        
+                                            </a>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
