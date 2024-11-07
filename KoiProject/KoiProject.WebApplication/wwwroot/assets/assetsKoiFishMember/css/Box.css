@@ -1,0 +1,39 @@
+﻿/* Tạo box cho các liên kết hành động */
+.action-box {
+    background-color: #f8f9fa; /* Màu nền nhẹ */
+    border: 1px solid #ddd; /* Viền mỏng */
+    border-radius: 8px; /* Bo góc */
+    padding: 10px; /* Khoảng cách bên trong box */
+    display: inline-block;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Đổ bóng */
+}
+
+/* Định dạng cho các liên kết */
+.action-link {
+    color: #007bff; /* Màu xanh của liên kết */
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 5px; /* Khoảng cách giữa các liên kết */
+    transition: color 0.3s ease;
+}
+
+    .action-link:hover {
+        color: #0056b3; /* Màu đậm hơn khi hover */
+    }
+
+/* Định dạng riêng cho liên kết "Create New" */
+.create-new {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #28a745; /* Màu nền xanh lá */
+    color: #fff; /* Màu chữ trắng */
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+    .create-new:hover {
+        background-color: #218838; /* Màu nền đậm hơn khi hover */
+    }

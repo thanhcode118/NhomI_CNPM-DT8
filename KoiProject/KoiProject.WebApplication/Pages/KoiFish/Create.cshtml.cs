@@ -6,28 +6,29 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using KoiProject.Repositories.Entities;
+using KoiProject.Service.Interfaces;
 
 namespace KoiProject.WebApplication.Pages.KoiFish
 {
     public class CreateModel : PageModel
     {
-        private readonly KoiProject.Repositories.Entities.KoiCompetitionContext _context;
+        private readonly IKoiManagementService _koiManagementService;
 
-        public CreateModel(KoiProject.Repositories.Entities.KoiCompetitionContext context)
+        public CreateModel(IKoiManagementService koiManagementService)
         {
-            _context = context;
+            _koiManagementService = koiManagementService;
         }
 
-        public IActionResult OnGet()
+        public async Task<IActionResult> OnGetAsync()
         {
-        ViewData["UserEmail"] = new SelectList(_context.Users, "Email", "Email");
+            // Sử dụng dịch vụ để lấy danh sách User Email
+            ViewData["UserEmail"] = new SelectList(await _koiManagementService.GetAllKoisAsync(), "UserEmail", "UserEmail");
             return Page();
         }
 
         [BindProperty]
         public KoiManagement KoiManagement { get; set; } = default!;
 
-        // For more information, see https://aka.ms/RazorPagesCRUD.
         public async Task<IActionResult> OnPostAsync()
         {
             if (!ModelState.IsValid)
@@ -35,10 +36,10 @@ namespace KoiProject.WebApplication.Pages.KoiFish
                 return Page();
             }
 
-            _context.KoiManagements.Add(KoiManagement);
-            await _context.SaveChangesAsync();
+            await _koiManagementService.AddKoiAsync(KoiManagement);
 
             return RedirectToPage("./Index");
         }
     }
+
 }

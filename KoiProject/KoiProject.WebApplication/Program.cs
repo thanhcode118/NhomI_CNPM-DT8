@@ -4,6 +4,8 @@ using KoiProject.Repositories.Repositories;
 using KoiProject.Service.Interfaces;
 using KoiProject.Service;
 using KoiProject.Repositories.Entities;
+using KoiProject.Service.Service;
+using System.Configuration;
 
 
 
@@ -16,7 +18,9 @@ builder.Services.AddDbContext<KoiCompetitionContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IUserService, UserService>();
-
+//Đăng kí cho KoiManagement
+builder.Services.AddScoped<IKoiManagementRepository, KoiManagementRepository>();
+builder.Services.AddScoped<IKoiManagementService, KoiManagementService>();
 builder.Services.AddRazorPages();
 
 builder.Services.AddSession(); 

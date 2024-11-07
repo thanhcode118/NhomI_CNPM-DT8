@@ -49,7 +49,8 @@ namespace KoiProject.Repositories.Repositories
 
         public async Task<IEnumerable<KoiManagement>> GetAllKoisAsync()
         {
-            return await _context.KoiManagements.ToListAsync();
+            return await _context.KoiManagements.Include(k => k.UserEmailNavigation).ToListAsync() ?? new List<KoiManagement>();
         }
+
     }
 }

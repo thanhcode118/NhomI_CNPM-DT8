@@ -11149,6 +11149,10 @@
       "PackagePath": "staticwebassets\\assets\\assetNotification\\images\\image-chess.webp"
     },
     {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsKoiFishMember\\css\\Box.css",
+      "PackagePath": "staticwebassets\\assets\\assetsKoiFishMember\\css\\Box.css"
+    },
+    {
       "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsKoiFishMember\\css\\argon-dashboard.css",
       "PackagePath": "staticwebassets\\assets\\assetsKoiFishMember\\css\\argon-dashboard.css"
     },

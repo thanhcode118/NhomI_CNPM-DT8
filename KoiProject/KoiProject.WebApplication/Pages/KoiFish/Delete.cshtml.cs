@@ -6,16 +6,17 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using KoiProject.Repositories.Entities;
+using KoiProject.Service.Interfaces;
 
 namespace KoiProject.WebApplication.Pages.KoiFish
 {
     public class DeleteModel : PageModel
     {
-        private readonly KoiProject.Repositories.Entities.KoiCompetitionContext _context;
+        private readonly IKoiManagementService _koiManagementService;
 
-        public DeleteModel(KoiProject.Repositories.Entities.KoiCompetitionContext context)
+        public DeleteModel(IKoiManagementService koiManagementService)
         {
-            _context = context;
+            _koiManagementService = koiManagementService;
         }
 
         [BindProperty]
@@ -28,7 +29,8 @@ namespace KoiProject.WebApplication.Pages.KoiFish
                 return NotFound();
             }
 
-            var koimanagement = await _context.KoiManagements.FirstOrDefaultAsync(m => m.KoiId == id);
+            // Sử dụng service để lấy thông tin Koi dựa trên ID
+            var koimanagement = await _koiManagementService.GetKoiByIdAsync(id.Value);
 
             if (koimanagement == null)
             {
@@ -38,6 +40,7 @@ namespace KoiProject.WebApplication.Pages.KoiFish
             {
                 KoiManagement = koimanagement;
             }
+
             return Page();
         }
 
@@ -48,15 +51,15 @@ namespace KoiProject.WebApplication.Pages.KoiFish
                 return NotFound();
             }
 
-            var koimanagement = await _context.KoiManagements.FindAsync(id);
-            if (koimanagement != null)
+            // Sử dụng service để xóa Koi dựa trên ID
+            var result = await _koiManagementService.DeleteKoiAsync(id.Value);
+            if (!result)
             {
-                KoiManagement = koimanagement;
-                _context.KoiManagements.Remove(KoiManagement);
-                await _context.SaveChangesAsync();
+                return NotFound();
             }
 
             return RedirectToPage("./Index");
         }
     }
+
 }

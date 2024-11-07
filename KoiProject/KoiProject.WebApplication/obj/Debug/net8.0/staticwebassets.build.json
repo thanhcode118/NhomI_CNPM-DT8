@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "LVkq25xarClXyvzBJ8JcRK5+wFUSVdUtmFpzHGjuHww=",
+  "Hash": "gXpeiR8KtSiKonMaIkaQrE7BHSluS4q0LDX6T5pRN1E=",
   "Source": "KoiProject.WebApplication",
   "BasePath": "_content/KoiProject.WebApplication",
   "Mode": "Default",
@@ -54184,6 +54184,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\assets\\assetsKoiFishMember\\css\\argon-dashboard.min.css"
+    },
+    {
+      "Identity": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsKoiFishMember\\css\\Box.css",
+      "SourceId": "KoiProject.WebApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\",
+      "BasePath": "_content/KoiProject.WebApplication",
+      "RelativePath": "assets/assetsKoiFishMember/css/Box.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\assetsKoiFishMember\\css\\Box.css"
     },
     {
       "Identity": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsKoiFishMember\\css\\nucleo-icons.css",

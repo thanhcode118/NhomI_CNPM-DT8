@@ -6,16 +6,17 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using KoiProject.Repositories.Entities;
+using KoiProject.Service.Interfaces;
 
 namespace KoiProject.WebApplication.Pages.KoiFish
 {
     public class DetailsModel : PageModel
     {
-        private readonly KoiProject.Repositories.Entities.KoiCompetitionContext _context;
+        private readonly IKoiManagementService _koiManagementService;
 
-        public DetailsModel(KoiProject.Repositories.Entities.KoiCompetitionContext context)
+        public DetailsModel(IKoiManagementService koiManagementService)
         {
-            _context = context;
+            _koiManagementService = koiManagementService;
         }
 
         public KoiManagement KoiManagement { get; set; } = default!;
@@ -27,7 +28,9 @@ namespace KoiProject.WebApplication.Pages.KoiFish
                 return NotFound();
             }
 
-            var koimanagement = await _context.KoiManagements.FirstOrDefaultAsync(m => m.KoiId == id);
+            // Sử dụng service để lấy thông tin Koi dựa trên ID
+            var koimanagement = await _koiManagementService.GetKoiByIdAsync(id.Value);
+
             if (koimanagement == null)
             {
                 return NotFound();
@@ -36,7 +39,9 @@ namespace KoiProject.WebApplication.Pages.KoiFish
             {
                 KoiManagement = koimanagement;
             }
+
             return Page();
         }
     }
+
 }

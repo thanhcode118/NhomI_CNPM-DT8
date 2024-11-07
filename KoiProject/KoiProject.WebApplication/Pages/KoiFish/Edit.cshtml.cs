@@ -7,16 +7,17 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using KoiProject.Repositories.Entities;
+using KoiProject.Service.Interfaces;
 
 namespace KoiProject.WebApplication.Pages.KoiFish
 {
     public class EditModel : PageModel
     {
-        private readonly KoiProject.Repositories.Entities.KoiCompetitionContext _context;
+        private readonly IKoiManagementService _koiManagementService;
 
-        public EditModel(KoiProject.Repositories.Entities.KoiCompetitionContext context)
+        public EditModel(IKoiManagementService koiManagementService)
         {
-            _context = context;
+            _koiManagementService = koiManagementService;
         }
 
         [BindProperty]
@@ -29,18 +30,18 @@ namespace KoiProject.WebApplication.Pages.KoiFish
                 return NotFound();
             }
 
-            var koimanagement =  await _context.KoiManagements.FirstOrDefaultAsync(m => m.KoiId == id);
+            // Sử dụng service để lấy thông tin Koi dựa trên ID
+            var koimanagement = await _koiManagementService.GetKoiByIdAsync(id.Value);
             if (koimanagement == null)
             {
                 return NotFound();
             }
+
             KoiManagement = koimanagement;
-           ViewData["UserEmail"] = new SelectList(_context.Users, "Email", "Email");
+            ViewData["UserEmail"] = new SelectList(await _koiManagementService.GetAllKoisAsync(), "UserEmail", "UserEmail");
             return Page();
         }
 
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more information, see https://aka.ms/RazorPagesCRUD.
         public async Task<IActionResult> OnPostAsync()
         {
             if (!ModelState.IsValid)
@@ -48,15 +49,13 @@ namespace KoiProject.WebApplication.Pages.KoiFish
                 return Page();
             }
 
-            _context.Attach(KoiManagement).State = EntityState.Modified;
-
             try
             {
-                await _context.SaveChangesAsync();
+                await _koiManagementService.UpdateKoiAsync(KoiManagement);
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!KoiManagementExists(KoiManagement.KoiId))
+                if (!await KoiManagementExists(KoiManagement.KoiId))
                 {
                     return NotFound();
                 }
@@ -69,9 +68,11 @@ namespace KoiProject.WebApplication.Pages.KoiFish
             return RedirectToPage("./Index");
         }
 
-        private bool KoiManagementExists(int id)
+        private async Task<bool> KoiManagementExists(int id)
         {
-            return _context.KoiManagements.Any(e => e.KoiId == id);
+            var koi = await _koiManagementService.GetKoiByIdAsync(id);
+            return koi != null;
         }
     }
+
 }

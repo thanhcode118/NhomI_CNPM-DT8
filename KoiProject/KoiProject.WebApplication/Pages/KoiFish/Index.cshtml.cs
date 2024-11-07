@@ -6,24 +6,26 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using KoiProject.Repositories.Entities;
+using KoiProject.Service.Interfaces;
 
 namespace KoiProject.WebApplication.Pages.KoiFish
 {
     public class IndexModel : PageModel
     {
-        private readonly KoiProject.Repositories.Entities.KoiCompetitionContext _context;
+        private readonly IKoiManagementService _koiManagementService;
 
-        public IndexModel(KoiProject.Repositories.Entities.KoiCompetitionContext context)
+        public IndexModel(IKoiManagementService koiManagementService)
         {
-            _context = context;
+            _koiManagementService = koiManagementService;
         }
 
-        public IList<KoiManagement> KoiManagement { get;set; } = default!;
+        public IList<KoiManagement> KoiManagement { get; set; } = new List<KoiManagement>(); // Khởi tạo danh sách rỗng để tránh null
 
         public async Task OnGetAsync()
         {
-            KoiManagement = await _context.KoiManagements
-                .Include(k => k.UserEmailNavigation).ToListAsync();
+            KoiManagement = (await _koiManagementService.GetAllKoisAsync()).ToList();
         }
     }
+
+
 }

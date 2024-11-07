@@ -1,5 +1,6 @@
 ﻿using KoiProject.Repositories.Entities;
 using KoiProject.Repositories.Interfaces;
+using KoiProject.Service.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace KoiProject.Service.Service
 {
-    public class KoiManagementService
+    public class KoiManagementService: IKoiManagementService
     {
         private readonly IKoiManagementRepository _repository;
 
