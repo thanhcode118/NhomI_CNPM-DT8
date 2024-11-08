@@ -22,7 +22,8 @@ builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IKoiManagementRepository, KoiManagementRepository>();
 builder.Services.AddScoped<IKoiManagementService, KoiManagementService>();
 builder.Services.AddRazorPages();
-
+builder.Services.AddScoped<IRankingService, RankingService>();
+builder.Services.AddScoped<IRankingRepository, RankingRepository>();
 builder.Services.AddSession(); 
 
 builder.Services.AddServerSideBlazor();

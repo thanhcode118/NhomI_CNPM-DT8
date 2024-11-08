@@ -1,12 +1,22 @@
-using Microsoft.AspNetCore.Mvc;
+﻿using KoiProject.Repositories.Entities;
+using KoiProject.Service.Interfaces;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using System.Collections.Generic;
 
-namespace KoiProject.WebApplication.Pages
+public class Ranking : PageModel
 {
-    public class RankingModel : PageModel
+    private readonly IRankingService _rankingService;
+
+    public Ranking(IRankingService rankingService)
     {
-        public void OnGet()
-        {
-        }
+        _rankingService = rankingService;
+    }
+
+    public List<KoiManagement> KoiList { get; set; }
+
+    public void OnGet()
+    {
+        // Lấy danh sách cá Koi từ service và gán vào KoiList
+        KoiList = _rankingService.GetRankingLeaderboard();
     }
 }

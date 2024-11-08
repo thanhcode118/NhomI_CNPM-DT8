@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 
-namespace KoiProject.Repositories.Entities;
+namespace KoiProject.WebApplication.Data;
 
 public partial class KoiCompetitionContext : DbContext
 {
@@ -15,49 +15,45 @@ public partial class KoiCompetitionContext : DbContext
     {
     }
 
-    public virtual DbSet<KoiManagement> KoiManagements { get; set; }
+    public virtual DbSet<Ranking> Rankings { get; set; }
+
+    public virtual DbSet<Ranking1> Rankings1 { get; set; }
 
     public virtual DbSet<User> Users { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Data Source=LAPTOP-NP0A866T\\SQLEXPRESS01;Initial Catalog=KoiCompetition;Integrated Security=True;Encrypt=True;Trust Server Certificate=True");
+        => optionsBuilder.UseSqlServer("Server=LAPTOP-NP0A866T\\SQLEXPRESS01; DataBase=KoiCompetition;Integrated Security=true;TrustServerCertificate=True");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        modelBuilder.Entity<KoiManagement>(entity =>
+        modelBuilder.Entity<Ranking>(entity =>
         {
-            entity.HasKey(e => e.KoiId).HasName("PK__KoiManag__E03435B84C3B6298");
+            entity.HasKey(e => e.Id).HasName("PK__Ranking__3214EC07092D6B31");
 
-            entity.ToTable("KoiManagement");
+            entity.ToTable("Ranking");
 
-            entity.Property(e => e.KoiId).HasColumnName("KoiID");
-            entity.Property(e => e.Breed).HasMaxLength(50);
-            entity.Property(e => e.Color).HasMaxLength(50);
-            entity.Property(e => e.Gpa)
-                .HasColumnType("decimal(3, 2)")
-                .HasColumnName("GPA");
-            entity.Property(e => e.HealthStatus).HasMaxLength(50);
-            entity.Property(e => e.Name).HasMaxLength(50);
-            entity.Property(e => e.Origin).HasMaxLength(100);
-            entity.Property(e => e.Price).HasColumnType("decimal(10, 2)");
-            entity.Property(e => e.Size).HasColumnType("decimal(5, 2)");
-            entity.Property(e => e.UserEmail)
-                .HasMaxLength(255)
-                .HasColumnName("user_email");
+            entity.Property(e => e.Name).HasMaxLength(100);
+            entity.Property(e => e.Species).HasMaxLength(100);
+            entity.Property(e => e.Votes).HasDefaultValue(0);
+        });
 
-            entity.HasOne(d => d.UserEmailNavigation).WithMany(p => p.KoiManagements)
-                .HasPrincipalKey(p => p.Email)
-                .HasForeignKey(d => d.UserEmail)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__KoiManage__user___239E4DCF");
+        modelBuilder.Entity<Ranking1>(entity =>
+        {
+            entity.HasKey(e => e.Id).HasName("PK__Rankings__3214EC076D11FFAC");
+
+            entity.ToTable("Rankings");
+
+            entity.Property(e => e.Name).HasMaxLength(100);
+            entity.Property(e => e.Species).HasMaxLength(100);
+            entity.Property(e => e.Votes).HasDefaultValue(0);
         });
 
         modelBuilder.Entity<User>(entity =>
         {
-            entity.HasKey(e => e.UserId).HasName("PK__Users__B9BE370FC19E26D1");
+            entity.HasKey(e => e.UserId).HasName("PK__Users__B9BE370FB2219D85");
 
-            entity.HasIndex(e => e.Email, "UQ__Users__AB6E6164EB598A49").IsUnique();
+            entity.HasIndex(e => e.Email, "UQ__Users__AB6E616472013F1C").IsUnique();
 
             entity.Property(e => e.UserId).HasColumnName("user_id");
             entity.Property(e => e.CreatedAt)
@@ -84,6 +80,6 @@ public partial class KoiCompetitionContext : DbContext
 
         OnModelCreatingPartial(modelBuilder);
     }
-    public virtual DbSet<Vote> Votes { get; set; }
+
     partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
 }

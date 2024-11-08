@@ -1,34 +1,82 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\LENOVO\\Downloads\\GIT\\NhomI_CNPM-DT8\\KoiProject\\",
+  "WorkspaceRootPath": "C:\\Users\\HP\\OneDrive\\Desktop\\KoiTest\\NhomI_CNPM-DT8\\KoiProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3F011BC1-09AF-48AA-AD29-4BAFD34E57F6}|KoiProject.Repositories\\KoiProject.Repositories.csproj|c:\\users\\lenovo\\downloads\\git\\nhomi_cnpm-dt8\\koiproject\\koiproject.repositories\\entities\\koicompetitioncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|c:\\users\\hp\\onedrive\\desktop\\koitest\\nhomi_cnpm-dt8\\koiproject\\koiproject.webapplication\\pages\\ranking.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|solutionrelative:koiproject.webapplication\\pages\\ranking.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F011BC1-09AF-48AA-AD29-4BAFD34E57F6}|KoiProject.Repositories\\KoiProject.Repositories.csproj|c:\\users\\hp\\onedrive\\desktop\\koitest\\nhomi_cnpm-dt8\\koiproject\\koiproject.repositories\\repositories\\rankingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F011BC1-09AF-48AA-AD29-4BAFD34E57F6}|KoiProject.Repositories\\KoiProject.Repositories.csproj|solutionrelative:koiproject.repositories\\repositories\\rankingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F011BC1-09AF-48AA-AD29-4BAFD34E57F6}|KoiProject.Repositories\\KoiProject.Repositories.csproj|c:\\users\\hp\\onedrive\\desktop\\koitest\\nhomi_cnpm-dt8\\koiproject\\koiproject.repositories\\interfaces\\irankingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F011BC1-09AF-48AA-AD29-4BAFD34E57F6}|KoiProject.Repositories\\KoiProject.Repositories.csproj|solutionrelative:koiproject.repositories\\interfaces\\irankingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F011BC1-09AF-48AA-AD29-4BAFD34E57F6}|KoiProject.Repositories\\KoiProject.Repositories.csproj|c:\\users\\hp\\onedrive\\desktop\\koitest\\nhomi_cnpm-dt8\\koiproject\\koiproject.repositories\\repositories\\koimanagementrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F011BC1-09AF-48AA-AD29-4BAFD34E57F6}|KoiProject.Repositories\\KoiProject.Repositories.csproj|solutionrelative:koiproject.repositories\\repositories\\koimanagementrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|c:\\users\\hp\\onedrive\\desktop\\koitest\\nhomi_cnpm-dt8\\koiproject\\koiproject.webapplication\\pages\\koifish\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|solutionrelative:koiproject.webapplication\\pages\\koifish\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F011BC1-09AF-48AA-AD29-4BAFD34E57F6}|KoiProject.Repositories\\KoiProject.Repositories.csproj|c:\\users\\hp\\onedrive\\desktop\\koitest\\nhomi_cnpm-dt8\\koiproject\\koiproject.repositories\\entities\\koicompetitioncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F011BC1-09AF-48AA-AD29-4BAFD34E57F6}|KoiProject.Repositories\\KoiProject.Repositories.csproj|solutionrelative:koiproject.repositories\\entities\\koicompetitioncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3F011BC1-09AF-48AA-AD29-4BAFD34E57F6}|KoiProject.Repositories\\KoiProject.Repositories.csproj|c:\\users\\lenovo\\downloads\\git\\nhomi_cnpm-dt8\\koiproject\\koiproject.repositories\\repositories\\voterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F011BC1-09AF-48AA-AD29-4BAFD34E57F6}|KoiProject.Repositories\\KoiProject.Repositories.csproj|solutionrelative:koiproject.repositories\\repositories\\voterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC003EBC-5803-422B-9B61-F1D47E389EF2}|KoiProject.Service\\KoiProject.Service.csproj|c:\\users\\lenovo\\downloads\\git\\nhomi_cnpm-dt8\\koiproject\\koiproject.service\\service\\voteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC003EBC-5803-422B-9B61-F1D47E389EF2}|KoiProject.Service\\KoiProject.Service.csproj|solutionrelative:koiproject.service\\service\\voteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F011BC1-09AF-48AA-AD29-4BAFD34E57F6}|KoiProject.Repositories\\KoiProject.Repositories.csproj|c:\\users\\lenovo\\downloads\\git\\nhomi_cnpm-dt8\\koiproject\\koiproject.repositories\\entities\\koimanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3F011BC1-09AF-48AA-AD29-4BAFD34E57F6}|KoiProject.Repositories\\KoiProject.Repositories.csproj|c:\\users\\hp\\onedrive\\desktop\\koitest\\nhomi_cnpm-dt8\\koiproject\\koiproject.repositories\\entities\\koimanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3F011BC1-09AF-48AA-AD29-4BAFD34E57F6}|KoiProject.Repositories\\KoiProject.Repositories.csproj|solutionrelative:koiproject.repositories\\entities\\koimanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|c:\\users\\lenovo\\downloads\\git\\nhomi_cnpm-dt8\\koiproject\\koiproject.webapplication\\pages\\votes.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|solutionrelative:koiproject.webapplication\\pages\\votes.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|c:\\users\\hp\\onedrive\\desktop\\koitest\\nhomi_cnpm-dt8\\koiproject\\koiproject.webapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|solutionrelative:koiproject.webapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|c:\\users\\lenovo\\downloads\\git\\nhomi_cnpm-dt8\\koiproject\\koiproject.webapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|c:\\users\\hp\\onedrive\\desktop\\koitest\\nhomi_cnpm-dt8\\koiproject\\koiproject.webapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|solutionrelative:koiproject.webapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|c:\\users\\lenovo\\downloads\\git\\nhomi_cnpm-dt8\\koiproject\\koiproject.webapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|solutionrelative:koiproject.webapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{BC003EBC-5803-422B-9B61-F1D47E389EF2}|KoiProject.Service\\KoiProject.Service.csproj|c:\\users\\hp\\onedrive\\desktop\\koitest\\nhomi_cnpm-dt8\\koiproject\\koiproject.service\\service\\rankingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC003EBC-5803-422B-9B61-F1D47E389EF2}|KoiProject.Service\\KoiProject.Service.csproj|solutionrelative:koiproject.service\\service\\rankingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC003EBC-5803-422B-9B61-F1D47E389EF2}|KoiProject.Service\\KoiProject.Service.csproj|c:\\users\\hp\\onedrive\\desktop\\koitest\\nhomi_cnpm-dt8\\koiproject\\koiproject.service\\interfaces\\irankingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC003EBC-5803-422B-9B61-F1D47E389EF2}|KoiProject.Service\\KoiProject.Service.csproj|solutionrelative:koiproject.service\\interfaces\\irankingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F011BC1-09AF-48AA-AD29-4BAFD34E57F6}|KoiProject.Repositories\\KoiProject.Repositories.csproj|c:\\users\\hp\\onedrive\\desktop\\koitest\\nhomi_cnpm-dt8\\koiproject\\koiproject.repositories\\repositories\\userreposirory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F011BC1-09AF-48AA-AD29-4BAFD34E57F6}|KoiProject.Repositories\\KoiProject.Repositories.csproj|solutionrelative:koiproject.repositories\\repositories\\userreposirory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|c:\\users\\hp\\onedrive\\desktop\\koitest\\nhomi_cnpm-dt8\\koiproject\\koiproject.webapplication\\pages\\ranking.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|solutionrelative:koiproject.webapplication\\pages\\ranking.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|c:\\users\\hp\\onedrive\\desktop\\koitest\\nhomi_cnpm-dt8\\koiproject\\koiproject.webapplication\\data\\ranking1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|solutionrelative:koiproject.webapplication\\data\\ranking1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|c:\\users\\hp\\onedrive\\desktop\\koitest\\nhomi_cnpm-dt8\\koiproject\\koiproject.webapplication\\data\\ranking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|solutionrelative:koiproject.webapplication\\data\\ranking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|c:\\users\\hp\\onedrive\\desktop\\koitest\\nhomi_cnpm-dt8\\koiproject\\koiproject.webapplication\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|solutionrelative:koiproject.webapplication\\pages\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|c:\\users\\hp\\onedrive\\desktop\\koitest\\nhomi_cnpm-dt8\\koiproject\\koiproject.webapplication\\pages\\koifish\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|solutionrelative:koiproject.webapplication\\pages\\koifish\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|c:\\users\\hp\\onedrive\\desktop\\koitest\\nhomi_cnpm-dt8\\koiproject\\koiproject.webapplication\\pages\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|solutionrelative:koiproject.webapplication\\pages\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|c:\\users\\hp\\onedrive\\desktop\\koitest\\nhomi_cnpm-dt8\\koiproject\\koiproject.webapplication\\data\\koicompetitioncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|solutionrelative:koiproject.webapplication\\data\\koicompetitioncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -41,99 +89,240 @@
           "SelectedChildIndex": 4,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "VoteRepository.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.Repositories\\Repositories\\VoteRepository.cs",
-              "RelativeDocumentMoniker": "KoiProject.Repositories\\Repositories\\VoteRepository.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.Repositories\\Repositories\\VoteRepository.cs",
-              "RelativeToolTip": "KoiProject.Repositories\\Repositories\\VoteRepository.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAhwB0AAAARAAAAAAAAAA==",
+              "Title": "RankingRepository.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\KoiTest\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.Repositories\\Repositories\\RankingRepository.cs",
+              "RelativeDocumentMoniker": "KoiProject.Repositories\\Repositories\\RankingRepository.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\KoiTest\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.Repositories\\Repositories\\RankingRepository.cs",
+              "RelativeToolTip": "KoiProject.Repositories\\Repositories\\RankingRepository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T05:32:27.315Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "KoiManagement.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.Repositories\\Entities\\KoiManagement.cs",
-              "RelativeDocumentMoniker": "KoiProject.Repositories\\Entities\\KoiManagement.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.Repositories\\Entities\\KoiManagement.cs",
-              "RelativeToolTip": "KoiProject.Repositories\\Entities\\KoiManagement.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAA6wB4AAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T05:32:16.101Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "VoteService.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.Service\\Service\\VoteService.cs",
-              "RelativeDocumentMoniker": "KoiProject.Service\\Service\\VoteService.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.Service\\Service\\VoteService.cs",
-              "RelativeToolTip": "KoiProject.Service\\Service\\VoteService.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAewCMAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T05:31:24.067Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "KoiCompetitionContext.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.Repositories\\Entities\\KoiCompetitionContext.cs",
-              "RelativeDocumentMoniker": "KoiProject.Repositories\\Entities\\KoiCompetitionContext.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.Repositories\\Entities\\KoiCompetitionContext.cs",
-              "RelativeToolTip": "KoiProject.Repositories\\Entities\\KoiCompetitionContext.cs",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAAAFYAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T05:30:32.876Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Votes.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\Pages\\Votes.cshtml.cs",
-              "RelativeDocumentMoniker": "KoiProject.WebApplication\\Pages\\Votes.cshtml.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\Pages\\Votes.cshtml.cs",
-              "RelativeToolTip": "KoiProject.WebApplication\\Pages\\Votes.cshtml.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAUwAkAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T05:31:10.604Z",
+              "WhenOpened": "2024-11-08T06:55:03.348Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\Program.cs",
-              "RelativeDocumentMoniker": "KoiProject.WebApplication\\Program.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\Program.cs",
-              "RelativeToolTip": "KoiProject.WebApplication\\Program.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAABsAAAAnAAAAAAAAAA==",
+              "Title": "KoiCompetitionContext.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\KoiTest\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.Repositories\\Entities\\KoiCompetitionContext.cs",
+              "RelativeDocumentMoniker": "KoiProject.Repositories\\Entities\\KoiCompetitionContext.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\KoiTest\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.Repositories\\Entities\\KoiCompetitionContext.cs",
+              "RelativeToolTip": "KoiProject.Repositories\\Entities\\KoiCompetitionContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAADwvxEAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T05:30:26.087Z",
+              "WhenOpened": "2024-11-08T06:31:48.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IRankingRepository.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\KoiTest\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.Repositories\\Interfaces\\IRankingRepository.cs",
+              "RelativeDocumentMoniker": "KoiProject.Repositories\\Interfaces\\IRankingRepository.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\KoiTest\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.Repositories\\Interfaces\\IRankingRepository.cs",
+              "RelativeToolTip": "KoiProject.Repositories\\Interfaces\\IRankingRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T06:54:30.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\KoiTest\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\Pages\\KoiFish\\Index.cshtml",
+              "RelativeDocumentMoniker": "KoiProject.WebApplication\\Pages\\KoiFish\\Index.cshtml",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\KoiTest\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\Pages\\KoiFish\\Index.cshtml",
+              "RelativeToolTip": "KoiProject.WebApplication\\Pages\\KoiFish\\Index.cshtml",
+              "ViewState": "AgIAAH8AAAAAAAAAAAAUwJwAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-08T08:14:58.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Ranking.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\KoiTest\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\Pages\\Ranking.cshtml",
+              "RelativeDocumentMoniker": "KoiProject.WebApplication\\Pages\\Ranking.cshtml",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\KoiTest\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\Pages\\Ranking.cshtml",
+              "RelativeToolTip": "KoiProject.WebApplication\\Pages\\Ranking.cshtml",
+              "ViewState": "AgIAACYAAAAAAAAAAAAUwD8AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-08T06:16:05.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "KoiManagementRepository.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\KoiTest\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.Repositories\\Repositories\\KoiManagementRepository.cs",
+              "RelativeDocumentMoniker": "KoiProject.Repositories\\Repositories\\KoiManagementRepository.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\KoiTest\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.Repositories\\Repositories\\KoiManagementRepository.cs",
+              "RelativeToolTip": "KoiProject.Repositories\\Repositories\\KoiManagementRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T08:20:21.318Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\appsettings.json",
-              "RelativeDocumentMoniker": "KoiProject.WebApplication\\appsettings.json",
-              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\GIT\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\appsettings.json",
-              "RelativeToolTip": "KoiProject.WebApplication\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAACZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-08T05:30:16.99Z",
+              "Title": "KoiManagement.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\KoiTest\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.Repositories\\Entities\\KoiManagement.cs",
+              "RelativeDocumentMoniker": "KoiProject.Repositories\\Entities\\KoiManagement.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\KoiTest\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.Repositories\\Entities\\KoiManagement.cs",
+              "RelativeToolTip": "KoiProject.Repositories\\Entities\\KoiManagement.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA4wBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T06:37:16.254Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\KoiTest\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\Pages\\Login.cshtml",
+              "RelativeDocumentMoniker": "KoiProject.WebApplication\\Pages\\Login.cshtml",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\KoiTest\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\Pages\\Login.cshtml",
+              "RelativeToolTip": "KoiProject.WebApplication\\Pages\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-08T07:01:54.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\KoiTest\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\appsettings.json",
+              "RelativeDocumentMoniker": "KoiProject.WebApplication\\appsettings.json",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\KoiTest\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\appsettings.json",
+              "RelativeToolTip": "KoiProject.WebApplication\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-08T06:15:34.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\KoiTest\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\Program.cs",
+              "RelativeDocumentMoniker": "KoiProject.WebApplication\\Program.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\KoiTest\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\Program.cs",
+              "RelativeToolTip": "KoiProject.WebApplication\\Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAewBkAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T07:25:00.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Ranking1.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\KoiTest\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\Data\\Ranking1.cs",
+              "RelativeDocumentMoniker": "KoiProject.WebApplication\\Data\\Ranking1.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\KoiTest\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\Data\\Ranking1.cs",
+              "RelativeToolTip": "KoiProject.WebApplication\\Data\\Ranking1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T07:21:12.09Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Ranking.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\KoiTest\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\Pages\\Ranking.cshtml.cs",
+              "RelativeDocumentMoniker": "KoiProject.WebApplication\\Pages\\Ranking.cshtml.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\KoiTest\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\Pages\\Ranking.cshtml.cs",
+              "RelativeToolTip": "KoiProject.WebApplication\\Pages\\Ranking.cshtml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAIwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T07:04:36.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Ranking.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\KoiTest\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\Data\\Ranking.cs",
+              "RelativeDocumentMoniker": "KoiProject.WebApplication\\Data\\Ranking.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\KoiTest\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\Data\\Ranking.cs",
+              "RelativeToolTip": "KoiProject.WebApplication\\Data\\Ranking.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T07:21:08.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RankingService.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\KoiTest\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.Service\\Service\\RankingService.cs",
+              "RelativeDocumentMoniker": "KoiProject.Service\\Service\\RankingService.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\KoiTest\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.Service\\Service\\RankingService.cs",
+              "RelativeToolTip": "KoiProject.Service\\Service\\RankingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T07:00:56.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IRankingService.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\KoiTest\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.Service\\Interfaces\\IRankingService.cs",
+              "RelativeDocumentMoniker": "KoiProject.Service\\Interfaces\\IRankingService.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\KoiTest\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.Service\\Interfaces\\IRankingService.cs",
+              "RelativeToolTip": "KoiProject.Service\\Interfaces\\IRankingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T07:00:20.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UserReposirory.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\KoiTest\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.Repositories\\Repositories\\UserReposirory.cs",
+              "RelativeDocumentMoniker": "KoiProject.Repositories\\Repositories\\UserReposirory.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\KoiTest\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.Repositories\\Repositories\\UserReposirory.cs",
+              "RelativeToolTip": "KoiProject.Repositories\\Repositories\\UserReposirory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T07:27:28.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "KoiCompetitionContext.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\KoiTest\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\Data\\KoiCompetitionContext.cs",
+              "RelativeDocumentMoniker": "KoiProject.WebApplication\\Data\\KoiCompetitionContext.cs",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\KoiTest\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\Data\\KoiCompetitionContext.cs",
+              "RelativeToolTip": "KoiProject.WebApplication\\Data\\KoiCompetitionContext.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAA9wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T06:24:01.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\KoiTest\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\Pages\\KoiFish\\Create.cshtml",
+              "RelativeDocumentMoniker": "KoiProject.WebApplication\\Pages\\KoiFish\\Create.cshtml",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\KoiTest\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\Pages\\KoiFish\\Create.cshtml",
+              "RelativeToolTip": "KoiProject.WebApplication\\Pages\\KoiFish\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-08T06:21:53.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\OneDrive\\Desktop\\KoiTest\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\Pages\\Register.cshtml",
+              "RelativeDocumentMoniker": "KoiProject.WebApplication\\Pages\\Register.cshtml",
+              "ToolTip": "C:\\Users\\HP\\OneDrive\\Desktop\\KoiTest\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\Pages\\Register.cshtml",
+              "RelativeToolTip": "KoiProject.WebApplication\\Pages\\Register.cshtml",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-08T06:15:43.126Z"
             }
           ]
         }
