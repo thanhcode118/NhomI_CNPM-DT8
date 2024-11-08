@@ -17,54 +17,38 @@
 <body>
     <button class="back-button" onclick="window.history.back()">Trở về</button>
     <main id="main">
-        <div class="row">
-            <div class="col">
-                <div class="main-1">
-                    <h1>Liên Hệ Hỗ Trợ</h1>
-                    <p>Chúng tôi sẵn sàng hỗ trợ bạn trong mọi vấn đề. Vui lòng liên hệ qua các kênh dưới đây.</p>
-                    <div class="title-text-decoration">
-                    </div>
-                </div>
+    <section class="page-section bg-light" id="portfolio">
+            <div class="container">
+                <div class="contact-form">
+    <h3>Liên hệ</h3>
+    <p>Bạn hãy điền nội dung tin nhắn vào form dưới đây và gửi cho chúng tôi. Chúng tôi sẽ trả lời bạn sau khi nhận được.</p>
+    <form asp-action="SubmitContact" method="post">
+        <div class="form-group">
+            <label for="name">Họ tên<span class="text-danger">*</span></label>
+            <input type="text" class="form-control" id="name" name="Name" placeholder="Nhập họ tên" required />
+        </div>
+        <div class="form-group">
+            <label for="email">Email<span class="text-danger">*</span></label>
+            <input type="email" class="form-control" id="email" name="Email" placeholder="Nhập email" required />
+        </div>
+        <div class="form-group">
+            <label for="message">Nội dung<span class="text-danger">*</span></label>
+            <textarea class="form-control" id="message" name="Message" rows="5" placeholder="Nhập nội dung" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-danger">GỬI TIN NHẮN</button>
+    </form>
+
+    <div class="contact-info">
+        <h4>Thông tin liên hệ</h4>
+        <p><i class="fas fa-map-marker-alt"></i> 123 Đường Cá Koi, Thành phố Cá Koi</p>
+        <p><i class="fas fa-phone"></i> <a href="">0123456789</a></p>
+        <p><i class="fas fa-envelope"></i> <a href="">info@koiworld.vn</a></p>
+    </div>
+</div>
+
+                
             </div>
         </div>
-        <div class="main-2">
-            <div class="row">
-                <div class="col">
-                    <div class="col-1">
-                        <a class="col-1" href="#">
-                            <p><img src="IMG/phone.png" alt=""></p>
-                            <div class="main-1 box">
-                                <p>GỌI ĐIỆN HỖ TRỢ</p>
-                                <p>Hotline: 0123 456 789</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="col-1">
-                        <a class="col-1" href="#">
-                            <p><img src="IMG/email.png" alt=""></p>
-                            <div class="main-1 box">
-                                <p>EMAIL HỖ TRỢ</p>
-                                <p>info@koiworld.vn</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="col-1">
-                        <a class="col-1" href="#">
-                            <p><img src="IMG/facebook.png" alt=""></p>
-                            <div class="main-1 box">
-                                <p>FACEBOOK</p>
-                                <p>https://www.facebook.com/KoiFish05</p>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
     </main>
     <footer id="footer">
         <div class="footer">
@@ -89,8 +73,6 @@
                 <h2>Thông tin hữu ích</h2>
                 <div>
                     <ul>
-                        <li><img src="IMG/icon-arrowright.png" alt=""><a href="#"> Hướng dẫn mua hàng</a></li>
-                        <li><img src="IMG/icon-arrowright.png" alt=""><a href="#"> Chính sách đổi trả</a></li>
                         <li><img src="IMG/icon-arrowright.png" alt=""><a href="#"> Điều khoản sử dụng</a></li>
                         <li><img src="IMG/icon-arrowright.png" alt=""><a href="#"> Chính sách bảo mật</a></li>
                         <li><img src="IMG/icon-arrowright.png" alt=""><a href="#"> Bản quyền hình ảnh</a></li>

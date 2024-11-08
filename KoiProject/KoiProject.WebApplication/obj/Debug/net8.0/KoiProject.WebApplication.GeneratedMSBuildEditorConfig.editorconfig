@@ -17,135 +17,135 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = KoiProject.WebApplication
 build_property.RootNamespace = KoiProject.WebApplication
-build_property.ProjectDir = C:\Users\HP\OneDrive\Desktop\KoiTest\NhomI_CNPM-DT8\KoiProject\KoiProject.WebApplication\
+build_property.ProjectDir = E:\git\NhomI_CNPM-DT8\KoiProject\KoiProject.WebApplication\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\HP\OneDrive\Desktop\KoiTest\NhomI_CNPM-DT8\KoiProject\KoiProject.WebApplication
+build_property.MSBuildProjectDirectory = E:\git\NhomI_CNPM-DT8\KoiProject\KoiProject.WebApplication
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/HP/OneDrive/Desktop/KoiTest/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/App.razor]
+[E:/git/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/OneDrive/Desktop/KoiTest/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Index.razor]
+[E:/git/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/OneDrive/Desktop/KoiTest/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Shared/MainLayout.razor]
+[E:/git/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/OneDrive/Desktop/KoiTest/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Dashboard.cshtml]
+[E:/git/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Dashboard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFzaGJvYXJkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/OneDrive/Desktop/KoiTest/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Error.cshtml]
+[E:/git/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/OneDrive/Desktop/KoiTest/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Forums.cshtml]
+[E:/git/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Forums.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9ydW1zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/OneDrive/Desktop/KoiTest/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Home.cshtml]
+[E:/git/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Home.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/OneDrive/Desktop/KoiTest/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Instruct.cshtml]
+[E:/git/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Instruct.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5zdHJ1Y3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/OneDrive/Desktop/KoiTest/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Judging.cshtml]
+[E:/git/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Judging.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSnVkZ2luZy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/OneDrive/Desktop/KoiTest/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/KoiFish/Create.cshtml]
+[E:/git/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/KoiFish/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcS29pRmlzaFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/OneDrive/Desktop/KoiTest/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/KoiFish/Delete.cshtml]
+[E:/git/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/KoiFish/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcS29pRmlzaFxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/OneDrive/Desktop/KoiTest/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/KoiFish/Details.cshtml]
+[E:/git/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/KoiFish/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcS29pRmlzaFxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/OneDrive/Desktop/KoiTest/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/KoiFish/Edit.cshtml]
+[E:/git/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/KoiFish/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcS29pRmlzaFxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/OneDrive/Desktop/KoiTest/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/KoiFish/Index.cshtml]
+[E:/git/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/KoiFish/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcS29pRmlzaFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/OneDrive/Desktop/KoiTest/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/ListKoiFishMember.cshtml]
+[E:/git/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/ListKoiFishMember.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGlzdEtvaUZpc2hNZW1iZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/OneDrive/Desktop/KoiTest/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Login.cshtml]
+[E:/git/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/OneDrive/Desktop/KoiTest/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/MatchSchedule.cshtml]
+[E:/git/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/MatchSchedule.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWF0Y2hTY2hlZHVsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/OneDrive/Desktop/KoiTest/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Newspaper.cshtml]
+[E:/git/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Newspaper.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmV3c3BhcGVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/OneDrive/Desktop/KoiTest/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Notification.cshtml]
+[E:/git/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Notification.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTm90aWZpY2F0aW9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/OneDrive/Desktop/KoiTest/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Privacy.cshtml]
+[E:/git/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/OneDrive/Desktop/KoiTest/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Ranking.cshtml]
+[E:/git/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Ranking.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmFua2luZy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/OneDrive/Desktop/KoiTest/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Register.cshtml]
+[E:/git/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/OneDrive/Desktop/KoiTest/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Shared/_LayoutKoiFish.cshtml]
+[E:/git/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Shared/_LayoutKoiFish.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXRLb2lGaXNoLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/OneDrive/Desktop/KoiTest/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[E:/git/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/OneDrive/Desktop/KoiTest/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Supports.cshtml]
+[E:/git/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Supports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3VwcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/OneDrive/Desktop/KoiTest/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Votes.cshtml]
+[E:/git/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Votes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVm90ZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/OneDrive/Desktop/KoiTest/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/_Host.cshtml]
+[E:/git/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/OneDrive/Desktop/KoiTest/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/_LoginPartial.cshtml]
+[E:/git/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xvZ2luUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/OneDrive/Desktop/KoiTest/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/_ViewImports.cshtml]
+[E:/git/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/OneDrive/Desktop/KoiTest/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/_ViewStart.cshtml]
+[E:/git/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/HP/OneDrive/Desktop/KoiTest/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Shared/_Layout.cshtml]
+[E:/git/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-7o2uujfsq3
