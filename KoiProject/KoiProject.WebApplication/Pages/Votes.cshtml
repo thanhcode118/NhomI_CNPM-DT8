@@ -1,0 +1,38 @@
+﻿@page
+@model KoiProject.WebApplication.Pages.VotesModel
+@{
+    Layout = null;
+    ViewData["Title"] = "Votes";
+}
+
+
+<h2>@ViewData["Title"]</h2>
+<p>Chọn cá Koi mà bạn muốn bình chọn:</p>
+
+<form method="post">
+    <table>
+        <thead>
+            <tr>
+                <th>Tên</th>
+                <th>Giống</th>
+                <th>Màu sắc</th>
+                <th>Lượt bình chọn</th>
+                <th>Hành động</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var koi in Model.KoiList)
+            {
+                <tr>
+                    <td>@koi.Name</td>
+                    <td>@koi.Breed</td>
+                    <td>@koi.Color</td>
+                    <td>@koi.VoteCount</td>
+                    <td>
+                        <button type="submit" formaction="?handler=Vote&koiId=@koi.KoiId">Bình chọn</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</form>

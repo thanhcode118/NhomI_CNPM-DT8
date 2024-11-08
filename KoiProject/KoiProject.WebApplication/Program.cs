@@ -26,7 +26,8 @@ builder.Services.AddRazorPages();
 builder.Services.AddSession(); 
 
 builder.Services.AddServerSideBlazor();
-
+builder.Services.AddScoped<IVoteService, VoteService>(); // Đăng ký IVoteService với VoteService
+builder.Services.AddScoped<IVoteRepository, VoteRepository>();
 var app = builder.Build();
 
 if (!app.Environment.IsDevelopment())

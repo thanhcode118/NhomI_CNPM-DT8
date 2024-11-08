@@ -28,4 +28,5 @@ public partial class KoiManagement
     public decimal Gpa { get; set; }
 
     public virtual User UserEmailNavigation { get; set; } = null!;
+    public int VoteCount { get; set; }
 }

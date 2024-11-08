@@ -17,131 +17,135 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = KoiProject.WebApplication
 build_property.RootNamespace = KoiProject.WebApplication
-build_property.ProjectDir = C:\WORK_SPACE\CNPM_connectDB\source\Github_Cnpm\NhomI_CNPM-DT8\KoiProject\KoiProject.WebApplication\
+build_property.ProjectDir = C:\Users\LENOVO\Downloads\GIT\NhomI_CNPM-DT8\KoiProject\KoiProject.WebApplication\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\WORK_SPACE\CNPM_connectDB\source\Github_Cnpm\NhomI_CNPM-DT8\KoiProject\KoiProject.WebApplication
+build_property.MSBuildProjectDirectory = C:\Users\LENOVO\Downloads\GIT\NhomI_CNPM-DT8\KoiProject\KoiProject.WebApplication
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/WORK_SPACE/CNPM_connectDB/source/Github_Cnpm/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/App.razor]
+[C:/Users/LENOVO/Downloads/GIT/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/WORK_SPACE/CNPM_connectDB/source/Github_Cnpm/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Index.razor]
+[C:/Users/LENOVO/Downloads/GIT/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/WORK_SPACE/CNPM_connectDB/source/Github_Cnpm/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Shared/MainLayout.razor]
+[C:/Users/LENOVO/Downloads/GIT/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/WORK_SPACE/CNPM_connectDB/source/Github_Cnpm/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Dashboard.cshtml]
+[C:/Users/LENOVO/Downloads/GIT/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Dashboard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFzaGJvYXJkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/WORK_SPACE/CNPM_connectDB/source/Github_Cnpm/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Error.cshtml]
+[C:/Users/LENOVO/Downloads/GIT/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/WORK_SPACE/CNPM_connectDB/source/Github_Cnpm/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Forums.cshtml]
+[C:/Users/LENOVO/Downloads/GIT/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Forums.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9ydW1zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/WORK_SPACE/CNPM_connectDB/source/Github_Cnpm/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Home.cshtml]
+[C:/Users/LENOVO/Downloads/GIT/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Home.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/WORK_SPACE/CNPM_connectDB/source/Github_Cnpm/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Instruct.cshtml]
+[C:/Users/LENOVO/Downloads/GIT/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Instruct.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5zdHJ1Y3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/WORK_SPACE/CNPM_connectDB/source/Github_Cnpm/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Judging.cshtml]
+[C:/Users/LENOVO/Downloads/GIT/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Judging.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSnVkZ2luZy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/WORK_SPACE/CNPM_connectDB/source/Github_Cnpm/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/KoiFish/Create.cshtml]
+[C:/Users/LENOVO/Downloads/GIT/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/KoiFish/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcS29pRmlzaFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/WORK_SPACE/CNPM_connectDB/source/Github_Cnpm/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/KoiFish/Delete.cshtml]
+[C:/Users/LENOVO/Downloads/GIT/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/KoiFish/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcS29pRmlzaFxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/WORK_SPACE/CNPM_connectDB/source/Github_Cnpm/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/KoiFish/Details.cshtml]
+[C:/Users/LENOVO/Downloads/GIT/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/KoiFish/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcS29pRmlzaFxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/WORK_SPACE/CNPM_connectDB/source/Github_Cnpm/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/KoiFish/Edit.cshtml]
+[C:/Users/LENOVO/Downloads/GIT/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/KoiFish/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcS29pRmlzaFxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/WORK_SPACE/CNPM_connectDB/source/Github_Cnpm/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/KoiFish/Index.cshtml]
+[C:/Users/LENOVO/Downloads/GIT/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/KoiFish/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcS29pRmlzaFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/WORK_SPACE/CNPM_connectDB/source/Github_Cnpm/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/ListKoiFishMember.cshtml]
+[C:/Users/LENOVO/Downloads/GIT/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/ListKoiFishMember.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGlzdEtvaUZpc2hNZW1iZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/WORK_SPACE/CNPM_connectDB/source/Github_Cnpm/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Login.cshtml]
+[C:/Users/LENOVO/Downloads/GIT/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/WORK_SPACE/CNPM_connectDB/source/Github_Cnpm/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/MatchSchedule.cshtml]
+[C:/Users/LENOVO/Downloads/GIT/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/MatchSchedule.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWF0Y2hTY2hlZHVsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/WORK_SPACE/CNPM_connectDB/source/Github_Cnpm/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Newspaper.cshtml]
+[C:/Users/LENOVO/Downloads/GIT/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Newspaper.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmV3c3BhcGVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/WORK_SPACE/CNPM_connectDB/source/Github_Cnpm/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Notification.cshtml]
+[C:/Users/LENOVO/Downloads/GIT/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Notification.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTm90aWZpY2F0aW9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/WORK_SPACE/CNPM_connectDB/source/Github_Cnpm/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Privacy.cshtml]
+[C:/Users/LENOVO/Downloads/GIT/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/WORK_SPACE/CNPM_connectDB/source/Github_Cnpm/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Ranking.cshtml]
+[C:/Users/LENOVO/Downloads/GIT/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Ranking.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmFua2luZy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/WORK_SPACE/CNPM_connectDB/source/Github_Cnpm/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Register.cshtml]
+[C:/Users/LENOVO/Downloads/GIT/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/WORK_SPACE/CNPM_connectDB/source/Github_Cnpm/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Shared/_LayoutKoiFish.cshtml]
+[C:/Users/LENOVO/Downloads/GIT/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Shared/_LayoutKoiFish.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXRLb2lGaXNoLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/WORK_SPACE/CNPM_connectDB/source/Github_Cnpm/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/LENOVO/Downloads/GIT/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/WORK_SPACE/CNPM_connectDB/source/Github_Cnpm/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Supports.cshtml]
+[C:/Users/LENOVO/Downloads/GIT/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Supports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3VwcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/WORK_SPACE/CNPM_connectDB/source/Github_Cnpm/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/_Host.cshtml]
+[C:/Users/LENOVO/Downloads/GIT/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Votes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVm90ZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LENOVO/Downloads/GIT/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/WORK_SPACE/CNPM_connectDB/source/Github_Cnpm/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/_LoginPartial.cshtml]
+[C:/Users/LENOVO/Downloads/GIT/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xvZ2luUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/WORK_SPACE/CNPM_connectDB/source/Github_Cnpm/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/_ViewImports.cshtml]
+[C:/Users/LENOVO/Downloads/GIT/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/WORK_SPACE/CNPM_connectDB/source/Github_Cnpm/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/_ViewStart.cshtml]
+[C:/Users/LENOVO/Downloads/GIT/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/WORK_SPACE/CNPM_connectDB/source/Github_Cnpm/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Shared/_Layout.cshtml]
+[C:/Users/LENOVO/Downloads/GIT/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-7o2uujfsq3
