@@ -6,6 +6,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+using Microsoft.EntityFrameworkCore;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+
 public class VoteRepository : IVoteRepository
 {
     private readonly KoiCompetitionContext _context;
@@ -17,21 +22,34 @@ public class VoteRepository : IVoteRepository
 
     public async Task<IList<KoiManagement>> GetAllKoiAsync()
     {
-        return await _context.KoiManagements.ToListAsync();
+        return await _context.KoiFish.ToListAsync() as IList<KoiManagement>;
     }
 
-    public async Task<KoiManagement> GetKoiByIdAsync(int koiId)
+
+    public Task<KoiManagement> GetKoiByIdAsync(int koiId)
     {
-        return await _context.KoiManagements.FindAsync(koiId);
+        return _context.KoiFish.FirstOrDefaultAsync(k => k.KoiId == koiId);
     }
+
+    public Task<Vote> GetVoteByEmailAndKoiIdAsync(string email, int koiId)
+    {
+        return _context.Votes.FirstOrDefaultAsync(v => v.VoterEmail == email && v.KoiID == koiId);
+    }
+
 
     public async Task AddVoteAsync(Vote vote)
     {
-        _context.Votes.Add(vote);
+        await _context.Votes.AddAsync(vote);
     }
 
-    public async Task SaveChangesAsync()
+    public Task UpdateKoiAsync(KoiManagement koi)
     {
-        await _context.SaveChangesAsync();
+        _context.KoiFish.Update(koi);
+        return _context.SaveChangesAsync();
+    }
+
+    public Task SaveChangesAsync()
+    {
+        return _context.SaveChangesAsync();
     }
 }

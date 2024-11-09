@@ -8,7 +8,9 @@ using System.Threading.Tasks;
 public interface IVoteRepository
 {
     Task<IList<KoiManagement>> GetAllKoiAsync();
-    Task AddVoteAsync(Vote vote);
     Task<KoiManagement> GetKoiByIdAsync(int koiId);
+    Task<Vote> GetVoteByEmailAndKoiIdAsync(string email, int koiId);
+    Task AddVoteAsync(Vote vote);
+    Task UpdateKoiAsync(KoiManagement koi);
     Task SaveChangesAsync();
 }
