@@ -3,7 +3,6 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace KoiProject.WebApplication.Pages
-
 {
     public class VotesModel : PageModel
     {
@@ -24,22 +23,19 @@ namespace KoiProject.WebApplication.Pages
         }
 
         // Phương thức này được gọi khi người dùng thực hiện hành động bình chọn
-        public async Task<IActionResult> OnPostVoteAsync(int koiId)
+        public async Task<IActionResult> OnPostVoteAsync(int id)
         {
-            string voterEmail = User.Identity.Name; // Lấy email người dùng hiện tại
-            bool success = await _voteService.VoteForKoiAsync(koiId, voterEmail);
+            var result = await _voteService.IncreaseVoteAsync(id);
+            if (!result)
+            {
+                return NotFound(); // Nếu không tìm thấy hoặc không thể bình chọn
+            }
 
-            if (success)
-            {
-                // Sau khi bình chọn thành công, quay lại trang để hiển thị cập nhật
-                return RedirectToPage();
-            }
-            else
-            {
-                // Xử lý khi bình chọn không thành công (có thể do koiId không tồn tại)
-                ModelState.AddModelError(string.Empty, "Bình chọn không thành công. Vui lòng thử lại.");
-                return Page();
-            }
+            return RedirectToPage(); // Reload trang sau khi bình chọn thành công
+
         }
+
     }
+
 }
+

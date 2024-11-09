@@ -17,6 +17,7 @@ CREATE TABLE Users (
     created_at DATETIME DEFAULT GETDATE(),
     updated_at DATETIME DEFAULT GETDATE()
 );
+go
 
 INSERT INTO Users (name, email, password, role)
 VALUES 
@@ -40,17 +41,17 @@ CREATE TABLE KoiManagement (
     VoteCount INT DEFAULT 0 NOT NULL,
     CONSTRAINT FK_UserEmail FOREIGN KEY (user_email) REFERENCES Users(email)
 );
-
+go
 -- Chèn dữ liệu vào KoiManagement
 INSERT INTO KoiManagement (Name, Breed, Size, Color, DateOfEntry, Origin, Price, HealthStatus, user_email, GPA)
 VALUES 
 
-('Koi A', 'Taisho Sanke', 19.40, 'White with Red & Black', '2024-11-04', 'Japan', 1550.00, 'Healthy', 'johndoe@example.com', 3.6),
-('Koi B', 'Shusui', 21.80, 'Light Blue', '2024-11-05', 'China', 1400.00, 'Moderate', 'alice@example.com', 3.8),
-('Koi C', 'Ogon', 18.00, 'Golden', '2024-11-06', 'Vietnam', 1250.00, 'Healthy', 'bob@example.com', 3.4),
-('Koi D', 'Utsuri', 23.10, 'Black & Yellow', '2024-11-07', 'Thailand', 1600.00, 'Excellent', 'johndoe@example.com', 3.9),
-('Koi E', 'Asagi', 17.75, 'Gray Blue', '2024-11-08', 'Japan', 1300.00, 'Healthy', 'alice@example.com', 3.5);
-
+('Kohaku ', 'Taisho Sanke', 19.40, 'White with Red & Black', '2024-11-04', 'Japan', 1550.00, 'Healthy', 'johndoe@example.com', 3.6),
+('Sanke ', 'Shusui', 21.80, 'Light Blue', '2024-11-05', 'China', 1400.00, 'Moderate', 'alice@example.com', 3.8),
+('Showa ', 'Ogon', 18.00, 'Golden', '2024-11-06', 'Vietnam', 1250.00, 'Healthy', 'bob@example.com', 3.4),
+('Utsuri ', 'Utsuri', 23.10, 'Black & Yellow', '2024-11-07', 'Thailand', 1600.00, 'Excellent', 'johndoe@example.com', 3.9),
+('Asagi ', 'Asagi', 17.75, 'Gray Blue', '2024-11-08', 'Japan', 1300.00, 'Healthy', 'alice@example.com', 3.5);
+go
 -- Tạo bảng Votes
 CREATE TABLE Votes (
     VoteID INT PRIMARY KEY IDENTITY,
@@ -60,46 +61,41 @@ CREATE TABLE Votes (
     FOREIGN KEY (KoiID) REFERENCES KoiManagement(KoiID),
     FOREIGN KEY (VoterEmail) REFERENCES Users(email)
 );
-INSERT INTO Votes (KoiID, VoterEmail, VoteDate)
-VALUES 
-    (4, 'johndoe@example.com', GETDATE()), 
-    (5, 'alice@example.com', GETDATE()),   
-    (6, 'bob@example.com', GETDATE()),     
-    (7, 'alice@example.com', GETDATE()),   
-    (8, 'johndoe@example.com', GETDATE()), 
-    (9, 'bob@example.com', GETDATE()),     
-    (10, 'johndoe@example.com', GETDATE()), 
-    (11, 'alice@example.com', GETDATE()),   
-    (7, 'bob@example.com', GETDATE());
 
-
-
--- Tạo Trigger trên bảng Votes để cập nhật VoteCount trong KoiManagement
-DROP TRIGGER IF EXISTS trg_VoteCount_Update;
 GO
-CREATE TRIGGER trg_VoteCount_Update
-ON Votes
-AFTER INSERT
-AS
-BEGIN
-    UPDATE KoiManagement
-    SET VoteCount = VoteCount + 1
-    WHERE KoiID IN (SELECT KoiID FROM inserted);
-END;
-
--- Kiểm tra dữ liệu trong bảng Votes
-SELECT * FROM Votes;
-
--- Tạo thủ tục AddVote để thêm vote
-GO
-CREATE OR ALTER PROCEDURE AddVote
+CREATE PROCEDURE AddVote
     @KoiID INT,
     @VoterEmail NVARCHAR(255)
 AS
 BEGIN
-    -- Thêm bản ghi vào bảng Votes
-    INSERT INTO Votes (KoiID, VoterEmail)
-    VALUES (@KoiID, @VoterEmail);
+    BEGIN TRY
+        BEGIN TRANSACTION;
+
+        -- Kiểm tra nếu đã tồn tại bình chọn cho KoiID và VoterEmail
+        IF NOT EXISTS (SELECT 1 FROM Votes WHERE KoiID = @KoiID AND VoterEmail = @VoterEmail)
+        BEGIN
+            -- Thêm bình chọn vào bảng Votes
+            INSERT INTO Votes (KoiID, VoterEmail)
+            VALUES (@KoiID, @VoterEmail);
+
+            -- Cập nhật VoteCount trong bảng KoiManagement
+            UPDATE KoiManagement
+            SET VoteCount = VoteCount + 1
+            WHERE KoiID = @KoiID;
+
+            PRINT 'Bình chọn thành công!';
+        END
+        ELSE
+        BEGIN
+            PRINT 'Người dùng đã bình chọn cho cá này rồi.';
+        END
+
+        COMMIT TRANSACTION;
+    END TRY
+    BEGIN CATCH
+        ROLLBACK TRANSACTION;
+        THROW;
+    END CATCH
 END;
 
 -- Kiểm tra dữ liệu trong bảng KoiManagement
