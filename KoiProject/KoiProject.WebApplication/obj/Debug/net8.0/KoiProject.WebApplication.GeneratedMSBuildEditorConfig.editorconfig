@@ -126,6 +126,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3VwcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/git/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Vi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/git/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Votes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVm90ZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

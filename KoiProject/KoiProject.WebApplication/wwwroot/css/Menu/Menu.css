@@ -12427,7 +12427,6 @@ p {
 }
 
 .page-section {
-    
     padding: 6rem 0;
 }
 
@@ -12444,12 +12443,6 @@ p {
         font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
         margin-bottom: 4rem;
     }
-
-@media (min-width: 768px) {
-    section {
-        padding: 9rem 0;
-    }
-}
 
 .btn-xl {
     padding: 1.25rem 2.5rem;
@@ -13053,11 +13046,6 @@ section#contact {
         transform: translate(0);
         box-shadow: none;
     }
-/* General Styles */
-body {
-    background-color: #f0f0f0;
-    font-family: Arial, sans-serif;
-}
 
 .container-1 {
     max-width: 600px;
@@ -13069,13 +13057,13 @@ body {
     border-radius: 8px;
 }
 
-/* Match Row */
+
 .row {
     border: 1px solid #333;
     border-radius: 8px;
 }
 
-/* Team Logos and Names */
+
 .col-3 img {
     max-width: 50px;
     border-radius: 50%;
@@ -13088,7 +13076,7 @@ h5 {
     font-weight: bold;
 }
 
-/* Match Center VS and Commentator */
+
 .col-6 h5 {
     font-size: 1.5rem;
     color: #ff4444;
@@ -13101,14 +13089,14 @@ h5 {
     margin: 5px 0 0 0;
 }
 
-/* Match Details Row */
+
 .col-12 {
     display: flex;
     align-items: center;
     font-size: 0.9rem;
 }
 
-    /* Competition Name and Time */
+  
     .col-12 span:first-child {
         color: #cccccc;
     }
@@ -13117,7 +13105,7 @@ h5 {
         color: #ffdd44;
     }
 
-/* Betting Button */
+
 .btn-warning {
     background-color: #ffdd44;
     color: #1a1a1a;
@@ -13133,7 +13121,7 @@ h5 {
         color: #000;
     }
 
-/* Live Button */
+
 .btn-danger {
     background-color: #ff4444;
     color: #ffffff;
@@ -13148,7 +13136,7 @@ h5 {
         background-color: #ff2222;
     }
 
-/* Spacing */
+
 .mt-2 {
     margin-top: 10px;
 }

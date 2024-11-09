@@ -27,6 +27,16 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
+    "profiles": {
+      "YourAppName": {
+        "commandName": "Project",
+        "dotnetRunMessages": true,
+        "applicationUrl": "https://localhost:7129",
+        "environmentVariables": {
+          "ASPNETCORE_ENVIRONMENT": "Development"
+        }
+      }
+    },
 
     "IIS Express": {
       "commandName": "IISExpress",
