@@ -19,5 +19,7 @@ public partial class User
 
     public DateTime? UpdatedAt { get; set; }
 
-    public virtual ICollection<KoiManagement> KoiManagements { get; set; } = new List<KoiManagement>();
+    public virtual ICollection<KoiManagement> KoiManagementIdUserNavigations { get; set; } = new List<KoiManagement>();
+
+    public virtual ICollection<KoiManagement> KoiManagementUserEmailNavigations { get; set; } = new List<KoiManagement>();
 }

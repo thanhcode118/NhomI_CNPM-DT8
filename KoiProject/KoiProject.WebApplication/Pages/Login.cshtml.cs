@@ -48,6 +48,7 @@ public class LoginModel : PageModel
         {
             // Lưu ID người dùng vào session
             HttpContext.Session.SetInt32("UserId", user.UserId);
+            HttpContext.Session.SetString("emial", user.Email);
 
             // Điều hướng dựa trên vai trò của người dùng
             if (user.Role == "admin")

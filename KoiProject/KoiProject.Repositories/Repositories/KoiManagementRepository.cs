@@ -47,10 +47,49 @@ namespace KoiProject.Repositories.Repositories
             return await _context.KoiManagements.FindAsync(koiId);
         }
 
+
+
+       
+
+
         public async Task<IEnumerable<KoiManagement>> GetAllKoisAsync()
         {
-            return await _context.KoiManagements.Include(k => k.UserEmailNavigation).ToListAsync() ?? new List<KoiManagement>();
+            try
+            {
+                var results = await _context.KoiManagements
+                                            .Include(k => k.UserEmailNavigation)
+                                            .ToListAsync();
+
+                return results; // Không cần `?? new List<KoiManagement>()` vì `ToListAsync` không trả về null.
+            }
+            catch (Exception ex)
+            {
+                // Ghi log lỗi (hoặc sử dụng framework ghi log)
+                Console.Error.WriteLine($"Error in GetAllKoisAsync: {ex.Message}");
+                throw;
+            }
         }
+        public async Task<List<KoiManagement>> GetKoisForUserAsync(int? userId = null, string email = null)
+        {
+            if (userId == null && string.IsNullOrEmpty(email))
+            {
+                throw new ArgumentException("Either userId or email must be provided.");
+            }
+
+            // Ưu tiên tìm bằng userId nếu có
+            if (userId.HasValue)
+            {
+                return await _context.KoiManagements
+                                     .Where(k => k.IdUser == userId.Value)
+                                     .ToListAsync();
+            }
+
+            // Nếu không có userId, tìm bằng email
+            return await _context.KoiManagements
+                                 .Where(k => k.UserEmail == email)
+                                 .ToListAsync();
+        }
+
 
     }
 }

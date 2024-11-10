@@ -38,6 +38,7 @@ public partial class KoiCompetitionContext : DbContext
                 .HasColumnType("decimal(3, 2)")
                 .HasColumnName("GPA");
             entity.Property(e => e.HealthStatus).HasMaxLength(50);
+            entity.Property(e => e.IdUser).HasColumnName("id_user");
             entity.Property(e => e.Name).HasMaxLength(50);
             entity.Property(e => e.Origin).HasMaxLength(100);
             entity.Property(e => e.Price).HasColumnType("decimal(10, 2)");
@@ -46,7 +47,11 @@ public partial class KoiCompetitionContext : DbContext
                 .HasMaxLength(255)
                 .HasColumnName("user_email");
 
-            entity.HasOne(d => d.UserEmailNavigation).WithMany(p => p.KoiManagements)
+            entity.HasOne(d => d.IdUserNavigation).WithMany(p => p.KoiManagementIdUserNavigations)
+                .HasForeignKey(d => d.IdUser)
+                .HasConstraintName("FK_KoiManagement_Users");
+
+            entity.HasOne(d => d.UserEmailNavigation).WithMany(p => p.KoiManagementUserEmailNavigations)
                 .HasPrincipalKey(p => p.Email)
                 .HasForeignKey(d => d.UserEmail)
                 .OnDelete(DeleteBehavior.ClientSetNull)

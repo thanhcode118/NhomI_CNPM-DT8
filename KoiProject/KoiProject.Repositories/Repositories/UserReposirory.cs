@@ -17,9 +17,24 @@ namespace KoiProject.Repositories.Repositories
         // Truy vấn người dùng dựa trên email và mật khẩu đã mã hóa
         public async Task<User> GetUserByEmailAndPasswordAsync(string email, string hashedPassword)
         {
-            return await _context.Users
-                                 .FirstOrDefaultAsync(u => u.Email == email && u.Password == hashedPassword);
+            Console.WriteLine($"[UserRepository] Email: {email}, HashedPassword: {hashedPassword}");
+
+
+            var user = await _context.Users
+                                     .FirstOrDefaultAsync(u => u.Email == email && u.Password == hashedPassword);
+
+            if (user == null)
+            {
+                Console.WriteLine("[UserRepository] No user found for the given email and hashed password.");
+            }
+            else
+            {
+                Console.WriteLine($"[UserRepository] User found: {user.Email}");
+            }
+
+            return user;
         }
+
 
         // Kiểm tra xem tên người dùng đã tồn tại trong cơ sở dữ liệu hay chưa
         public async Task<bool> IsUsernameTakenAsync(string username)

@@ -23,5 +23,8 @@ namespace KoiProject.Repositories.Interfaces
 
         // Lấy tất cả các đối tượng Koi
         Task<IEnumerable<KoiManagement>> GetAllKoisAsync();
+
+        // Lấy tất cả các đối tượng Koi theo emial
+        Task<List<KoiManagement>> GetKoisForUserAsync(int? userId = null, string email = null);
     }
 }

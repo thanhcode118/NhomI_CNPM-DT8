@@ -1,6 +1,8 @@
 ﻿using KoiProject.Repositories.Entities;
 using KoiProject.Repositories.Interfaces;
+using KoiProject.Repositories.Repositories;
 using KoiProject.Service.Interfaces;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace KoiProject.Service.Service
 {
-    public class KoiManagementService: IKoiManagementService
+    public class KoiManagementService : IKoiManagementService
     {
         private readonly IKoiManagementRepository _repository;
 
@@ -42,6 +44,12 @@ namespace KoiProject.Service.Service
         {
             return await _repository.GetAllKoisAsync();
         }
+
+        public async Task<List<KoiManagement>> GetKoisForLoggedInUserAsync(int? userId = null, string email = null)
+        {
+            return await _repository.GetKoisForUserAsync(userId, email);
+        }
+
     }
 }
 
