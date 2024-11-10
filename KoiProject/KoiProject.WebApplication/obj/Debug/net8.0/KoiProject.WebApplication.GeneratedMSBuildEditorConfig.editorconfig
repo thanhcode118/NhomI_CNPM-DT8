@@ -38,6 +38,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/LENOVO/Downloads/GIT/CNPM/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/ContestDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGVzdERldGFpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/LENOVO/Downloads/GIT/CNPM/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Dashboard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFzaGJvYXJkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -126,15 +130,11 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3VwcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-<<<<<<< HEAD
-[E:/git/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Vi.cshtml]
+[C:/Users/LENOVO/Downloads/GIT/CNPM/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Vi.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/git/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Votes.cshtml]
-=======
 [C:/Users/LENOVO/Downloads/GIT/CNPM/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Votes.cshtml]
->>>>>>> 0f26eda1664b0d7b8f4e85afc180c610791eda95
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVm90ZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 

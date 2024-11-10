@@ -11149,6 +11149,294 @@
       "PackagePath": "staticwebassets\\assets\\assetNotification\\images\\image-chess.webp"
     },
     {
+      "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\css\\animate.css",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\css\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\css\\flex-slider.css",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\css\\flex-slider.css"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\css\\fontawesome.css",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\css\\fontawesome.css"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\css\\owl.css",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\css\\owl.css"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\css\\snapx-photography.css",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\css\\snapx-photography.css"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\author.jpg",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\author.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\banner-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\banner-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\close.png",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\close.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\closed-01.jpg",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\closed-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\closed-02.jpg",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\closed-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\closed-03.jpg",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\closed-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\closed-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\closed-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\contest-01.jpg",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\contest-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\contest-02.jpg",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\contest-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\contest-03.jpg",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\contest-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\contest-04.jpg",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\contest-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\featured-01.jpg",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\featured-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\featured-02.jpg",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\featured-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\featured-03.jpg",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\featured-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\featured-image-01.jpg",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\featured-image-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\featured-image-02.jpg",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\featured-image-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\featured-image-03.jpg",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\featured-image-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\featured-image-04.jpg",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\featured-image-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\featured-image-05.jpg",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\featured-image-05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\heading-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\heading-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\icon-01.png",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\icon-01.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\icon-02.png",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\icon-02.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\icon-03.png",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\icon-03.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\icon-04.png",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\icon-04.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\logo.png",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\next.png",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\next.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\photo-video-01.jpg",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\photo-video-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\photo-video-02.jpg",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\photo-video-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\photo-video-03.jpg",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\photo-video-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\photo-video-04.jpg",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\photo-video-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\photo-video-05.jpg",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\photo-video-05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\popular-01.png",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\popular-01.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\popular-02.png",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\popular-02.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\popular-03.png",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\popular-03.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\popular-04.png",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\popular-04.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\portfolio-01.jpg",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\portfolio-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\portfolio-02.jpg",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\portfolio-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\portfolio-03.jpg",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\portfolio-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\portfolio-04.jpg",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\portfolio-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\portfolio-05.jpg",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\portfolio-05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\portfolio-06.jpg",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\portfolio-06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\portfolio-07.jpg",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\portfolio-07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\portfolio-08.jpg",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\portfolio-08.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\portfolio-09.jpg",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\portfolio-09.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\prev.png",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\prev.png"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\pricing-01.jpg",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\pricing-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\pricing-02.jpg",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\pricing-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\pricing-03.jpg",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\pricing-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\user-avatar.jpg",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\user-avatar.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\waiting-01.jpg",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\waiting-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\waiting-02.jpg",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\waiting-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\waiting-03.jpg",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\waiting-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\waiting-04.jpg",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\waiting-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\js\\custom.js",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\js\\custom.js"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\js\\isotope.js",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\js\\isotope.js"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\js\\isotope.min.js",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\js\\isotope.min.js"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\js\\owl-carousel.js",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\js\\owl-carousel.js"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\js\\popup.js",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\js\\popup.js"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\js\\tabs.js",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\js\\tabs.js"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\webfonts\\fa-v4compatibility.ttf",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\webfonts\\fa-v4compatibility.ttf"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\webfonts\\fa-v4compatibility.woff2",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\webfonts\\fa-v4compatibility.woff2"
+    },
+    {
       "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsKoiFishMember\\css\\Box.css",
       "PackagePath": "staticwebassets\\assets\\assetsKoiFishMember\\css\\Box.css"
     },
@@ -14061,6 +14349,10 @@
       "PackagePath": "staticwebassets\\html\\charts.html"
     },
     {
+      "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\html\\contest-details.html",
+      "PackagePath": "staticwebassets\\html\\contest-details.html"
+    },
+    {
       "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\html\\docs.html",
       "PackagePath": "staticwebassets\\html\\docs.html"
     },
@@ -14103,6 +14395,10 @@
     {
       "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\html\\signup.html",
       "PackagePath": "staticwebassets\\html\\signup.html"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\html\\users.html",
+      "PackagePath": "staticwebassets\\html\\users.html"
     },
     {
       "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\1.jpg",
@@ -14851,6 +15147,38 @@
     {
       "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff2",
       "PackagePath": "staticwebassets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\vendors\\vendorDetail\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\vendors\\vendorDetail\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\vendors\\vendorDetail\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\vendors\\vendorDetail\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\vendors\\vendorDetail\\jquery\\jquery.js",
+      "PackagePath": "staticwebassets\\vendors\\vendorDetail\\jquery\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\vendors\\vendorDetail\\jquery\\jquery.min.js",
+      "PackagePath": "staticwebassets\\vendors\\vendorDetail\\jquery\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\vendors\\vendorDetail\\jquery\\jquery.min.map",
+      "PackagePath": "staticwebassets\\vendors\\vendorDetail\\jquery\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\vendors\\vendorDetail\\jquery\\jquery.slim.js",
+      "PackagePath": "staticwebassets\\vendors\\vendorDetail\\jquery\\jquery.slim.js"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\vendors\\vendorDetail\\jquery\\jquery.slim.min.js",
+      "PackagePath": "staticwebassets\\vendors\\vendorDetail\\jquery\\jquery.slim.min.js"
+    },
+    {
+      "Id": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\vendors\\vendorDetail\\jquery\\jquery.slim.min.map",
+      "PackagePath": "staticwebassets\\vendors\\vendorDetail\\jquery\\jquery.slim.min.map"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.KoiProject.WebApplication.Microsoft.AspNetCore.StaticWebAssets.props",
