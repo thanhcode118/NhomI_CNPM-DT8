@@ -1,0 +1,10 @@
+﻿.carousel-custom-controls {
+    position: relative;
+    margin-top: 20px;
+}
+
+    .carousel-custom-controls .btn {
+        padding: 10px 20px;
+        font-size: 16px;
+        border-radius: 5px;
+    }

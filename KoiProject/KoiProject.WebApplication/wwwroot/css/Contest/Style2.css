@@ -1,0 +1,33 @@
+﻿/* Khoảng cách và căn chỉnh */
+.contest-waiting {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+/* Item layout */
+.waiting-item {
+    transition: all 0.3s ease;
+}
+
+    .waiting-item:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Hình ảnh */
+    .waiting-item img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+/* Padding và kích thước chữ */
+.down-content h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.down-content p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}

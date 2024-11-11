@@ -103,7 +103,9 @@
                                                 <span class="text-secondary text-xs font-weight-bold">@item.Origin</span>
                                             </td>
                                             <td class="align-middle text-center">
-                                                <span class="text-secondary text-xs font-weight-bold">@item.DateOfEntry?.ToString("dd/MM/yyyy")</span>
+                                                <span class="text-secondary text-xs font-weight-bold">
+                                                    @item.DateOfEntry?.ToString("dd/MM/yyyy") ?? "N/A"
+                                                </span>
                                             </td>
                                             <td class="align-middle">
                                                 <div class="action-box">

@@ -1,0 +1,103 @@
+﻿@page
+@model VotesModel
+@{
+    Layout = null;
+    ViewData["Title"] = "Votes";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Bình chọn cá Koi</title>
+    <!-- plugins:css -->
+    <link rel="stylesheet" href="./vendors/mdi/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="./vendors/base/vendor.bundle.base.css">
+    <!-- inject:css -->
+    <link rel="stylesheet" href="~/css/cssRanking/style.css">
+    <!-- endinject -->
+    <link rel="shortcut icon" href="../../img/favicon.png" />
+</head>
+<body>
+    <div class="main-panel">
+        <div class="content-wrapper">
+            <div class="row">
+                <div class="col-lg-12 grid-margin stretch-card">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 class="card-title">Bảng bình chọn cá Koi</h4>
+
+                            <!-- Hiển thị thông báo từ TempData -->
+                            @if (TempData["Success"] != null)
+                            {
+                                <div class="alert alert-success">
+                                    @TempData["Success"]
+                                </div>
+                            }
+                            @if (TempData["Error"] != null)
+                            {
+                                <div class="alert alert-danger">
+                                    @TempData["Error"]
+                                </div>
+                            }
+
+                            <div class="table-responsive">
+                                <table class="table table-striped">
+                                    <thead>
+                                        <tr>
+                                            <th>Hình ảnh</th>
+                                            <th>Tên</th>
+                                            <th>Giống</th>
+                                            <th>Kích cỡ (cm)</th>
+                                            <th>Màu sắc</th>
+                                            <th>Số lượt bình chọn</th>
+                                            <th>Xuất xứ</th>
+                                            <th>Hành động</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @foreach (var koi in Model.KoiList)
+                                        {
+                                            <tr>
+                                                <!-- Hiển thị hình ảnh cố định hoặc từ dữ liệu -->
+                                                <td class="py-1">
+                                                    <img src="../../img/faces/face1.jpg" alt="image" />
+                                                </td>
+                                                <!-- Hiển thị thông tin cá Koi từ CSDL -->
+                                                <td>@koi.Name</td>
+                                                <td>@koi.Breed</td>
+                                                <td>@koi.Size</td>
+                                                <td>@koi.Color</td>
+                                               <!--Doan nay can code voteKoi-->
+                                                <td>@koi.Origin</td>
+                                                <td>
+                                                    <form method="post" asp-page-handler="Vote" asp-route-id="@koi.KoiId">
+                                                        <button type="submit" class="btn btn-primary btn-sm">Bình chọn</button>
+                                                    </form>
+                                                </td>
+                                            </tr>
+                                        }
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="d-sm-flex justify-content-center justify-content-sm-between">
+                <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">Copyright © <a href="https://www.bootstrapdash.com/" target="_blank">bootstrapdash.com</a> 2021</span>
+                <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">Only the best <a href="https://www.bootstrapdash.com/" target="_blank">Bootstrap dashboard</a> templates</span>
+            </div>
+        </footer>
+    </div>
+    <!-- plugins:js -->
+    <script src="../../vendors/base/vendor.bundle.base.js"></script>
+    <!-- inject:js -->
+    <script src="../../js/off-canvas.js"></script>
+    <script src="../../js/hoverable-collapse.js"></script>
+    <script src="../../js/template.js"></script>
+</body>
+</html>

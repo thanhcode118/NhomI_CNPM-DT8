@@ -38,6 +38,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/WORK_SPACE/CNPM_connectDB/source/Github_Cnpm/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/ContestDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGVzdERldGFpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/WORK_SPACE/CNPM_connectDB/source/Github_Cnpm/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Dashboard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGFzaGJvYXJkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -124,6 +128,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/WORK_SPACE/CNPM_connectDB/source/Github_Cnpm/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Supports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU3VwcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/WORK_SPACE/CNPM_connectDB/source/Github_Cnpm/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Vi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVmkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/WORK_SPACE/CNPM_connectDB/source/Github_Cnpm/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/Votes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVm90ZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/WORK_SPACE/CNPM_connectDB/source/Github_Cnpm/NhomI_CNPM-DT8/KoiProject/KoiProject.WebApplication/Pages/_Host.cshtml]

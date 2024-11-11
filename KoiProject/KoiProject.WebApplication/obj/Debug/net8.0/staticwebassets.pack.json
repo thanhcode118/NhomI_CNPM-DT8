@@ -11149,6 +11149,294 @@
       "PackagePath": "staticwebassets\\assets\\assetNotification\\images\\image-chess.webp"
     },
     {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\css\\animate.css",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\css\\animate.css"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\css\\flex-slider.css",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\css\\flex-slider.css"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\css\\fontawesome.css",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\css\\fontawesome.css"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\css\\owl.css",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\css\\owl.css"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\css\\snapx-photography.css",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\css\\snapx-photography.css"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\author.jpg",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\author.jpg"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\banner-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\banner-bg.jpg"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\close.png",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\close.png"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\closed-01.jpg",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\closed-01.jpg"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\closed-02.jpg",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\closed-02.jpg"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\closed-03.jpg",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\closed-03.jpg"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\closed-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\closed-bg.jpg"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\contest-01.jpg",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\contest-01.jpg"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\contest-02.jpg",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\contest-02.jpg"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\contest-03.jpg",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\contest-03.jpg"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\contest-04.jpg",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\contest-04.jpg"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\featured-01.jpg",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\featured-01.jpg"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\featured-02.jpg",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\featured-02.jpg"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\featured-03.jpg",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\featured-03.jpg"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\featured-image-01.jpg",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\featured-image-01.jpg"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\featured-image-02.jpg",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\featured-image-02.jpg"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\featured-image-03.jpg",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\featured-image-03.jpg"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\featured-image-04.jpg",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\featured-image-04.jpg"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\featured-image-05.jpg",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\featured-image-05.jpg"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\heading-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\heading-bg.jpg"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\icon-01.png",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\icon-01.png"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\icon-02.png",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\icon-02.png"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\icon-03.png",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\icon-03.png"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\icon-04.png",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\icon-04.png"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\logo.png",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\next.png",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\next.png"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\photo-video-01.jpg",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\photo-video-01.jpg"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\photo-video-02.jpg",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\photo-video-02.jpg"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\photo-video-03.jpg",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\photo-video-03.jpg"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\photo-video-04.jpg",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\photo-video-04.jpg"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\photo-video-05.jpg",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\photo-video-05.jpg"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\popular-01.png",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\popular-01.png"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\popular-02.png",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\popular-02.png"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\popular-03.png",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\popular-03.png"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\popular-04.png",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\popular-04.png"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\portfolio-01.jpg",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\portfolio-01.jpg"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\portfolio-02.jpg",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\portfolio-02.jpg"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\portfolio-03.jpg",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\portfolio-03.jpg"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\portfolio-04.jpg",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\portfolio-04.jpg"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\portfolio-05.jpg",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\portfolio-05.jpg"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\portfolio-06.jpg",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\portfolio-06.jpg"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\portfolio-07.jpg",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\portfolio-07.jpg"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\portfolio-08.jpg",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\portfolio-08.jpg"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\portfolio-09.jpg",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\portfolio-09.jpg"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\prev.png",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\prev.png"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\pricing-01.jpg",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\pricing-01.jpg"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\pricing-02.jpg",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\pricing-02.jpg"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\pricing-03.jpg",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\pricing-03.jpg"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\user-avatar.jpg",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\user-avatar.jpg"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\waiting-01.jpg",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\waiting-01.jpg"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\waiting-02.jpg",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\waiting-02.jpg"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\waiting-03.jpg",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\waiting-03.jpg"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\images\\waiting-04.jpg",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\images\\waiting-04.jpg"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\js\\custom.js",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\js\\custom.js"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\js\\isotope.js",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\js\\isotope.js"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\js\\isotope.min.js",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\js\\isotope.min.js"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\js\\owl-carousel.js",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\js\\owl-carousel.js"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\js\\popup.js",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\js\\popup.js"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\js\\tabs.js",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\js\\tabs.js"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\webfonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\webfonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\webfonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\webfonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\webfonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\webfonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\webfonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\webfonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\webfonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\webfonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\webfonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\webfonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\webfonts\\fa-v4compatibility.ttf",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\webfonts\\fa-v4compatibility.ttf"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\webfonts\\fa-v4compatibility.woff2",
+      "PackagePath": "staticwebassets\\assets\\assetsDetail\\webfonts\\fa-v4compatibility.woff2"
+    },
+    {
       "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsKoiFishMember\\css\\Box.css",
       "PackagePath": "staticwebassets\\assets\\assetsKoiFishMember\\css\\Box.css"
     },
@@ -12431,6 +12719,14 @@
     {
       "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\img\\team\\3.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\team\\3.jpg"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\css\\Contest\\Style1.css",
+      "PackagePath": "staticwebassets\\css\\Contest\\Style1.css"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\css\\Contest\\Style2.css",
+      "PackagePath": "staticwebassets\\css\\Contest\\Style2.css"
     },
     {
       "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\css\\Menu\\Menu.css",
@@ -14061,6 +14357,30 @@
       "PackagePath": "staticwebassets\\html\\charts.html"
     },
     {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\html\\contest\\adult.html",
+      "PackagePath": "staticwebassets\\html\\contest\\adult.html"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\html\\contest\\baby.html",
+      "PackagePath": "staticwebassets\\html\\contest\\baby.html"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\html\\contest\\grand.html",
+      "PackagePath": "staticwebassets\\html\\contest\\grand.html"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\html\\contest\\mature.html",
+      "PackagePath": "staticwebassets\\html\\contest\\mature.html"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\html\\contest\\sakura.html",
+      "PackagePath": "staticwebassets\\html\\contest\\sakura.html"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\html\\contest\\young.html",
+      "PackagePath": "staticwebassets\\html\\contest\\young.html"
+    },
+    {
       "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\html\\docs.html",
       "PackagePath": "staticwebassets\\html\\docs.html"
     },
@@ -14103,6 +14423,10 @@
     {
       "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\html\\signup.html",
       "PackagePath": "staticwebassets\\html\\signup.html"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\html\\users.html",
+      "PackagePath": "staticwebassets\\html\\users.html"
     },
     {
       "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\1.jpg",
@@ -14153,16 +14477,68 @@
       "PackagePath": "staticwebassets\\img\\FishManagement.jpg"
     },
     {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\GRAND.jpg",
+      "PackagePath": "staticwebassets\\img\\GRAND.jpg"
+    },
+    {
       "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\Home.jpeg",
       "PackagePath": "staticwebassets\\img\\Home.jpeg"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\Huongdan.jpg",
+      "PackagePath": "staticwebassets\\img\\Huongdan.jpg"
     },
     {
       "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\Instructions for participation.webp",
       "PackagePath": "staticwebassets\\img\\Instructions for participation.webp"
     },
     {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\KoiAsagi.webp",
+      "PackagePath": "staticwebassets\\img\\KoiAsagi.webp"
+    },
+    {
       "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\KoiBekko.webp",
       "PackagePath": "staticwebassets\\img\\KoiBekko.webp"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\KoiGinrinkoihaku.webp",
+      "PackagePath": "staticwebassets\\img\\KoiGinrinkoihaku.webp"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\KoiKanoko.webp",
+      "PackagePath": "staticwebassets\\img\\KoiKanoko.webp"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\KoiKawarimono.webp",
+      "PackagePath": "staticwebassets\\img\\KoiKawarimono.webp"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\KoiKigoi.jpg",
+      "PackagePath": "staticwebassets\\img\\KoiKigoi.jpg"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\KoiKohaku.webp",
+      "PackagePath": "staticwebassets\\img\\KoiKohaku.webp"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\KoiShusui.webp",
+      "PackagePath": "staticwebassets\\img\\KoiShusui.webp"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\KoiTaisho.jpg",
+      "PackagePath": "staticwebassets\\img\\KoiTaisho.jpg"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\KoiTaishoSnake.webp",
+      "PackagePath": "staticwebassets\\img\\KoiTaishoSnake.webp"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\KoiTancho.webp",
+      "PackagePath": "staticwebassets\\img\\KoiTancho.webp"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\KoiYellowKikokuryu.jpg",
+      "PackagePath": "staticwebassets\\img\\KoiYellowKikokuryu.jpg"
     },
     {
       "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\Koi_about.jpg",
@@ -14181,8 +14557,16 @@
       "PackagePath": "staticwebassets\\img\\Login.jpg"
     },
     {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\Logoanime.jpg",
+      "PackagePath": "staticwebassets\\img\\Logoanime.jpg"
+    },
+    {
       "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\LuatThiDau.jpg",
       "PackagePath": "staticwebassets\\img\\LuatThiDau.jpg"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\MATURE.jpg",
+      "PackagePath": "staticwebassets\\img\\MATURE.jpg"
     },
     {
       "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\MatchSchedule.jpg",
@@ -14209,6 +14593,10 @@
       "PackagePath": "staticwebassets\\img\\Result.jpg"
     },
     {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\SAKURA1.JPG",
+      "PackagePath": "staticwebassets\\img\\SAKURA1.JPG"
+    },
+    {
       "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\Service.jpg.png",
       "PackagePath": "staticwebassets\\img\\Service.jpg.png"
     },
@@ -14231,6 +14619,14 @@
     {
       "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\Toan.jpg",
       "PackagePath": "staticwebassets\\img\\Toan.jpg"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\adult.jpg",
+      "PackagePath": "staticwebassets\\img\\adult.jpg"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\animelogo.jpg",
+      "PackagePath": "staticwebassets\\img\\animelogo.jpg"
     },
     {
       "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\auth\\lockscreen-bg.jpg",
@@ -14417,6 +14813,14 @@
       "PackagePath": "staticwebassets\\img\\koiLogin.jpg"
     },
     {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\koisac.jpg",
+      "PackagePath": "staticwebassets\\img\\koisac.jpg"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\koisac2.jpg",
+      "PackagePath": "staticwebassets\\img\\koisac2.jpg"
+    },
+    {
       "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\logo-mini.svg",
       "PackagePath": "staticwebassets\\img\\logo-mini.svg"
     },
@@ -14425,12 +14829,20 @@
       "PackagePath": "staticwebassets\\img\\logo.svg"
     },
     {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\mature2.jpg",
+      "PackagePath": "staticwebassets\\img\\mature2.jpg"
+    },
+    {
       "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\ng.jpg",
       "PackagePath": "staticwebassets\\img\\ng.jpg"
     },
     {
       "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\ranking.jpg",
       "PackagePath": "staticwebassets\\img\\ranking.jpg"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\sakura.jpg",
+      "PackagePath": "staticwebassets\\img\\sakura.jpg"
     },
     {
       "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\thi.webp",
@@ -14451,6 +14863,10 @@
     {
       "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\undraw_profile_pic_ic5t.svg",
       "PackagePath": "staticwebassets\\img\\undraw_profile_pic_ic5t.svg"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\young.jpg",
+      "PackagePath": "staticwebassets\\img\\young.jpg"
     },
     {
       "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\js\\Notification\\app.js",
@@ -14807,6 +15223,38 @@
     {
       "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff2",
       "PackagePath": "staticwebassets\\vendors\\mdi\\fonts\\materialdesignicons-webfont.woff2"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\vendors\\vendorDetail\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\vendors\\vendorDetail\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\vendors\\vendorDetail\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\vendors\\vendorDetail\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\vendors\\vendorDetail\\jquery\\jquery.js",
+      "PackagePath": "staticwebassets\\vendors\\vendorDetail\\jquery\\jquery.js"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\vendors\\vendorDetail\\jquery\\jquery.min.js",
+      "PackagePath": "staticwebassets\\vendors\\vendorDetail\\jquery\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\vendors\\vendorDetail\\jquery\\jquery.min.map",
+      "PackagePath": "staticwebassets\\vendors\\vendorDetail\\jquery\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\vendors\\vendorDetail\\jquery\\jquery.slim.js",
+      "PackagePath": "staticwebassets\\vendors\\vendorDetail\\jquery\\jquery.slim.js"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\vendors\\vendorDetail\\jquery\\jquery.slim.min.js",
+      "PackagePath": "staticwebassets\\vendors\\vendorDetail\\jquery\\jquery.slim.min.js"
+    },
+    {
+      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\vendors\\vendorDetail\\jquery\\jquery.slim.min.map",
+      "PackagePath": "staticwebassets\\vendors\\vendorDetail\\jquery\\jquery.slim.min.map"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.KoiProject.WebApplication.Microsoft.AspNetCore.StaticWebAssets.props",

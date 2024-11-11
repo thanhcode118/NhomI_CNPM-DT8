@@ -1,0 +1,264 @@
+﻿@page
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <title>SnapX Photo Contest Detail</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+    <!-- Bootstrap core CSS -->
+    <link href="/vendors/vendorDetail/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="/assets/assetsDetail/css/fontawesome.css">
+    <link rel="stylesheet" href="/assets/assetsDetail/css/snapx-photography.css">
+    <link rel="stylesheet" href="/assets/assetsDetail/css/owl.css">
+    <link rel="stylesheet" href="/assets/assetsDetail/css/animate.css">
+    <link rel="stylesheet" href="/css/Contest/Style2.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+</head>
+
+<body>
+
+
+    <!-- ***** Header Area Start ***** -->
+    <header class="header-area header-sticky">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="page-heading">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2 header-text">
+                    <h2 class="space-need">BABY CHAMPION <em>Cuộc Thi</em></h2>
+
+                    <div class="main-content">
+                        <div class="counter">
+                            <div class="days">
+                                <div class="value">00</div>
+                                <span>Days</span>
+                            </div>
+                            <div class="hours">
+                                <div class="value">00</div>
+                                <span>Hours</span>
+                            </div>
+                            <div class="minutes">
+                                <div class="value">00</div>
+                                <span>Minutes</span>
+                            </div>
+                            <div class="seconds">
+                                <div class="value">00</div>
+                                <span>Seconds</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contest-details">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="top-content">
+                        <div class="row align-items-center">
+                            <!-- Cột trái -->
+                            <div class="col-lg-4 text-center text-lg-start">
+                                <span class="open text-uppercase fw-bold text-success d-block">Cuộc Thi Đang Mở</span>
+                                <span class="wish-list text-muted d-block mt-2">
+                                    <i class="fa fa-heart text-danger"></i> Thêm Vào Yêu Thích
+                                </span>
+                            </div>
+
+                            <!-- Cột phải -->
+                            <div class="col-lg-8">
+                                <ul class="d-flex flex-wrap justify-content-around align-items-center list-unstyled mb-0">
+                                    <li class="d-flex align-items-center">
+                                        <i class="fa fa-medal text-warning me-2" style="font-size: 20px;"></i>
+                                        <span class="fw-bold">Giải Thưởng:</span> <span class="ms-1">$5,000</span>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <i class="fa fa-clock text-primary me-2" style="font-size: 20px;"></i>
+                                        <span class="fw-bold">Thời Gian Còn Lại:</span> <span class="ms-1">7 Ngày</span>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <i class="fa fa-users text-info me-2" style="font-size: 20px;"></i>
+                                        <span class="fw-bold">Người Tham Gia:</span> <span class="ms-1">150</span>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <i class="fa fa-image text-success me-2" style="font-size: 20px;"></i>
+                                        <span class="fw-bold">Bài Dự Thi:</span> <span class="ms-1">350</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-12">
+                    <div class="main-content">
+                        <h4 class="fw-bold text-uppercase mb-4">Yêu Cầu Cuộc Thi</h4>
+
+                        <!-- Phần yêu cầu ảnh -->
+                        <h6 class="fw-bold text-success">Hình Ảnh Nên Có:</h6>
+                        <ul>
+                            <li>Hình ảnh sắc nét, làm nổi bật cá Koi.</li>
+                            <li>Góc chụp thể hiện được vẻ đẹp độc đáo và khỏe mạnh của cá.</li>
+                            <li>Hình ảnh được chụp trong điều kiện ánh sáng tự nhiên.</li>
+                        </ul>
+
+                        <!-- Phần không nên có -->
+                        <h6 class="fw-bold text-danger mt-4">Hình Ảnh Không Được Có:</h6>
+                        <ul>
+                            <li>Hình ảnh chỉnh sửa quá mức, làm mất đi vẻ đẹp tự nhiên.</li>
+                            <li>Hình ảnh bị mờ hoặc thiếu ánh sáng.</li>
+                            <li>Chất lượng hình ảnh thấp, không phù hợp với yêu cầu.</li>
+                        </ul>
+
+                        <!-- Links to inspire -->
+                        <h4 class="fw-bold text-uppercase mt-5">Các Liên Kết Truyền Cảm Hứng</h4>
+                        <div class="row">
+                            <!-- Hình ảnh mẫu 1 -->
+                            <div class="col-lg-3 col-6">
+                                <div class="item text-center p-3 border rounded">
+                                    <span class="badge bg-success text-white p-2">JPG</span>
+                                    <h5 class="mt-3">Cá Koi Trong Mưa<br><h6 class="text-muted">Người Thắng Trước Đây</h6></h5>
+                                </div>
+                            </div>
+
+                            <!-- Hình ảnh mẫu 2 -->
+                            <div class="col-lg-3 col-6">
+                                <div class="item text-center p-3 border rounded">
+                                    <span class="badge bg-primary text-white p-2">PNG</span>
+                                    <h5 class="mt-3">Cá Koi Giữa Rừng<br><h6 class="text-muted">Người Thắng Trước Đây</h6></h5>
+                                </div>
+                            </div>
+
+                            <!-- Hình ảnh mẫu 3 -->
+                            <div class="col-lg-3 col-6">
+                                <div class="item text-center p-3 border rounded">
+                                    <span class="badge bg-warning text-white p-2">PDF</span>
+                                    <h5 class="mt-3">Cá Koi Trên Núi<br><h6 class="text-muted">Người Thắng Trước Đây</h6></h5>
+                                </div>
+                            </div>
+
+                            <!-- Hình ảnh mẫu 4 -->
+                            <div class="col-lg-3 col-6">
+                                <div class="item text-center p-3 border rounded">
+                                    <span class="badge bg-danger text-white p-2">AI</span>
+                                    <h5 class="mt-3">Cá Koi Trong Rừng<br><h6 class="text-muted">Người Thắng Trước Đây</h6></h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Submit button -->
+                        <div class="main-button mt-4 text-center">
+                            <a href="#" class="btn btn-primary btn-lg">Gửi Hình Ảnh/Video Dự Thi</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="contest-waiting mt-5">
+        <div class="container">
+            <div class="row">
+                <!-- Tiêu đề -->
+                <div class="col-lg-12">
+                    <h5 class="text-uppercase text-center fw-bold mb-4">Các Cuộc Thi Khác Đang Chờ Bạn:</h5>
+                </div>
+
+                <!-- Cuộc thi 1 -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="waiting-item border rounded overflow-hidden shadow-sm">
+                        <img src="/img/koisac2.jpg" alt="Cuộc Thi Koi Mini" class="img-fluid">
+                        <div class="down-content p-3">
+                            <h4 class="text-center">Cuộc Thi Koi Mini</h4>
+                            <p class="text-muted text-center">Thể hiện vẻ đẹp của những chú cá Koi nhỏ nhất.</p>
+                            <span class="price d-block text-success fw-bold text-center">Giải Thưởng: <em>$500</em></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cuộc thi 2 -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="waiting-item border rounded overflow-hidden shadow-sm">
+                        <img src="/img/koisac2.jpg" alt="Cuộc Thi Koi Mini" class="img-fluid">                        <div class="down-content p-3">
+                            <h4 class="text-center">Cuộc Thi Koi Truyền Thống</h4>
+                            <p class="text-muted text-center">Ghi lại vẻ đẹp truyền thống của cá Koi Nhật Bản.</p>
+                            <span class="price d-block text-success fw-bold text-center">Giải Thưởng: <em>$1,000</em></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cuộc thi 3 -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="waiting-item border rounded overflow-hidden shadow-sm">
+                        <img src="/img/koisac2.jpg" alt="Cuộc Thi Koi Mini" class="img-fluid">                        <div class="down-content p-3">
+                            <h4 class="text-center">Cuộc Thi Koi Sáng Tạo</h4>
+                            <p class="text-muted text-center">Khám phá góc nhìn mới mẻ về cá Koi qua hình ảnh sáng tạo.</p>
+                            <span class="price d-block text-success fw-bold text-center">Giải Thưởng: <em>$1,250</em></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cuộc thi 4 -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="waiting-item border rounded overflow-hidden shadow-sm">
+                        <img src="/img/koisac2.jpg" alt="Cuộc Thi Koi Mini" class="img-fluid">                        <div class="down-content p-3">
+                            <h4 class="text-center">Cuộc Thi Koi Nghệ Thuật</h4>
+                            <p class="text-muted text-center">Những tác phẩm nghệ thuật tuyệt vời từ cá Koi.</p>
+                            <span class="price d-block text-success fw-bold text-center">Giải Thưởng: <em>$1,500</em></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright ©2024 <a href="#"></a> Mối tình thầm kín nơi trái tim cô đơn</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <!-- Bootstrap core JavaScript -->
+    <script src="/vendors/vendorDetail/jquery/jquery.min.js"></script>
+    <script src="/vendors/vendorDetail/bootstrap/js/bootstrap.min.js"></script>
+
+    <script src="/assets/assetsDetail/js/isotope.min.js"></script>
+    <script src="/assets/assetsDetail/js/owl-carousel.js"></script>
+
+    <script src="/assets/assetsDetail/js/tabs.js"></script>
+    <script src="/assets/assetsDetail/js/popup.js"></script>
+    <script src="/assets/assetsDetail/js/custom.js"></script>
+
+</body>
+</html>
+
+

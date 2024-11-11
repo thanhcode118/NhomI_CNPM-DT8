@@ -12,57 +12,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lịch Thi Đấu</title>
     <link rel="stylesheet" href="~/css/Menu/Menu.css">
+    
 </head>
 
-<body>
+<body >
     <button class="back-button" onclick="window.history.back()">Trở về</button>
     <main id="main">
-        <div class="row">
-            <div class="col">
-                <div class="main-1">
-                    <h1>Tin Nổi Bật</h1>
-                    <div class="title-text-decoration">
-                    </div>
-                    <p class="width-home">
-                        Tổng hợp thông tin các trận đấu nổi bật cùng nhận định và cập nhật trực tiếp.
-                    </p>
+        <section class="page-section bg-light " id="portfolio">
+            <div class="container-1">
+
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Lịch Thi Đấu</h2>
                 </div>
-            </div>
-        </div>
-        <div class="product-list">
-            <div class="product-list-title">
-                <div>
-                    <h2>Lịch Thi Đấu Sắp Tới</h2>
-                </div>
-                <div class="product-list-title-button">
-                    <a href="">
-                       
-                    </a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <div class="all">
-                        <div class="img-tourism">
-                            <a href="matchdetails.html">
-                            <img src="~/img/MatchSchedule1.jpg" alt="">
+
+                <div class="text-center">
+                    <!-- First Match -->
+                    <div class="row bg-dark text-white p-3 mb-3 align-items-center">
+                        <div class="col-3 text-center">
+                            <img src="~/img/KoiAsagi.webp" alt="Koi Asagi" style="max-width: 50px;" />
+                            <h5>Koi Asagi</h5>
                         </div>
-                        <div class="text-hearder-location">
-                                Chung Kết Giải Đấu
-                            </a>
+                        <div class="col-6 text-center">
+                            <h5>VS</h5>
+                            <p>20:00</p>
+                            <p>Ngày 25/02/2025</p>
+                            <button class="Button" onclick="">Xem</button>
                         </div>
-                        <div class="specifically">
-                            <ul>
-                                <li><a href=""><i class="fa-regular fa-clock"></i></a>Thời gian: 19:00</li>
-                                <li><a href=""><i class="fa-regular fa-calendar"></i></a>Ngày: 01/02/2025</li>
-                                <li><a href=""><i class="fa-solid fa-location-dot"></i></a>Địa điểm: Nhật Bản</li>
-                            </ul>
+                        <div class="col-3 text-center">
+                            <img src="./img/KoiBekko.webp" alt="Koi Bekko" style="max-width: 50px;" />
+                            <h5>Koi Bekko</h5>
                         </div>
                     </div>
+                    <!-- Second Match -->
+                    <div class="row bg-dark text-white p-3 mb-3 align-items-center">
+                        <div class="col-3 text-center">
+                            <img src="~/img/KoiGinrinkoihaku.webp" alt="Koi Ginrin Kohaku" style="max-width: 50px;" />
+                            <h5>Koi Ginrin Kohaku</h5>
+                        </div>
+                        <div class="col-6 text-center">
+                            <h5>VS</h5>
+                            <p>20:00</p>
+                            <p>Ngày 02/03/2025</p>
+                            <button class="Button" onclick="">Xem</button>
+                        </div>
+                        <div class="col-3 text-center">
+                            <img src="~/img/KoiKanoko.webp" alt="Koi Kanoko" style="max-width: 50px;" />
+                            <h5>Koi Kanoko</h5>
+                        </div>
+                    </div>
+                    <!-- Third Match -->
+                    <div class="row bg-dark text-white p-3 mb-3 align-items-center">
+                        <div class="col-3 text-center">
+                            <img src="~/img/KoiKawarimono.webp" alt="Koi Kawarimono" style="max-width: 50px;" />
+                            <h5>Koi Kawarimono</h5>
+                        </div>
+                        <div class="col-6 text-center">
+                            <h5>VS</h5>
+                            <p>20:00</p>
+                            <p>Ngày 04/05/2025</p>
+                            <button class="Button" onclick="">Xem</button>
+                        </div>
+                        <div class="col-3 text-center">
+                            <img src="~/img/KoiKigoi.jpg" alt="Koi Kigoi" style="max-width: 50px;" />
+                            <h5>Koi Kigoi</h5>
+                        </div>
+                    </div>
+
                 </div>
-                <!-- Thêm các mục thông tin trận đấu tại đây -->
-            </div>
-            <!-- Thêm các phần tin tức và nội dung nổi bật tại đây -->
+        </section>
     </main>
     <footer id="footer">
         <div class="footer">
@@ -86,9 +103,7 @@
             <div class="footer-thongtin">
                 <h2>Thông tin hữu ích</h2>
                 <div>
-                    <ul>
-                        <li><img src="IMG/icon-arrowright.png" alt=""><a href=""> Hướng dẫn mua hàng</a></li>
-                        <li><img src="IMG/icon-arrowright.png" alt=""><a href=""> Chính sách đổi trả</a></li>
+                    <ul>         
                         <li><img src="IMG/icon-arrowright.png" alt=""><a href=""> Điều khoản sử dụng</a></li>
                         <li><img src="IMG/icon-arrowright.png" alt=""><a href=""> Chính sách bảo mật</a></li>
                         <li><img src="IMG/icon-arrowright.png" alt=""><a href=""> Bản quyền hình ảnh</a></li>
