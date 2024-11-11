@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "BX+b8ERqgkX5WsZO8pN3C3x1jD7O/uBqpYUiFaneE7k=",
+  "Hash": "lfRyDdWwOPis/AiL2ScZiRm7q15NVubR+8W34a4lSV4=",
   "Source": "KoiProject.WebApplication",
   "BasePath": "_content/KoiProject.WebApplication",
   "Mode": "Default",
@@ -71341,6 +71341,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\LuatThiDau.jpg"
+    },
+    {
+      "Identity": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\Match.webp",
+      "SourceId": "KoiProject.WebApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\",
+      "BasePath": "_content/KoiProject.WebApplication",
+      "RelativePath": "img/Match.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Match.webp"
     },
     {
       "Identity": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\img\\MatchSchedule.jpg",

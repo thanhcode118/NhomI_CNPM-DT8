@@ -12431,6 +12431,7 @@ p {
 }
 
     .page-section h2.section-heading, .page-section .section-heading.h2 {
+        color: red;
         font-size: 2.5rem;
         margin-top: 0;
         margin-bottom: 1rem;
@@ -12977,11 +12978,11 @@ section#contact {
     }
 
 #footer {
-    background-color: #b42e60;
+    background-color:#fff4cc ;
 }
 
 .footer {
-    color: #FFF;
+    color: #000;
     padding-left: 10%;
     padding-right: 10%;
     display: flex;
@@ -13028,11 +13029,11 @@ section#contact {
     color: #fff;
     cursor: pointer;
     border: 1px solid var(--bg);
-    border-radius: 4px;
+    
     padding: 0.8em 2em;
     background: var(--bg);
     transition: 0.2s;
-    margin: 10px 0 20px 10px;
+  
 }
 
     .back-button:hover {
@@ -13047,6 +13048,11 @@ section#contact {
         box-shadow: none;
     }
 
+.container-2 {
+    background-color:#fff;
+    max-width: 400px;
+    margin: auto;
+}
 .container-1 {
     max-width: 600px;
     margin: auto;
@@ -13058,10 +13064,6 @@ section#contact {
 }
 
 
-.row {
-    border: 1px solid #333;
-    border-radius: 8px;
-}
 
 
 .col-3 img {
@@ -13201,3 +13203,52 @@ h5 {
         margin-right: 10px;
         color: #e63946;
     }
+.container {
+    background-image: url('/img/Match.webp');
+    background-size: contain;
+    background-position: center;
+}
+.container-fluid,
+.container-xxl,
+.container-xl,
+.container-lg,
+.container-md,
+.container-sm {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 576px) {
+    .container-sm, .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container-md, .container-sm, .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container-lg, .container-md, .container-sm, .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container-xl, .container-lg, .container-md, .container-sm, .container {
+        max-width: 1140px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
+        max-width: 1320px;
+    }
+}
