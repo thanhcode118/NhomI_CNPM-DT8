@@ -1,30 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\",
+  "WorkspaceRootPath": "E:\\git1\\NhomI_CNPM-DT8\\KoiProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|c:\\users\\lenovo\\downloads\\git\\cnpm\\nhomi_cnpm-dt8\\koiproject\\koiproject.webapplication\\wwwroot\\html\\contest-details.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|solutionrelative:koiproject.webapplication\\wwwroot\\html\\contest-details.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|e:\\git1\\nhomi_cnpm-dt8\\koiproject\\koiproject.webapplication\\wwwroot\\css\\menu\\menu.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|solutionrelative:koiproject.webapplication\\wwwroot\\css\\menu\\menu.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|c:\\users\\lenovo\\downloads\\git\\cnpm\\nhomi_cnpm-dt8\\koiproject\\koiproject.webapplication\\pages\\contestdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|solutionrelative:koiproject.webapplication\\pages\\contestdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|e:\\git1\\nhomi_cnpm-dt8\\koiproject\\koiproject.webapplication\\pages\\supports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|solutionrelative:koiproject.webapplication\\pages\\supports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|c:\\users\\lenovo\\downloads\\git\\cnpm\\nhomi_cnpm-dt8\\koiproject\\koiproject.webapplication\\wwwroot\\assets\\assetsdetail\\css\\fontawesome.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|solutionrelative:koiproject.webapplication\\wwwroot\\assets\\assetsdetail\\css\\fontawesome.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|e:\\git1\\nhomi_cnpm-dt8\\koiproject\\koiproject.webapplication\\pages\\instruct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|solutionrelative:koiproject.webapplication\\pages\\instruct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|c:\\users\\lenovo\\downloads\\git\\cnpm\\nhomi_cnpm-dt8\\koiproject\\koiproject.webapplication\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|e:\\git1\\nhomi_cnpm-dt8\\koiproject\\koiproject.webapplication\\pages\\matchschedule.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|solutionrelative:koiproject.webapplication\\pages\\matchschedule.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|e:\\git1\\nhomi_cnpm-dt8\\koiproject\\koiproject.webapplication\\pages\\newspaper.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|solutionrelative:koiproject.webapplication\\pages\\newspaper.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|e:\\git1\\nhomi_cnpm-dt8\\koiproject\\koiproject.webapplication\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|solutionrelative:koiproject.webapplication\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3F011BC1-09AF-48AA-AD29-4BAFD34E57F6}|KoiProject.Repositories\\KoiProject.Repositories.csproj|c:\\users\\lenovo\\downloads\\git\\cnpm\\nhomi_cnpm-dt8\\koiproject\\koiproject.repositories\\entities\\koicompetitioncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F011BC1-09AF-48AA-AD29-4BAFD34E57F6}|KoiProject.Repositories\\KoiProject.Repositories.csproj|solutionrelative:koiproject.repositories\\entities\\koicompetitioncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|c:\\users\\lenovo\\downloads\\git\\cnpm\\nhomi_cnpm-dt8\\koiproject\\koiproject.webapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|solutionrelative:koiproject.webapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,80 +34,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "contest-details.html",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\html\\contest-details.html",
-              "RelativeDocumentMoniker": "KoiProject.WebApplication\\wwwroot\\html\\contest-details.html",
-              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\html\\contest-details.html",
-              "RelativeToolTip": "KoiProject.WebApplication\\wwwroot\\html\\contest-details.html",
-              "ViewState": "AgIAAMcAAAAAAAAAAAAkwM8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-11-10T02:57:08.161Z",
+              "DocumentIndex": 4,
+              "Title": "Newspaper.cshtml",
+              "DocumentMoniker": "E:\\git1\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\Pages\\Newspaper.cshtml",
+              "RelativeDocumentMoniker": "KoiProject.WebApplication\\Pages\\Newspaper.cshtml",
+              "ToolTip": "E:\\git1\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\Pages\\Newspaper.cshtml",
+              "RelativeToolTip": "KoiProject.WebApplication\\Pages\\Newspaper.cshtml",
+              "ViewState": "AgIAALoAAAAAAAAAAAAAAMsAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-11T10:08:27.762Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "fontawesome.css",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\css\\fontawesome.css",
-              "RelativeDocumentMoniker": "KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\css\\fontawesome.css",
-              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\css\\fontawesome.css",
-              "RelativeToolTip": "KoiProject.WebApplication\\wwwroot\\assets\\assetsDetail\\css\\fontawesome.css",
-              "ViewState": "AgIAAEcaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-11-10T02:52:36.009Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "KoiProject.WebApplication\\Pages\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "KoiProject.WebApplication\\Pages\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAFgAAAAAAAAAAAAnwGAAAAA3AAAAAAAAAA==",
+              "Title": "Instruct.cshtml",
+              "DocumentMoniker": "E:\\git1\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\Pages\\Instruct.cshtml",
+              "RelativeDocumentMoniker": "KoiProject.WebApplication\\Pages\\Instruct.cshtml",
+              "ToolTip": "E:\\git1\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\Pages\\Instruct.cshtml",
+              "RelativeToolTip": "KoiProject.WebApplication\\Pages\\Instruct.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB0AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-10T02:32:51.678Z"
+              "WhenOpened": "2024-11-11T10:01:10.247Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ContestDetail.cshtml",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\Pages\\ContestDetail.cshtml",
-              "RelativeDocumentMoniker": "KoiProject.WebApplication\\Pages\\ContestDetail.cshtml",
-              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\Pages\\ContestDetail.cshtml",
-              "RelativeToolTip": "KoiProject.WebApplication\\Pages\\ContestDetail.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Supports.cshtml",
+              "DocumentMoniker": "E:\\git1\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\Pages\\Supports.cshtml",
+              "RelativeDocumentMoniker": "KoiProject.WebApplication\\Pages\\Supports.cshtml",
+              "ToolTip": "E:\\git1\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\Pages\\Supports.cshtml",
+              "RelativeToolTip": "KoiProject.WebApplication\\Pages\\Supports.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB0AAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-10T02:27:53.324Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "KoiCompetitionContext.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.Repositories\\Entities\\KoiCompetitionContext.cs",
-              "RelativeDocumentMoniker": "KoiProject.Repositories\\Entities\\KoiCompetitionContext.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.Repositories\\Entities\\KoiCompetitionContext.cs",
-              "RelativeToolTip": "KoiProject.Repositories\\Entities\\KoiCompetitionContext.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAzwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T02:18:19.868Z"
+              "WhenOpened": "2024-11-11T09:24:19.929Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\appsettings.json",
-              "RelativeDocumentMoniker": "KoiProject.WebApplication\\appsettings.json",
-              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\appsettings.json",
-              "RelativeToolTip": "KoiProject.WebApplication\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-10T02:17:47.797Z"
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\git1\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "KoiProject.WebApplication\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\git1\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "KoiProject.WebApplication\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAF4AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-11T09:16:02.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MatchSchedule.cshtml",
+              "DocumentMoniker": "E:\\git1\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\Pages\\MatchSchedule.cshtml",
+              "RelativeDocumentMoniker": "KoiProject.WebApplication\\Pages\\MatchSchedule.cshtml",
+              "ToolTip": "E:\\git1\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\Pages\\MatchSchedule.cshtml",
+              "RelativeToolTip": "KoiProject.WebApplication\\Pages\\MatchSchedule.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-11T08:32:56.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Menu.css",
+              "DocumentMoniker": "E:\\git1\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\css\\Menu\\Menu.css",
+              "RelativeDocumentMoniker": "KoiProject.WebApplication\\wwwroot\\css\\Menu\\Menu.css",
+              "ToolTip": "E:\\git1\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\css\\Menu\\Menu.css*",
+              "RelativeToolTip": "KoiProject.WebApplication\\wwwroot\\css\\Menu\\Menu.css*",
+              "ViewState": "AgIAAIIwAAAAAAAAAAAuwJEwAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-11T08:24:02.793Z",
+              "EditorCaption": ""
             }
           ]
         }
