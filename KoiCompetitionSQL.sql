@@ -108,3 +108,16 @@ SELECT KoiID FROM KoiManagement;
 SELECT KoiID FROM Votes
 WHERE KoiID NOT IN (SELECT KoiID FROM KoiManagement)
 ALTER TABLE Votes WITH CHECK CHECK CONSTRAINT FK__Votes__KoiID__19DFD96B;
+
+INSERT INTO KoiManagement (Name, Breed, Size, Color, DateOfEntry, Origin, Price, HealthStatus, user_email, GPA)
+VALUES 
+('Kohaku ', 'Taisho Sanke', 19.40, 'White with Red & Black', '2024-11-04', 'Japan', 1550.00, 'Healthy', 'thanhbass11@gmail.com', 3.6),
+('Sanke ', 'Shusui', 21.80, 'Light Blue', '2024-11-05', 'China', 1400.00, 'Moderate', 'thanhbass11@gmail.com', 3.8),
+('Showa ', 'Ogon', 18.00, 'Golden', '2024-11-06', 'Vietnam', 1250.00, 'Healthy', 'thanhbass11@gmail.com', 3.4),
+('Utsuri ', 'Utsuri', 23.10, 'Black & Yellow', '2024-11-07', 'Thailand', 1600.00, 'Excellent', 'thanhbass11@gmail.com', 3.9),
+('Asagi ', 'Asagi', 17.75, 'Gray Blue', '2024-11-08', 'Japan', 1300.00, 'Healthy', 'thanhbass11@gmail.com', 3.5);
+go
+
+UPDATE Users
+SET role = 'admin'
+WHERE email = 'thanhbass11@gmail.com';
