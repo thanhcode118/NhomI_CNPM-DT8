@@ -51,13 +51,14 @@
                                                      <img src="../../img/faces/face1.jpg" alt="image" />
                                                  </td>
                                                  <!-- Hiển thị thông tin cá Koi từ CSDL -->
-                                                 <td>@koi.Name</td>
-                                                 <td>@koi.Breed</td>
-                                                 <td>@koi.Size</td>
-                                                 <td>@koi.Color</td>
-                                                   <!--doan nay can code gi do-->
-                                                 <td>@string.Format("{0:C}", koi.Price)</td>
-                                                 <td>@koi.Origin</td>
+                                                <td>@koi.Name</td>
+                                                <td>@koi.Breed</td>
+                                                <td>@koi.Size</td>
+                                                <td>@koi.Color</td>
+                                                <td>@string.Format("{0:C}", koi.Price)</td>
+                                                <td>@koi.Origin</td>
+                                                <td>@koi.VoteCount</td> <!-- Hiển thị số lượng Vote -->
+
                                                 <td>
                                                     @koi.DateOfEntry?.ToString("dd/MM/yyyy") ?? "N/A"
                                                 </td>

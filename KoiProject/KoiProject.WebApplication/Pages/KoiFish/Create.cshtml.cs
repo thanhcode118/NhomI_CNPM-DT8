@@ -31,15 +31,42 @@ namespace KoiProject.WebApplication.Pages.KoiFish
 
         public async Task<IActionResult> OnPostAsync()
         {
-            if (!ModelState.IsValid)
+            try
             {
-                return Page();
+                if (!ModelState.IsValid)
+                {
+                    return Page(); // Quay lại trang nếu ModelState không hợp lệ
+                }
+
+                // Lấy thông tin từ session
+                var userId = HttpContext.Session.GetInt32("UserId");
+                var email = HttpContext.Session.GetString("UserEmail");
+
+                if (userId == null || string.IsNullOrWhiteSpace(email))
+                {
+                    ModelState.AddModelError(string.Empty, "User information is missing. Please log in.");
+                    return RedirectToPage("/Account/Login");
+                }
+
+                // Gán thông tin từ session vào đối tượng KoiManagement
+                KoiManagement.IdUser = userId.Value;
+                KoiManagement.UserEmail = email;
+
+                // Thêm cá Koi thông qua dịch vụ
+                await _koiManagementService.AddKoiAsync(KoiManagement);
+
+                // Chuyển hướng về trang Index sau khi thêm thành công
+                return RedirectToPage("./Index");
             }
-
-            await _koiManagementService.AddKoiAsync(KoiManagement);
-
-            return RedirectToPage("./Index");
+            catch (Exception ex)
+            {
+                Console.Error.WriteLine($"Error while adding Koi: {ex.Message}");
+                // Gán thông báo lỗi nếu cần
+                ModelState.AddModelError(string.Empty, "An error occurred while adding the Koi.");
+                return Page(); // Quay lại trang với lỗi
+            }
         }
-    }
 
+
+    }
 }

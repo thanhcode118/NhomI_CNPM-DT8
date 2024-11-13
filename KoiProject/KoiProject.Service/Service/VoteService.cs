@@ -54,7 +54,7 @@ public class VoteService : IVoteService
         // Thêm bình chọn mới
         var vote = new Vote
         {
-            KoiID = koiId,
+            KoiId = koiId,
             VoterEmail = voterEmail
         };
         await _voteRepository.AddVoteAsync(vote);
