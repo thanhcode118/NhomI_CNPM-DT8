@@ -51,11 +51,11 @@ public partial class KoiCompetitionContext : DbContext
 
         modelBuilder.Entity<User>(entity =>
         {
-            entity.HasKey(e => e.UserId).HasName("PK__Users__B9BE370FB2219D85");
+            entity.HasKey(e => e.user_id).HasName("PK__Users__B9BE370FB2219D85");
 
             entity.HasIndex(e => e.Email, "UQ__Users__AB6E616472013F1C").IsUnique();
 
-            entity.Property(e => e.UserId).HasColumnName("user_id");
+            entity.Property(e => e.user_id).HasColumnName("user_id");
             entity.Property(e => e.CreatedAt)
                 .HasDefaultValueSql("(getdate())")
                 .HasColumnType("datetime")

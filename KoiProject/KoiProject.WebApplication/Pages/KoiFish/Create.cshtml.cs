@@ -39,8 +39,8 @@ namespace KoiProject.WebApplication.Pages.KoiFish
                 }
 
                 // Lấy thông tin từ session
-                var userId = HttpContext.Session.GetInt32("UserId");
-                var email = HttpContext.Session.GetString("UserEmail");
+                var userId = HttpContext.Session.GetInt32("id_user");
+                var email = HttpContext.Session.GetString("user_email");
 
                 if (userId == null || string.IsNullOrWhiteSpace(email))
                 {
@@ -49,8 +49,8 @@ namespace KoiProject.WebApplication.Pages.KoiFish
                 }
 
                 // Gán thông tin từ session vào đối tượng KoiManagement
-                KoiManagement.IdUser = userId.Value;
-                KoiManagement.UserEmail = email;
+                KoiManagement.id_user = userId.Value;
+                KoiManagement.user_email = email;
 
                 // Thêm cá Koi thông qua dịch vụ
                 await _koiManagementService.AddKoiAsync(KoiManagement);

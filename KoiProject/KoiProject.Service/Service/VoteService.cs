@@ -20,7 +20,7 @@ public class VoteService : IVoteService
         }
 
         // Tăng số lượng bình chọn
-       // koi.VoteCount += 1;
+        koi.VoteCount += 1;
 
         // Lưu thay đổi vào cơ sở dữ liệu
         await _voteRepository.UpdateKoiAsync(koi);
@@ -54,13 +54,13 @@ public class VoteService : IVoteService
         // Thêm bình chọn mới
         var vote = new Vote
         {
-            KoiId = koiId,
+            KoiID = koiId,
             VoterEmail = voterEmail
         };
         await _voteRepository.AddVoteAsync(vote);
 
         // Tăng VoteCount trong KoiManagement
-      //  koi.VoteCount += 1;
+        koi.VoteCount += 1;
 
         // Cập nhật thông tin cá Koi
         await _voteRepository.UpdateKoiAsync(koi);

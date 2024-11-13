@@ -23,15 +23,13 @@ public partial class KoiManagement
 
     public string? HealthStatus { get; set; }
 
-    public string UserEmail { get; set; } = null!;
+    public string user_email { get; set; } = null!;
 
     public decimal Gpa { get; set; }
 
-    public int? IdUser { get; set; }
+    public int? id_user { get; set; }
 
     public int VoteCount { get; set; }
-
-    public virtual User? IdUserNavigation { get; set; }
 
     public virtual User UserEmailNavigation { get; set; } = null!;
 

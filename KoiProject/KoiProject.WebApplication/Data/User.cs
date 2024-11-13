@@ -5,7 +5,7 @@ namespace KoiProject.WebApplication.Data;
 
 public partial class User
 {
-    public int UserId { get; set; }
+    public int user_id { get; set; }
 
     public string Name { get; set; } = null!;
 

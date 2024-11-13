@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gửi Tin Nhắn</title>
+    <style>
+        .notification {
+            display: none;
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #dff0d8;
+            border: 1px solid #d0e9c6;
+            color: #3c763d;
+            border-radius: 5px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+   
+    <!-- Thông báo -->
+    <div id="notification" class="notification">Cảm ơn quý khách, chúng tôi sẽ hỗ trợ sớm nhất có thể!</div>
+
+    <script>
+        // Hàm hiển thị thông báo khi nhấn nút
+        function sendMessage() {
+            const notification = document.getElementById('notification');
+            notification.style.display = 'block';
+
+            // Tự động ẩn thông báo sau 3 giây
+            setTimeout(() => {
+                notification.style.display = 'none';
+            }, 3000);
+        }
+    </script>
+</body>
+</html>

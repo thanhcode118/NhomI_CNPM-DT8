@@ -22,18 +22,18 @@ public class VoteRepository : IVoteRepository
 
     public async Task<IList<KoiManagement>> GetAllKoiAsync()
     {
-        return await _context.KoiManagements.ToListAsync() as IList<KoiManagement>;
+        return await _context.KoiFish.ToListAsync() as IList<KoiManagement>;
     }
 
 
-    public Task<KoiManagement> GetKoiByIdAsync(int koiID)
+    public Task<KoiManagement> GetKoiByIdAsync(int koiId)
     {
-        return _context.KoiManagements.FirstOrDefaultAsync(k => k.KoiId == koiID);
+        return _context.KoiFish.FirstOrDefaultAsync(k => k.KoiId == koiId);
     }
 
-    public Task<Vote> GetVoteByEmailAndKoiIdAsync(string email, int koiID)
+    public Task<Vote> GetVoteByEmailAndKoiIdAsync(string email, int koiId)
     {
-        return _context.Votes.FirstOrDefaultAsync(v => v.VoterEmail == email && v.KoiId == koiID);
+        return _context.Votes.FirstOrDefaultAsync(v => v.VoterEmail == email && v.KoiID == koiId);
     }
 
 
@@ -44,7 +44,7 @@ public class VoteRepository : IVoteRepository
 
     public Task UpdateKoiAsync(KoiManagement koi)
     {
-        _context.KoiManagements.Update(koi);
+        _context.KoiFish.Update(koi);
         return _context.SaveChangesAsync();
     }
 

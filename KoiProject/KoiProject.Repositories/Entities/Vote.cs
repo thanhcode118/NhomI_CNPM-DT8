@@ -1,19 +1,22 @@
-﻿using System;
+﻿using KoiProject.Repositories.Entities;
+using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.ComponentModel.DataAnnotations;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace KoiProject.Repositories.Entities;
-
-public partial class Vote
+public class Vote
 {
-    public int VoteId { get; set; }
+    [Key]
+    public int VoteID { get; set; }
 
-    public int KoiId { get; set; }
+    [ForeignKey("KoiManagement")]
+    public int KoiID { get; set; }
 
-    public string VoterEmail { get; set; } = null!;
+    public string VoterEmail { get; set; }
+    public DateTime VoteDate { get; set; } = DateTime.Now;
 
-    public DateTime? VoteDate { get; set; }
-
-    public virtual KoiManagement Koi { get; set; } = null!;
-
-    public virtual User VoterEmailNavigation { get; set; } = null!;
+    public KoiManagement Koi { get; set; }
 }

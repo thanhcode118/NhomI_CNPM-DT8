@@ -51,7 +51,7 @@ CREATE TABLE KoiManagement (
     id_user INT NULL,
     VoteCount INT DEFAULT 0 NOT NULL,
     CONSTRAINT FK_UserEmail FOREIGN KEY (user_email) REFERENCES Users(email),
-    CONSTRAINT FK_UserID FOREIGN KEY (id_user) REFERENCES Users(user_id)
+    CONSTRAINT FK_UserID FOREIGN KEY (id_user) REFERENCES Users(UserId)
 );
 
 -- Thêm dữ liệu mẫu cho KoiManagement
@@ -122,7 +122,7 @@ GO
 
 -- Kiểm tra dữ liệu
 SELECT * FROM KoiManagement;
-SELECT * FROM Votes;
+SELECT * FROM Users;
 
 
 -- Thực thi Stored Procedure AddVote

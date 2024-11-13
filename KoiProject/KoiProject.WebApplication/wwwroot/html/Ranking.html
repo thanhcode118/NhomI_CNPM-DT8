@@ -1,0 +1,124 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bảng Xếp Hạng</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="~/templates/ranking/css/styles.css">
+    <link rel="stylesheet" href="~/templates/ranking/css/all.css">
+    <link rel="stylesheet" href="Ranking.html>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,600,600i,700,700i" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<body>
+    <div class="container mx-auto bg-grey-400">
+        <div class="min-h-screen flex flex-col">
+            <!-- Main Section Starts Here -->
+            <main class="bg-white-300 flex-1 p-3 overflow-hidden">
+
+                <!-- Ranking Section -->
+                <div class="flex flex-1 flex-col md:flex-row lg:flex-row mx-2">
+                    <div class="rounded overflow-hidden shadow bg-white mx-2 w-full">
+                        <div class="px-6 py-2 border-b border-light-grey">
+                            <div class="font-bold text-xl">Bảng Xếp Hạng</div>
+                        </div>
+                        <div class="table-responsive">
+                            <table class="table text-grey-darkest">
+                                <thead class="bg-grey-dark text-white text-normal">
+                                    <tr>
+                                        <th scope="col">#</th>
+                                        <th scope="col">Người dùng</th>
+                                        <th scope="col">Điểm</th>
+                                        <th scope="col">Thay đổi</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>
+                                            <button class="bg-blue-500 hover:bg-blue-800 text-white font-light py-1 px-2 rounded-full">
+                                                Nguyễn Văn A
+                                            </button>
+                                        </td>
+                                        <td>4600</td>
+                                        <td>
+                                            <span class="text-green-500"><i class="fas fa-arrow-up"></i>5%</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">2</th>
+                                        <td>
+                                            <button class="bg-primary hover:bg-primary-dark text-white font-light py-1 px-2 rounded-full">
+                                                Trần Thị B
+                                            </button>
+                                        </td>
+                                        <td>3000</td>
+                                        <td>
+                                            <span class="text-red-500"><i class="fas fa-arrow-down"></i>65%</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">3</th>
+                                        <td>
+                                            <button class="bg-success hover:bg-success-dark text-white font-light py-1 px-2 rounded-full">
+                                                Lê Văn C
+                                            </button>
+                                        </td>
+                                        <td>3000</td>
+                                        <td>
+                                            <span class="text-red-500"><i class="fas fa-arrow-down"></i>65%</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">4</th>
+                                        <td>
+                                            <button class="bg-blue-500 hover:bg-blue-800 text-white font-light py-1 px-2 rounded-full">
+                                                Phạm Thị D
+                                            </button>
+                                        </td>
+                                        <td>3000</td>
+                                        <td>
+                                            <span class="text-green-500"><i class="fas fa-arrow-up"></i>65%</span>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <!-- /Ranking Section -->
+                <!-- Progress Section -->
+                <div class="flex flex-1 flex-col md:flex-row lg:flex-row mx-2 mt-2">
+                    <div class="rounded overflow-hidden shadow bg-white mx-2 w-full pt-2">
+                        <div class="px-6 py-2 border-b border-light-grey">
+                            <div class="font-bold text-xl">Tiến Độ Dự Án</div>
+                        </div>
+                        <div class="w-full">
+                            <div class="shadow w-full bg-grey-light">
+                                <div class="bg-blue-500 text-xs leading-none py-1 text-center text-white" style="width: 45%">45%</div>
+                            </div>
+                            <div class="shadow w-full bg-grey-light mt-2">
+                                <div class="bg-teal-500 text-xs leading-none py-1 text-center text-white" style="width: 55%">55%</div>
+                            </div>
+                            <div class="shadow w-full bg-grey-light mt-2">
+                                <div class="bg-orange-500 text-xs leading-none py-1 text-center text-white" style="width: 65%">65%</div>
+                            </div>
+                            <div class="shadow w-full bg-grey-300 mt-2">
+                                <div class="bg-red-800 text-xs leading-none py-1 text-center text-white" style="width: 75%">75%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /Progress Section -->
+
+            </main>
+            <!-- /Main Section Ends Here -->
+        </div>
+    </div>
+</body>
+
+</html>
