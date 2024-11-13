@@ -14345,10 +14345,6 @@
       "PackagePath": "staticwebassets\\html\\README.md"
     },
     {
-      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\html\\Ranking.html",
-      "PackagePath": "staticwebassets\\html\\Ranking.html"
-    },
-    {
       "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\html\\account.html",
       "PackagePath": "staticwebassets\\html\\account.html"
     },
@@ -14407,10 +14403,6 @@
     {
       "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\html\\notifications.html",
       "PackagePath": "staticwebassets\\html\\notifications.html"
-    },
-    {
-      "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\html\\orders.html",
-      "PackagePath": "staticwebassets\\html\\orders.html"
     },
     {
       "Id": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\html\\reset-password.html",

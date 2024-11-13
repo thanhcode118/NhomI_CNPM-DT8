@@ -124,8 +124,10 @@ GO
 SELECT * FROM KoiManagement;
 SELECT * FROM Votes;
 
+
 -- Thực thi Stored Procedure AddVote
 EXEC AddVote @KoiID = 1, @VoterEmail = 'johndoe@example.com';
 EXEC AddVote @KoiID = 2, @VoterEmail = 'alice@example.com';
 EXEC AddVote @KoiID = 3, @VoterEmail = 'bob@example.com';
 GO
+
