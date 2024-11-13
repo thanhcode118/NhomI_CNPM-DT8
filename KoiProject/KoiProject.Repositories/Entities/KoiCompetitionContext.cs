@@ -19,6 +19,8 @@ public partial class KoiCompetitionContext : DbContext
 
     public virtual DbSet<User> Users { get; set; }
 
+    public virtual DbSet<Vote> Votes { get; set; }
+
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
         => optionsBuilder.UseSqlServer("Data Source=DESKTOP-D3GEO91\\NTOANSQL;Initial Catalog=KoiCompetition;Persist Security Info=True;User ID=sa;Password=123456789;MultipleActiveResultSets=True;TrustServerCertificate=True");
@@ -27,7 +29,7 @@ public partial class KoiCompetitionContext : DbContext
     {
         modelBuilder.Entity<KoiManagement>(entity =>
         {
-            entity.HasKey(e => e.KoiId).HasName("PK__KoiManag__E03435B84C3B6298");
+            entity.HasKey(e => e.KoiId).HasName("PK__KoiManag__E03435B8970D76CE");
 
             entity.ToTable("KoiManagement");
 
@@ -49,20 +51,20 @@ public partial class KoiCompetitionContext : DbContext
 
             entity.HasOne(d => d.IdUserNavigation).WithMany(p => p.KoiManagementIdUserNavigations)
                 .HasForeignKey(d => d.IdUser)
-                .HasConstraintName("FK_KoiManagement_Users");
+                .HasConstraintName("FK_UserID");
 
             entity.HasOne(d => d.UserEmailNavigation).WithMany(p => p.KoiManagementUserEmailNavigations)
                 .HasPrincipalKey(p => p.Email)
                 .HasForeignKey(d => d.UserEmail)
                 .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK__KoiManage__user___239E4DCF");
+                .HasConstraintName("FK_UserEmail");
         });
 
         modelBuilder.Entity<User>(entity =>
         {
-            entity.HasKey(e => e.UserId).HasName("PK__Users__B9BE370FC19E26D1");
+            entity.HasKey(e => e.UserId).HasName("PK__Users__B9BE370FB6B9887F");
 
-            entity.HasIndex(e => e.Email, "UQ__Users__AB6E6164EB598A49").IsUnique();
+            entity.HasIndex(e => e.Email, "UQ__Users__AB6E6164B84A89B2").IsUnique();
 
             entity.Property(e => e.UserId).HasColumnName("user_id");
             entity.Property(e => e.CreatedAt)
@@ -85,6 +87,29 @@ public partial class KoiCompetitionContext : DbContext
                 .HasDefaultValueSql("(getdate())")
                 .HasColumnType("datetime")
                 .HasColumnName("updated_at");
+        });
+
+        modelBuilder.Entity<Vote>(entity =>
+        {
+            entity.HasKey(e => e.VoteId).HasName("PK__Votes__52F015E245B74B08");
+
+            entity.Property(e => e.VoteId).HasColumnName("VoteID");
+            entity.Property(e => e.KoiId).HasColumnName("KoiID");
+            entity.Property(e => e.VoteDate)
+                .HasDefaultValueSql("(getdate())")
+                .HasColumnType("datetime");
+            entity.Property(e => e.VoterEmail).HasMaxLength(255);
+
+            entity.HasOne(d => d.Koi).WithMany(p => p.Votes)
+                .HasForeignKey(d => d.KoiId)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK__Votes__KoiID__68487DD7");
+
+            entity.HasOne(d => d.VoterEmailNavigation).WithMany(p => p.Votes)
+                .HasPrincipalKey(p => p.Email)
+                .HasForeignKey(d => d.VoterEmail)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK__Votes__VoterEmai__693CA210");
         });
 
         OnModelCreatingPartial(modelBuilder);

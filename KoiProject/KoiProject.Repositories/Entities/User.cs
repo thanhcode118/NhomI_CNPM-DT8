@@ -22,4 +22,6 @@ public partial class User
     public virtual ICollection<KoiManagement> KoiManagementIdUserNavigations { get; set; } = new List<KoiManagement>();
 
     public virtual ICollection<KoiManagement> KoiManagementUserEmailNavigations { get; set; } = new List<KoiManagement>();
+
+    public virtual ICollection<Vote> Votes { get; set; } = new List<Vote>();
 }

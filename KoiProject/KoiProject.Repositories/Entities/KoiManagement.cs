@@ -29,7 +29,11 @@ public partial class KoiManagement
 
     public int? IdUser { get; set; }
 
+    public int VoteCount { get; set; }
+
     public virtual User? IdUserNavigation { get; set; }
 
     public virtual User UserEmailNavigation { get; set; } = null!;
+
+    public virtual ICollection<Vote> Votes { get; set; } = new List<Vote>();
 }
