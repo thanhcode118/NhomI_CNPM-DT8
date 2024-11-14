@@ -55,6 +55,9 @@
             <div class="card mb-4">
                 <div class="card-header pb-0">
                     <h6>Danh sách Cá Koi</h6>
+                    <p>
+                        <a asp-page="Create" class="action-link create-new">Create New</a>
+                    </p>
                 </div>
                 <div class="card-body px-0 pt-0 pb-2">
                     <div class="table-responsive p-0">
@@ -112,9 +115,7 @@
                                                     <a asp-page="./Edit" asp-route-id="@item.KoiId" class="action-link">Edit</a> |
                                                     <a asp-page="./Details" asp-route-id="@item.KoiId" class="action-link">Details</a> |
                                                     <a asp-page="./Delete" asp-route-id="@item.KoiId" class="action-link">Delete</a>
-                                                    <p>
-                                                        <a asp-page="Create" class="action-link create-new">Create New</a>
-                                                    </p>
+                                                   
                                                 </div>
                                             </td>
                                         </tr>

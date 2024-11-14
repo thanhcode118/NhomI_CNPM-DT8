@@ -80,13 +80,13 @@ namespace KoiProject.Repositories.Repositories
             if (userId.HasValue)
             {
                 return await _context.KoiManagements
-                                     .Where(k => k.id_user == userId.Value)
+                                     .Where(k => k.IdUser == userId.Value)
                                      .ToListAsync();
             }
 
             // Nếu không có userId, tìm bằng email
             return await _context.KoiManagements
-                                 .Where(k => k.user_email == email)
+                                 .Where(k => k.UserEmail == email)
                                  .ToListAsync();
         }
 

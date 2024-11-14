@@ -49,8 +49,8 @@ namespace KoiProject.WebApplication.Pages.KoiFish
                 }
 
                 // Gán thông tin từ session vào đối tượng KoiManagement
-                KoiManagement.id_user = userId.Value;
-                KoiManagement.user_email = email;
+                KoiManagement.IdUser = userId.Value;
+                KoiManagement.UserEmail = email;
 
                 // Thêm cá Koi thông qua dịch vụ
                 await _koiManagementService.AddKoiAsync(KoiManagement);

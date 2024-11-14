@@ -5,7 +5,7 @@ namespace KoiProject.Repositories.Entities;
 
 public partial class User
 {
-    public int user_id { get; set; }
+    public int UserId { get; set; }
 
     public string Name { get; set; } = null!;
 
@@ -19,5 +19,9 @@ public partial class User
 
     public DateTime? UpdatedAt { get; set; }
 
-    public virtual ICollection<KoiManagement> KoiManagements { get; set; } = new List<KoiManagement>();
+    public virtual ICollection<KoiManagement> KoiManagementIdUserNavigations { get; set; } = new List<KoiManagement>();
+
+    public virtual ICollection<KoiManagement> KoiManagementUserEmailNavigations { get; set; } = new List<KoiManagement>();
+
+    public virtual ICollection<Vote> Votes { get; set; } = new List<Vote>();
 }
