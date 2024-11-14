@@ -24,5 +24,9 @@ namespace KoiProject.Service.Interfaces
         // Lấy danh sách tất cả các Koi
         Task<IEnumerable<KoiManagement>> GetAllKoisAsync();
         Task<List<KoiManagement>> GetKoisForLoggedInUserAsync(int? userId = null, string email = null);
+       
+            Task<User> GetUserByEmailAsync(string email);
+        
+
     }
 }

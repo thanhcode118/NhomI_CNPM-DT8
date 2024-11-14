@@ -23,7 +23,7 @@ public partial class KoiManagement
 
     public string? HealthStatus { get; set; }
 
-    public string UserEmail { get; set; } = null!;
+    public string UserEmail { get; set; } 
 
     public decimal Gpa { get; set; }
 

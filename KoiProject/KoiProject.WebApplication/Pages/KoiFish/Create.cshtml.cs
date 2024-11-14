@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using KoiProject.Repositories.Entities;
 using KoiProject.Service.Interfaces;
+using KoiProject.Service;
 
 namespace KoiProject.WebApplication.Pages.KoiFish
 {
@@ -28,45 +29,57 @@ namespace KoiProject.WebApplication.Pages.KoiFish
 
         [BindProperty]
         public KoiManagement KoiManagement { get; set; } = default!;
+        public KoiManagement Model { get; set; } // Thuộc tính Model dùng để bind dữ liệu từ View
+
 
         public async Task<IActionResult> OnPostAsync()
         {
-            try
+            var userEmail = HttpContext.Session.GetString("emial");
+
+            if (string.IsNullOrWhiteSpace(userEmail))
             {
-                if (!ModelState.IsValid)
+                return RedirectToPage("/Login");
+            }
+
+            // Lấy thông tin người dùng
+            var user = await _koiManagementService.GetUserByEmailAsync(userEmail);
+
+            if (user == null)
+            {
+                ModelState.AddModelError(string.Empty, "Không tìm thấy thông tin người dùng.");
+                return Page();
+            }
+            if (Model == null)
+            {
+                Model = new KoiManagement();
+            }
+
+
+            // Gán đối tượng User vào UserEmailNavigation
+            Model.UserEmailNavigation = user;
+
+            if (!ModelState.IsValid)
+            {
+                foreach (var state in ModelState)
                 {
-                    return Page(); // Quay lại trang nếu ModelState không hợp lệ
+                    var key = state.Key; // Tên thuộc tính
+                    var errors = state.Value.Errors; // Danh sách lỗi
+
+                    foreach (var error in errors)
+                    {
+                        // Log hoặc ghi ra console lỗi
+                        Console.WriteLine($"Key: {key}, Error: {error.ErrorMessage}");
+                    }
                 }
 
-                // Lấy thông tin từ session
-                var userId = HttpContext.Session.GetInt32("id_user");
-                var email = HttpContext.Session.GetString("user_email");
-
-                if (userId == null || string.IsNullOrWhiteSpace(email))
-                {
-                    ModelState.AddModelError(string.Empty, "User information is missing. Please log in.");
-                    return RedirectToPage("/Account/Login");
-                }
-
-                // Gán thông tin từ session vào đối tượng KoiManagement
-                KoiManagement.IdUser = userId.Value;
-                KoiManagement.UserEmail = email;
-
-                // Thêm cá Koi thông qua dịch vụ
-                await _koiManagementService.AddKoiAsync(KoiManagement);
-
-                // Chuyển hướng về trang Index sau khi thêm thành công
-                return RedirectToPage("./Index");
+                return Page();
             }
-            catch (Exception ex)
-            {
-                Console.Error.WriteLine($"Error while adding Koi: {ex.Message}");
-                // Gán thông báo lỗi nếu cần
-                ModelState.AddModelError(string.Empty, "An error occurred while adding the Koi.");
-                return Page(); // Quay lại trang với lỗi
-            }
+
+
+            // Lưu cá Koi vào cơ sở dữ liệu
+            await _koiManagementService.AddKoiAsync(Model);
+
+            return RedirectToPage("./Index");
         }
-
-
     }
 }

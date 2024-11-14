@@ -26,9 +26,9 @@ namespace KoiProject.WebApplication.Pages.KoiFish
             try
             {
                 // Lấy thông tin từ session
-                var userId = HttpContext.Session.GetInt32("UserId");
-                var email = HttpContext.Session.GetString("UserEmail");
-
+                var userId = HttpContext.Session.GetInt32("user_id"); 
+                var email = HttpContext.Session.GetString("emial"); 
+                Console.WriteLine($"Debug: userId={userId}, email={email}");
                 if (userId == null && string.IsNullOrWhiteSpace(email))
                 {
                     RedirectToPage("/Account/Login"); // Chuyển hướng nếu không tìm thấy thông tin người dùng

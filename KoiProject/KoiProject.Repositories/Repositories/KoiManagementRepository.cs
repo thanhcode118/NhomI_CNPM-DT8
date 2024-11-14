@@ -89,7 +89,22 @@ namespace KoiProject.Repositories.Repositories
                                  .Where(k => k.UserEmail == email)
                                  .ToListAsync();
         }
+        public async Task<User> GetUserByEmailAsync(string email)
+        {
+            if (string.IsNullOrWhiteSpace(email))
+            {
+                throw new ArgumentException("Email cannot be null or empty.", nameof(email));
+            }
 
+            var user = await _context.Users.FirstOrDefaultAsync(u => u.Email == email);
+
+            if (user == null)
+            {
+                throw new KeyNotFoundException($"No user found with email: {email}");
+            }
+
+            return user;
+        }
 
     }
 }

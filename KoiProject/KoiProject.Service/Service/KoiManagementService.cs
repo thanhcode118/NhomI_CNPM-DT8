@@ -4,6 +4,7 @@ using KoiProject.Repositories.Repositories;
 using KoiProject.Service.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -45,9 +46,15 @@ namespace KoiProject.Service.Service
             return await _repository.GetAllKoisAsync();
         }
 
-        public async Task<List<KoiManagement>> GetKoisForLoggedInUserAsync(int? userId = null, string email = null)
+        public async Task<List<KoiManagement>> GetKoisForLoggedInUserAsync(int? userId, string email)
         {
+            // Gọi phương thức từ Repository
             return await _repository.GetKoisForUserAsync(userId, email);
+
+        }
+        public async Task<User> GetUserByEmailAsync(string email)
+        {
+            return await _repository.GetUserByEmailAsync(email);
         }
 
     }
