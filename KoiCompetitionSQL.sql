@@ -1,7 +1,8 @@
 ﻿-- Tạo cơ sở dữ liệu và sử dụng nó
 CREATE DATABASE KoiCompetition;
+go
 USE KoiCompetition;
-
+go
 -- Xóa Stored Procedure nếu đã tồn tại
 IF OBJECT_ID('AddVote', 'P') IS NOT NULL
     DROP PROCEDURE AddVote;
@@ -26,7 +27,7 @@ CREATE TABLE Users (
     created_at DATETIME DEFAULT GETDATE(),
     updated_at DATETIME DEFAULT GETDATE()
 );
-
+go
 -- Thêm dữ liệu mẫu cho Users
 INSERT INTO Users (name, email, password, role)
 VALUES 
@@ -51,9 +52,9 @@ CREATE TABLE KoiManagement (
     id_user INT NULL,
     VoteCount INT DEFAULT 0 NOT NULL,
     CONSTRAINT FK_UserEmail FOREIGN KEY (user_email) REFERENCES Users(email),
-    CONSTRAINT FK_UserID FOREIGN KEY (id_user) REFERENCES Users(UserId)
+    CONSTRAINT FK_UserID FOREIGN KEY (id_user) REFERENCES Users(user_id)
 );
-
+go
 -- Thêm dữ liệu mẫu cho KoiManagement
 INSERT INTO KoiManagement (Name, Breed, Size, Color, DateOfEntry, Origin, Price, HealthStatus, user_email, GPA, id_user)
 VALUES 
