@@ -27,5 +27,7 @@ namespace KoiProject.Repositories.Interfaces
         // Lấy tất cả các đối tượng Koi theo emial
         Task<List<KoiManagement>> GetKoisForUserAsync(int? userId = null, string email = null);
         Task<User> GetUserByEmailAsync(string email);
+        Task<List<KoiManagement>> GetAvailableKoiAsync();
+        Task<bool> RegisterContestantAsync(Contestant contestant);
     }
 }

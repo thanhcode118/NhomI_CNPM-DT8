@@ -132,4 +132,31 @@ EXEC AddVote @KoiID = 1, @VoterEmail = 'johndoe@example.com';
 EXEC AddVote @KoiID = 2, @VoterEmail = 'alice@example.com';
 EXEC AddVote @KoiID = 3, @VoterEmail = 'bob@example.com';
 GO
+DROP TABLE IF EXISTS Contestants;
 
+CREATE TABLE Contestants (
+    Id INT PRIMARY KEY IDENTITY(1,1), -- Khóa chính, tự tăng
+    Name NVARCHAR(100) NOT NULL,      -- Tên Cá Koi
+    Origin NVARCHAR(100) NOT NULL,    -- Nguồn gốc
+    Category NVARCHAR(100) NOT NULL,  -- Hạng mục tham gia
+    Size NVARCHAR(50) NOT NULL,       -- Kích thước
+    Email NVARCHAR(100) NOT NULL,     -- Email liên hệ
+    KoiID INT NOT NULL,               -- ID Cá Koi (cùng kiểu với KoiManagement.KoiId)
+    UserId NVARCHAR(50) NOT NULL,     -- ID người dùng
+    Status NVARCHAR(50) DEFAULT 'Pending' NOT NULL, -- Trạng thái
+    CreatedAt DATETIME DEFAULT GETDATE(), -- Ngày đăng ký
+    FOREIGN KEY (KoiId) REFERENCES KoiManagement(KoiID) -- Khóa ngoại tham chiếu đến KoiManagement
+);
+
+
+INSERT INTO Contestants (Name, Origin, Category, Size, Email, KoiID, UserId, Status)
+VALUES 
+('Koi Đẹp Nhất', 'Nhật Bản', 'Grand Champion', '35cm', 'user1@example.com', '1', 'USER001', 'Pending'),
+('Koi Xinh Xắn', 'Việt Nam', 'Baby Champion', '15cm', 'user2@example.com', '2', 'USER002', 'Pending'),
+('Koi Rực Rỡ', 'Trung Quốc', 'Mature Champion', '50cm', 'user3@example.com', '3', 'USER003', 'Approved');
+
+SELECT KoiID, Name, Breed, Size, Color, Origin, Price, HealthStatus
+FROM KoiManagement
+
+
+SELECT * FROM Contestants;

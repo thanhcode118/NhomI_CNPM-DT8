@@ -106,5 +106,14 @@ namespace KoiProject.Repositories.Repositories
             return user;
         }
 
+        public Task<List<KoiManagement>> GetAvailableKoiAsync()
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<bool> RegisterContestantAsync(Contestant contestant)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

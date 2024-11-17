@@ -29,6 +29,9 @@ internal class Program
         builder.Services.AddScoped<IRankingRepository, RankingRepository>();
         builder.Services.AddScoped<IVoteService, VoteService>();
         builder.Services.AddScoped<IVoteRepository, VoteRepository>();
+        builder.Services.AddScoped<IContestantRepository, ContestantRepository>();
+        builder.Services.AddScoped<IContestantService, ContestantService>();
+
 
         // Đăng ký Session
         builder.Services.AddSession();
