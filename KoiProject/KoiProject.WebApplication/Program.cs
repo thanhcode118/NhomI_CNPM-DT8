@@ -22,6 +22,10 @@ internal class Program
 
         // Đăng ký các repository và service
         builder.Services.AddScoped<IUserRepository, UserRepository>();
+        builder.Services.AddScoped<IKoiService, KoiService>();
+        builder.Services.AddScoped<IKoiCheckInRepository, KoiCheckInRepository>();
+        builder.Services.AddScoped<IKoiCheckInService, KoiCheckInService>();        // Đăng ký check-in service
+
         builder.Services.AddScoped<IUserService, UserService>();
         builder.Services.AddScoped<IKoiManagementRepository, KoiManagementRepository>();
         builder.Services.AddScoped<IKoiManagementService, KoiManagementService>();

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using KoiProject.Repositories.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace KoiProject.WebApplication.Data;
@@ -80,6 +81,7 @@ public partial class KoiCompetitionContext : DbContext
 
         OnModelCreatingPartial(modelBuilder);
     }
-
+    public DbSet<KoiCheckIn> KoiCheckIns { get; set; }
+    public DbSet<KoiManagement> KoiManagement { get; set; }
     partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
 }

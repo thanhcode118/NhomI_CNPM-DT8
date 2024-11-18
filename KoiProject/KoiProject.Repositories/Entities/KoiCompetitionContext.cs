@@ -23,7 +23,7 @@ public partial class KoiCompetitionContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Data Source=DESKTOP-D3GEO91\\NTOANSQL;Initial Catalog=KoiCompetition;Integrated Security=True;Encrypt=True;Trust Server Certificate=True");
+        => optionsBuilder.UseSqlServer("Data Source=VECTOR\\SQLSEVER;Initial Catalog=KoiCompetition;Integrated Security=True;Encrypt=True;Trust Server Certificate=True");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -88,6 +88,10 @@ public partial class KoiCompetitionContext : DbContext
                 .HasColumnType("datetime")
                 .HasColumnName("updated_at");
         });
+        modelBuilder.Entity<KoiClassification>(entity =>
+        {
+            entity.HasKey(k => k.KoiID); // Specify the primary key
+        });
 
         modelBuilder.Entity<Vote>(entity =>
         {
@@ -110,10 +114,16 @@ public partial class KoiCompetitionContext : DbContext
                 .HasForeignKey(d => d.VoterEmail)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK__Votes__VoterEmai__1CF15040");
+
         });
 
         OnModelCreatingPartial(modelBuilder);
+
     }
 
+    public DbSet<KoiManagement> KoiManagement { get; set; }
+    
+
+    public DbSet<KoiClassification> KoiClassifications { get; set; }
     partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
 }

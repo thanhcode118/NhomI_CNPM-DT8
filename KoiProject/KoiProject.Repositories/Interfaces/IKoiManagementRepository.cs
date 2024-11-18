@@ -29,5 +29,7 @@ namespace KoiProject.Repositories.Interfaces
         Task<User> GetUserByEmailAsync(string email);
         Task<List<KoiManagement>> GetAvailableKoiAsync();
         Task<bool> RegisterContestantAsync(Contestant contestant);
+        Task<List<KoiManagement>> GetAllKoiAsync();
+
     }
 }

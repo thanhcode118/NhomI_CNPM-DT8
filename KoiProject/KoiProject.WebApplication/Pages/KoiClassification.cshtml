@@ -1,0 +1,32 @@
+﻿@page
+@model KoiProject.WebApplication.Pages.KoiClassificationModel
+@{
+    Layout = null;
+    ViewData["Title"] = "KoiClassification";
+}
+
+<h1>Danh sách Cá Koi</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Tên</th>
+            <th>Giống</th>
+            <th>Kích thước</th>
+            <th>Phân loại kích thước</th>
+            <th>Tình trạng sức khỏe</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var koi in Model.KoiList)
+        {
+            <tr>
+                <td>@koi.Name</td>
+                <td>@koi.Breed</td>
+                <td>@koi.Size</td>
+                <td>@koi.SizeCategory</td>
+                <td>@koi.HealthCategory</td>
+            </tr>
+        }
+    </tbody>
+</table>

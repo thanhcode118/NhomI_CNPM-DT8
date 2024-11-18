@@ -47,11 +47,6 @@ namespace KoiProject.Repositories.Repositories
             return await _context.KoiManagements.FindAsync(koiId);
         }
 
-
-
-       
-
-
         public async Task<IEnumerable<KoiManagement>> GetAllKoisAsync()
         {
             try
@@ -115,5 +110,11 @@ namespace KoiProject.Repositories.Repositories
         {
             throw new NotImplementedException();
         }
+
+        public async Task<List<KoiManagement>> GetAllKoiAsync()
+        {
+            return await _context.KoiManagements.ToListAsync();  // Truy vấn tất cả cá Koi từ cơ sở dữ liệu
+        }
+
     }
 }

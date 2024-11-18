@@ -1,0 +1,45 @@
+﻿@page
+@model CheckInModel
+
+@{
+    Layout = null;
+    ViewData["Title"] = "Check-in Cá Koi";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<form method="post">
+    <div class="form-group">
+        <label for="KoiID">Koi ID</label>
+        <select id="KoiID" name="KoiID" class="form-control" required>
+            <option value="">Chọn cá Koi</option>
+            @foreach (var koi in Model.KoiList)
+            {
+                <option value="@koi.KoiId">@koi.Name</option> <!-- Hiển thị tên cá Koi -->
+            }
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="HealthStatus">Tình trạng sức khỏe</label>
+        <select id="HealthStatus" name="HealthStatus" class="form-control" required>
+            <option value="Healthy">Healthy</option>
+            <option value="Moderate">Moderate</option>
+            <option value="Excellent">Excellent</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="Notes">Ghi chú</label>
+        <textarea id="Notes" name="Notes" class="form-control"></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Check-in</button>
+</form>
+
+@if (!string.IsNullOrEmpty(Model.ResultMessage))
+{
+    <div class="alert alert-info mt-3">
+        @Model.ResultMessage
+    </div>
+}
