@@ -38,6 +38,7 @@ GO
 
 -- Tạo bảng KoiManagement
 -- Tạo bảng KoiManagement với các thuộc tính mở rộng
+-- Tạo bảng KoiManagement
 CREATE TABLE KoiManagement (
     KoiID INT IDENTITY(1,1) NOT NULL PRIMARY KEY, -- ID Cá Koi tự động tăng
     Name NVARCHAR(50) NOT NULL,                  -- Tên Cá Koi
@@ -52,44 +53,42 @@ CREATE TABLE KoiManagement (
     ContestStatus NVARCHAR(50) DEFAULT 'Pending' NOT NULL, -- Trạng thái tham gia cuộc thi
     ContestDate DATE NULL,                       -- Ngày tham gia cuộc thi
     user_email NVARCHAR(255) NOT NULL,           -- Email người dùng
-    GPA DECIMAL(3, 2) NOT NULL CHECK (GPA BETWEEN 0 AND 4), -- GPA trong khoảng 0-4
+    GPA DECIMAL(3, 2) NOT NULL DEFAULT 0.0 CHECK (GPA BETWEEN 0 AND 4), -- GPA mặc định là 0.0, trong khoảng 0-4
     id_user INT NULL,                            -- ID người dùng
     VoteCount INT DEFAULT 0 NOT NULL CHECK (VoteCount >= 0), -- Số lượt bình chọn
     CONSTRAINT FK_UserEmail FOREIGN KEY (user_email) REFERENCES Users(email) ON DELETE CASCADE,
     CONSTRAINT FK_UserID FOREIGN KEY (id_user) REFERENCES Users(user_id) ON DELETE NO ACTION
 );
 
-go
 
--- Thêm dữ liệu mẫu cho KoiManagement
+go
 INSERT INTO KoiManagement (Name, Breed, Size, Color, DateOfEntry, Origin, Price, HealthStatus, user_email, GPA, id_user, ContestCategory, ContestStatus, ContestDate)
-VALUES 
+VALUES
 -- Loại Kohaku
-('Kohaku Shine', 'Kohaku', 19.40, 'White with Red & Black', '2024-11-01', 'Japan', 1550.00, 'Healthy', 'johndoe@example.com', 3.6, 1, 'Best Color', 'Pending', '2024-11-15'),
-('Sanke Glow', 'Sanke', 19.50, 'Light Blue', '2024-11-05', 'China', 1450.00, 'Moderate', 'alice@example.com', 3.6, 2, 'Best Pattern', 'Pending', '2024-11-16'),
-('Kohaku Grace', 'Kohaku', 20.00, 'White with Red & Black', '2024-11-03', 'Japan', 1600.00, 'Excellent', 'bob@example.com', 3.8, 3, 'Best Color', 'Pending', '2024-11-15'),
+('Kohaku Ruby', 'Kohaku', 20.00, 'Red & White', '2024-11-01', 'Japan', 1500.00, 'Healthy', 'johndoe@example.com', 0.0, 1, 'Best Pattern', 'Pending', '2024-11-15'),
+('Utsuri Radiance', 'Utsuri', 25.00, 'Black & Yellow', '2024-11-12', 'Thailand', 1700.00, 'Excellent', 'bob@example.com', 0.0, 3, 'Best Pattern', 'Pending', '2024-11-24'),
+('Kohaku Grace', 'Kohaku', 21.00, 'White with Red Spots', '2024-11-03', 'Japan', 1550.00, 'Excellent', 'bob@example.com', 0.0, 3, 'Best Size', 'Pending', '2024-11-16'),
 
 -- Loại Sanke
-('Sanke Blue', 'Sanke', 21.80, 'Light Blue', '2024-11-04', 'China', 1400.00, 'Healthy', 'johndoe@example.com', 3.7, 1, 'Best Pattern', 'Pending', '2024-11-16'),
-('Sanke Moon', 'Sanke', 12.10, 'Light Blue', '2024-11-06', 'China', 1500.00, 'Excellent', 'bob@example.com', 3.9, 3, 'Best Pattern', 'Pending', '2024-11-16'),
-('Kohaku Spark', 'Kohaku', 18.50, 'White with Red & Black', '2024-11-02', 'Japan', 1500.00, 'Moderate', 'alice@example.com', 3.5, 2, 'Best Color', 'Pending', '2024-11-15'),
+('Sanke Sapphire', 'Sanke', 19.00, 'White & Black', '2024-11-04', 'China', 1200.00, 'Healthy', 'johndoe@example.com', 0.0, 1, 'Best Pattern', 'Pending', '2024-11-16'),
+('Sanke Blue', 'Sanke', 22.00, 'White with Blue Stripes', '2024-11-05', 'China', 1300.00, 'Moderate', 'alice@example.com', 0.0, 2, 'Best Overall', 'Pending', '2024-11-17'),
+('Showa Pearl', 'Showa', 10.50, 'White with Red & Black', '2024-11-09', 'Vietnam', 1400.00, 'Excellent', 'bob@example.com', 0.0, 3, 'Best Pattern', 'Pending', '2024-11-21'),
+
 
 -- Loại Showa
-('Showa Gold', 'Showa', 18.00, 'Golden', '2024-11-07', 'Vietnam', 1250.00, 'Healthy', 'johndoe@example.com', 3.4, 1, 'Best Overall', 'Pending', '2024-11-17'),
-('Utsuri Radiance', 'Utsuri', 25.00, 'Black & Yellow', '2024-11-12', 'Thailand', 1700.00, 'Excellent', 'bob@example.com', 4.0, 3, 'Best Size', 'Pending', '2024-11-18'),
-('Showa Pearl', 'Showa', 20.50, 'Golden', '2024-11-09', 'Vietnam', 1400.00, 'Excellent', 'bob@example.com', 3.7, 3, 'Best Overall', 'Pending', '2024-11-17'),
+('Showa Gold', 'Showa', 18.00, 'Golden', '2024-11-07', 'Vietnam', 1250.00, 'Healthy', 'johndoe@example.com', 0.0, 1, 'Best Overall', 'Pending', '2024-11-19'),
+('Showa Star', 'Showa', 18.80, 'Black & Red', '2024-11-08', 'Vietnam', 1300.00, 'Moderate', 'alice@example.com', 0.0, 2, 'Best Color', 'Pending', '2024-11-20'),
+('Sanke Moonlight', 'Sanke', 20.50, 'White & Yellow', '2024-11-06', 'China', 1400.00, 'Excellent', 'bob@example.com', 0.0, 3, 'Best Color', 'Pending', '2024-11-18'),
 
 -- Loại Utsuri
-('Utsuri Flame', 'Utsuri', 23.10, 'Black & Yellow', '2024-11-10', 'Thailand', 1600.00, 'Healthy', 'johndoe@example.com', 3.9, 1, 'Best Size', 'Pending', '2024-11-18'),
-('Asagi Sky', 'Asagi', 17.75, 'Gray Blue', '2024-11-13', 'Japan', 1300.00, 'Healthy', 'johndoe@example.com', 3.5, 1, 'Best Color', 'Pending', '2024-11-19'),
-('Utsuri Shadow', 'Utsuri', 11.30, 'Black & Yellow', '2024-11-11', 'Thailand', 1550.00, 'Moderate', 'alice@example.com', 3.8, 2, 'Best Size', 'Pending', '2024-11-18'),
+('Asagi Cloud', 'Asagi', 16.50, 'Gray White', '2024-11-15', 'Japan', 1250.00, 'Excellent', 'bob@example.com', 0.0, 3, 'Best Overall', 'Pending', '2024-11-27'),
+('Utsuri Flame', 'Utsuri', 11.10, 'Black & Yellow', '2024-11-10', 'Thailand', 1600.00, 'Healthy', 'johndoe@example.com', 0.0, 1, 'Best Size', 'Pending', '2024-11-22'),
+('Utsuri Shadow', 'Utsuri', 21.30, 'Black & Orange', '2024-11-11', 'Thailand', 1500.00, 'Moderate', 'alice@example.com', 0.0, 2, 'Best Overall', 'Pending', '2024-11-23'),
 
 -- Loại Asagi
-('Showa Star', 'Showa', 18.80, 'Golden', '2024-11-08', 'Vietnam', 1300.00, 'Moderate', 'alice@example.com', 3.5, 2, 'Best Overall', 'Pending', '2024-11-17'),
-('Asagi Cloud', 'Asagi', 16.50, 'Gray Blue', '2024-11-14', 'Japan', 1250.00, 'Moderate', 'alice@example.com', 3.4, 2, 'Best Color', 'Pending', '2024-11-19'),
-('Asagi Dream', 'Asagi', 18.00, 'Gray Blue', '2024-11-15', 'Japan', 1350.00, 'Excellent', 'bob@example.com', 3.6, 3, 'Best Color', 'Pending', '2024-11-19');
-GO
-
+('Asagi Sky', 'Asagi', 17.75, 'Gray Blue', '2024-11-13', 'Japan', 1300.00, 'Healthy', 'johndoe@example.com', 0.0, 1, 'Best Pattern', 'Pending', '2024-11-25'),
+('Asagi Dream', 'Asagi', 18.00, 'Blue with White Edges', '2024-11-14', 'Japan', 1350.00, 'Moderate', 'alice@example.com', 0.0, 2, 'Best Color', 'Pending', '2024-11-26');
+go
 -- Tạo bảng Votes
 CREATE TABLE Votes (
     VoteID INT PRIMARY KEY IDENTITY,

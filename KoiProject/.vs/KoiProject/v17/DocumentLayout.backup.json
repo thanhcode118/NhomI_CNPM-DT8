@@ -1,8 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\New folder (2)\\NhomI_CNPM-DT8\\KoiProject\\",
+  "WorkspaceRootPath": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\",
   "Documents": [
     {
+
       "AbsoluteMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|e:\\new folder (2)\\nhomi_cnpm-dt8\\koiproject\\koiproject.webapplication\\wwwroot\\html\\account.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|solutionrelative:koiproject.webapplication\\wwwroot\\html\\account.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -13,6 +14,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|e:\\new folder (2)\\nhomi_cnpm-dt8\\koiproject\\koiproject.webapplication\\wwwroot\\html\\accountmanagement.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|solutionrelative:koiproject.webapplication\\wwwroot\\html\\accountmanagement.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+
+      "AbsoluteMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|c:\\users\\lenovo\\downloads\\git\\cnpm\\nhomi_cnpm-dt8\\koiproject\\koiproject.webapplication\\pages\\rankingkoicompetition.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|solutionrelative:koiproject.webapplication\\pages\\rankingkoicompetition.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|c:\\users\\lenovo\\downloads\\git\\cnpm\\nhomi_cnpm-dt8\\koiproject\\koiproject.webapplication\\pages\\competitions.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|solutionrelative:koiproject.webapplication\\pages\\competitions.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|c:\\users\\lenovo\\downloads\\git\\cnpm\\nhomi_cnpm-dt8\\koiproject\\koiproject.webapplication\\pages\\koiclassification.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|solutionrelative:koiproject.webapplication\\pages\\koiclassification.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+
     }
   ],
   "DocumentGroupContainers": [
@@ -22,6 +35,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+
           "SelectedChildIndex": 0,
           "Children": [
             {
@@ -48,10 +62,26 @@
               "ViewState": "AgIAANgAAAAAAAAAAAAqwOQAAABvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2024-11-19T16:10:42.387Z",
+
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "competitions.cshtml",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\Pages\\competitions.cshtml",
+              "RelativeDocumentMoniker": "KoiProject.WebApplication\\Pages\\competitions.cshtml",
+              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\Pages\\competitions.cshtml",
+              "RelativeToolTip": "KoiProject.WebApplication\\Pages\\competitions.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAmwGAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-19T15:19:17.326Z",
+
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+
               "DocumentIndex": 1,
               "Title": "Dashboard.cshtml",
               "DocumentMoniker": "E:\\New folder (2)\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\Pages\\Dashboard.cshtml",
@@ -61,6 +91,30 @@
               "ViewState": "AgIAANgAAAAAAAAAAAAAAOQAAACDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-18T15:38:13.161Z",
+
+              "DocumentIndex": 2,
+              "Title": "KoiClassification.cshtml",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\Pages\\KoiClassification.cshtml",
+              "RelativeDocumentMoniker": "KoiProject.WebApplication\\Pages\\KoiClassification.cshtml",
+              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\Pages\\KoiClassification.cshtml",
+              "RelativeToolTip": "KoiProject.WebApplication\\Pages\\KoiClassification.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-19T15:19:10.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RankingKoiCompetition.cshtml",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\Pages\\RankingKoiCompetition.cshtml",
+              "RelativeDocumentMoniker": "KoiProject.WebApplication\\Pages\\RankingKoiCompetition.cshtml",
+              "ToolTip": "C:\\Users\\LENOVO\\Downloads\\GIT\\CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\Pages\\RankingKoiCompetition.cshtml",
+              "RelativeToolTip": "KoiProject.WebApplication\\Pages\\RankingKoiCompetition.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-19T15:18:29.397Z",
+
               "EditorCaption": ""
             }
           ]
