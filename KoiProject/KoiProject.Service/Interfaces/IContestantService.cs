@@ -1,15 +1,9 @@
 ﻿using KoiProject.Repositories.Entities;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
-namespace KoiProject.Service.Interfaces
+public interface IContestantService
 {
-    public interface IContestantService
-    {
-        Task<List<KoiManagement>> GetAvailableKoiAsync();
-        Task<bool> RegisterContestantAsync(Contestant contestant);
-    }
+
+    Task<bool> RegisterKoiAsync(KoiManagement koi);
 }

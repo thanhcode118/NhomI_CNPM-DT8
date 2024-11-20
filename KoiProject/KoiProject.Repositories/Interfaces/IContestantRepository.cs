@@ -9,8 +9,8 @@ namespace KoiProject.Repositories.Interfaces
 {
     public interface IContestantRepository
     {
-        Task<List<KoiManagement>> GetAvailableKoiAsync();
-        Task<bool> SaveContestantAsync(Contestant contestant);
+
+        Task<bool> SaveKoiAsync(KoiManagement koi);
     }
 }
 
