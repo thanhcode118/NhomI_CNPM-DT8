@@ -1,69 +1,83 @@
 ﻿@page
 @model KoiProject.WebApplication.Pages.RankingCompetitionModel
 @{
+    Layout = "_LayoutKoiFish";
     ViewData["Title"] = "Koi Competition Rankings";
-    Layout = null;
 }
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewData["Title"]</title>
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/css/styles.css">
-</head>
-<body>
-    <header class="bg-primary text-white text-center py-4">
-        <h1>Quản lý cuộc thi triển lãm cá Koi</h1>
-        <p class="lead">Bảng xếp hạng kết quả cuộc thi</p>
-    </header>
+<h1>Bảng xếp hạng Cuộc thi Cá Koi</h1>
 
-    <main class="container mt-5">
-        <h2 class="text-center">Koi Competition Rankings</h2>
-        <table class="table table-hover mt-4">
-            <thead class="table-dark">
-                <tr>
-                    <th>Rank</th>
-                    <th>Name</th>
-                    <th>Breed</th>
-                    <th>Size (cm)</th>
-                    <th>Color</th>
-                    <th>Origin</th>
-                    <th>GPA</th>
-                </tr>
-            </thead>
-            <tbody>
-                @if (Model.Rankings != null && Model.Rankings.Any())
-                {
-                    int rank = 1;
-                    foreach (var koi in Model.Rankings)
-                    {
-                        <tr>
-                            <td>@rank</td>
-                            <td>@koi.Name</td>
-                            <td>@koi.Breed</td>
-                            <td>@koi.Size</td>
-                            <td>@koi.Color</td>
-                            <td>@koi.Origin</td>
-                            <td>@koi.Gpa</td>
-                        </tr>
-                        rank++;
-                    }
-                }
-                else
-                {
-                    <tr>
-                        <td colspan="7" class="text-center text-muted">No data available</td>
-                    </tr>
-                }
-            </tbody>
-        </table>
-    </main>
-
-    <footer class="bg-dark text-white text-center py-3">
-        <p>&copy; 2024 Cuộc thi triển lãm cá Koi. Designed by DevTeam</p>
-    </footer>
-</body>
-</html>
+<div class="container-fluid py-4">
+    <div class="row">
+        <div class="col-12">
+            <div class="card mb-4">
+                <div class="card-header pb-0">
+                    <h1 class="text-center">Koi Competition Rankings</h1>
+                </div>
+                <div class="card-body px-0 pt-0 pb-2">
+                    <div class="table-responsive p-0">
+                        <table class="table align-items-center mb-0">
+                            <thead class="table-dark">
+                                <tr>
+                                    <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Rank</th>
+                                    <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Tên</th>
+                                    <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Giống loài</th>
+                                    <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Kích Thước (cm)</th>
+                                    <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Màu sắc</th>
+                                    <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Nguồn gốc</th>
+                                    <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">GPA</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @if (Model.Rankings != null && Model.Rankings.Any())
+                                {
+                                    int rank = 1;
+                                    foreach (var koi in Model.Rankings)
+                                    {
+                                        <tr>
+                                            <td>
+                                                <p class="text-xs font-weight-bold mb-0">@rank</p>
+                                            </td>
+                                            <td>
+                                                <div class="d-flex px-2 py-1">
+                                                    <div>
+                                                        <img src="~/img/caphongthuy.png" class="avatar avatar-sm me-3" alt="@koi.Name">
+                                                    </div>
+                                                    <div class="d-flex flex-column justify-content-center">
+                                                        <h6 class="mb-0 text-sm">@koi.Name</h6>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <p class="text-xs font-weight-bold mb-0">@koi.Breed</p>
+                                            </td>
+                                            <td class="align-middle text-center text-sm">
+                                                <span class="text-secondary text-xs font-weight-bold">@koi.Size</span>
+                                            </td>
+                                            <td class="align-middle text-center">
+                                                <span class="text-secondary text-xs font-weight-bold">@koi.Color</span>
+                                            </td>
+                                            <td class="align-middle text-center">
+                                                <span class="text-secondary text-xs font-weight-bold">@koi.Origin</span>
+                                            </td>
+                                            <td class="align-middle text-center text-sm">
+                                                <span class="badge badge-sm bg-gradient-info">@koi.Gpa</span>
+                                            </td>
+                                        </tr>
+                                        rank++;
+                                    }
+                                }
+                                else
+                                {
+                                    <tr>
+                                        <td colspan="7" class="text-center">Không có dữ liệu để hiển thị.</td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -6,40 +6,149 @@
     ViewData["Title"] = "Check-in Cá Koi";
 }
 
-<h1>@ViewData["Title"]</h1>
+<!DOCTYPE html>
+<html :class="{ 'theme-dark': dark }" x-data="data()" lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Windmill Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="~/assetsCreate/assets/css/tailwind.output.css" />
+    <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
+    <script src="~/assetsCreate/assets/js/init-alpine.js"></script>
+    <style>
+        body {
+            background-color: #ffffff; /* Nền trắng hoàn toàn */
+            color: #1f2937; /* Màu chữ đậm để dễ đọc */
+        }
 
-<form method="post">
-    <div class="form-group">
-        <label for="KoiID">Koi ID</label>
-        <select id="KoiID" name="KoiID" class="form-control" required>
-            <option value="">Chọn cá Koi</option>
-            @foreach (var koi in Model.KoiList)
-            {
-                <option value="@koi.KoiId">@koi.Name</option> <!-- Hiển thị tên cá Koi -->
-            }
-        </select>
+        .dark:bg-gray-900 {
+            background-color: #ffffff !important; /* Cưỡng ép màu nền trắng cho chế độ sáng */
+        }
+
+        .bg-gray-50 {
+            background-color: #ffffff !important; /* Chắc chắn vùng chính có nền trắng */
+        }
+
+        .rounded-lg {
+            background-color: #ffffff; /* Card bên trong cũng trắng */
+        }
+    </style>
+    <style>
+        /* Tiêu đề chính */
+        h1 {
+            font-size: 2rem; /* Kích thước chữ lớn hơn */
+            font-weight: 700; /* Chữ in đậm */
+            color: #1a202c; /* Đậm màu hơn (đen nhạt) */
+            font-family: 'Inter', sans-serif; /* Font tròn, hiện đại */
+        }
+
+        /* Label */
+        label span {
+            font-size: 1rem; /* Kích thước chữ vừa đủ lớn */
+            font-weight: 600; /* In đậm vừa phải */
+            color: #2d3748; /* Màu chữ đậm hơn */
+        }
+
+        /* Input và Textarea */
+        input, textarea, select {
+            font-size: 1rem; /* Cỡ chữ trong input */
+            border-radius: 0.375rem; /* Bo góc nhẹ */
+            border: 1px solid #cbd5e0; /* Đường viền nhẹ nhàng */
+            padding: 0.75rem; /* Tăng khoảng cách bên trong */
+        }
+
+        /* Tăng kích thước chữ trong Placeholder */
+        ::placeholder {
+            font-size: 0.875rem; /* Placeholder nhỏ hơn một chút */
+            color: #a0aec0; /* Placeholder màu xám nhạt */
+        }
+
+        textarea {
+            color: #1f2937; /* Màu chữ đậm, dễ đọc */
+            background-color: #ffffff; /* Đảm bảo nền trắng */
+            border: 1px solid #cbd5e0; /* Đường viền xám nhẹ */
+            padding: 0.75rem; /* Khoảng cách bên trong */
+            font-size: 1rem; /* Kích thước chữ */
+            border-radius: 0.375rem; /* Bo góc */
+        }
+
+        button {
+            opacity: 1; /* Đảm bảo nút luôn hiển thị */
+            visibility: visible; /* Đảm bảo nút không bị ẩn */
+            display: block; /* Đảm bảo nút được hiển thị như khối */
+        }
+
+
+    </style>
+
+
+
+
+
+</head>
+<body>
+    <div class="flex items-center min-h-screen p-6 bg-white">
+        <div class="flex-1 h-full max-w-4xl mx-auto overflow-hidden bg-white rounded-lg shadow-xl">
+            <div class="flex flex-col overflow-y-auto md:flex-row">
+                <!-- Image Section -->
+                <div class="h-32 md:h-auto md:w-1/2">
+                    <img aria-hidden="true"
+                         class="object-cover w-full h-full"
+                         src="~/img/background2.jpg"
+                         alt="Check-in Cá Koi" />
+                </div>
+
+                <!-- Form Section -->
+                <div class="flex items-center justify-center p-6 sm:p-12 md:w-1/2">
+                    <div class="w-full">
+                        <h1 class="mb-4 text-2xl font-bold text-gray-800">
+                            @ViewData["Title"]
+                        </h1>
+
+                        <form method="post">
+                            <!-- Koi Selection -->
+                            <label class="block mt-4 text-sm">
+                                <span class="text-lg font-semibold text-gray-800">Chọn Cá Koi</span>
+                                <select id="KoiID" name="KoiID" class="block w-full mt-1 text-base border-gray-300 rounded-md form-select" required>
+                                    <option value="">Chọn cá Koi</option>
+                                    @foreach (var koi in Model.KoiList)
+                                    {
+                                        <option value="@koi.KoiId">@koi.Name</option>
+                                    }
+                                </select>
+                            </label>
+
+                            <!-- Health Status -->
+                            <label class="block mt-4 text-sm">
+                                <span class="text-lg font-semibold text-gray-800">Tình trạng sức khỏe</span>
+                                <select id="HealthStatus" name="HealthStatus" class="block w-full mt-1 text-base border-gray-300 rounded-md form-select" required>
+                                    <option value="Healthy">Healthy</option>
+                                    <option value="Moderate">Moderate</option>
+                                    <option value="Excellent">Excellent</option>
+                                </select>
+                            </label>
+
+                            <!-- Notes -->
+                            <label class="block mt-4 text-sm">
+                                <span class="text-lg font-semibold text-gray-800">Ghi chú</span>
+                                <textarea id="Notes" name="Notes"
+                                          class="block w-full mt-1 text-base text-gray-800 bg-white border-gray-300 rounded-md form-input"
+                                          placeholder="Nhập ghi chú tại đây..."></textarea>
+                            </label>
+
+
+                            <!-- Submit Button -->
+                            <button type="submit" class="block w-full px-4 py-2 mt-4 text-base font-semibold text-white transition-colors duration-150 bg-purple-600 border border-transparent rounded-lg hover:bg-purple-700 focus:outline-none">
+                                Check-in
+                            </button>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+</body>
 
-    <div class="form-group">
-        <label for="HealthStatus">Tình trạng sức khỏe</label>
-        <select id="HealthStatus" name="HealthStatus" class="form-control" required>
-            <option value="Healthy">Healthy</option>
-            <option value="Moderate">Moderate</option>
-            <option value="Excellent">Excellent</option>
-        </select>
-    </div>
-
-    <div class="form-group">
-        <label for="Notes">Ghi chú</label>
-        <textarea id="Notes" name="Notes" class="form-control"></textarea>
-    </div>
-
-    <button type="submit" class="btn btn-primary">Check-in</button>
-</form>
-
-@if (!string.IsNullOrEmpty(Model.ResultMessage))
-{
-    <div class="alert alert-info mt-3">
-        @Model.ResultMessage
-    </div>
-}
+</html>
