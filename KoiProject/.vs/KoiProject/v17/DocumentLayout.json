@@ -44,7 +44,7 @@
               "RelativeDocumentMoniker": "KoiProject.WebApplication\\Pages\\CreateNewForContestant.cshtml.cs",
               "ToolTip": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\Pages\\CreateNewForContestant.cshtml.cs",
               "RelativeToolTip": "KoiProject.WebApplication\\Pages\\CreateNewForContestant.cshtml.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAhwC8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAvwC8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-21T01:27:52.493Z",
               "EditorCaption": ""
@@ -59,8 +59,7 @@
               "RelativeToolTip": "KoiProject.Repositories\\Entities\\KoiManagement.cs",
               "ViewState": "AgIAABwAAAAAAAAAAAAcwC0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T01:27:10.748Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-21T01:27:10.748Z"
             },
             {
               "$type": "Document",
@@ -72,8 +71,7 @@
               "RelativeToolTip": "KoiProject.WebApplication\\Pages\\CheckIn.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-20T14:25:21.198Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-20T14:25:21.198Z"
             },
             {
               "$type": "Document",
