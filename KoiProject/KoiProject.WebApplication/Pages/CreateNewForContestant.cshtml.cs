@@ -2,56 +2,65 @@
 using KoiProject.Service.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using System.Collections.Generic;
-using System.Threading.Tasks;
 
-public class CreateNewForContestantModel : PageModel
+public class CreateNewContestantModel : PageModel
 {
     private readonly IContestantService _contestantService;
 
-    public CreateNewForContestantModel(IContestantService contestantService)
+    public CreateNewContestantModel(IContestantService contestantService)
     {
         _contestantService = contestantService;
     }
 
-    public List<KoiManagement> KoiList { get; set; } = new List<KoiManagement>();   
+    // Thuộc tính bind dữ liệu
+    [BindProperty] public string KoiName { get; set; }
+    [BindProperty] public string KoiBreed { get; set; }
+    [BindProperty] public decimal KoiSize { get; set; }
+    [BindProperty] public string KoiColor { get; set; }
+    [BindProperty] public decimal KoiGPA { get; set; }
+    [BindProperty] public string Email { get; set; }
 
-    [BindProperty]
-    public Contestant Contestant { get; set; }
-
-    public async Task OnGetAsync()
+    public IActionResult OnGet()
     {
-        KoiList = await _contestantService.GetAvailableKoiAsync();
+        return Page();
     }
 
     public async Task<IActionResult> OnPostAsync()
     {
         if (!ModelState.IsValid)
         {
-            // Xử lý khi dữ liệu không hợp lệ
-            ModelState.AddModelError(string.Empty, "Thông tin không hợp lệ. Vui lòng kiểm tra lại!");
+            TempData["ErrorMessage"] = "Vui lòng điền đầy đủ thông tin.";
             return Page();
         }
 
-        try
+        var koi = new KoiManagement
         {
-            var success = await _contestantService.RegisterContestantAsync(Contestant);
-            if (success)
-            {
-                TempData["SuccessMessage"] = "Đăng ký thành công!";
-                return RedirectToPage("CreateNewForContestant");
-            }
-            else
-            {
-                ModelState.AddModelError(string.Empty, "Đã xảy ra lỗi khi lưu thông tin.");
-            }
-        }
-        catch (Exception ex)
-        {
-            ModelState.AddModelError(string.Empty, $"Lỗi: {ex.Message}");
-        }
+            Name = KoiName,
+            Breed = KoiBreed,
+            Size = KoiSize,
+            Color = KoiColor,
+            DateOfEntry = DateOnly.FromDateTime(DateTime.Now),
+            Origin = "User Input",
+            HealthStatus = "Healthy",
+            ContestCategory = null, // Hoặc cung cấp giá trị cụ thể nếu cần
+            ContestStatus = "Pending",
+            ContestDate = null,
+            UserEmail = Email,
+            Gpa = KoiGPA,
+            IdUser = null,
+            VoteCount = 0
+        };
 
-        return Page();
+        var success = await _contestantService.RegisterKoiAsync(koi);
+        if (success)
+        {
+            TempData["SuccessMessage"] = "Đăng ký thành công!";
+            return RedirectToPage("./CreateNewForContestant");
+        }
+        else
+        {
+            TempData["ErrorMessage"] = "Có lỗi xảy ra khi lưu thông tin.";
+            return Page();
+        }
     }
-
 }

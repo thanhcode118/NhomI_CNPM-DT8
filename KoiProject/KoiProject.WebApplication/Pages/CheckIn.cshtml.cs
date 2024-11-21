@@ -40,6 +40,7 @@ public class CheckInModel : PageModel
             if (KoiList == null)
             {
                 KoiList = new List<KoiManagement>();  // Gán danh sách trống nếu không có dữ liệu
+
             }
         }
         catch (Exception ex)
