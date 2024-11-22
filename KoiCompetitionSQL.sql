@@ -241,6 +241,9 @@ VALUES
 ('Kohaku Grace', 'Kohaku', 21.00, 'White with Red Spots', '2024-11-03', 'Japan', 1550.00, 'Excellent', 'admin@example.com', 0.0, 4, 'Best Size', 'Pending', '2024-11-16');
 go
 
+--KoiCheckIn
+SELECT * FROM KoiCheckIn
+
 ---upgrade admin
 UPDATE Users
 SET role = 'admin'

@@ -1,43 +1,42 @@
 {
   "Version": 1,
-<<<<<<< HEAD
-  "WorkspaceRootPath": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\",
+  "WorkspaceRootPath": "F:\\Git Clone CNPM\\NhomI_CNPM-DT8\\KoiProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|c:\\work_space\\cnpm_connectdb\\source\\github_cnpm\\nhomi_cnpm-dt8\\koiproject\\koiproject.webapplication\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|solutionrelative:koiproject.webapplication\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|f:\\git clone cnpm\\nhomi_cnpm-dt8\\koiproject\\koiproject.webapplication\\pages\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|solutionrelative:koiproject.webapplication\\pages\\dashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|c:\\work_space\\cnpm_connectdb\\source\\github_cnpm\\nhomi_cnpm-dt8\\koiproject\\koiproject.webapplication\\pages\\createnewforcontestant.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|solutionrelative:koiproject.webapplication\\pages\\createnewforcontestant.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-=======
-  "WorkspaceRootPath": "E:\\test\\NhomI_CNPM-DT8\\KoiProject\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|e:\\test\\nhomi_cnpm-dt8\\koiproject\\koiproject.webapplication\\wwwroot\\html\\notifications.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|solutionrelative:koiproject.webapplication\\wwwroot\\html\\notifications.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
->>>>>>> 03ddda79100f0ab3ee8e5880be121b1d344d7948
+      "AbsoluteMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|f:\\git clone cnpm\\nhomi_cnpm-dt8\\koiproject\\koiproject.webapplication\\wwwroot\\html\\settings.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|solutionrelative:koiproject.webapplication\\wwwroot\\html\\settings.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|e:\\test\\nhomi_cnpm-dt8\\koiproject\\koiproject.webapplication\\wwwroot\\html\\account.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|solutionrelative:koiproject.webapplication\\wwwroot\\html\\account.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|f:\\git clone cnpm\\nhomi_cnpm-dt8\\koiproject\\koiproject.webapplication\\wwwroot\\html\\help.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|solutionrelative:koiproject.webapplication\\wwwroot\\html\\help.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|e:\\test\\nhomi_cnpm-dt8\\koiproject\\koiproject.webapplication\\wwwroot\\html\\accountmanagement.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|f:\\git clone cnpm\\nhomi_cnpm-dt8\\koiproject\\koiproject.webapplication\\wwwroot\\html\\accountmanagement.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|solutionrelative:koiproject.webapplication\\wwwroot\\html\\accountmanagement.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-<<<<<<< HEAD
-      "AbsoluteMoniker": "D:0:0:{3F011BC1-09AF-48AA-AD29-4BAFD34E57F6}|KoiProject.Repositories\\KoiProject.Repositories.csproj|c:\\work_space\\cnpm_connectdb\\source\\github_cnpm\\nhomi_cnpm-dt8\\koiproject\\koiproject.repositories\\koiproject.repositories.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{3F011BC1-09AF-48AA-AD29-4BAFD34E57F6}|KoiProject.Repositories\\KoiProject.Repositories.csproj|solutionrelative:koiproject.repositories\\koiproject.repositories.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-=======
-      "AbsoluteMoniker": "D:0:0:{3F011BC1-09AF-48AA-AD29-4BAFD34E57F6}|KoiProject.Repositories\\KoiProject.Repositories.csproj|e:\\test\\nhomi_cnpm-dt8\\koiproject\\koiproject.repositories\\entities\\koicompetitioncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3F011BC1-09AF-48AA-AD29-4BAFD34E57F6}|KoiProject.Repositories\\KoiProject.Repositories.csproj|solutionrelative:koiproject.repositories\\entities\\koicompetitioncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|f:\\git clone cnpm\\nhomi_cnpm-dt8\\koiproject\\koiproject.webapplication\\wwwroot\\html\\account.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|solutionrelative:koiproject.webapplication\\wwwroot\\html\\account.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|e:\\test\\nhomi_cnpm-dt8\\koiproject\\koiproject.webapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|solutionrelative:koiproject.webapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
->>>>>>> 03ddda79100f0ab3ee8e5880be121b1d344d7948
+      "AbsoluteMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|f:\\git clone cnpm\\nhomi_cnpm-dt8\\koiproject\\koiproject.webapplication\\wwwroot\\html\\notifications.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|solutionrelative:koiproject.webapplication\\wwwroot\\html\\notifications.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|f:\\git clone cnpm\\nhomi_cnpm-dt8\\koiproject\\koiproject.webapplication\\wwwroot\\html\\docs.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|solutionrelative:koiproject.webapplication\\wwwroot\\html\\docs.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|f:\\git clone cnpm\\nhomi_cnpm-dt8\\koiproject\\koiproject.webapplication\\wwwroot\\html\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{762155B2-AA31-40EC-8830-392FEA2EDDAD}|KoiProject.WebApplication\\KoiProject.WebApplication.csproj|solutionrelative:koiproject.webapplication\\wwwroot\\html\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F011BC1-09AF-48AA-AD29-4BAFD34E57F6}|KoiProject.Repositories\\KoiProject.Repositories.csproj|f:\\git clone cnpm\\nhomi_cnpm-dt8\\koiproject\\koiproject.repositories\\entities\\koicompetitioncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F011BC1-09AF-48AA-AD29-4BAFD34E57F6}|KoiProject.Repositories\\KoiProject.Repositories.csproj|solutionrelative:koiproject.repositories\\entities\\koicompetitioncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -52,126 +51,127 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-<<<<<<< HEAD
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "KoiProject.WebApplication\\Pages\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\Pages\\Shared\\_Layout.cshtml*",
-              "RelativeToolTip": "KoiProject.WebApplication\\Pages\\Shared\\_Layout.cshtml*",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACEAAAALAAAAAAAAAA==",
+              "Title": "Dashboard.cshtml",
+              "DocumentMoniker": "F:\\Git Clone CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\Pages\\Dashboard.cshtml",
+              "RelativeDocumentMoniker": "KoiProject.WebApplication\\Pages\\Dashboard.cshtml",
+              "ToolTip": "F:\\Git Clone CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\Pages\\Dashboard.cshtml*",
+              "RelativeToolTip": "KoiProject.WebApplication\\Pages\\Dashboard.cshtml*",
+              "ViewState": "AgIAAKYCAAAAAAAAAAAUwLACAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-22T12:07:37.001Z",
-=======
-              "Title": "notifications.html",
-              "DocumentMoniker": "E:\\test\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\html\\notifications.html",
-              "RelativeDocumentMoniker": "KoiProject.WebApplication\\wwwroot\\html\\notifications.html",
-              "ToolTip": "E:\\test\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\html\\notifications.html",
-              "RelativeToolTip": "KoiProject.WebApplication\\wwwroot\\html\\notifications.html",
-              "ViewState": "AgIAAM8AAAAAAAAAAAAAAOQAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-11-22T10:03:54.061Z",
->>>>>>> 03ddda79100f0ab3ee8e5880be121b1d344d7948
+              "WhenOpened": "2024-11-22T14:57:21.352Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-<<<<<<< HEAD
-              "Title": "CreateNewForContestant.cshtml.cs",
-              "DocumentMoniker": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\Pages\\CreateNewForContestant.cshtml.cs",
-              "RelativeDocumentMoniker": "KoiProject.WebApplication\\Pages\\CreateNewForContestant.cshtml.cs",
-              "ToolTip": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\Pages\\CreateNewForContestant.cshtml.cs",
-              "RelativeToolTip": "KoiProject.WebApplication\\Pages\\CreateNewForContestant.cshtml.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAASwCEAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T01:27:52.493Z",
+              "Title": "settings.html",
+              "DocumentMoniker": "F:\\Git Clone CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\html\\settings.html",
+              "RelativeDocumentMoniker": "KoiProject.WebApplication\\wwwroot\\html\\settings.html",
+              "ToolTip": "F:\\Git Clone CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\html\\settings.html",
+              "RelativeToolTip": "KoiProject.WebApplication\\wwwroot\\html\\settings.html",
+              "ViewState": "AgIAAGcBAAAAAAAAAADwv3IBAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-11-22T14:57:00.97Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "KoiManagement.cs",
-              "DocumentMoniker": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.Repositories\\Entities\\KoiManagement.cs",
-              "RelativeDocumentMoniker": "KoiProject.Repositories\\Entities\\KoiManagement.cs",
-              "ToolTip": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.Repositories\\Entities\\KoiManagement.cs",
-              "RelativeToolTip": "KoiProject.Repositories\\Entities\\KoiManagement.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAcwC0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-21T01:27:10.748Z"
+              "Title": "help.html",
+              "DocumentMoniker": "F:\\Git Clone CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\html\\help.html",
+              "RelativeDocumentMoniker": "KoiProject.WebApplication\\wwwroot\\html\\help.html",
+              "ToolTip": "F:\\Git Clone CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\html\\help.html",
+              "RelativeToolTip": "KoiProject.WebApplication\\wwwroot\\html\\help.html",
+              "ViewState": "AgIAAK4BAAAAAAAAAADwv8UBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-11-22T14:56:45.076Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "CheckIn.cshtml",
-              "DocumentMoniker": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\Pages\\CheckIn.cshtml",
-              "RelativeDocumentMoniker": "KoiProject.WebApplication\\Pages\\CheckIn.cshtml",
-              "ToolTip": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\Pages\\CheckIn.cshtml",
-              "RelativeToolTip": "KoiProject.WebApplication\\Pages\\CheckIn.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-20T14:25:21.198Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "KoiProject.Repositories.csproj",
-              "DocumentMoniker": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.Repositories\\KoiProject.Repositories.csproj",
-              "RelativeDocumentMoniker": "KoiProject.Repositories\\KoiProject.Repositories.csproj",
-              "ToolTip": "C:\\WORK_SPACE\\CNPM_connectDB\\source\\Github_Cnpm\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.Repositories\\KoiProject.Repositories.csproj",
-              "RelativeToolTip": "KoiProject.Repositories\\KoiProject.Repositories.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-20T14:09:06.62Z"
-=======
-              "Title": "account.html",
-              "DocumentMoniker": "E:\\test\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\html\\account.html",
-              "RelativeDocumentMoniker": "KoiProject.WebApplication\\wwwroot\\html\\account.html",
-              "ToolTip": "E:\\test\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\html\\account.html",
-              "RelativeToolTip": "KoiProject.WebApplication\\wwwroot\\html\\account.html",
-              "ViewState": "AgIAAMwAAAAAAAAAAAAAAOMAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-11-22T10:03:41.844Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "accountmanagement.html",
-              "DocumentMoniker": "E:\\test\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\html\\accountmanagement.html",
+              "DocumentMoniker": "F:\\Git Clone CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\html\\accountmanagement.html",
               "RelativeDocumentMoniker": "KoiProject.WebApplication\\wwwroot\\html\\accountmanagement.html",
-              "ToolTip": "E:\\test\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\html\\accountmanagement.html",
+              "ToolTip": "F:\\Git Clone CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\html\\accountmanagement.html",
               "RelativeToolTip": "KoiProject.WebApplication\\wwwroot\\html\\accountmanagement.html",
-              "ViewState": "AgIAABUBAAAAAAAAAAAAAFoBAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAPUBAAAAAAAAAADwvw4CAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-11-22T10:01:35.149Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "KoiCompetitionContext.cs",
-              "DocumentMoniker": "E:\\test\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.Repositories\\Entities\\KoiCompetitionContext.cs",
-              "RelativeDocumentMoniker": "KoiProject.Repositories\\Entities\\KoiCompetitionContext.cs",
-              "ToolTip": "E:\\test\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.Repositories\\Entities\\KoiCompetitionContext.cs",
-              "RelativeToolTip": "KoiProject.Repositories\\Entities\\KoiCompetitionContext.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAYwBkAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T09:54:46.583Z",
+              "WhenOpened": "2024-11-22T14:56:29.643Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "E:\\test\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\appsettings.json",
-              "RelativeDocumentMoniker": "KoiProject.WebApplication\\appsettings.json",
-              "ToolTip": "E:\\test\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\appsettings.json",
-              "RelativeToolTip": "KoiProject.WebApplication\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-22T09:54:36.915Z",
+              "Title": "account.html",
+              "DocumentMoniker": "F:\\Git Clone CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\html\\account.html",
+              "RelativeDocumentMoniker": "KoiProject.WebApplication\\wwwroot\\html\\account.html",
+              "ToolTip": "F:\\Git Clone CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\html\\account.html",
+              "RelativeToolTip": "KoiProject.WebApplication\\wwwroot\\html\\account.html",
+              "ViewState": "AgIAAGYBAAAAAAAAAADwv38BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-11-22T14:56:11.075Z",
               "EditorCaption": ""
->>>>>>> 03ddda79100f0ab3ee8e5880be121b1d344d7948
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "notifications.html",
+              "DocumentMoniker": "F:\\Git Clone CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\html\\notifications.html",
+              "RelativeDocumentMoniker": "KoiProject.WebApplication\\wwwroot\\html\\notifications.html",
+              "ToolTip": "F:\\Git Clone CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\html\\notifications.html",
+              "RelativeToolTip": "KoiProject.WebApplication\\wwwroot\\html\\notifications.html",
+              "ViewState": "AgIAANkBAAAAAAAAAADwv/IBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-11-22T14:55:55.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "docs.html",
+              "DocumentMoniker": "F:\\Git Clone CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\html\\docs.html",
+              "RelativeDocumentMoniker": "KoiProject.WebApplication\\wwwroot\\html\\docs.html",
+              "ToolTip": "F:\\Git Clone CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\html\\docs.html",
+              "RelativeToolTip": "KoiProject.WebApplication\\wwwroot\\html\\docs.html",
+              "ViewState": "AgIAAIgEAAAAAAAAAADwv6EEAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-11-22T14:55:33.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "index.html",
+              "DocumentMoniker": "F:\\Git Clone CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\html\\index.html",
+              "RelativeDocumentMoniker": "KoiProject.WebApplication\\wwwroot\\html\\index.html",
+              "ToolTip": "F:\\Git Clone CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.WebApplication\\wwwroot\\html\\index.html",
+              "RelativeToolTip": "KoiProject.WebApplication\\wwwroot\\html\\index.html",
+              "ViewState": "AgIAAJkCAAAAAAAAAADwv7ICAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-11-22T14:54:52.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "KoiCompetitionContext.cs",
+              "DocumentMoniker": "F:\\Git Clone CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.Repositories\\Entities\\KoiCompetitionContext.cs",
+              "RelativeDocumentMoniker": "KoiProject.Repositories\\Entities\\KoiCompetitionContext.cs",
+              "ToolTip": "F:\\Git Clone CNPM\\NhomI_CNPM-DT8\\KoiProject\\KoiProject.Repositories\\Entities\\KoiCompetitionContext.cs",
+              "RelativeToolTip": "KoiProject.Repositories\\Entities\\KoiCompetitionContext.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T14:53:20.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
             }
           ]
         }

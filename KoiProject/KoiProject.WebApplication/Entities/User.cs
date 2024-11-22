@@ -1,0 +1,27 @@
+﻿using System;
+using System.Collections.Generic;
+
+namespace KoiProject.WebApplication.Entities;
+
+public partial class User
+{
+    public int UserId { get; set; }
+
+    public string Name { get; set; } = null!;
+
+    public string Email { get; set; } = null!;
+
+    public string Password { get; set; } = null!;
+
+    public string Role { get; set; } = null!;
+
+    public DateTime? CreatedAt { get; set; }
+
+    public DateTime? UpdatedAt { get; set; }
+
+    public virtual ICollection<KoiManagement> KoiManagementIdUserNavigations { get; set; } = new List<KoiManagement>();
+
+    public virtual ICollection<KoiManagement> KoiManagementUserEmailNavigations { get; set; } = new List<KoiManagement>();
+
+    public virtual ICollection<Vote> Votes { get; set; } = new List<Vote>();
+}
