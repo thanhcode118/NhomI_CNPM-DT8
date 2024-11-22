@@ -32,7 +32,7 @@ go
 INSERT INTO Users (name, email, password, role)
 VALUES 
 ('John Doe', 'johndoe@example.com', 'password123', 'member'),
-('Alice Smith', 'alice@example.com', 'password456', 'admin'),
+('Alice Smith', 'alice@example.com', 'password456', 'member'),
 ('Bob Johnson', 'bob@example.com', 'password789', 'member');
 GO
 
@@ -60,12 +60,11 @@ CREATE TABLE KoiManagement (
     CONSTRAINT FK_UserID FOREIGN KEY (id_user) REFERENCES Users(user_id) ON DELETE NO ACTION
 );
 
-
 go
 INSERT INTO KoiManagement (Name, Breed, Size, Color, DateOfEntry, Origin, Price, HealthStatus, user_email, GPA, id_user, ContestCategory, ContestStatus, ContestDate)
 VALUES
 -- Loại Kohaku
-('Kohaku Ruby', 'Kohaku', 20.00, 'Red & White', '2024-11-01', 'Japan', 1500.00, 'Healthy', 'johndoe@example.com', 0.0, 1, 'Best Pattern', 'Pending', '2024-11-15'),
+('Kohaku Ruby', 'Kohaku', 5.00, 'Red & White', '2024-11-01', 'Japan', 1500.00, 'Healthy', 'johndoe@example.com', 0.0, 1, 'Best Pattern', 'Pending', '2024-11-15'),
 ('Utsuri Radiance', 'Utsuri', 25.00, 'Black & Yellow', '2024-11-12', 'Thailand', 1700.00, 'Excellent', 'bob@example.com', 0.0, 3, 'Best Pattern', 'Pending', '2024-11-24'),
 ('Kohaku Grace', 'Kohaku', 21.00, 'White with Red Spots', '2024-11-03', 'Japan', 1550.00, 'Excellent', 'bob@example.com', 0.0, 3, 'Best Size', 'Pending', '2024-11-16'),
 
@@ -89,6 +88,7 @@ VALUES
 ('Asagi Sky', 'Asagi', 17.75, 'Gray Blue', '2024-11-13', 'Japan', 1300.00, 'Healthy', 'johndoe@example.com', 0.0, 1, 'Best Pattern', 'Pending', '2024-11-25'),
 ('Asagi Dream', 'Asagi', 18.00, 'Blue with White Edges', '2024-11-14', 'Japan', 1350.00, 'Moderate', 'alice@example.com', 0.0, 2, 'Best Color', 'Pending', '2024-11-26');
 go
+
 -- Tạo bảng Votes
 CREATE TABLE Votes (
     VoteID INT PRIMARY KEY IDENTITY,
@@ -232,10 +232,18 @@ VALUES
 (3, 'Excellent', 'Tình trạng hoàn hảo cho cuộc thi');
 
 
-EXEC CheckInKoi 
-    @KoiID = 1, 
-    @HealthStatus = 'Healthy', 
-    @Notes = 'Cá khỏe mạnh, không có vấn đề gì';
+--- CREATE NEW
+INSERT INTO KoiManagement (Name, Breed, Size, Color, DateOfEntry, Origin, Price, HealthStatus, user_email, GPA, id_user, ContestCategory, ContestStatus, ContestDate)
+VALUES
+-- Loại Kohaku
+('Kohaku Ruby', 'Kohaku', 20.00, 'Red & White', '2024-11-01', 'Japan', 1500.00, 'Healthy', 'admin@example.com', 0.0, 4, 'Best Pattern', 'Pending', '2024-11-15'),
+('Utsuri Radiance', 'Utsuri', 25.00, 'Black & Yellow', '2024-11-12', 'Thailand', 1700.00, 'Excellent', 'admin@example.com', 0.0, 4, 'Best Pattern', 'Pending', '2024-11-24'),
+('Kohaku Grace', 'Kohaku', 21.00, 'White with Red Spots', '2024-11-03', 'Japan', 1550.00, 'Excellent', 'admin@example.com', 0.0, 4, 'Best Size', 'Pending', '2024-11-16');
+go
 
+---upgrade admin
+UPDATE Users
+SET role = 'admin'
+WHERE email = 'admin@example.com';
 GO
 
