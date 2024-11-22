@@ -32,7 +32,7 @@ go
 INSERT INTO Users (name, email, password, role)
 VALUES 
 ('John Doe', 'johndoe@example.com', 'password123', 'member'),
-('Alice Smith', 'alice@example.com', 'password456', 'admin'),
+('Alice Smith', 'alice@example.com', 'password456', 'member'),
 ('Bob Johnson', 'bob@example.com', 'password789', 'member');
 GO
 
@@ -212,7 +212,7 @@ BEGIN
 END;
 GO
 
-select * from KoiCheckIn
+select * from KoiManagement
 INSERT INTO KoiCheckIn (KoiID, HealthStatus, Notes)
 VALUES
 (1, 'Healthy', 'Cá khỏe mạnh, không có vấn đề gì'),
